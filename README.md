@@ -1,3 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/ISISComputingGroup/IBEX.png?label=ready&title=Ready)](https://waffle.io/ISISComputingGroup/IBEX)
+[Project Board](https://github.com/ISISComputingGroup/IBEX/projects/1)
 # IBEX
 Top level repository for IBEX stories, bugs, tasks and other issues
