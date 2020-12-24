@@ -62,6 +62,7 @@ Changes merged into master but not in an official release yet.
 | [#5541](https://github.com/ISISComputingGroup/IBEX/issues/5541) | Minor | Limit bench slide position based on min/max bench angle |
 | [#5742](https://github.com/ISISComputingGroup/IBEX/issues/5742) | Minor | On parameter change just see if update is needed to parameter PVs thus speeding up the IOC. |
 | [#5798](https://github.com/ISISComputingGroup/IBEX/issues/5798) | Minor | Split up OPI to increase performance |
+| [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
 
 #  IBEX Client
 
