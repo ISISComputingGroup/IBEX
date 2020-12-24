@@ -24,6 +24,7 @@ Changes merged into master but not in an official release yet.
 | SANS2D | [#5968](https://github.com/ISISComputingGroup/IBEX/issues/5698) | Minor | Migrate instrument scripts |
 | SANS2D | [#5735](https://github.com/ISISComputingGroup/IBEX/issues/5735) | Minor | Decelerate faster for collision avoidance |
 | NIMROD | [#5494](https://github.com/ISISComputingGroup/IBEX/issues/5494) | Minor | Add ability to limit temperature of TiZr cell based on pressure |
+| MUONFE | [#3404](https://github.com/ISISComputingGroup/IBEX/issues/3404) | Minor | Added IOC to display Status of the Kicker PSU | |
 
 # Devices
 
