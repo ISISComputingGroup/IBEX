@@ -33,6 +33,7 @@ Changes merged into master but not in an official release yet.
 | ------ | ------ | -----|
 | [#5546](https://github.com/ISISComputingGroup/IBEX/issues/5546) | Little blue cryostat | Mercury now supports the little blue cryostat in flow mode. The pressure is controlled by temperature and temperature set point. |
 | [#5688](https://github.com/ISISComputingGroup/IBEX/issues/5688) | Newport XPS | Motor controller for use on Larmor |
+| [#5544](https://github.com/ISISComputingGroup/IBEX/issues/5544) | CAEN HV power supplies | Add new IOC that can monitor additional parameters |
 
 ### Modified devices
 
@@ -52,7 +53,6 @@ Changes merged into master but not in an official release yet.
 | [#5839](https://github.com/ISISComputingGroup/IBEX/issues/5839) | Minor | ILM200 | Correct alarms on RATE:ASSERT, LEVEL and VERSION |
 | [#5840](https://github.com/ISISComputingGroup/IBEX/issues/5840) | Minor | ILM200 | Up reply and other timeouts to reduce zero readings and flickering alarms |
 | [#4704](https://github.com/ISISComputingGroup/IBEX/issues/4704) | Minor | EDNEXT | Remove/disable EDNEXT, EDITC is the ioc to use |
-
 
 ### Reflectometry server
 
