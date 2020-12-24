@@ -5,7 +5,7 @@ Top level repository for IBEX stories, bugs, tasks and other issues. As well as 
 
 # Release Notes
 
-###[Latest Stable IBEX Version (7.2.1)](release_notes/Release-Notes-v7.2.1.md)
+### [Latest Stable IBEX Version (7.2.1)](release_notes/Release-Notes-v7.2.1.md)
 
 [Upcoming Release](release_notes/ReleaseNotes_Upcoming.md)
 
