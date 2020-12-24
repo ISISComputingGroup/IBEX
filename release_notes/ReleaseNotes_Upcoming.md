@@ -89,8 +89,9 @@ Changes merged into master but not in an official release yet.
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
-|[#5968](https://github.com/ISISComputingGroup/IBEX/issues/5968)| Minor  | New lines can now inherit default values from the previous line |
-|[#5998](https://github.com/ISISComputingGroup/IBEX/issues/5998)| Minor  | Lines now have line numbers |
+|[#5968](https://github.com/ISISComputingGroup/IBEX/issues/5968)| Minor | New lines can now inherit default values from the previous line |
+|[#5998](https://github.com/ISISComputingGroup/IBEX/issues/5998)| Minor | Lines now have line numbers |
+|[#5966](https://github.com/ISISComputingGroup/IBEX/issues/5966)| Minor | New lines can now be inserted part way through the script. Buttons have been reworded to improve clarity. |
 
 ### Other
 
