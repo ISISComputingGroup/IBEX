@@ -11,6 +11,9 @@ Changes merged into master but not in an official release yet.
 | [#4573](https://github.com/ISISComputingGroup/IBEX/issues/4573) | Major | Added the ability to set motion set points for >2 dimensions and so implemented preset positions for the SANS2D waveguides and apertures. Required major re-write of motion set points in general. | Requires changes to anywhere motionSetPoints are currently used, see [wiki](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Motion-Set-points#upgrading-from-720)
 | [#3185](https://github.com/ISISComputingGroup/IBEX/issues/3185) | Minor | On the KEPCO an ability to set device into remote mode through reset and reapplying setpoints. Whether this happens depends on configuration can be don't, if firmware <2 and always; default is don't, request us to do this if wanted. Also a button on the OPI. |
 | [#5296](https://github.com/ISISComputingGroup/IBEX/issues/5296) | Minor | On a Danfysik the polarity is set by using a negative set point not by setting the polarity except for the Riken power supply chains. |
+| [#5583](https://github.com/ISISComputingGroup/IBEX/issues/5583)   | Patch | Background Plot: Only open from within GUI, requires changing code in EMU in `inst_instName.py`. Follow as suggested in [#5583](https://github.com/ISISComputingGroup/IBEX/issues/5583). |
+| [#5627](https://github.com/ISISComputingGroup/IBEX/issues/5627) | Minor | Restrict instrument list per scientific group. See [How to make instrument available from the GUI](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Making-an-Instrument-Available-from-the-GUI#restricting-the-gui-to-switching-to-a-reduced-set-of-instruments) |
+| [#4019](https://github.com/ISISComputingGroup/IBEX/issues/4019) | Minor | GUI: Block units now update correctly. This has been requested a number of times by various instruments. |
 
 # Instrument Specific Changes
 
@@ -24,6 +27,12 @@ Changes merged into master but not in an official release yet.
 | SANS2D | [#5968](https://github.com/ISISComputingGroup/IBEX/issues/5698) | Minor | Migrate instrument scripts |
 | SANS2D | [#5735](https://github.com/ISISComputingGroup/IBEX/issues/5735) | Minor | Decelerate faster for collision avoidance |
 | NIMROD | [#5494](https://github.com/ISISComputingGroup/IBEX/issues/5494) | Minor | Add ability to limit temperature of TiZr cell based on pressure |
+| POLREF/SANS2D/OFFSPEC/INTER | [#5527](https://github.com/ISISComputingGroup/IBEX/issues/5527) | Minor | Set IP addresses in the galil crates |
+| MUONFE | [#4711](https://github.com/ISISComputingGroup/IBEX/issues/4711) | Minor | Improved separator stability value clarity (stable/unstable vs 1/0), removed EGU field |
+| SANS2D | [#5626](https://github.com/ISISComputingGroup/IBEX/issues/5626) | Minor | Motion inhibit based on CAENs being powered |
+| SANS2D | [#5625](https://github.com/ISISComputingGroup/IBEX/issues/5625) | Minor | Various minor fixes following demo to scientists |
+| SANS2D | [#5836](https://github.com/ISISComputingGroup/IBEX/issues/5836) | Minor | Commission guides/apertures into IBEX |
+| HRPD | [#4987](https://github.com/ISISComputingGroup/IBEX/issues/4987) | Minor | Add component/setup for in situ dsc experiment |
 
 # Devices
 
@@ -33,6 +42,7 @@ Changes merged into master but not in an official release yet.
 | ------ | ------ | -----|
 | [#5546](https://github.com/ISISComputingGroup/IBEX/issues/5546) | Little blue cryostat | Mercury now supports the little blue cryostat in flow mode. The pressure is controlled by temperature and temperature set point. |
 | [#5688](https://github.com/ISISComputingGroup/IBEX/issues/5688) | Newport XPS | Motor controller for use on Larmor |
+| [#5098](https://github.com/ISISComputingGroup/IBEX/issues/5098) | Metrolab PT2025 Teslameter | Added for use on MuSR |
 
 ### Modified devices
 
@@ -52,7 +62,8 @@ Changes merged into master but not in an official release yet.
 | [#5839](https://github.com/ISISComputingGroup/IBEX/issues/5839) | Minor | ILM200 | Correct alarms on RATE:ASSERT, LEVEL and VERSION |
 | [#5840](https://github.com/ISISComputingGroup/IBEX/issues/5840) | Minor | ILM200 | Up reply and other timeouts to reduce zero readings and flickering alarms |
 | [#4704](https://github.com/ISISComputingGroup/IBEX/issues/4704) | Minor | EDNEXT | Remove/disable EDNEXT, EDITC is the ioc to use |
-
+| [#3185](https://github.com/ISISComputingGroup/IBEX/issues/3185) | Minor | KEPCO | Add ability to reset and resend setpoints on start of IOC |
+| [#5664](https://github.com/ISISComputingGroup/IBEX/issues/5664) | Minor | HTS Magnet | Create Details Tab for OPI |
 
 ### Reflectometry server
 
@@ -62,6 +73,8 @@ Changes merged into master but not in an official release yet.
 | [#5541](https://github.com/ISISComputingGroup/IBEX/issues/5541) | Minor | Limit bench slide position based on min/max bench angle |
 | [#5742](https://github.com/ISISComputingGroup/IBEX/issues/5742) | Minor | On parameter change just see if update is needed to parameter PVs thus speeding up the IOC. |
 | [#5798](https://github.com/ISISComputingGroup/IBEX/issues/5798) | Minor | Split up OPI to increase performance |
+| [#5744](https://github.com/ISISComputingGroup/IBEX/issues/5744) | Minor | When calculating current position the motors are moving flag is set to true. This means that `waitfor_move` waiting until the value returned is correct and so will now work in scans no matter how long the calculation takes.  |
+| [#5781](https://github.com/ISISComputingGroup/IBEX/issues/5781) | Minor | Add option to reapply mode inits on move all in refl server |
 
 #  IBEX Client
 
@@ -89,6 +102,8 @@ Changes merged into master but not in an official release yet.
 | [#5924](https://github.com/ISISComputingGroup/IBEX/issues/5924) | Minor | Made gateway more intelligently filter incoming PV requests |
 | [#5062](https://github.com/ISISComputingGroup/IBEX/issues/5062) | Minor | Hide load config warning message when no protected config |
 | [#5488](https://github.com/ISISComputingGroup/IBEX/issues/5488) | Minor | Made setting bump stop up more configurable |
+| [#1929](https://github.com/ISISComputingGroup/IBEX/issues/1929) | Minor | Added checks for synoptic component types, icons and thumbnails + new types and icons/thumbnails, fixed existing |
+| [#3184](https://github.com/ISISComputingGroup/IBEX/issues/3184) | Minor | Provide link to IBEX user manual from GUI  |
 
 # genie_python
 
@@ -108,6 +123,8 @@ Changes merged into master but not in an official release yet.
 | [#3989](https://github.com/ISISComputingGroup/IBEX/issues/3989) | Minor | Tidy up motion setpoint pvs |
 | [#4689](https://github.com/ISISComputingGroup/IBEX/issues/4689) | Minor | Motion setpoints copy units from underlying motor |
 | [#5995](https://github.com/ISISComputingGroup/IBEX/issues/5995) | Minor | Allow user to open device screens with no blockserver running |
+| [#5852](https://github.com/ISISComputingGroup/IBEX/issues/5852) | Minor | Journal parser sends to MS Teams as well as slack |
+| [#5847](https://github.com/ISISComputingGroup/IBEX/issues/5847) | Minor | MCR News on Microsoft Teams |
 
 # Internal changes
 
@@ -123,6 +140,11 @@ Changes merged into master but not in an official release yet.
 | [#4886](https://github.com/ISISComputingGroup/IBEX/issues/4886) | Minor | Journal parser used for migration from SECI now uses python3 |
 | [#5978](https://github.com/ISISComputingGroup/IBEX/issues/5978) | Minor | Use importlib instead of imp |
 | [#4880](https://github.com/ISISComputingGroup/IBEX/issues/4880) | Minor | Convert ArchiverAccess to python 3 |
+| [#4861](https://github.com/ISISComputingGroup/IBEX/issues/4861) | Minor | Auto deploy isisicp on build servers. |
+| [#3928](https://github.com/ISISComputingGroup/IBEX/issues/3928) | Minor | The ICP is now automatically updated when the general IBEX system is updated |
+| [#5537](https://github.com/ISISComputingGroup/IBEX/issues/5537) | Minor | Datastreaming: Update BlockServerToKafka to push updated forwarder configuration |
+| [#5846](https://github.com/ISISComputingGroup/IBEX/issues/5846) | Patch | Fix MetcutyiTC build on linux |
+| [#5584](https://github.com/ISISComputingGroup/IBEX/issues/5584) | Major | Dependency Update |
 
 Change Types: 
 
