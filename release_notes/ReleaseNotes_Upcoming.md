@@ -108,6 +108,7 @@ Changes merged into master but not in an official release yet.
 | [#3989](https://github.com/ISISComputingGroup/IBEX/issues/3989) | Minor | Tidy up motion setpoint pvs |
 | [#4689](https://github.com/ISISComputingGroup/IBEX/issues/4689) | Minor | Motion setpoints copy units from underlying motor |
 | [#5995](https://github.com/ISISComputingGroup/IBEX/issues/5995) | Minor | Allow user to open device screens with no blockserver running |
+| [#3243](https://github.com/ISISComputingGroup/IBEX/issues/3243) | Minor | Web Dashboard: flag an error if instrument time and webserver time are different |
 
 # Internal changes
 
