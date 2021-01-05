@@ -146,6 +146,7 @@ Changes merged into master but not in an official release yet.
 | [#5537](https://github.com/ISISComputingGroup/IBEX/issues/5537) | Minor | Datastreaming: Update BlockServerToKafka to push updated forwarder configuration |
 | [#5846](https://github.com/ISISComputingGroup/IBEX/issues/5846) | Patch | Fix MetcutyiTC build on linux |
 | [#5584](https://github.com/ISISComputingGroup/IBEX/issues/5584) | Major | Dependency Update |
+| [#4888](https://github.com/ISISComputingGroup/IBEX/issues/4888) | Minor | Config upgrade now uses Python3 |
 
 Change Types: 
 
