@@ -105,6 +105,7 @@ Changes merged into master but not in an official release yet.
 | [#5488](https://github.com/ISISComputingGroup/IBEX/issues/5488) | Minor | Made setting bump stop up more configurable |
 | [#1929](https://github.com/ISISComputingGroup/IBEX/issues/1929) | Minor | Added checks for synoptic component types, icons and thumbnails + new types and icons/thumbnails, fixed existing |
 | [#3184](https://github.com/ISISComputingGroup/IBEX/issues/3184) | Minor | Provide link to IBEX user manual from GUI  |
+| [#1478](https://github.com/ISISComputingGroup/IBEX/issues/1478) | Minor | Display status of IBEX server in client  |
 
 # genie_python
 
