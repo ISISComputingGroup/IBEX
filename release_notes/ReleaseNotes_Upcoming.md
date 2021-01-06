@@ -148,6 +148,7 @@ Changes merged into master but not in an official release yet.
 | [#5584](https://github.com/ISISComputingGroup/IBEX/issues/5584) | Major | Dependency Update |
 | [#4888](https://github.com/ISISComputingGroup/IBEX/issues/4888) | Minor | Config upgrade now uses Python3 |
 | [#4876](https://github.com/ISISComputingGroup/IBEX/issues/4876) | Minor | Convert utility scripts to python 3 |
+| [#5926](https://github.com/ISISComputingGroup/IBEX/issues/5926) | Minor | Create specific dllPath.bat files for each architecture |
 
 Change Types: 
 
