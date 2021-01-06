@@ -150,6 +150,7 @@ Changes merged into master but not in an official release yet.
 | [#4876](https://github.com/ISISComputingGroup/IBEX/issues/4876) | Minor | Convert utility scripts to python 3 |
 | [#5926](https://github.com/ISISComputingGroup/IBEX/issues/5926) | Minor | Create specific dllPath.bat files for each architecture |
 | [#5909](https://github.com/ISISComputingGroup/IBEX/issues/5909) | Patch | Make PCRE gateway rules build if enabled, but do not enable them |
+| [#5911](https://github.com/ISISComputingGroup/IBEX/issues/5911) | Patch | Update PCRE |
 
 Change Types: 
 
