@@ -116,6 +116,7 @@ Changes merged into master but not in an official release yet.
 | [#3012](https://github.com/ISISComputingGroup/IBEX/issues/3012) | Minor | Abort command now tells you how to recover. |
 | [#5863](https://github.com/ISISComputingGroup/IBEX/issues/5863) | Minor | Improved reliability of `g.change_users`. |
 | [#5620](https://github.com/ISISComputingGroup/IBEX/issues/5620) | Minor | Added block units to genie python cget |
+| [#5982](https://github.com/ISISComputingGroup/IBEX/issues/5982) | Minor | Use updated build of EPICS header for genie_python (include roll over patch) |
 
 # Other
 
