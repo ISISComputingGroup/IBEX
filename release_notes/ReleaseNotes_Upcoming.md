@@ -155,6 +155,7 @@ Changes merged into master but not in an official release yet.
 | [#5926](https://github.com/ISISComputingGroup/IBEX/issues/5926) | Minor | Create specific dllPath.bat files for each architecture |
 | [#5909](https://github.com/ISISComputingGroup/IBEX/issues/5909) | Patch | Make PCRE gateway rules build if enabled, but do not enable them |
 | [#5933](https://github.com/ISISComputingGroup/IBEX/issues/5933) | Minor | Use central PDB symbol store rather than deploy to instruments |
+| [#6005](https://github.com/ISISComputingGroup/IBEX/issues/6005) | Minor | Fix pushing of standard pvs on startup for new mysql version |
 
 Change Types: 
 
