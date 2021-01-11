@@ -15,6 +15,7 @@ Changes merged into master but not in an official release yet.
 | [#5627](https://github.com/ISISComputingGroup/IBEX/issues/5627) | Minor | Restrict instrument list per scientific group. See [How to make instrument available from the GUI](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Making-an-Instrument-Available-from-the-GUI#restricting-the-gui-to-switching-to-a-reduced-set-of-instruments) |
 | [#4019](https://github.com/ISISComputingGroup/IBEX/issues/4019) | Minor | GUI: Block units now update correctly. This has been requested a number of times by various instruments. |
 | [#6071](https://github.com/ISISComputingGroup/IBEX/issues/6071) | Minor | The `Stop_ibex_server` command (and consequently `start_ibex_server` as it calls it) has been speeded up. |
+| [#5942](https://github.com/ISISComputingGroup/IBEX/issues/5942) | Minor | Unable to run multiple instances of `Start_ibex_server`.
 
 # Instrument Specific Changes
 
