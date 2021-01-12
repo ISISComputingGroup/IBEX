@@ -45,6 +45,7 @@ Changes merged into master but not in an official release yet.
 | ------ | ------ | -----|
 | [#5546](https://github.com/ISISComputingGroup/IBEX/issues/5546) | Little blue cryostat | Mercury now supports the little blue cryostat in flow mode. The pressure is controlled by temperature and temperature set point. |
 | [#5688](https://github.com/ISISComputingGroup/IBEX/issues/5688) | Newport XPS | Motor controller for use on Larmor |
+| [#4915](https://github.com/ISISComputingGroup/IBEX/issues/4915) | CAENv895 | IOC for the CAENv895 discriminator used on the muon instruments |
 | [#5098](https://github.com/ISISComputingGroup/IBEX/issues/5098) | Metrolab PT2025 Teslameter | Added for use on MuSR |
 
 ### Modified devices
