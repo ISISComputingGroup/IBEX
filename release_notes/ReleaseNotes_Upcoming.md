@@ -112,6 +112,7 @@ Changes merged into master but not in an official release yet.
 | [#5488](https://github.com/ISISComputingGroup/IBEX/issues/5488) | Minor | Made setting bump stop up more configurable |
 | [#1929](https://github.com/ISISComputingGroup/IBEX/issues/1929) | Minor | Added checks for synoptic component types, icons and thumbnails + new types and icons/thumbnails, fixed existing |
 | [#3184](https://github.com/ISISComputingGroup/IBEX/issues/3184) | Minor | Provide link to IBEX user manual from GUI  |
+| [#2046](https://github.com/ISISComputingGroup/IBEX/issues/2046) | Minor | Added tooltips for auto-start/auto-restart/sim. level |
 
 # genie_python
 
@@ -123,6 +124,7 @@ Changes merged into master but not in an official release yet.
 | [#5863](https://github.com/ISISComputingGroup/IBEX/issues/5863) | Minor | Improved reliability of `g.change_users`. |
 | [#5620](https://github.com/ISISComputingGroup/IBEX/issues/5620) | Minor | Added block units to genie python cget |
 | [#5982](https://github.com/ISISComputingGroup/IBEX/issues/5982) | Minor | Use updated build of EPICS header for genie_python (include roll over patch) |
+| [#3000](https://github.com/ISISComputingGroup/IBEX/issues/3000) | Minor | Report block state on cset |
 
 # Other
 
@@ -161,6 +163,7 @@ Changes merged into master but not in an official release yet.
 | [#5909](https://github.com/ISISComputingGroup/IBEX/issues/5909) | Patch | Make PCRE gateway rules build if enabled, but do not enable them |
 | [#5933](https://github.com/ISISComputingGroup/IBEX/issues/5933) | Minor | Use central PDB symbol store rather than deploy to instruments |
 | [#6005](https://github.com/ISISComputingGroup/IBEX/issues/6005) | Minor | Fix pushing of standard pvs on startup for new mysql version |
+| [#4080](https://github.com/ISISComputingGroup/IBEX/issues/4080) | Minor | Added missing IOC configs |
 
 Change Types: 
 
