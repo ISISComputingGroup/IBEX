@@ -36,6 +36,7 @@ Changes merged into master but not in an official release yet.
 | SANS2D | [#5836](https://github.com/ISISComputingGroup/IBEX/issues/5836) | Minor | Commission guides/apertures into IBEX |
 | HRPD | [#4987](https://github.com/ISISComputingGroup/IBEX/issues/4987) | Minor | Add component/setup for in situ dsc experiment |
 | MUSR | [#5948](https://github.com/ISISComputingGroup/IBEX/issues/5948) | Minor | Add 2 more Kepco IOCs |
+| MUSR | [#5949](https://github.com/ISISComputingGroup/IBEX/issues/5949) | Minor | Add steering OPI |
 
 # Devices
 
