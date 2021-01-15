@@ -48,6 +48,7 @@ Changes merged into master but not in an official release yet.
 | [#4915](https://github.com/ISISComputingGroup/IBEX/issues/4915) | CAENv895 | IOC for the CAENv895 discriminator used on the muon instruments |
 | [#5098](https://github.com/ISISComputingGroup/IBEX/issues/5098) | Metrolab PT2025 Teslameter | Added for use on MuSR |
 | [#5270](https://github.com/ISISComputingGroup/IBEX/issues/5270) | FerroMagnetic Resonance Equipment | Integrates self-contained user-supplied device and control software into IBEX |
+| [#5099](https://github.com/ISISComputingGroup/IBEX/issues/5099) | Thurlby TTI EX355P power supply | Add options for calibration; auto on/off; sweep to zero |
 
 ### Modified devices
 
