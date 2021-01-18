@@ -36,6 +36,7 @@ Changes merged into master but not in an official release yet.
 | SANS2D | [#5836](https://github.com/ISISComputingGroup/IBEX/issues/5836) | Minor | Commission guides/apertures into IBEX |
 | HRPD | [#4987](https://github.com/ISISComputingGroup/IBEX/issues/4987) | Minor | Add component/setup for in situ dsc experiment |
 | MUSR | [#5948](https://github.com/ISISComputingGroup/IBEX/issues/5948) | Minor | Add 2 more Kepco IOCs |
+| MUSR | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | OPI for controlling instrument rotation |
 
 # Devices
 
@@ -92,6 +93,7 @@ Changes merged into master but not in an official release yet.
 | [#4800](https://github.com/ISISComputingGroup/IBEX/issues/4800) | Minor | Added description column to config/component dialog lists |
 | [#5841](https://github.com/ISISComputingGroup/IBEX/issues/5841) | Patch | Matplotlib plots will automatically periodically reload to avoid an issue with the display freezing. |
 | [#4334](https://github.com/ISISComputingGroup/IBEX/issues/4334) | Minor | Removal of config description length limiter |
+| [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | Add "dynamic" configurations which can change automatically in response to external events. |
 
 ### Script Generator
 | Ticket | Type  | Change |
