@@ -83,6 +83,7 @@ Changes merged into master but not in an official release yet.
 | [#5744](https://github.com/ISISComputingGroup/IBEX/issues/5744) | Minor | When calculating current position the motors are moving flag is set to true. This means that `waitfor_move` waiting until the value returned is correct and so will now work in scans no matter how long the calculation takes.  |
 | [#5781](https://github.com/ISISComputingGroup/IBEX/issues/5781) | Minor | Add option to reapply mode inits on move all in refl server |
 | [#5783](https://github.com/ISISComputingGroup/IBEX/issues/5783) | Minor | Add option to park axes in sequence |
+| [#5814](https://github.com/ISISComputingGroup/IBEX/issues/5814) | Minor | When starting the server if the component is out of the beam the parameters with no autosave will be set to 0 and a warning will be issued. |
 
 #  IBEX Client
 
