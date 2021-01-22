@@ -118,6 +118,7 @@ Changes merged into master but not in an official release yet.
 | [#1929](https://github.com/ISISComputingGroup/IBEX/issues/1929) | Minor | Added checks for synoptic component types, icons and thumbnails + new types and icons/thumbnails, fixed existing |
 | [#3184](https://github.com/ISISComputingGroup/IBEX/issues/3184) | Minor | Provide link to IBEX user manual from GUI  |
 | [#2046](https://github.com/ISISComputingGroup/IBEX/issues/2046) | Minor | Added tooltips for auto-start/auto-restart/sim. level |
+| [#5582](https://github.com/ISISComputingGroup/IBEX/issues/5582) | Minor | Background plot: handle errors when failing to load data from corrupt save file |
 
 # genie_python
 
@@ -130,6 +131,7 @@ Changes merged into master but not in an official release yet.
 | [#5620](https://github.com/ISISComputingGroup/IBEX/issues/5620) | Minor | Added block units to genie python cget |
 | [#5982](https://github.com/ISISComputingGroup/IBEX/issues/5982) | Minor | Use updated build of EPICS header for genie_python (include roll over patch) |
 | [#3000](https://github.com/ISISComputingGroup/IBEX/issues/3000) | Minor | Report block state on cset |
+| [#5469](https://github.com/ISISComputingGroup/IBEX/issues/5469) | Minor | Added advanced genie function to get information about an RB number out of the experiment details database |
 
 # Other
 
