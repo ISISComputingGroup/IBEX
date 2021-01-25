@@ -133,6 +133,7 @@ Changes merged into master but not in an official release yet.
 | [#5982](https://github.com/ISISComputingGroup/IBEX/issues/5982) | Minor | Use updated build of EPICS header for genie_python (include roll over patch) |
 | [#3000](https://github.com/ISISComputingGroup/IBEX/issues/3000) | Minor | Report block state on cset |
 | [#5469](https://github.com/ISISComputingGroup/IBEX/issues/5469) | Minor | Added advanced genie function to get information about an RB number out of the experiment details database |
+| [#5794](https://github.com/ISISComputingGroup/IBEX/issues/5794) | Minor | `g.change_change_script_dir` will now accept a list of directories and will join them together to make the full path |
 
 # Other
 
