@@ -73,6 +73,8 @@ Changes merged into master but not in an official release yet.
 | [#4704](https://github.com/ISISComputingGroup/IBEX/issues/4704) | Minor | EDNEXT | Remove/disable EDNEXT, EDITC is the ioc to use |
 | [#3185](https://github.com/ISISComputingGroup/IBEX/issues/3185) | Minor | KEPCO | Add ability to reset and resend setpoints on start of IOC |
 | [#5664](https://github.com/ISISComputingGroup/IBEX/issues/5664) | Minor | HTS Magnet | Create Details Tab for OPI |
+| [#5958](https://github.com/ISISComputingGroup/IBEX/issues/5958) | Minor | ITC503 | Dual ITC OPI for MuSR |
+
 
 ### Reflectometry server
 
