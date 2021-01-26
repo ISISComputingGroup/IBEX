@@ -88,6 +88,7 @@ Changes merged into master but not in an official release yet.
 | [#5744](https://github.com/ISISComputingGroup/IBEX/issues/5744) | Minor | When calculating current position the motors are moving flag is set to true. This means that `waitfor_move` waiting until the value returned is correct and so will now work in scans no matter how long the calculation takes.  |
 | [#5781](https://github.com/ISISComputingGroup/IBEX/issues/5781) | Minor | Add option to reapply mode inits on move all in refl server |
 | [#5783](https://github.com/ISISComputingGroup/IBEX/issues/5783) | Minor | Add option to park axes in sequence |
+| [#6000](https://github.com/ISISComputingGroup/IBEX/issues/6000) | Minor | Do not archive char waveform PVs |
 | [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
 
 #  IBEX Client
