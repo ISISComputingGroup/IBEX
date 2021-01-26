@@ -39,6 +39,8 @@ Changes merged into master but not in an official release yet.
 | HRPD | [#4987](https://github.com/ISISComputingGroup/IBEX/issues/4987) | Minor | Add component/setup for in situ dsc experiment |
 | MUSR | [#5948](https://github.com/ISISComputingGroup/IBEX/issues/5948) | Minor | Add 2 more Kepco IOCs |
 | MUSR | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | OPI for controlling instrument rotation |
+| MUSR | [#5957](https://github.com/ISISComputingGroup/IBEX/issues/5957) | Minor | Config for King fridge |
+| MUSR | [#5956](https://github.com/ISISComputingGroup/IBEX/issues/5956) | Minor | Config for uDR3 and uDR4 Fridge |
 
 # Devices
 
