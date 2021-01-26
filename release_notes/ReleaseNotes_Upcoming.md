@@ -136,7 +136,7 @@ Changes merged into master but not in an official release yet.
 | [#3000](https://github.com/ISISComputingGroup/IBEX/issues/3000) | Minor | Report block state on cset |
 | [#5469](https://github.com/ISISComputingGroup/IBEX/issues/5469) | Minor | Added advanced genie function to get information about an RB number out of the experiment details database |
 | [#5794](https://github.com/ISISComputingGroup/IBEX/issues/5794) | Minor | `g.change_change_script_dir` will now accept a list of directories and will join them together to make the full path |
-| [#5956](https://github.com/ISISComputingGroup/IBEX/issues/5956) | Minor | `g.adv.get_exp_data(rb, user, role)` allows searching of user database for rb number, user name and user role (set any to None to list all). |
+| [#5469](https://github.com/ISISComputingGroup/IBEX/issues/5469) | Minor | `g.adv.get_exp_data(rb, user, role)` allows searching of user database for rb number, user name and user role (set any to None to list all). |
 
 # Other
 
