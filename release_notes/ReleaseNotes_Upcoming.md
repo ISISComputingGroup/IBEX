@@ -73,6 +73,8 @@ Changes merged into master but not in an official release yet.
 | [#4704](https://github.com/ISISComputingGroup/IBEX/issues/4704) | Minor | EDNEXT | Remove/disable EDNEXT, EDITC is the ioc to use |
 | [#3185](https://github.com/ISISComputingGroup/IBEX/issues/3185) | Minor | KEPCO | Add ability to reset and resend setpoints on start of IOC |
 | [#5664](https://github.com/ISISComputingGroup/IBEX/issues/5664) | Minor | HTS Magnet | Create Details Tab for OPI |
+| [#6018](https://github.com/ISISComputingGroup/IBEX/issues/6018) | Minor | Block server | Check possible error on startup, was a local issue that has been resolved. |
+
 
 ### Reflectometry server
 
@@ -173,6 +175,18 @@ Changes merged into master but not in an official release yet.
 | [#5933](https://github.com/ISISComputingGroup/IBEX/issues/5933) | Minor | Use central PDB symbol store rather than deploy to instruments |
 | [#6005](https://github.com/ISISComputingGroup/IBEX/issues/6005) | Minor | Fix pushing of standard pvs on startup for new mysql version |
 | [#4080](https://github.com/ISISComputingGroup/IBEX/issues/4080) | Minor | Added missing IOC configs |
+| [#5923](https://github.com/ISISComputingGroup/IBEX/issues/5923) | Minor | Discussion of Windows 10 standard installation |
+| [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
+
+# Support Issues Solved
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [#4994](https://github.com/ISISComputingGroup/IBEX/issues/4994) | Patch | Prepare new machine for instalation of IBEX for HRPD Seup |
+| [#6078](https://github.com/ISISComputingGroup/IBEX/issues/6078) | Patch | Check locking error during replication on .RAW files on EMU - all ok |
+| [#6103](https://github.com/ISISComputingGroup/IBEX/issues/6103) | Patch | LET - check code for osciallating collimator is similar to MERLIN |
+| [#6114](https://github.com/ISISComputingGroup/IBEX/issues/6114) | Patch | Take replicas of VMs for backup |
+| [#6115](https://github.com/ISISComputingGroup/IBEX/issues/6115) | Patch | Shutdown North side machines for power testing |
 
 Change Types: 
 
