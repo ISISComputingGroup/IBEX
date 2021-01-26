@@ -18,6 +18,7 @@ Changes merged into master but not in an official release yet.
 | [#6071](https://github.com/ISISComputingGroup/IBEX/issues/6071) | Minor | The `Stop_ibex_server` command (and consequently `start_ibex_server` as it calls it) has been speeded up. |
 | [#5942](https://github.com/ISISComputingGroup/IBEX/issues/5942) | Minor | Unable to run multiple instances of `Start_ibex_server`.
 | [#5786](https://github.com/ISISComputingGroup/IBEX/issues/5786) | Minor | Fix race condition in run control - if sample environemnt value changed several times while begin happening, may be left incorrectly in WAITING state. |
+| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switch to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
 
 # Instrument Specific Changes
 
