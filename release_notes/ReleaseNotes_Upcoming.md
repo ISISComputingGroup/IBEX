@@ -92,6 +92,7 @@ Changes merged into master but not in an official release yet.
 | [#5532](https://github.com/ISISComputingGroup/IBEX/issues/5532) | Minor | On a parameter move the reflectometry ioc can run a user custom function |
 | [#6000](https://github.com/ISISComputingGroup/IBEX/issues/6000) | Minor | Do not archive char waveform PVs |
 | [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
+| [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
 
 #  IBEX Client
 
