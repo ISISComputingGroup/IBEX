@@ -104,6 +104,7 @@ Changes merged into master but not in an official release yet.
 | [#5841](https://github.com/ISISComputingGroup/IBEX/issues/5841) | Patch | Matplotlib plots will automatically periodically reload to avoid an issue with the display freezing. |
 | [#4334](https://github.com/ISISComputingGroup/IBEX/issues/4334) | Minor | Removal of config description length limiter |
 | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | Add "dynamic" configurations which can change automatically in response to external events. |
+| [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
 
 ### Script Generator
 | Ticket | Type  | Change |
