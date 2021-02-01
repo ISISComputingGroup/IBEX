@@ -18,6 +18,7 @@ Changes merged into master but not in an official release yet.
 | [#6071](https://github.com/ISISComputingGroup/IBEX/issues/6071) | Minor | The `Stop_ibex_server` command (and consequently `start_ibex_server` as it calls it) has been speeded up. |
 | [#5942](https://github.com/ISISComputingGroup/IBEX/issues/5942) | Minor | Unable to run multiple instances of `Start_ibex_server`.
 | [#5786](https://github.com/ISISComputingGroup/IBEX/issues/5786) | Minor | Fix race condition in run control - if sample environemnt value changed several times while begin happening, may be left incorrectly in WAITING state. |
+| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switch to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
 
 # Instrument Specific Changes
 
@@ -38,8 +39,9 @@ Changes merged into master but not in an official release yet.
 | SANS2D | [#5836](https://github.com/ISISComputingGroup/IBEX/issues/5836) | Minor | Commission guides/apertures into IBEX |
 | HRPD | [#4987](https://github.com/ISISComputingGroup/IBEX/issues/4987) | Minor | Add component/setup for in situ dsc experiment |
 | MUSR | [#5948](https://github.com/ISISComputingGroup/IBEX/issues/5948) | Minor | Add 2 more Kepco IOCs |
+| MUSR | [#5949](https://github.com/ISISComputingGroup/IBEX/issues/5949) | Minor | Add steering OPI |
 | MUSR | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | OPI for controlling instrument rotation |
-
+| MUSR | [#5955](https://github.com/ISISComputingGroup/IBEX/issues/5955) | Minor | Added CAEN HV power supply status in MuSR rotation OPI and IBEX banner.|
 # Devices
 
 ### Newly supported devices
@@ -74,9 +76,9 @@ Changes merged into master but not in an official release yet.
 | [#3185](https://github.com/ISISComputingGroup/IBEX/issues/3185) | Minor | KEPCO | Add ability to reset and resend setpoints on start of IOC |
 | [#5664](https://github.com/ISISComputingGroup/IBEX/issues/5664) | Minor | HTS Magnet | Create Details Tab for OPI |
 | [#5958](https://github.com/ISISComputingGroup/IBEX/issues/5958) | Minor | ITC503 | Dual ITC OPI for MuSR |
+| [#6018](https://github.com/ISISComputingGroup/IBEX/issues/6018) | Minor | Block server | Check possible error on startup, was a local issue that has been resolved. |
 
-
-### Reflectometry server
+### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
@@ -87,6 +89,10 @@ Changes merged into master but not in an official release yet.
 | [#5744](https://github.com/ISISComputingGroup/IBEX/issues/5744) | Minor | When calculating current position the motors are moving flag is set to true. This means that `waitfor_move` waiting until the value returned is correct and so will now work in scans no matter how long the calculation takes.  |
 | [#5781](https://github.com/ISISComputingGroup/IBEX/issues/5781) | Minor | Add option to reapply mode inits on move all in refl server |
 | [#5783](https://github.com/ISISComputingGroup/IBEX/issues/5783) | Minor | Add option to park axes in sequence |
+| [#5532](https://github.com/ISISComputingGroup/IBEX/issues/5532) | Minor | On a parameter move the reflectometry ioc can run a user custom function |
+| [#6000](https://github.com/ISISComputingGroup/IBEX/issues/6000) | Minor | Do not archive char waveform PVs |
+| [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
+| [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
 
 #  IBEX Client
 
@@ -98,6 +104,7 @@ Changes merged into master but not in an official release yet.
 | [#5841](https://github.com/ISISComputingGroup/IBEX/issues/5841) | Patch | Matplotlib plots will automatically periodically reload to avoid an issue with the display freezing. |
 | [#4334](https://github.com/ISISComputingGroup/IBEX/issues/4334) | Minor | Removal of config description length limiter |
 | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | Add "dynamic" configurations which can change automatically in response to external events. |
+| [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -134,6 +141,7 @@ Changes merged into master but not in an official release yet.
 | [#5982](https://github.com/ISISComputingGroup/IBEX/issues/5982) | Minor | Use updated build of EPICS header for genie_python (include roll over patch) |
 | [#3000](https://github.com/ISISComputingGroup/IBEX/issues/3000) | Minor | Report block state on cset |
 | [#5469](https://github.com/ISISComputingGroup/IBEX/issues/5469) | Minor | Added advanced genie function to get information about an RB number out of the experiment details database |
+| [#5794](https://github.com/ISISComputingGroup/IBEX/issues/5794) | Minor | `g.change_change_script_dir` will now accept a list of directories and will join them together to make the full path |
 
 # Other
 
@@ -173,6 +181,18 @@ Changes merged into master but not in an official release yet.
 | [#5933](https://github.com/ISISComputingGroup/IBEX/issues/5933) | Minor | Use central PDB symbol store rather than deploy to instruments |
 | [#6005](https://github.com/ISISComputingGroup/IBEX/issues/6005) | Minor | Fix pushing of standard pvs on startup for new mysql version |
 | [#4080](https://github.com/ISISComputingGroup/IBEX/issues/4080) | Minor | Added missing IOC configs |
+| [#5923](https://github.com/ISISComputingGroup/IBEX/issues/5923) | Minor | Discussion of Windows 10 standard installation |
+| [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
+
+# Support Issues Solved
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [#4994](https://github.com/ISISComputingGroup/IBEX/issues/4994) | Patch | Prepare new machine for instalation of IBEX for HRPD Seup |
+| [#6078](https://github.com/ISISComputingGroup/IBEX/issues/6078) | Patch | Check locking error during replication on .RAW files on EMU - all ok |
+| [#6103](https://github.com/ISISComputingGroup/IBEX/issues/6103) | Patch | LET - check code for osciallating collimator is similar to MERLIN |
+| [#6114](https://github.com/ISISComputingGroup/IBEX/issues/6114) | Patch | Take replicas of VMs for backup |
+| [#6115](https://github.com/ISISComputingGroup/IBEX/issues/6115) | Patch | Shutdown North side machines for power testing |
 
 Change Types: 
 
