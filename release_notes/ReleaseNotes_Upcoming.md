@@ -50,6 +50,7 @@ Changes merged into master but not in an official release yet.
 | ------ | ------ | -----|
 | [#5546](https://github.com/ISISComputingGroup/IBEX/issues/5546) | Little blue cryostat | Mercury now supports the little blue cryostat in flow mode. The pressure is controlled by temperature and temperature set point. |
 | [#5688](https://github.com/ISISComputingGroup/IBEX/issues/5688) | Newport XPS | Motor controller for use on Larmor |
+| [#5544](https://github.com/ISISComputingGroup/IBEX/issues/5544) | CAEN HV power supplies | Add new IOC that can monitor additional parameters |
 | [#4915](https://github.com/ISISComputingGroup/IBEX/issues/4915) | CAENv895 | IOC for the CAENv895 discriminator used on the muon instruments |
 | [#5098](https://github.com/ISISComputingGroup/IBEX/issues/5098) | Metrolab PT2025 Teslameter | Added for use on MuSR |
 | [#5270](https://github.com/ISISComputingGroup/IBEX/issues/5270) | FerroMagnetic Resonance Equipment | Integrates self-contained user-supplied device and control software into IBEX |
