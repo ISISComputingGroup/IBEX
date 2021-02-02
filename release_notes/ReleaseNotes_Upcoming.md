@@ -94,6 +94,7 @@ Changes merged into master but not in an official release yet.
 | [#6000](https://github.com/ISISComputingGroup/IBEX/issues/6000) | Minor | Do not archive char waveform PVs |
 | [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
 | [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
+| [#5930](https://github.com/ISISComputingGroup/IBEX/issues/5930) | Minor | Add auto height function in shared scripts |
 
 #  IBEX Client
 
