@@ -81,6 +81,7 @@ Changes merged into master but not in an official release yet.
 | [#5664](https://github.com/ISISComputingGroup/IBEX/issues/5664) | Minor | HTS Magnet | Create Details Tab for OPI |
 | [#5958](https://github.com/ISISComputingGroup/IBEX/issues/5958) | Minor | ITC503 | Dual ITC OPI for MuSR |
 | [#6018](https://github.com/ISISComputingGroup/IBEX/issues/6018) | Minor | Block server | Check possible error on startup, was a local issue that has been resolved. |
+| [#5950](https://github.com/ISISComputingGroup/IBEX/issues/5950) | Minor | LKSH340 | Add ability to set excitations on channel A and define temperature setpoint thresholds with corresponding excitation values to set. |
 
 ### Reflectometry IOC
 
