@@ -159,6 +159,7 @@ Changes merged into master but not in an official release yet.
 | [#5852](https://github.com/ISISComputingGroup/IBEX/issues/5852) | Minor | Journal parser sends to MS Teams as well as slack |
 | [#5847](https://github.com/ISISComputingGroup/IBEX/issues/5847) | Minor | MCR News on Microsoft Teams |
 | [#5794](https://github.com/ISISComputingGroup/IBEX/issues/5794) | Minor | Default log file is now set to the same as the genie_python script dir. last_scan also reads from the log file dir. |
+] [#4897](https://github.com/ISISComputingGroup/IBEX/issues/4897) | Minor | Convert VmsJournalFileConverter to Python3 |
 
 # Internal changes
 
