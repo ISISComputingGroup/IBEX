@@ -192,6 +192,7 @@ Changes merged into master but not in an official release yet.
 | [#4080](https://github.com/ISISComputingGroup/IBEX/issues/4080) | Minor | Added missing IOC configs |
 | [#5923](https://github.com/ISISComputingGroup/IBEX/issues/5923) | Minor | Discussion of Windows 10 standard installation |
 | [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
+| [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
 
 # Support Issues Solved
 
