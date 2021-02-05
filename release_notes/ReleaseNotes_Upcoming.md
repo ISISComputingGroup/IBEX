@@ -43,6 +43,7 @@ Changes merged into master but not in an official release yet.
 | MUSR | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | OPI for controlling instrument rotation |
 | MUSR | [#5955](https://github.com/ISISComputingGroup/IBEX/issues/5955) | Minor | Added CAEN HV power supply status in MuSR rotation OPI and IBEX banner.|
 | MUSR | [#5956](https://github.com/ISISComputingGroup/IBEX/issues/5956) | Minor | King Fridge (uDR2) Configuration.|
+| MUSR | [#5971](https://github.com/ISISComputingGroup/IBEX/issues/5971) | Minor | Migrating to IBEX |
 
 
 # Devices
