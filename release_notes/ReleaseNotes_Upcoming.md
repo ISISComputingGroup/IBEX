@@ -43,8 +43,8 @@ Changes merged into master but not in an official release yet.
 | MUSR | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | OPI for controlling instrument rotation |
 | MUSR | [#5955](https://github.com/ISISComputingGroup/IBEX/issues/5955) | Minor | Added CAEN HV power supply status in MuSR rotation OPI and IBEX banner.|
 | MUSR | [#5956](https://github.com/ISISComputingGroup/IBEX/issues/5956) | Minor | King Fridge (uDR2) Configuration.|
+| MUSR | [#5971](https://github.com/ISISComputingGroup/IBEX/issues/5971) | Minor | Migrating to IBEX |
 | DETMON | [#5069](https://github.com/ISISComputingGroup/IBEX/issues/5069) | Minor | Configuration can specify a gwblock.pvlist and block_config.xml, blockserver will start the block gateway and block archiver accordingly |
-
 
 # Devices
 
@@ -83,6 +83,7 @@ Changes merged into master but not in an official release yet.
 | [#5958](https://github.com/ISISComputingGroup/IBEX/issues/5958) | Minor | ITC503 | Dual ITC OPI for MuSR |
 | [#6018](https://github.com/ISISComputingGroup/IBEX/issues/6018) | Minor | Block server | Check possible error on startup, was a local issue that has been resolved. |
 | [#5950](https://github.com/ISISComputingGroup/IBEX/issues/5950) | Minor | LKSH340 | Add ability to set excitations on channel A and define temperature setpoint thresholds with corresponding excitation values to set. |
+| [#6151](https://github.com/ISISComputingGroup/IBEX/issues/6151) | Minor | KEPCO | Fixed bug where negative currents could not be set. |
 
 ### Reflectometry IOC
 
@@ -191,6 +192,7 @@ Changes merged into master but not in an official release yet.
 | [#4080](https://github.com/ISISComputingGroup/IBEX/issues/4080) | Minor | Added missing IOC configs |
 | [#5923](https://github.com/ISISComputingGroup/IBEX/issues/5923) | Minor | Discussion of Windows 10 standard installation |
 | [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
+| [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
 
 # Support Issues Solved
 
