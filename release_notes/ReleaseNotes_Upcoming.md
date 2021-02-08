@@ -194,6 +194,7 @@ Changes merged into master but not in an official release yet.
 | [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
 | [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
 | [#6177](https://github.com/ISISComputingGroup/IBEX/issues/6177) | Minor | Fix system tests for devices with binary interfaces |
+| [#5975](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Muons: Ask Instrument Scientists to Document Tracebacks |
 
 # Support Issues Solved
 
