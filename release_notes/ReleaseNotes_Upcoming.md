@@ -114,6 +114,7 @@ Changes merged into master but not in an official release yet.
 | [#4334](https://github.com/ISISComputingGroup/IBEX/issues/4334) | Minor | Removal of config description length limiter |
 | [#5096](https://github.com/ISISComputingGroup/IBEX/issues/5096) | Minor | Add "dynamic" configurations which can change automatically in response to external events. |
 | [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
+| [#5302](https://github.com/ISISComputingGroup/IBEX/issues/5302) | Patch | Prevent error messages from OPIs showing up in a BOY console within the scripting view. |
 
 ### Script Generator
 | Ticket | Type  | Change |
