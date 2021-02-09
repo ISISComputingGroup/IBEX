@@ -46,6 +46,7 @@ Changes merged into master but not in an official release yet.
 | MUSR | [#5971](https://github.com/ISISComputingGroup/IBEX/issues/5971) | Minor | Migrating to IBEX |
 | DETMON | [#5069](https://github.com/ISISComputingGroup/IBEX/issues/5069) | Minor | Configuration can specify a gwblock.pvlist and block_config.xml, blockserver will start the block gateway and block archiver accordingly |
 | HRPD | [#5788](https://github.com/ISISComputingGroup/IBEX/issues/5788) | Minor | Install IBEX on HRPD_SETUP |
+| MUSR | [#6112](https://github.com/ISISComputingGroup/IBEX/issues/6112) | Minor | Testing IBEX on MUSR |
 
 # Devices
 
@@ -101,6 +102,7 @@ Changes merged into master but not in an official release yet.
 | [#6000](https://github.com/ISISComputingGroup/IBEX/issues/6000) | Minor | Do not archive char waveform PVs |
 | [#5896](https://github.com/ISISComputingGroup/IBEX/issues/5896) | Minor | Added long axis support for INTER |
 | [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
+| [#5899](https://github.com/ISISComputingGroup/IBEX/issues/5899) | Minor | Characteristic values can be defined for a parameter and value of pv is shown in OPI. |
 
 #  IBEX Client
 
@@ -194,6 +196,8 @@ Changes merged into master but not in an official release yet.
 | [#5923](https://github.com/ISISComputingGroup/IBEX/issues/5923) | Minor | Discussion of Windows 10 standard installation |
 | [#6019](https://github.com/ISISComputingGroup/IBEX/issues/6019) | Minor | Abandoned release of IBEX because cycle is not starting soon |
 | [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
+| [#6177](https://github.com/ISISComputingGroup/IBEX/issues/6177) | Minor | Fix system tests for devices with binary interfaces |
+| [#5975](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Muons: Ask Instrument Scientists to Document Tracebacks |
 
 # Support Issues Solved
 
