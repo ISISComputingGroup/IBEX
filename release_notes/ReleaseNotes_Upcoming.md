@@ -51,7 +51,7 @@ Changes merged into master but not in an official release yet.
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
-
+| [#5371](https://github.com/ISISComputingGroup/IBEX/issues/5371) | Minor | Rename parameter file extension |
 
 ### Other
 
@@ -78,7 +78,7 @@ Changes merged into master but not in an official release yet.
 | [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
 | [#6177](https://github.com/ISISComputingGroup/IBEX/issues/6177) | Minor | Fix system tests for devices with binary interfaces |
 | [#5975](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Muons: Ask Instrument Scientists to Document Tracebacks |
-| [#5892](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Fix slow searching when adding pvs to block |
+| [#5892](https://github.com/ISISComputingGroup/IBEX/issues/5892) | Minor | Fix slow searching when adding pvs to block |
 
 # Support Issues Solved
 
