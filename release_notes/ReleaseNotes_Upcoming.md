@@ -4,11 +4,18 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switch to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| MUSR | [#5955](https://github.com/ISISComputingGroup/IBEX/issues/5955) | Minor | Added CAEN HV power supply status in MuSR rotation OPI and IBEX banner.|
+| MUSR | [#5956](https://github.com/ISISComputingGroup/IBEX/issues/5956) | Minor | King Fridge (uDR2) Configuration.|
+| MUSR | [#5971](https://github.com/ISISComputingGroup/IBEX/issues/5971) | Minor | Migrating to IBEX |
+| DETMON | [#5069](https://github.com/ISISComputingGroup/IBEX/issues/5069) | Minor | Configuration can specify a gwblock.pvlist and block_config.xml, blockserver will start the block gateway and block archiver accordingly |
+| HRPD | [#5788](https://github.com/ISISComputingGroup/IBEX/issues/5788) | Minor | Install IBEX on HRPD_SETUP |
+| MUSR | [#6112](https://github.com/ISISComputingGroup/IBEX/issues/6112) | Minor | Testing IBEX on MUSR |
 
 # Devices
 
@@ -22,13 +29,16 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#5950](https://github.com/ISISComputingGroup/IBEX/issues/5950) | Minor | LKSH340 | Add ability to set excitations on channel A and define temperature setpoint thresholds with corresponding excitation values to set. |
+| [#6151](https://github.com/ISISComputingGroup/IBEX/issues/6151) | Minor | KEPCO | Fixed bug where negative currents could not be set. |
+| [#6152](https://github.com/ISISComputingGroup/IBEX/issues/6152) | Minor | KEPCO | Fixed bug where two setpoints were sent to the device when a setpoint was set |
 
-
-
-### Reflectometry server
+### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
+| [#5899](https://github.com/ISISComputingGroup/IBEX/issues/5899) | Minor | Characteristic values can be defined for a parameter and value of pv is shown in OPI. |
 
 #  IBEX Client
 
@@ -36,7 +46,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-
+| [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -47,6 +57,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
 
 # genie_python
 
@@ -57,13 +68,17 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#4897](https://github.com/ISISComputingGroup/IBEX/issues/4897) | Minor | Convert VmsJournalFileConverter to Python3 |
 
 
 # Internal changes
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-
+| [#6162](https://github.com/ISISComputingGroup/IBEX/issues/6162) | Minor | Fix python 2/3 str/bytes bug in blockserver synoptic_manager |
+| [#6177](https://github.com/ISISComputingGroup/IBEX/issues/6177) | Minor | Fix system tests for devices with binary interfaces |
+| [#5975](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Muons: Ask Instrument Scientists to Document Tracebacks |
+| [#5892](https://github.com/ISISComputingGroup/IBEX/issues/5975) | Minor | Fix slow searching when adding pvs to block |
 
 # Support Issues Solved
 
