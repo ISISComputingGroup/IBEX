@@ -84,7 +84,7 @@ Changes merged into master but not in an official release yet.
 | [#6018](https://github.com/ISISComputingGroup/IBEX/issues/6018) | Minor | Block server | Check possible error on startup, was a local issue that has been resolved. |
 | [#5950](https://github.com/ISISComputingGroup/IBEX/issues/5950) | Minor | LKSH340 | Add ability to set excitations on channel A and define temperature setpoint thresholds with corresponding excitation values to set. |
 | [#6151](https://github.com/ISISComputingGroup/IBEX/issues/6151) | Minor | KEPCO | Fixed bug where negative currents could not be set. |
-| [#6152](https://github.com/ISISComputingGroup/IBEX/issues/6152) | Minor | KEPCO | Fixed bug where to setpoints were sent to the device when a setpoint was set |
+| [#6152](https://github.com/ISISComputingGroup/IBEX/issues/6152) | Minor | KEPCO | Fixed bug where two setpoints were sent to the device when a setpoint was set |
 
 ### Reflectometry IOC
 
