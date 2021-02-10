@@ -124,6 +124,8 @@ Changes merged into master but not in an official release yet.
 |[#5998](https://github.com/ISISComputingGroup/IBEX/issues/5998)| Minor | Lines now have line numbers |
 |[#5966](https://github.com/ISISComputingGroup/IBEX/issues/5966)| Minor | New lines can now be inserted part way through the script. Buttons have been reworded to improve clarity. |
 |[#6017](https://github.com/ISISComputingGroup/IBEX/issues/6017)| Patch | Bug fix for CopyPreviousRow behaviour when inserting a row. |
+|[#5969](https://github.com/ISISComputingGroup/IBEX/issues/5969)| Minor | Display location of saved/loaded parameters file. |
+|[#5970](https://github.com/ISISComputingGroup/IBEX/issues/5970)| Minor | Indicate if a parameters file is unsaved. |
 
 ### Other
 
