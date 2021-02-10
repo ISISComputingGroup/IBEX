@@ -140,6 +140,7 @@ Changes merged into master but not in an official release yet.
 | [#2046](https://github.com/ISISComputingGroup/IBEX/issues/2046) | Minor | Added tooltips for auto-start/auto-restart/sim. level |
 | [#5582](https://github.com/ISISComputingGroup/IBEX/issues/5582) | Minor | Background plot: handle errors when failing to load data from corrupt save file |
 | [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
+| [#5765](https://github.com/ISISComputingGroup/IBEX/issues/5765) | Minor | Web dashboard: remove EMU unneeded alarms, hide empty ("N/A") blocks |
 
 # genie_python
 
