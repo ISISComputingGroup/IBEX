@@ -68,6 +68,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#5520](https://github.com/ISISComputingGroup/IBEX/issues/5520) | Minor | Created a linux build for genie_python |
 
 # Other
 
