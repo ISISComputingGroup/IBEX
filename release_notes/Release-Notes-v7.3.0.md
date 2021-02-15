@@ -1,4 +1,4 @@
-Mostly minor changes, adding functionality for MuSR, LARMOR and INTER
+Adding functionality for MuSR and INTER as well as general improvements. This release was created for testing on MuSR and so has not undergone rigorous testing. It is not recommended for full deployment. Rigorous testing will instead be done for the next release.
 
 # Highlights and Breaking Changes
 

@@ -17,6 +17,7 @@ Changes merged into master but not in an official release yet.
 | HRPD | [#5788](https://github.com/ISISComputingGroup/IBEX/issues/5788) | Minor | Install IBEX on HRPD_SETUP |
 | MUSR | [#6112](https://github.com/ISISComputingGroup/IBEX/issues/6112) | Minor | Testing IBEX on MUSR |
 | HIFI | [#653](https://github.com/ISISComputingGroup/IBEX/issues/653) | Minor | Addition of Cromagnet Systems IOC (HIFIMAGS) |
+| MUSR | [#5957](https://github.com/ISISComputingGroup/IBEX/issues/5957) | Minor | uDR3 and uDR4 Fridge Configurations |
 
 # Devices
 
@@ -38,7 +39,9 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#5814](https://github.com/ISISComputingGroup/IBEX/issues/5814) | Minor | When starting the server if the component is out of the beam the parameters with no autosave will be set to 0 and a warning will be issued. |
 | [#4956](https://github.com/ISISComputingGroup/IBEX/issues/4956) | Minor | Documentation for reflectometry view |
+| [#5930](https://github.com/ISISComputingGroup/IBEX/issues/5930) | Minor | Add auto height function in shared scripts |
 | [#5899](https://github.com/ISISComputingGroup/IBEX/issues/5899) | Minor | Characteristic values can be defined for a parameter and value of pv is shown in OPI. |
 
 #  IBEX Client
