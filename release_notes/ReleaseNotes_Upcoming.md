@@ -77,6 +77,8 @@ Changes merged into master but not in an official release yet.
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#4897](https://github.com/ISISComputingGroup/IBEX/issues/4897) | Minor | Convert VmsJournalFileConverter to Python3 |
+| [#6169](https://github.com/ISISComputingGroup/IBEX/issues/6169) | Minor | Utility script to restore motor positions from the archive |
+
 
 
 # Internal changes
