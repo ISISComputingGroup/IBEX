@@ -62,6 +62,8 @@ Changes merged into master but not in an official release yet.
 |[#6017](https://github.com/ISISComputingGroup/IBEX/issues/6017)| Patch | Bug fix for CopyPreviousRow behaviour when inserting a row. |
 |[#5965](https://github.com/ISISComputingGroup/IBEX/issues/5965)| Minor | Allow users to copy and paste rows in script generator, including copying from and to other programs such as Excel.|
 |[#5371](https://github.com/ISISComputingGroup/IBEX/issues/5371) | Minor | Rename parameter file extension |
+|[#5969](https://github.com/ISISComputingGroup/IBEX/issues/5969) | Minor | Display name of script parameters file being edited |
+|[#5970](https://github.com/ISISComputingGroup/IBEX/issues/5970) | Minor | Show a `(*)` next to the script parameters filename if it has unsaved changes |
 
 ### Other
 
