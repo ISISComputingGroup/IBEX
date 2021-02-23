@@ -72,6 +72,7 @@ Changes merged into master but not in an official release yet.
 | [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
 | [#6233](https://github.com/ISISComputingGroup/IBEX/issues/6233) | Minor | Log plotter no longer averages data |
 | [#2177](https://github.com/ISISComputingGroup/IBEX/issues/2177) | Minor | Plotting values from an OPI now works without having to modify anything |
+| [#5597](https://github.com/ISISComputingGroup/IBEX/issues/5597) | Minor | Scripting toolbar: display active console count when multiple consoles |
 
 # genie_python
 
