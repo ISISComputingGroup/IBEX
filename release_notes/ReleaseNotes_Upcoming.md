@@ -18,6 +18,7 @@ Changes merged into master but not in an official release yet.
 | MUSR | [#6112](https://github.com/ISISComputingGroup/IBEX/issues/6112) | Minor | Testing IBEX on MUSR |
 | HIFI | [#653](https://github.com/ISISComputingGroup/IBEX/issues/653) | Minor | Addition of Cromagnet Systems IOC (HIFIMAGS) |
 | MUSR | [#5957](https://github.com/ISISComputingGroup/IBEX/issues/5957) | Minor | uDR3 and uDR4 Fridge Configurations |
+| HIFI | [#6224](https://github.com/ISISComputingGroup/IBEX/issues/6224) | Minor | Label change in HIFIMAGS and adaptations for integration to HIFI |
 
 # Devices
 
