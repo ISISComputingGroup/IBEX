@@ -64,6 +64,7 @@ Changes merged into master but not in an official release yet.
 |[#5371](https://github.com/ISISComputingGroup/IBEX/issues/5371) | Minor | Rename parameter file extension |
 |[#5969](https://github.com/ISISComputingGroup/IBEX/issues/5969) | Minor | Display name of script parameters file being edited |
 |[#5970](https://github.com/ISISComputingGroup/IBEX/issues/5970) | Minor | Show a `(*)` next to the script parameters filename if it has unsaved changes |
+|[#5938](https://github.com/ISISComputingGroup/IBEX/issues/5938) | Minor | Script generator will first try to load script definitions from `c:\instrument\settings\...`, if that is not present it will fall back to storing definitions next to the executable. |
 
 ### Other
 
