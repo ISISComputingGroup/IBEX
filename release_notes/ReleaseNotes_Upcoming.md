@@ -140,7 +140,7 @@ Dependency | Version | last updated/checked
 | `Eclipse RCP` | 4.14 | 2020-04 |
 | `CS-Studio` | 4.6 | 2020-04 |
 | `MySQL connector/j` | 8.0.19 | 2020-04 |
-| `py4j` | 0.10.9 | 2020-04 |
+| `py4j` | 0.10.9.2 | 2020-03-01 |
 | `tycho` | 1.6.0 | 2020-04 |
 | `jeroMQ` | 0.5.2 | 2020-04 |
 | `pydev` | 7.5.0 | 2020-04 |
