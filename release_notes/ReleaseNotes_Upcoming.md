@@ -25,6 +25,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#6241](https://github.com/ISISComputingGroup/IBEX/issues/6241) | Minor | New IOC to control ITC503 based Heliox |
 
 
 ### Modified devices
@@ -99,6 +100,7 @@ Changes merged into master but not in an official release yet.
 | [#5892](https://github.com/ISISComputingGroup/IBEX/issues/5892) | Minor | Fix slow searching when adding pvs to block |
 | [#6165](https://github.com/ISISComputingGroup/IBEX/issues/6165) | Patch | Clean old system test DAE files |
 | [#6268](https://github.com/ISISComputingGroup/IBEX/issues/6268) | Patch | GALILMUL: reference code in GALIL to avoid duplication |
+| [#5984](https://github.com/ISISComputingGroup/IBEX/issues/5984) | Patch | Upgrade nagios server |
 
 # Support Issues Solved
 
