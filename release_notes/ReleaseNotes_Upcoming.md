@@ -25,6 +25,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#6241](https://github.com/ISISComputingGroup/IBEX/issues/6241) | Minor | New IOC to control ITC503 based Heliox |
 
 
 ### Modified devices
