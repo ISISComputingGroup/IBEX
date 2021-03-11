@@ -47,6 +47,8 @@ Changes merged into master but not in an official release yet.
 | [#5930](https://github.com/ISISComputingGroup/IBEX/issues/5930) | Minor | Add auto height function in shared scripts |
 | [#5899](https://github.com/ISISComputingGroup/IBEX/issues/5899) | Minor | Characteristic values can be defined for a parameter and value of pv is shown in OPI. |
 | [#5900](https://github.com/ISISComputingGroup/IBEX/issues/5900) | Minor | Disable axis parameters for components out of beam |
+| [#6273](https://github.com/ISISComputingGroup/IBEX/issues/6273) | Minor | Parameter can be configured so that its set point mirrors its readback value; Initial use case is long axis on INTER. |
+
 
 #  IBEX Client
 
