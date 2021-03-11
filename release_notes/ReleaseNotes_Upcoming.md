@@ -107,6 +107,7 @@ Changes merged into master but not in an official release yet.
 | [#6165](https://github.com/ISISComputingGroup/IBEX/issues/6165) | Patch | Clean old system test DAE files |
 | [#6268](https://github.com/ISISComputingGroup/IBEX/issues/6268) | Patch | GALILMUL: reference code in GALIL to avoid duplication |
 | [#5984](https://github.com/ISISComputingGroup/IBEX/issues/5984) | Patch | Upgrade nagios server |
+| [#5990](https://github.com/ISISComputingGroup/IBEX/issues/5990) | Minor | Add system tests for danfysik 8500 slew rate |
 
 # Support Issues Solved
 
