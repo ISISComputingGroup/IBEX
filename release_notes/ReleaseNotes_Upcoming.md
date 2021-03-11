@@ -56,6 +56,8 @@ Changes merged into master but not in an official release yet.
 | ------ | ----  | ------------- |
 | [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
 | [#5302](https://github.com/ISISComputingGroup/IBEX/issues/5302) | Patch | Prevent error messages from OPIs showing up in a BOY console within the scripting view. |
+| [#6244](https://github.com/ISISComputingGroup/IBEX/issues/6244) | Patch | Add device screen for HLX503. |
+
 
 ### Script Generator
 | Ticket | Type  | Change |
