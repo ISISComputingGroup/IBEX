@@ -80,6 +80,7 @@ Changes merged into master but not in an official release yet.
 | [#2177](https://github.com/ISISComputingGroup/IBEX/issues/2177) | Minor | Plotting values from an OPI now works without having to modify anything |
 | [#5597](https://github.com/ISISComputingGroup/IBEX/issues/5597) | Minor | Scripting toolbar: display active console count when multiple consoles |
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
+| [#6305](https://github.com/ISISComputingGroup/IBEX/issues/6305) | Minor | Slit scan in the scans library |
 
 # genie_python
 
