@@ -80,7 +80,7 @@ Changes merged into master but not in an official release yet.
 | [#2177](https://github.com/ISISComputingGroup/IBEX/issues/2177) | Minor | Plotting values from an OPI now works without having to modify anything |
 | [#5597](https://github.com/ISISComputingGroup/IBEX/issues/5597) | Minor | Scripting toolbar: display active console count when multiple consoles |
 | [#2582](https://github.com/ISISComputingGroup/IBEX/issues/2582) | Minor | Blocks can now be added by right clicking on an OPI value |
-
+| [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
 
 # genie_python
 
@@ -109,6 +109,7 @@ Changes merged into master but not in an official release yet.
 | [#6268](https://github.com/ISISComputingGroup/IBEX/issues/6268) | Patch | GALILMUL: reference code in GALIL to avoid duplication |
 | [#5984](https://github.com/ISISComputingGroup/IBEX/issues/5984) | Patch | Upgrade nagios server |
 | [#5990](https://github.com/ISISComputingGroup/IBEX/issues/5990) | Minor | Add system tests for danfysik 8500 slew rate |
+| [#5414](https://github.com/ISISComputingGroup/IBEX/issues/5414) | Minor | Speed up config checker tests |
 
 # Support Issues Solved
 
