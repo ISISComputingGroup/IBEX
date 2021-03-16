@@ -4,7 +4,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switch to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
+| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switched to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
 
 # Instrument Specific Changes
 
@@ -110,6 +110,7 @@ Changes merged into master but not in an official release yet.
 | [#5984](https://github.com/ISISComputingGroup/IBEX/issues/5984) | Patch | Upgrade nagios server |
 | [#5990](https://github.com/ISISComputingGroup/IBEX/issues/5990) | Minor | Add system tests for danfysik 8500 slew rate |
 | [#5414](https://github.com/ISISComputingGroup/IBEX/issues/5414) | Minor | Speed up config checker tests |
+| [#4883](https://github.com/ISISComputingGroup/IBEX/issues/4883) | Minor | Convert the collision avoidance monitor into Python 3 |
 
 # Support Issues Solved
 
