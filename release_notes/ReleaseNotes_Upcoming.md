@@ -102,6 +102,7 @@ Changes merged into master but not in an official release yet.
 | [#5765](https://github.com/ISISComputingGroup/IBEX/issues/5765) | Minor | Web dashboard: remove EMU unneeded alarms, hide empty ("N/A") blocks |
 | [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
+| [#4646](https://github.com/ISISComputingGroup/IBEX/issues/4646) | Minor | Detect and report unknown/missing default macro values for IOCs |
 
 # Internal changes
 
