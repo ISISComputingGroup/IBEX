@@ -119,6 +119,7 @@ Changes merged into master but not in an official release yet.
 | [#5990](https://github.com/ISISComputingGroup/IBEX/issues/5990) | Minor | Add system tests for danfysik 8500 slew rate |
 | [#5414](https://github.com/ISISComputingGroup/IBEX/issues/5414) | Minor | Speed up config checker tests |
 | [#4883](https://github.com/ISISComputingGroup/IBEX/issues/4883) | Minor | Convert the collision avoidance monitor into Python 3 |
+| [#6289](https://github.com/ISISComputingGroup/IBEX/issues/6289) | Patch | Use local version of Py4J |
 
 # Support Issues Solved
 
