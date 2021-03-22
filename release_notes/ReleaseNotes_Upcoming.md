@@ -106,6 +106,7 @@ Changes merged into master but not in an official release yet.
 | [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
 | [#4646](https://github.com/ISISComputingGroup/IBEX/issues/4646) | Minor | Detect and report unknown/missing default macro values for IOCs |
+| [#6325](https://github.com/ISISComputingGroup/IBEX/issues/6325) | Minor | Improved robustness of instrument archiving, this was causing some motor values to not be logged on ZOOM |
 
 # Internal changes
 
