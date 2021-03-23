@@ -42,6 +42,7 @@ Changes merged into master but not in an official release yet.
 | [#6198](https://github.com/ISISComputingGroup/IBEX/issues/6198) | Minor | TRITON | Added a set-able poll rate and channel poll rate for the Triton IOC |
 | [#6294](https://github.com/ISISComputingGroup/IBEX/issues/6294) | Minor | Rework communications to control ITC503 based Heliox |
 | [#6318](https://github.com/ISISComputingGroup/IBEX/issues/6318) | Minor | ICEFRIDGE | Removed support for the ICE dilution fridge, as the hardware is broken long-term. |
+| [#6240](https://github.com/ISISComputingGroup/IBEX/issues/6240) | Minor | HLX503 | Add recondensing and other cryogenic control logic. |
 
 ### Reflectometry IOC
 
