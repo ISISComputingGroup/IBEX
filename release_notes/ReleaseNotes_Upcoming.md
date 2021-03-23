@@ -41,6 +41,7 @@ Changes merged into master but not in an official release yet.
 | [#6314](https://github.com/ISISComputingGroup/IBEX/issues/6314) | Minor | AFG3XXX | Convert to allow testing. |
 | [#6198](https://github.com/ISISComputingGroup/IBEX/issues/6198) | Minor | TRITON | Added a set-able poll rate and channel poll rate for the Triton IOC |
 | [#6318](https://github.com/ISISComputingGroup/IBEX/issues/6318) | Minor | ICEFRIDGE | Removed support for the ICE dilution fridge, as the hardware is broken long-term. |
+| [#6221](https://github.com/ISISComputingGroup/IBEX/issues/6221) | Patch | HIFIMAGS (HiFi Cryomagnet) | Corrected units of max field. Provide feedback on OPI when controls are disabled. Use a cryomagnet icon. |
 
 ### Reflectometry IOC
 
