@@ -40,6 +40,7 @@ Changes merged into master but not in an official release yet.
 | [#6254](https://github.com/ISISComputingGroup/IBEX/issues/6254) | Minor | GALIL | Additional log messages if position redefined |
 | [#6314](https://github.com/ISISComputingGroup/IBEX/issues/6314) | Minor | AFG3XXX | Convert to allow testing. |
 | [#6198](https://github.com/ISISComputingGroup/IBEX/issues/6198) | Minor | TRITON | Added a set-able poll rate and channel poll rate for the Triton IOC |
+| [#6294](https://github.com/ISISComputingGroup/IBEX/issues/6294) | Minor | Rework communications to control ITC503 based Heliox |
 | [#6318](https://github.com/ISISComputingGroup/IBEX/issues/6318) | Minor | ICEFRIDGE | Removed support for the ICE dilution fridge, as the hardware is broken long-term. |
 
 ### Reflectometry IOC
