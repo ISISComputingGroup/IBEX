@@ -4,7 +4,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switch to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
+| [#1557](https://github.com/ISISComputingGroup/IBEX/issues/1557) | Minor | genie_python can be switched to a mode where it throw exception instead of just printing them. The user can then choose to catch them in their script. Most of the exceptions thrown are of type Exception, how important is it that this become more targeted? |
 
 # Instrument Specific Changes
 
@@ -19,6 +19,7 @@ Changes merged into master but not in an official release yet.
 | HIFI | [#653](https://github.com/ISISComputingGroup/IBEX/issues/653) | Minor | Addition of Cromagnet Systems IOC (HIFIMAGS) |
 | MUSR | [#5957](https://github.com/ISISComputingGroup/IBEX/issues/5957) | Minor | uDR3 and uDR4 Fridge Configurations |
 | HIFI | [#6224](https://github.com/ISISComputingGroup/IBEX/issues/6224) | Minor | Label change in HIFIMAGS and adaptations for integration to HIFI |
+| MUSR | [#6285](https://github.com/ISISComputingGroup/IBEX/issues/6285) | Minor | Zero field system stability increase (new averaging method) | 
 
 # Devices
 
@@ -37,6 +38,9 @@ Changes merged into master but not in an official release yet.
 | [#6151](https://github.com/ISISComputingGroup/IBEX/issues/6151) | Minor | KEPCO | Fixed bug where negative currents could not be set. |
 | [#6152](https://github.com/ISISComputingGroup/IBEX/issues/6152) | Minor | KEPCO | Fixed bug where two setpoints were sent to the device when a setpoint was set |
 | [#6254](https://github.com/ISISComputingGroup/IBEX/issues/6254) | Minor | GALIL | Additional log messages if position redefined |
+| [#6314](https://github.com/ISISComputingGroup/IBEX/issues/6314) | Minor | AFG3XXX | Convert to allow testing. |
+| [#6198](https://github.com/ISISComputingGroup/IBEX/issues/6198) | Minor | TRITON | Added a set-able poll rate and channel poll rate for the Triton IOC |
+| [#6318](https://github.com/ISISComputingGroup/IBEX/issues/6318) | Minor | ICEFRIDGE | Removed support for the ICE dilution fridge, as the hardware is broken long-term. |
 
 ### Reflectometry IOC
 
@@ -47,6 +51,8 @@ Changes merged into master but not in an official release yet.
 | [#5930](https://github.com/ISISComputingGroup/IBEX/issues/5930) | Minor | Add auto height function in shared scripts |
 | [#5899](https://github.com/ISISComputingGroup/IBEX/issues/5899) | Minor | Characteristic values can be defined for a parameter and value of pv is shown in OPI. |
 | [#5900](https://github.com/ISISComputingGroup/IBEX/issues/5900) | Minor | Disable axis parameters for components out of beam |
+| [#6273](https://github.com/ISISComputingGroup/IBEX/issues/6273) | Minor | Parameter can be configured so that its set point mirrors its readback value; Initial use case is long axis on INTER. |
+
 
 #  IBEX Client
 
@@ -56,6 +62,8 @@ Changes merged into master but not in an official release yet.
 | ------ | ----  | ------------- |
 | [#5848](https://github.com/ISISComputingGroup/IBEX/issues/5848) | Minor | Matplotlib plot window appears quicker on scan |
 | [#5302](https://github.com/ISISComputingGroup/IBEX/issues/5302) | Patch | Prevent error messages from OPIs showing up in a BOY console within the scripting view. |
+| [#6244](https://github.com/ISISComputingGroup/IBEX/issues/6244) | Patch | Add device screen for HLX503. |
+| [#1478](https://github.com/ISISComputingGroup/IBEX/issues/1478) | Minor | Adding IBEX server status |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -75,10 +83,11 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
 | [#6233](https://github.com/ISISComputingGroup/IBEX/issues/6233) | Minor | Log plotter no longer averages data |
 | [#2177](https://github.com/ISISComputingGroup/IBEX/issues/2177) | Minor | Plotting values from an OPI now works without having to modify anything |
 | [#5597](https://github.com/ISISComputingGroup/IBEX/issues/5597) | Minor | Scripting toolbar: display active console count when multiple consoles |
+| [#2582](https://github.com/ISISComputingGroup/IBEX/issues/2582) | Minor | Blocks can now be added by right clicking on an OPI value |
+| [#6296](https://github.com/ISISComputingGroup/IBEX/issues/6296) | Minor | Correct the expected version of the NICOS script server protocol (this stops periodically flashing windows from appearing) |
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
 | [#6305](https://github.com/ISISComputingGroup/IBEX/issues/6305) | Minor | Slit scan in the scans library |
 
@@ -94,8 +103,11 @@ Changes merged into master but not in an official release yet.
 | ------ | ------| ------------- |
 | [#4897](https://github.com/ISISComputingGroup/IBEX/issues/4897) | Minor | Convert VmsJournalFileConverter to Python3 |
 | [#6169](https://github.com/ISISComputingGroup/IBEX/issues/6169) | Minor | Utility script to restore motor positions from the archive |
-
-
+| [#6121](https://github.com/ISISComputingGroup/IBEX/issues/6121) | Minor | VHDs: get a basic windows installation working and config on git |
+| [#5765](https://github.com/ISISComputingGroup/IBEX/issues/5765) | Minor | Web dashboard: remove EMU unneeded alarms, hide empty ("N/A") blocks |
+| [#5907](https://github.com/ISISComputingGroup/IBEX/issues/5907) | Minor | Added script to check whether instrument scripts are up to date with remote master |
+| [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
+| [#4646](https://github.com/ISISComputingGroup/IBEX/issues/4646) | Minor | Detect and report unknown/missing default macro values for IOCs |
 
 # Internal changes
 
@@ -110,6 +122,8 @@ Changes merged into master but not in an official release yet.
 | [#5984](https://github.com/ISISComputingGroup/IBEX/issues/5984) | Patch | Upgrade nagios server |
 | [#5990](https://github.com/ISISComputingGroup/IBEX/issues/5990) | Minor | Add system tests for danfysik 8500 slew rate |
 | [#5414](https://github.com/ISISComputingGroup/IBEX/issues/5414) | Minor | Speed up config checker tests |
+| [#4883](https://github.com/ISISComputingGroup/IBEX/issues/4883) | Minor | Convert the collision avoidance monitor into Python 3 |
+| [#6289](https://github.com/ISISComputingGroup/IBEX/issues/6289) | Patch | Use local version of Py4J |
 
 # Support Issues Solved
 
