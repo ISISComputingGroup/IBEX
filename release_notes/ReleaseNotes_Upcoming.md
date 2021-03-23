@@ -88,6 +88,8 @@ Changes merged into master but not in an official release yet.
 | [#5597](https://github.com/ISISComputingGroup/IBEX/issues/5597) | Minor | Scripting toolbar: display active console count when multiple consoles |
 | [#2582](https://github.com/ISISComputingGroup/IBEX/issues/2582) | Minor | Blocks can now be added by right clicking on an OPI value |
 | [#6296](https://github.com/ISISComputingGroup/IBEX/issues/6296) | Minor | Correct the expected version of the NICOS script server protocol (this stops periodically flashing windows from appearing) |
+| [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
+| [#6305](https://github.com/ISISComputingGroup/IBEX/issues/6305) | Minor | Slit scan in the scans library |
 
 # genie_python
 
