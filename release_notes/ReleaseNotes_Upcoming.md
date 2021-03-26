@@ -110,6 +110,7 @@ Changes merged into master but not in an official release yet.
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
 | [#4646](https://github.com/ISISComputingGroup/IBEX/issues/4646) | Minor | Detect and report unknown/missing default macro values for IOCs |
 | [#6325](https://github.com/ISISComputingGroup/IBEX/issues/6325) | Minor | Improved robustness of instrument archiving, this was causing some motor values to not be logged on ZOOM |
+| [#6350](https://github.com/ISISComputingGroup/IBEX/issues/6350) | Minor | Added option to reduce logging on IOCs that do ramping, particularly added this to the Kepcos used on MUSR |
 
 # Internal changes
 
