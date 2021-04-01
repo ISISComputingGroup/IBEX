@@ -45,7 +45,6 @@ Changes merged into master but not in an official release yet.
 | [#6294](https://github.com/ISISComputingGroup/IBEX/issues/6294) | Minor | Rework communications to control ITC503 based Heliox |
 | [#6318](https://github.com/ISISComputingGroup/IBEX/issues/6318) | Minor | ICEFRIDGE | Removed support for the ICE dilution fridge, as the hardware is broken long-term. |
 
-
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
