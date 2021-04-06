@@ -53,6 +53,8 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6350](https://github.com/ISISComputingGroup/IBEX/issues/6350) | Minor | Added option to reduce logging on IOCs that do ramping, particularly added this to the Kepcos used on MUSR |
+
 
 # Internal changes
 
