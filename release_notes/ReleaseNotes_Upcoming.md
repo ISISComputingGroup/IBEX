@@ -22,6 +22,7 @@ Changes merged into master but not in an official release yet.
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#6286](https://github.com/ISISComputingGroup/IBEX/issues/6286) | Minor | MercuryITC | Fixed timeout issues giving transient invalid blocks. |
+| [#6361](https://github.com/ISISComputingGroup/IBEX/issues/6361) | Minor | HIFIMAGS (HiFi Cryomagnet) | OPI created for main SMS cryomagnet. |
 
 ### Reflectometry IOC
 
