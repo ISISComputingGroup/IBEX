@@ -9,6 +9,7 @@ Changes merged into master but not in an official release yet.
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| MUSR | [#6379](https://github.com/ISISComputingGroup/IBEX/issues/6379) | Minor | Buttons to turn set of CAEN HV PSUs on and off |
 
 # Devices
 
