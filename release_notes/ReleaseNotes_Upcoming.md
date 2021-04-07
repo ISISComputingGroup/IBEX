@@ -21,6 +21,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6286](https://github.com/ISISComputingGroup/IBEX/issues/6286) | Minor | MercuryITC | Fixed timeout issues giving transient invalid blocks. |
 
 ### Reflectometry IOC
 
