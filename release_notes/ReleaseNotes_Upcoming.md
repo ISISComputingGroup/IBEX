@@ -24,6 +24,7 @@ Changes merged into master but not in an official release yet.
 | ------ | --- |------| ------------- |
 | [#6221](https://github.com/ISISComputingGroup/IBEX/issues/6221) | Patch | HIFIMAGS (HiFi Cryomagnet) | Corrected units of max field. Provide feedback on OPI when controls are disabled. Use a cryomagnet icon. |
 | [#6286](https://github.com/ISISComputingGroup/IBEX/issues/6286) | Minor | MercuryITC | Fixed timeout issues giving transient invalid blocks. |
+| [#6392](https://github.com/ISISComputingGroup/IBEX/issues/6392) | Minor | Sample Changer | Allowed rack name and sample suffix to be different. |
 
 ### Reflectometry IOC
 
