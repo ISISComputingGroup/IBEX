@@ -1,4 +1,4 @@
-Changes merged into master but not in an official release yet.
+Minor release for MuSR migration.
 
 # Highlights and Breaking Changes
 
