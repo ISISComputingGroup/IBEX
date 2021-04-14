@@ -9,7 +9,7 @@ Changes merged into master but not in an official release yet.
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| MUSR | [#6379](https://github.com/ISISComputingGroup/IBEX/issues/6379) | Minor | Buttons to turn set of CAEN HV PSUs on and off |
+
 
 # Devices
 
@@ -22,8 +22,6 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [#6221](https://github.com/ISISComputingGroup/IBEX/issues/6221) | Patch | HIFIMAGS (HiFi Cryomagnet) | Corrected units of max field. Provide feedback on OPI when controls are disabled. Use a cryomagnet icon. |
-| [#6286](https://github.com/ISISComputingGroup/IBEX/issues/6286) | Minor | MercuryITC | Fixed timeout issues giving transient invalid blocks. |
 | [#6390](https://github.com/ISISComputingGroup/IBEX/issues/6390) | Minor | GALIL | Fixed race condition in poll() which only showed with new driver. |
 
 ### Reflectometry IOC
@@ -57,7 +55,6 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#6350](https://github.com/ISISComputingGroup/IBEX/issues/6350) | Minor | Added option to reduce logging on IOCs that do ramping, particularly added this to the Kepcos used on MUSR |
 
 
 # Internal changes
