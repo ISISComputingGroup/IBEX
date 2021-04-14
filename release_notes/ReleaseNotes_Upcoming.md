@@ -22,6 +22,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6390](https://github.com/ISISComputingGroup/IBEX/issues/6390) | Minor | GALIL | Fixed race condition in poll() which only showed with new driver. |
 
 ### Reflectometry IOC
 
