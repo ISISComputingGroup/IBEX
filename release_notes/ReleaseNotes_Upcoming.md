@@ -61,6 +61,7 @@ Changes merged into master but not in an official release yet.
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6396](https://github.com/ISISComputingGroup/IBEX/issues/6396) | Patch | Hotfix HRPD, ENGINX and ALF for using :MON: DAE PVs. |
 
 # Support Issues Solved
 
