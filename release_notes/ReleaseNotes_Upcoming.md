@@ -23,6 +23,7 @@ Changes merged into master but not in an official release yet.
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#6390](https://github.com/ISISComputingGroup/IBEX/issues/6390) | Minor | GALIL | Fixed race condition in poll() which only showed with new driver. |
+| [#6381](https://github.com/ISISComputingGroup/IBEX/issues/6381) | Patch | CRYOSMS | Add option to put with notify to internal database. |
 
 ### Reflectometry IOC
 
