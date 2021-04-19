@@ -1,5 +1,7 @@
 Minor release for MuSR migration.
 
+See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
+
 # Highlights and Breaking Changes
 
 | Ticket | Type | Description |
