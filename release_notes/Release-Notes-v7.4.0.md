@@ -1,5 +1,7 @@
 Note, all instruments other than muons or reflectometry will be upgrading to this release from 7.1.0 and so should also check the release notes for [7.2.0](Release-Notes-v7.2.0.md), [7.2.1](Release-Notes-v7.2.1.md) and [7.3.0](Release-Notes-v7.3.0.md).
 
+See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
+
 # Highlights and Breaking Changes
 
 | Ticket | Type | Description |
