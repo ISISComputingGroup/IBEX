@@ -5,7 +5,7 @@ Top level repository for IBEX stories, bugs, tasks and other issues. As well as 
 
 # Release Notes
 
-### [Latest Stable IBEX Version (7.4.0)](release_notes/Release-Notes-v7.4.0.md)
+### [Latest Stable IBEX Version (7.4.1)](release_notes/Release-Notes-v7.4.1.md)
 
 [Upcoming Release](release_notes/ReleaseNotes_Upcoming.md)
 
@@ -16,6 +16,7 @@ they will be incompatible, differences in minor versions are likely compatible b
 
 | Version | Date (Created)       |IBEX Server | IBEX GUI  | Genie Python |Release Notes | 
 | ------- | ----------           | -----      | ------------  | -------- | -------- |
+| V7.4.1  | 13-04-2021 | [v7.4.1](https://github.com/ISISComputingGroup/EPICS/tree/Release_7.4.1) | [v7.4.1](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_7.4.1) | [v7.4.1](https://github.com/ISISComputingGroup/genie_python/tree/Release_7.4.1) | [Release Notes v7.4.1](release_notes/Release-Notes-v7.4.1.md) |
 | V7.4.0  | 05-04-2021 | [v7.4.0](https://github.com/ISISComputingGroup/EPICS/tree/Release_7.4.0) | [v7.4.0](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_7.4.0) | [v7.4.0](https://github.com/ISISComputingGroup/genie_python/tree/Release_7.4.0) | [Release Notes v7.4.0](release_notes/Release-Notes-v7.4.0.md) |
 | V7.3.0  | 26-01-2021 | [v7.3.0](https://github.com/ISISComputingGroup/EPICS/tree/Release_7.3.0) | [v7.3.0](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_7.3.0) | [v7.3.0](https://github.com/ISISComputingGroup/genie_python/tree/Release_7.3.0) | [Release Notes v7.3.0](release_notes/Release-Notes-v7.3.0.md) |
 | V7.2.1  | 14-09-2020 | [v7.2.1](https://github.com/ISISComputingGroup/EPICS/tree/Release_7.2.1) | [v7.2.1](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_7.2.1) | [v7.2.1](https://github.com/ISISComputingGroup/genie_python/tree/Release_7.2.1) | [Release Notes v7.2.1](release_notes/Release-Notes-v7.2.1.md) |
