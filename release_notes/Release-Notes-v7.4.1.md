@@ -61,7 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#6350](https://github.com/ISISComputingGroup/IBEX/issues/6350) | Minor | Added option to reduce logging on IOCs that do ramping, particularly added this to the Kepcos used on MUSR |
-
+| [#6333](https://github.com/ISISComputingGroup/IBEX/issues/6333) | Minor | Added test coverage report option for IOC system tests |
 
 # Internal changes
 
