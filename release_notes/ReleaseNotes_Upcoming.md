@@ -65,6 +65,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6464](https://github.com/ISISComputingGroup/IBEX/issues/6464) | Minor | Make web dashboard more reliable by adding default unknown options to instrument pvs |
 
 
 # Internal changes
