@@ -38,6 +38,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#6393](https://github.com/ISISComputingGroup/IBEX/issues/6393) | Minor | Scan over distance between their supermirrors and subsequent beamline |
 
 
 #  IBEX Client
