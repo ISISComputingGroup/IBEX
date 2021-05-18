@@ -58,6 +58,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 
+| [#6450](https://github.com/ISISComputingGroup/IBEX/issues/6450) | Patch | Updated Emma chopper lifter OPI for new chopper |
+| [#6486](https://github.com/ISISComputingGroup/IBEX/issues/6486) | Patch | Fix stationary LEDs on motion setpoints and sample changer OPIs |
+| [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Patch | Add default value display to steering magnet OPI  |
+
 # genie_python
 
 | Ticket | Type  | Change |
@@ -67,8 +71,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-|[#6465](https://github.com/ISISComputingGroup/IBEX/issues/6465) | Patch | Impoved error for no data in database populator, and prevented cyptography failure error |
-
+| [#6465](https://github.com/ISISComputingGroup/IBEX/issues/6465) | Patch | Impoved error for no data in database populator, and prevented cyptography failure error |
+| [#6511](https://github.com/ISISComputingGroup/IBEX/issues/6511) | Minor | Changed web dashboard to read configuration using EPICS |
 
 # Internal changes
 
@@ -76,6 +80,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#6333](https://github.com/ISISComputingGroup/IBEX/issues/6333) | Patch | Check for IOCs that are not tested in IOC test framework |
 | [#6410](https://github.com/ISISComputingGroup/IBEX/issues/6410) | Patch | Accelerator PVs are now read only |
+| [#2745](https://github.com/ISISComputingGroup/IBEX/issues/2745) | Patch | Combined DbUnitChecker into DbChecker |
+| [#5148](https://github.com/ISISComputingGroup/IBEX/issues/5148) | Patch | Removed ExperimentalDatabase IOC in favour for centrally hosted populator |
+
 
 # Support Issues Solved
 
