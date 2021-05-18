@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+|  [#6132](https://github.com/ISISComputingGroup/IBEX/issues/6132) | Major | Removed \Instrument\Apps\Python (Python 2) - Python 3 is now the default version of Python deployed. |
 
 # Instrument Specific Changes
 
