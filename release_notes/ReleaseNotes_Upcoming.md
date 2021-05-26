@@ -11,6 +11,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| INTER | [#6357](https://github.com/ISISComputingGroup/IBEX/issues/6357) | Minor | Add mirror angle dependant correction for sample height |
 
 
 # Devices
@@ -40,7 +41,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
-
+| [#6455](https://github.com/ISISComputingGroup/IBEX/issues/6455) | Minor | Fix issue where theta would be in alarm if a long axis was not defined. |
+| [#6472](https://github.com/ISISComputingGroup/IBEX/issues/6472) | Minor | Server is less strict about enforcing Z coordinates | 
 
 #  IBEX Client
 
@@ -54,6 +56,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#6434](https://github.com/ISISComputingGroup/IBEX/issues/6434) | Patch | Renamed "Line" to "Action" in script generator for consistency with buttons |
 | [#6402](https://github.com/ISISComputingGroup/IBEX/issues/6402) | Patch | Correct version number for script generator produced by build. |
+| [#6478](https://github.com/ISISComputingGroup/IBEX/issues/6478) | Minor | Get script generator version number in standalone UI. |
 
 
 ### Other
@@ -85,9 +88,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6410](https://github.com/ISISComputingGroup/IBEX/issues/6410) | Patch | Accelerator PVs are now read only |
 | [#2745](https://github.com/ISISComputingGroup/IBEX/issues/2745) | Patch | Combined DbUnitChecker into DbChecker |
 | [#5148](https://github.com/ISISComputingGroup/IBEX/issues/5148) | Patch | Removed ExperimentalDatabase IOC in favour for centrally hosted populator |
-| [#4900](https://github.com/ISISComputingGroup/IBEX/issues/4900) | Patch | converted squish tests to python 3 |
-
-
+| [#4900](https://github.com/ISISComputingGroup/IBEX/issues/4900) | Patch | Converted squish tests to Python 3 |
+| [#6256](https://github.com/ISISComputingGroup/IBEX/issues/6256) | Minor | Fix IOC system tests hanging by using the old method of the lewis backdoor |
 
 # Support Issues Solved
 
