@@ -94,6 +94,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6296](https://github.com/ISISComputingGroup/IBEX/issues/6296) | Minor | Correct the expected version of the NICOS script server protocol (this stops periodically flashing windows from appearing) |
 | [#5373](https://github.com/ISISComputingGroup/IBEX/issues/5373) | Minor | Build MSI install kit |
 | [#6305](https://github.com/ISISComputingGroup/IBEX/issues/6305) | Minor | Slit scan in the scans library |
+| [#1478](https://github.com/ISISComputingGroup/IBEX/issues/1478) | Minor | Display status of IBEX server in client |
 
 # genie_python
 
