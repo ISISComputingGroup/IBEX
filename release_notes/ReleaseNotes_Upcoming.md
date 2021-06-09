@@ -54,6 +54,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6359](https://github.com/ISISComputingGroup/IBEX/issues/6359) | Patch | Enable Scrollbar in components list |
 
 ### Script Generator
 | Ticket | Type  | Change |
