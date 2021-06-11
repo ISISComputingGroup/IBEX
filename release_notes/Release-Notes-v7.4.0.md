@@ -136,3 +136,42 @@ Change Types:
 * Major - Backward compatible breaking change
 * Minor - Change in API/functionality
 * Patch - Bug fix no change in functionality
+
+# Dependencies
+
+### Server dependencies
+
+what | version | where | last updated/checked
+---- | ------- | ----- | --------------------
+| `EPICS` | 3.15.5 | server (`EPICS\base\master`) | 2018-06-01 (latest stable)
+| `git` | 2.29.2 | system | -
+| `MySQL` | 8.0.21 | system (`C:\Instrument\Apps\MySQL`) | 2020-12
+| `MySQL connector/j` | 8.0.21 | server (`EPICS\ISIS\IocLogServer\master`) | 2020-12
+| `Java (OpenJDK) JRE` | 11.0.11 | system (`C:\Program Files\AdoptOpenJDK`) | 2020-12
+| `ActiveMQ` | 5.16.0 | server (`EPICS\ISIS\ActiveMQ\master`) | 2020-12
+| `joda-time` | 2.10.6 | server (`EPICS\ISIS\IocLogServer\master`) | 2020-12
+| `seq` epics support module | 2.1.21 | EPICS | out of date there is at least 2.2.5 | - 
+| `csm` epics support module | 4-3 | EPICS | out of date there is at least 4-4 | - 
+| `asyn` epics support module | 4-38 | EPICS | 2020-02  
+| `areaDetector` epics support module | 3-8 | EPICS | 2020-02  
+| `sscan` epics support module | 2-11-3 | EPICS | 2020-02  
+| `sequencer` epics support module | 2-2-8 | EPICS | 2020-02  
+
+### GUI Dependencies
+
+Dependency | Version | last updated/checked
+---- | ------- | --------------------
+| `Java` | OpenJDK version 11.0.11 | 2020-12 |
+| `maven` | 3.6.3 | 2020-12 |
+| `Eclipse RCP` | 4.17 | 2020-12 |
+| `CS-Studio` | 4.6 | 2020-12 |
+| `MySQL connector/j` | 8.0.21 | 2020-12 |
+| `py4j` | 0.10.9 | 2020-04 |
+| `tycho` | 1.6.0 | 2020-04 |
+| `jeroMQ` | 0.5.2 | 2020-04 |
+| `pydev` | 8.0.0| 2020-12 |
+| `opal` | 1.0.0 | See ticket [#3270](https://github.com/ISISComputingGroup/IBEX/issues/3270) |
+| `log4j` | 2.13.3 | 2020-12 |
+| `ActiveMQ` |  5.16.0 | 2020-12 |
+| `joda-time` | 2.10.6 | 2020-12 |
+
