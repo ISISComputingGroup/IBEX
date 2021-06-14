@@ -76,7 +76,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Patch | Add default value display to steering magnet OPI  |
 | [#6451](https://github.com/ISISComputingGroup/IBEX/issues/6451) | Patch | Fix RB number search by removing GROUP BY statement in query |
 | [#6542](https://github.com/ISISComputingGroup/IBEX/issues/6542) | Patch | Fix flashing nicos window |
-| [#6202](https://github.com/ISISComputingGroup/IBEX/issues/6202) | Patch | Add OPI for Tektronix AFG3000 series |
+| [#6202](https://github.com/ISISComputingGroup/IBEX/issues/6202) | Patch | Add OPI and trigger ability for Tektronix AFG3000 series |
 
 # genie_python
 
