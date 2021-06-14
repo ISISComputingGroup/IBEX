@@ -82,6 +82,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 
+# InstrumentScripts
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [#6499](https://github.com/ISISComputingGroup/IBEX/issues/6499) | Minor | Modified set_height functions so that they set the correct height for INTER's naming conventions (but unchanged for other instruments) |
+
 # Other
 
 | Ticket | Type  | Change |
