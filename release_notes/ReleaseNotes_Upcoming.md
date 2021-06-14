@@ -13,7 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | INTER | [#6357](https://github.com/ISISComputingGroup/IBEX/issues/6357) | Minor | Add mirror angle dependant correction for sample height |
-
+| WISH | [#6034](https://github.com/ISISComputingGroup/IBEX/issues/6034) | Minor | Add Vacuum PLC OPI |
 
 # Devices
 
