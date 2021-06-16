@@ -38,7 +38,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6484](https://github.com/ISISComputingGroup/IBEX/issues/6484) | Minor | TRITON | Change CHANNEL_POLL_RATE to "10 second" from "15 second" as "15 second" is not a valid value. This does not affect EMU as they have it set to "2 second" which is valid value in globals.txt. |
 | [#6383](https://github.com/ISISComputingGroup/IBEX/issues/6383) | Patch | ZFCNTRL | Add macro for auto-saving the feedback mode so if the IOC restarts it will bring the zf system back to whatever mode it was previously in. The default will not do this so will not affect EMU's zero field controller, but will allow MUSR to achieve this via setting the macro to YES. |
 | [#5739](https://github.com/ISISComputingGroup/IBEX/issues/5739) | Minor | Mclennan | Fix homing to limits occassionally failing. |
-| [#6255](https://github.com/ISISComputingGroup/IBEX/issues/6255) | Minor | GALIL | Preparetary work for updating to new Galil driver |
+| [#6551](https://github.com/ISISComputingGroup/IBEX/issues/6551) | Minor | Jasco | Do not allow pumping if the concentrations do not equal 100% |
+| [#5093](https://github.com/ISISComputingGroup/IBEX/issues/5093) | Minor | Jasco | Add description to the OPI about whether you are pumping |
+| [#4681](https://github.com/ISISComputingGroup/IBEX/issues/4681) | Minor | Jasco | Add estimated time/volume for pumping |
+| [#4404](https://github.com/ISISComputingGroup/IBEX/issues/4404) | Minor | Jasco | Separate controls into user/advanced on the OPI |
+
 
 ### Reflectometry IOC
 
