@@ -42,7 +42,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5093](https://github.com/ISISComputingGroup/IBEX/issues/5093) | Minor | Jasco | Add description to the OPI about whether you are pumping |
 | [#4681](https://github.com/ISISComputingGroup/IBEX/issues/4681) | Minor | Jasco | Add estimated time/volume for pumping |
 | [#4404](https://github.com/ISISComputingGroup/IBEX/issues/4404) | Minor | Jasco | Separate controls into user/advanced on the OPI |
-
+| [#6255](https://github.com/ISISComputingGroup/IBEX/issues/6255) | Minor | GALIL | Preparetary work for updating to new Galil driver |
 
 ### Reflectometry IOC
 
