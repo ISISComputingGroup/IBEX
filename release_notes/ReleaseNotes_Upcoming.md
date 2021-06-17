@@ -75,12 +75,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 
-| [#6450](https://github.com/ISISComputingGroup/IBEX/issues/6450) | Patch | Updated Emma chopper lifter OPI for new chopper |
+| [#6450](https://github.com/ISISComputingGroup/IBEX/issues/6450) | Minor | Updated Emma chopper lifter OPI for new chopper |
 | [#6486](https://github.com/ISISComputingGroup/IBEX/issues/6486) | Patch | Fix stationary LEDs on motion setpoints and sample changer OPIs |
-| [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Patch | Add default value display to steering magnet OPI  |
+| [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Minor | Add default value display to steering magnet OPI  |
 | [#6451](https://github.com/ISISComputingGroup/IBEX/issues/6451) | Patch | Fix RB number search by removing GROUP BY statement in query |
 | [#6542](https://github.com/ISISComputingGroup/IBEX/issues/6542) | Patch | Fix flashing nicos window |
-| [#6202](https://github.com/ISISComputingGroup/IBEX/issues/6202) | Patch | Add OPI and trigger ability for Tektronix AFG3000 series |
+| [#6202](https://github.com/ISISComputingGroup/IBEX/issues/6202) | Minor | Add OPI and trigger ability for Tektronix AFG3000 series |
+| [#6351](https://github.com/ISISComputingGroup/IBEX/issues/6351) | Minor | Stops a Python graphing window from popping up in random perspectives in the GUI |
 
 # genie_python
 
