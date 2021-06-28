@@ -77,7 +77,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-
 | [#6450](https://github.com/ISISComputingGroup/IBEX/issues/6450) | Minor | Updated Emma chopper lifter OPI for new chopper |
 | [#6486](https://github.com/ISISComputingGroup/IBEX/issues/6486) | Patch | Fix stationary LEDs on motion setpoints and sample changer OPIs |
 | [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Minor | Add default value display to steering magnet OPI  |
