@@ -72,13 +72,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5616](https://github.com/ISISComputingGroup/IBEX/issues/5616) | Minor | Added abillity to set global parameters on generated scripts. |
 | [#4169](https://github.com/ISISComputingGroup/IBEX/issues/4169) | Minor | Queue scripts in the script server directly in the script generator. |
 | [#6493](https://github.com/ISISComputingGroup/IBEX/issues/6493) | Minor | Added time & date of last generated script. |
-
+| [#6492](https://github.com/ISISComputingGroup/IBEX/issues/6492) | Minor | Tied together the workflow of generating and loading scripts, removing the confusion of parameters files from the user. |
 
 ### Other
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-
 | [#6450](https://github.com/ISISComputingGroup/IBEX/issues/6450) | Minor | Updated Emma chopper lifter OPI for new chopper |
 | [#6486](https://github.com/ISISComputingGroup/IBEX/issues/6486) | Patch | Fix stationary LEDs on motion setpoints and sample changer OPIs |
 | [#6506](https://github.com/ISISComputingGroup/IBEX/issues/6506) | Minor | Add default value display to steering magnet OPI  |
