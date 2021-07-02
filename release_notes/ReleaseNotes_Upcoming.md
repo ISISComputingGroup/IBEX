@@ -85,6 +85,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6542](https://github.com/ISISComputingGroup/IBEX/issues/6542) | Patch | Fix flashing nicos window |
 | [#6202](https://github.com/ISISComputingGroup/IBEX/issues/6202) | Minor | Add OPI and trigger ability for Tektronix AFG3000 series |
 | [#6351](https://github.com/ISISComputingGroup/IBEX/issues/6351) | Minor | Stops a Python graphing window from popping up in random perspectives in the GUI |
+| [#6573](https://github.com/ISISComputingGroup/IBEX/issues/6573) | Patch | Fix GUI console logs going blank over time |
 
 # genie_python
 
