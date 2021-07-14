@@ -94,6 +94,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#5447](https://github.com/ISISComputingGroup/IBEX/issues/5447) | Minor | Converted genie python to use python built-in logging library and added graylog logger |
 
 # InstrumentScripts
 
