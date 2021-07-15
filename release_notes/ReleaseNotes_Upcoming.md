@@ -89,6 +89,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6351](https://github.com/ISISComputingGroup/IBEX/issues/6351) | Minor | Stops a Python graphing window from popping up in random perspectives in the GUI |
 | [#6573](https://github.com/ISISComputingGroup/IBEX/issues/6573) | Patch | Fix GUI console logs going blank over time |
 | [#6488](https://github.com/ISISComputingGroup/IBEX/issues/6488) | Patch | Added message indicating that changes made in run control window can be overwritten by config |
+| [#6238](https://github.com/ISISComputingGroup/IBEX/issues/6238) | Patch | Ctrl+C before scripting console is open will no longer freeze the GUI. |
 
 # genie_python
 
