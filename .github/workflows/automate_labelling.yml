@@ -9,7 +9,13 @@ jobs:
     permissions:
       issues: write
     steps:
-      - uses: crazy-max/ghaction-dump-context@v1
+      - name: Automate labelling in Bucket column
+        if: github.event.project_card.column_id == '5965967'
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "bucket"
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Automate labelling in Ready column
         if: github.event.project_card.column_id == '5338726'
         uses: andymckay/labeler@master
