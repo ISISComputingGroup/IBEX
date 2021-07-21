@@ -8,6 +8,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 |  [#6132](https://github.com/ISISComputingGroup/IBEX/issues/6132) | Major | Removed \Instrument\Apps\Python (Python 2) - Python 3 is now the default version of Python deployed. |
 | [#6600](https://github.com/ISISComputingGroup/IBEX/issues/6600) | Major | Removed CHIPIR obselete LVDCOM IOCs | 
+| [#6596](https://github.com/ISISComputingGroup/IBEX/issues/6596) | Major | Update stream device to 2.8.20 - reduces excess logging from devices  | 
+
 
 # Instrument Specific Changes
 
