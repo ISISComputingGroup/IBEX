@@ -1,5 +1,7 @@
 Minor release for MuSR migration.
 
+See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
+
 # Highlights and Breaking Changes
 
 | Ticket | Type | Description |
@@ -59,7 +61,8 @@ Minor release for MuSR migration.
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#6350](https://github.com/ISISComputingGroup/IBEX/issues/6350) | Minor | Added option to reduce logging on IOCs that do ramping, particularly added this to the Kepcos used on MUSR |
-
+| [#6333](https://github.com/ISISComputingGroup/IBEX/issues/6333) | Minor | Added test coverage report option for IOC system tests |
+| [#6418](https://github.com/ISISComputingGroup/IBEX/issues/6418) | Minor | Added the ability to determine which Device Screens are running on an instrument using the Configuration Checker |
 
 # Internal changes
 
