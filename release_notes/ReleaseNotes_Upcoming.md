@@ -80,6 +80,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6492](https://github.com/ISISComputingGroup/IBEX/issues/6492) | Minor | Tied together the workflow of generating and loading scripts, removing the confusion of parameters files from the user. |
 | [#4170](https://github.com/ISISComputingGroup/IBEX/issues/4170) | Minor | Added ability to preview scripts before sending them to the script server | 
 | [#6663](https://github.com/ISISComputingGroup/IBEX/issues/6663) | Patch | Fix script generator build i.e. maven and eclipse |
+| [#6593](https://github.com/ISISComputingGroup/IBEX/issues/6593) | Patch | Fix cell focus. |
+
 ### Other
 
 | Ticket | Type  | Change |
