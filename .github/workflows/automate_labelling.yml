@@ -21,7 +21,7 @@ jobs:
         uses: andymckay/labeler@master
         with:
           add-labels: "ready"
-          remove-labels: "in progress, under review, review, impeded, bucket"
+          remove-labels: "in progress, under review, review, impeded, bucket, proposal"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Check if rework label needs to be added
@@ -55,7 +55,7 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           
       - name:  Automate labelling in Complete column
-        if: github.event.project_card.column_id == '14873171'
+        if: github.event.project_card.column_id == '15243703'
         uses: andymckay/labeler@master
         with:
           remove-labels: "in progress, ready, impeded, review, under review, bucket"
