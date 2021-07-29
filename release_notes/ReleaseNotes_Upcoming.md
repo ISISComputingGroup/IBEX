@@ -46,6 +46,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#6238](https://github.com/ISISComputingGroup/IBEX/issues/6238) | Patch | Ctrl+C before scripting console is open will no longer freeze the GUI. |
+| [#5305](https://github.com/ISISComputingGroup/IBEX/issues/5305) | Patch | Fix IOC logs only searching messages by date (and not time). |
 
 # genie_python
 
