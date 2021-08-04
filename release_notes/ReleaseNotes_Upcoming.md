@@ -41,6 +41,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6692](https://github.com/ISISComputingGroup/IBEX/issues/6692) | Patch | Script file is opened in Notepad when Notepad++ is missing. Notepad++ is still recommended. |
 
 ### Other
 
