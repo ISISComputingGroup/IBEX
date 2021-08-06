@@ -25,6 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6571](https://github.com/ISISComputingGroup/IBEX/issues/6571) | Minor | EUROTHERM | Update database file to include millivolts (mV) units and create new tab in OPI to display millivolts for each sensor when active |
 
 ### Reflectometry IOC
 
