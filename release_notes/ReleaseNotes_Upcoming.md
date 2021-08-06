@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#6700](https://github.com/ISISComputingGroup/IBEX/issues/6700) | Major | Removed RKNPS IOC as the daisy-chained danfysiks have now been decommissioned  |
 
 
 # Instrument Specific Changes
