@@ -44,6 +44,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
 | [#6620](https://github.com/ISISComputingGroup/IBEX/issues/6620) | Patch | Global parameters are now usable in script validation. |
+| [#6703](https://github.com/ISISComputingGroup/IBEX/issues/6703) | Patch | Global parameters can now be validated individually. |
 
 ### Other
 
