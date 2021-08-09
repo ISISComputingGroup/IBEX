@@ -39,6 +39,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6627](https://github.com/ISISComputingGroup/IBEX/issues/6627) | Minor | There is now confirmation required before deleting confiruration or component |
 
 ### Script Generator
 | Ticket | Type  | Change |
