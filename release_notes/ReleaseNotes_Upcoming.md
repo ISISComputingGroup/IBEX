@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#6700](https://github.com/ISISComputingGroup/IBEX/issues/6700) | Major | Removed RKNPS IOC as the daisy-chained danfysiks have now been decommissioned  |
 
 
 # Instrument Specific Changes
@@ -25,6 +26,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6571](https://github.com/ISISComputingGroup/IBEX/issues/6571) | Minor | EUROTHERM | Update database file to include millivolts (mV) units and create new tab in OPI to display millivolts for each sensor when active |
 
 ### Reflectometry IOC
 
@@ -42,6 +44,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
 | [#6692](https://github.com/ISISComputingGroup/IBEX/issues/6692) | Patch | Script file is opened in Notepad when Notepad++ is missing. Notepad++ is still recommended. |
+| [#6620](https://github.com/ISISComputingGroup/IBEX/issues/6620) | Patch | Global parameters are now usable in script validation. |
 
 ### Other
 
