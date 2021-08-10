@@ -56,6 +56,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6666](https://github.com/ISISComputingGroup/IBEX/issues/6666) | Minor | Improve logging: log exceptions + simulation mode. |
 
 # InstrumentScripts
 
