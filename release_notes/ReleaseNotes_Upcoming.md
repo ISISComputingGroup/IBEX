@@ -72,6 +72,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests were reduced |
 
 # Support Issues Solved
 
