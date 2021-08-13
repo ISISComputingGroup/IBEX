@@ -39,6 +39,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+|  [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Minor | Added ORC IOC, motorextensions and device screen to NDXWISH |
 
 ### Script Generator
 | Ticket | Type  | Change |
