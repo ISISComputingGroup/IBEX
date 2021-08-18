@@ -63,6 +63,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6238](https://github.com/ISISComputingGroup/IBEX/issues/6238) | Patch | Ctrl+C before scripting console is open will no longer freeze the GUI. |
 | [#5305](https://github.com/ISISComputingGroup/IBEX/issues/5305) | Patch | Fix IOC logs only searching messages by date (and not time). |
+| [#6635](https://github.com/ISISComputingGroup/IBEX/issues/6635) | Patch | New icons for Sample Stack in Synoptic and added diagram to OPI. |
 
 # genie_python
 
