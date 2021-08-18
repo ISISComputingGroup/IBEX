@@ -27,6 +27,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#6571](https://github.com/ISISComputingGroup/IBEX/issues/6571) | Minor | EUROTHERM | Update database file to include millivolts (mV) units and create new tab in OPI to display millivolts for each sensor when active |
+| [#6416](https://github.com/ISISComputingGroup/IBEX/issues/6416) | Minor | DFKPS | Add units to slew rate, rename labels to make more descriptive |
+
 
 ### Reflectometry IOC
 
@@ -43,8 +45,17 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6434](https://github.com/ISISComputingGroup/IBEX/issues/6434) | Patch | Renamed "Line" to "Action" in script generator for consistency with buttons |
+| [#6402](https://github.com/ISISComputingGroup/IBEX/issues/6402) | Patch | Correct version number for script generator produced by build. |
+| [#6478](https://github.com/ISISComputingGroup/IBEX/issues/6478) | Minor | Get script generator version number in standalone UI. |
+| [#5616](https://github.com/ISISComputingGroup/IBEX/issues/5616) | Minor | Added abillity to set global parameters on generated scripts. |
+| [#4169](https://github.com/ISISComputingGroup/IBEX/issues/4169) | Minor | Queue scripts in the script server directly in the script generator. |
+| [#6493](https://github.com/ISISComputingGroup/IBEX/issues/6493) | Minor | Added time & date of last generated script. |
+| [#6492](https://github.com/ISISComputingGroup/IBEX/issues/6492) | Minor | Tied together the workflow of generating and loading scripts, removing the confusion of parameters files from the user. |
+| [#5967](https://github.com/ISISComputingGroup/IBEX/issues/5967) | Minor | Focus next action on action delete, added key shortcuts for deleting actions and selecting all actions.|
 | [#6692](https://github.com/ISISComputingGroup/IBEX/issues/6692) | Patch | Script file is opened in Notepad when Notepad++ is missing. Notepad++ is still recommended. |
 | [#6620](https://github.com/ISISComputingGroup/IBEX/issues/6620) | Patch | Global parameters are now usable in script validation. |
+| [#6703](https://github.com/ISISComputingGroup/IBEX/issues/6703) | Minor | Global parameters can now be validated individually. |
 
 ### Other
 
@@ -52,6 +63,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6238](https://github.com/ISISComputingGroup/IBEX/issues/6238) | Patch | Ctrl+C before scripting console is open will no longer freeze the GUI. |
 | [#5305](https://github.com/ISISComputingGroup/IBEX/issues/5305) | Patch | Fix IOC logs only searching messages by date (and not time). |
+| [#6696](https://github.com/ISISComputingGroup/IBEX/issues/6696) | Patch | Stopped NICOS window flashing |
+| [#6635](https://github.com/ISISComputingGroup/IBEX/issues/6635) | Patch | New icons for Sample Stack in Synoptic and added diagram to OPI. |
 
 # genie_python
 
@@ -72,7 +85,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests were reduced |
+|[#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests performed on each release were streamlined |
+|[#6576](https://github.com/ISISComputingGroup/IBEX/issues/6576) | Minor | All release branches have been converted into tags (including submodules)|
 
 # Support Issues Solved
 
