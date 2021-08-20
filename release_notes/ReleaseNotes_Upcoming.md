@@ -50,12 +50,14 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6478](https://github.com/ISISComputingGroup/IBEX/issues/6478) | Minor | Get script generator version number in standalone UI. |
 | [#5616](https://github.com/ISISComputingGroup/IBEX/issues/5616) | Minor | Added abillity to set global parameters on generated scripts. |
 | [#4169](https://github.com/ISISComputingGroup/IBEX/issues/4169) | Minor | Queue scripts in the script server directly in the script generator. |
+| [#5811](https://github.com/ISISComputingGroup/IBEX/issues/5811) | Minor | Reformulate handling of actions table changes and updates to improve performance. |
 | [#6493](https://github.com/ISISComputingGroup/IBEX/issues/6493) | Minor | Added time & date of last generated script. |
 | [#6492](https://github.com/ISISComputingGroup/IBEX/issues/6492) | Minor | Tied together the workflow of generating and loading scripts, removing the confusion of parameters files from the user. |
 | [#5967](https://github.com/ISISComputingGroup/IBEX/issues/5967) | Minor | Focus next action on action delete, added key shortcuts for deleting actions and selecting all actions.|
 | [#6692](https://github.com/ISISComputingGroup/IBEX/issues/6692) | Patch | Script file is opened in Notepad when Notepad++ is missing. Notepad++ is still recommended. |
 | [#6620](https://github.com/ISISComputingGroup/IBEX/issues/6620) | Patch | Global parameters are now usable in script validation. |
 | [#6703](https://github.com/ISISComputingGroup/IBEX/issues/6703) | Minor | Global parameters can now be validated individually. |
+
 
 ### Other
 
