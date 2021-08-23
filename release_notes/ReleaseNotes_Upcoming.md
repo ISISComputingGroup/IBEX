@@ -83,6 +83,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6229](https://github.com/ISISComputingGroup/IBEX/issues/6229) | Minor | Added IBEX logo to "About IBEX" box |
 
 # Internal changes
 
