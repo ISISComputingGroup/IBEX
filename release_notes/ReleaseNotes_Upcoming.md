@@ -87,6 +87,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+|[#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests performed on each release were streamlined |
 |[#6576](https://github.com/ISISComputingGroup/IBEX/issues/6576) | Minor | All release branches have been converted into tags (including submodules)|
 
 # Support Issues Solved
