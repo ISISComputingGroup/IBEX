@@ -72,6 +72,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6519](https://github.com/ISISComputingGroup/IBEX/issues/6519) | Minor | Added function to get time since start including pauses |
 
 # InstrumentScripts
 
