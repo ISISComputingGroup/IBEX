@@ -31,6 +31,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6571](https://github.com/ISISComputingGroup/IBEX/issues/6571) | Minor | EUROTHERM | Update database file to include millivolts (mV) units and create new tab in OPI to display millivolts for each sensor when active |
 | [#6416](https://github.com/ISISComputingGroup/IBEX/issues/6416) | Minor | DFKPS | Add units to slew rate, rename labels to make more descriptive |
 
+| [#6744](https://github.com/ISISComputingGroup/IBEX/issues/6744) | Minor | HIFIMAGS | Correct issue with statemachine getting stuck in quench state even when not quenching |
+
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
