@@ -31,6 +31,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6424](https://github.com/ISISComputingGroup/IBEX/issues/6424) | Minor | SANS Sample Changer | XML order of positions will be maintained in OPI, this required some large changes and so retesting is adviced |
 | [#6571](https://github.com/ISISComputingGroup/IBEX/issues/6571) | Minor | EUROTHERM | Update database file to include millivolts (mV) units and create new tab in OPI to display millivolts for each sensor when active |
 | [#6416](https://github.com/ISISComputingGroup/IBEX/issues/6416) | Minor | DFKPS | Add units to slew rate, rename labels to make more descriptive |
+| [#6637](https://github.com/ISISComputingGroup/IBEX/issues/6637) | Minor | Twincat | Modified to work with latest version of code on the Beckhoff controllers |
 
 ### Reflectometry IOC
 
