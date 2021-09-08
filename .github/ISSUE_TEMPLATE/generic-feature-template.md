@@ -1,7 +1,7 @@
 ---
 name: Generic Feature Template
 about: Should be used for all new features and shared notes
-title: ''
+title: '[Instrument or device name, e.g. WISH]: [Brief description of request]'
 labels: ''
 assignees: ''
 
@@ -9,15 +9,11 @@ assignees: ''
 
 As a: [developer/user/instrument/project requirement]
 
-## Description
-What is the feature/topic of discussion?
-
-## Where?
-Where is the issue likely to be (be as specific as possible e.g. filepaths)
-
-## Why
-Why is the feature needed?
-
-## Acceptance Criteria
+### Acceptance Criteria
 What is the acceptance criteria?
 - []
+
+### Extra Information
+_Why it is needed?_
+
+_Where required files/links are_
