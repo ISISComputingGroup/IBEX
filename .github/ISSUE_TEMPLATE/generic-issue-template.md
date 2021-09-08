@@ -1,16 +1,11 @@
 ---
 name: Generic Issue Template
 about: Should be used for all issues and tickets
-title: ''
+title: '[Instrument or device name, e.g. WISH]: [Brief description of issue]'
 labels: ''
 assignees: ''
 
 ---
-
-As a: [developer/user/instrument scientist/project requirement]
-
-## Description
-What is the issue?
 
 ## Where?
 Where is the issue likely to be (be as specific as possible e.g. filepaths)
