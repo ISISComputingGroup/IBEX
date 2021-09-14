@@ -71,6 +71,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5305](https://github.com/ISISComputingGroup/IBEX/issues/5305) | Patch | Fix IOC logs only searching messages by date (and not time). |
 | [#6696](https://github.com/ISISComputingGroup/IBEX/issues/6696) | Patch | Stopped NICOS window flashing |
 | [#6635](https://github.com/ISISComputingGroup/IBEX/issues/6635) | Patch | New icons for Sample Stack in Synoptic and added diagram to OPI. |
+| [#6577](https://github.com/ISISComputingGroup/IBEX/issues/6577) | Minor | There is now a warning if the user tries to open multiple IBEX clients. |
 
 # genie_python
 
