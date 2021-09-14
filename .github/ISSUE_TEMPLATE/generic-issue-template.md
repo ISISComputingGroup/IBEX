@@ -16,8 +16,8 @@ How did the issue come about/known cause of issue if any? (**delete subheader if
 ## Reproducible?
 [Yes/No]
 
-## To Reproduce
+### To Reproduce
 - 
 
 ## Acceptance criteria 
-- []
+- [ ] 
