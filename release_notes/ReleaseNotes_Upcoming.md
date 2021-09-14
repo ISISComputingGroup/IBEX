@@ -79,6 +79,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#6666](https://github.com/ISISComputingGroup/IBEX/issues/6666) | Minor | Improve logging: log exceptions + simulation mode. |
 | [#6519](https://github.com/ISISComputingGroup/IBEX/issues/6519) | Minor | Added function to get time since start including pauses |
+| [#6645](https://github.com/ISISComputingGroup/IBEX/issues/6645) | Minor | Added central logging to Graylog server |
+
 
 # InstrumentScripts
 
