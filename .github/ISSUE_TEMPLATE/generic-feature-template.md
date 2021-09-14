@@ -11,7 +11,8 @@ As a: [developer/user/instrument/project requirement]
 
 ### Acceptance Criteria
 What is the acceptance criteria?
-- []
+- [ ] a
+- [ ] b
 
 ### Extra Information
 _Why it is needed?_
