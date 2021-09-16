@@ -33,7 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6416](https://github.com/ISISComputingGroup/IBEX/issues/6416) | Minor | DFKPS | Add units to slew rate, rename labels to make more descriptive |
 
 | [#6744](https://github.com/ISISComputingGroup/IBEX/issues/6744) | Minor | HIFIMAGS | Correct issue with statemachine getting stuck in quench state even when not quenching |
-
+| [#4130](https://github.com/ISISComputingGroup/IBEX/issues/4130) | Minor | CAEN HV | Fixed buttons appearing outside of the display |
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
