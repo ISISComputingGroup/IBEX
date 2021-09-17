@@ -34,7 +34,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6637](https://github.com/ISISComputingGroup/IBEX/issues/6637) | Minor | Twincat | Modified to work with latest version of code on the Beckhoff controllers |
 
 | [#6744](https://github.com/ISISComputingGroup/IBEX/issues/6744) | Minor | HIFIMAGS | Correct issue with statemachine getting stuck in quench state even when not quenching |
-
+| [#4130](https://github.com/ISISComputingGroup/IBEX/issues/4130) | Minor | CAEN HV | Fixed buttons appearing outside of the display |
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
