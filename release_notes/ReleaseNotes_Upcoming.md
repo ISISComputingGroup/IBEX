@@ -23,6 +23,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 |[#6543](https://github.com/ISISComputingGroup/IBEX/issues/6543)|DANFYSIK9100/DANFYSIK9700|Updated Danfysik OPI and added db file so that the 9100 and 9700 danfysiks are properly handled|
 |[#6203](https://github.com/ISISComputingGroup/IBEX/issues/6203)|INTER: Weeder WTDAC-M|Created IOC, tests, emulator and OPI for Weeder WTDAC-M|
+|[#6030](https://github.com/ISISComputingGroup/IBEX/issues/6030)|WISH: Keithley6517B|Created IOC, tests, emulator and OPI for Keithley6517B Electrometer|
 
 ### Modified devices
 
