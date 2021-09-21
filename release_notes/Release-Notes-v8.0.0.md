@@ -109,6 +109,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#6499](https://github.com/ISISComputingGroup/IBEX/issues/6499) | Minor | Modified set_height functions so that they set the correct height for INTER's naming conventions (but unchanged for other instruments) |
+| [#5867](https://github.com/ISISComputingGroup/IBEX/issues/5867) | Minor | Added functionality to execute a scan and write it to a folder that has not been created, they can either create the folder or abort the scan.
 
 # Other
 
