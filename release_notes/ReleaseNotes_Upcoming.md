@@ -23,6 +23,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 |[#6543](https://github.com/ISISComputingGroup/IBEX/issues/6543)|DANFYSIK9100/DANFYSIK9700|Updated Danfysik OPI and added db file so that the 9100 and 9700 danfysiks are properly handled|
 |[#6203](https://github.com/ISISComputingGroup/IBEX/issues/6203)|INTER: Weeder WTDAC-M|Created IOC, tests, emulator and OPI for Weeder WTDAC-M|
+|[#6027](https://github.com/ISISComputingGroup/IBEX/issues/6027)|Lakeshore 350| Modified existing lakeshore 340 IOC to support 350 model |
+
 
 ### Modified devices
 
