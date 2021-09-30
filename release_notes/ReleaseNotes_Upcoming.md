@@ -74,6 +74,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6696](https://github.com/ISISComputingGroup/IBEX/issues/6696) | Patch | Stopped NICOS window flashing |
 | [#6635](https://github.com/ISISComputingGroup/IBEX/issues/6635) | Patch | New icons for Sample Stack in Synoptic and added diagram to OPI. |
 | [#6577](https://github.com/ISISComputingGroup/IBEX/issues/6577) | Minor | There is now a warning if the user tries to open multiple IBEX clients. |
+| [#6568](https://github.com/ISISComputingGroup/IBEX/issues/6568) | Minor | Added right click menu to beam info |
+
 
 # genie_python
 
