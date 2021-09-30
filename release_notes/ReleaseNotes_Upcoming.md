@@ -75,6 +75,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6635](https://github.com/ISISComputingGroup/IBEX/issues/6635) | Patch | New icons for Sample Stack in Synoptic and added diagram to OPI. |
 | [#6577](https://github.com/ISISComputingGroup/IBEX/issues/6577) | Minor | There is now a warning if the user tries to open multiple IBEX clients. |
 | [#6568](https://github.com/ISISComputingGroup/IBEX/issues/6568) | Minor | Added right click menu to beam info |
+| [#1154](https://github.com/ISISComputingGroup/IBEX/issues/1154) | Minor | Added warning before killing a console in Scripting perspective |
 
 
 # genie_python
@@ -127,5 +128,6 @@ what | version | where | last updated/checked
 
 Dependency | Version | last updated/checked
 ---- | ------- | --------------------
+PyDev | 8.3.0 | Modified fork of PyDev is now used. Same base version is used as before (8.3.0)
 
 ### genie_python Dependencies
