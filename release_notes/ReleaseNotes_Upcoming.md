@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#6700](https://github.com/ISISComputingGroup/IBEX/issues/6700) | Major | Removed RKNPS IOC as the daisy-chained danfysiks have now been decommissioned  |
+| [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Major | Updated ORC code to cater for WISH collimator - Note this will break the LET and MERLIN collimators as the Dbs have been separated out. |
 
 
 # Instrument Specific Changes
@@ -39,7 +40,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-|  [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Minor | Added ORC IOC, motorextensions and device screen to NDXWISH |
 
 ### Script Generator
 | Ticket | Type  | Change |
