@@ -106,8 +106,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests performed on each release were streamlined |
 |[#6576](https://github.com/ISISComputingGroup/IBEX/issues/6576) | Minor | All release branches have been converted into tags (including submodules)|
 |[#6776](https://github.com/ISISComputingGroup/IBEX/issues/6776) | Patch | Beckhoff uses direction from PLC rather than calculating based on last position |
+|[#6751](https://github.com/ISISComputingGroup/IBEX/issues/6751) | Minor | Merge the automation tools used for the Beckhoff test runner |
 |[#6804](https://github.com/ISISComputingGroup/IBEX/issues/6804) | Minor | Refactored ILM200 IOC to follow new IOC testing format and to test non-ISOBUS functionality |
-
 
 # Support Issues Solved
 
