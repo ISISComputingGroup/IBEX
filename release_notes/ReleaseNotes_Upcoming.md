@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#6700](https://github.com/ISISComputingGroup/IBEX/issues/6700) | Major | Removed RKNPS IOC as the daisy-chained danfysiks have now been decommissioned  |
+| [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Major | Updated ORC code to cater for WISH collimator - Note this may effect the behaviour of the LET/MERLIN collimators as they share some code. |
 
 
 # Instrument Specific Changes
@@ -105,6 +106,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6372](https://github.com/ISISComputingGroup/IBEX/issues/6372) | Minor | Manual tests performed on each release were streamlined |
 |[#6576](https://github.com/ISISComputingGroup/IBEX/issues/6576) | Minor | All release branches have been converted into tags (including submodules)|
 |[#6776](https://github.com/ISISComputingGroup/IBEX/issues/6776) | Patch | Beckhoff uses direction from PLC rather than calculating based on last position |
+|[#6804](https://github.com/ISISComputingGroup/IBEX/issues/6804) | Minor | Refactored ILM200 IOC to follow new IOC testing format and to test non-ISOBUS functionality |
+
 
 # Support Issues Solved
 
