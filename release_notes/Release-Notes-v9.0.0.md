@@ -65,6 +65,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6577](https://github.com/ISISComputingGroup/IBEX/issues/6577) | Minor | There is now a warning if the user tries to open multiple IBEX clients. |
 | [#6568](https://github.com/ISISComputingGroup/IBEX/issues/6568) | Minor | Added right click menu to beam info |
 | [#1154](https://github.com/ISISComputingGroup/IBEX/issues/1154) | Minor | Added warning before killing a console in Scripting perspective |
+| [#6229](https://github.com/ISISComputingGroup/IBEX/issues/6229) | Minor | Added IBEX logo to "About IBEX" box |
 
 
 # genie_python
