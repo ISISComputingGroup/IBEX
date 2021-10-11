@@ -68,6 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6428](https://github.com/ISISComputingGroup/IBEX/issues/6428) | Minor| Replace all references to "waveguides" in relation to SANS2D within internal code with "guides"|
 
 # Internal changes
 
