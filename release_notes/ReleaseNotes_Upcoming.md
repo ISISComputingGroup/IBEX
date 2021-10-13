@@ -13,6 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| SANS2D    |[#5588](https://github.com/ISISComputingGroup/IBEX/issues/5588)| Patch | Inhibit motion on server side for apertures and guides |
 
 # Devices
 
