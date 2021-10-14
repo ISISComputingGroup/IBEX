@@ -45,6 +45,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6483](https://github.com/ISISComputingGroup/IBEX/issues/6483) | Minor | Added expected finish time to script generator beneath total expected time. |
 
 
 ### Other
