@@ -29,6 +29,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#6754](https://github.com/ISISComputingGroup/IBEX/issues/6754) | Minor | Beckhoff| The Beckhoff IOC will now automatically pick up how many axes are on the controller. |
+| [#6797](https://github.com/ISISComputingGroup/IBEX/issues/6797) | Minor | ZFCNTRL | The ZFCNTRL ioc write tolerance default has been changed from 0.0002 to 0.0012 to support a kepco running in the higher current range. |
+| [#6797](https://github.com/ISISComputingGroup/IBEX/issues/6797) | Minor | KEPCO | Added the ability to set and get current ranges. |
 
 ### Reflectometry IOC
 
