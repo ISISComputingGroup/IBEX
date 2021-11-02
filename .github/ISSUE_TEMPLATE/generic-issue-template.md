@@ -8,10 +8,10 @@ assignees: ''
 ---
 
 ## Where?
-Where is the issue likely to be (be as specific as possible e.g. filepaths)
+_Where is the issue likely to be (be as specific as possible e.g. filepaths)_
 
 ## How?
-How did the issue come about/known cause of issue if any? (**delete subheader if not applicable**)
+_How did the issue come about/known cause of issue if any? (**delete subheader if not applicable**)_
 
 ## Reproducible?
 [Yes/No]

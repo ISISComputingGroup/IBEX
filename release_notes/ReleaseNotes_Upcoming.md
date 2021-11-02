@@ -51,6 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
 | [#6847](https://github.com/ISISComputingGroup/IBEX/issues/6847) | Minor | Add script definitions location to about dialog box |
+| [#6690](https://github.com/ISISComputingGroup/IBEX/issues/6690) | Patch | Fix the Script Generator stuck at reloading page bug |
 
 
 ### Other
@@ -75,7 +76,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-|[#858](https://github.com/ISISComputingGroup/IBEX/issues/858) | Minor | Added validation for duplicate PVs on synoptic components |
+| [#858](https://github.com/ISISComputingGroup/IBEX/issues/858) | Minor | Added validation for duplicate PVs on synoptic components |
+| [#3243](https://github.com/ISISComputingGroup/IBEX/issues/3243) | Minor | Web Dashboard: flag an error if instrument time and webserver time are different |
+| [#858](https://github.com/ISISComputingGroup/IBEX/issues/858) | Minor | Added validation for duplicate PVs on synoptic components |
 
 # Internal changes
 
@@ -86,7 +89,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6804](https://github.com/ISISComputingGroup/IBEX/issues/6804) | Minor | Refactored ILM200 IOC to follow new IOC testing format and to test non-ISOBUS functionality |
 |[#4688](https://github.com/ISISComputingGroup/IBEX/issues/4688) | Minor | TwinCAT IOC now takes the .tpy file name rather than full path and searches config dir |
 |[#6837](https://github.com/ISISComputingGroup/IBEX/issues/6837) | Minor | TwinCAT IOC config dir can now be overridden by using TWINCATCONFIG. Added Axes & motion setpoints load. |
-
+| [#6352](https://github.com/ISISComputingGroup/IBEX/issues/6352) | Minor | ReadASCII made more extendable to variable amount of columns |
 
 # Support Issues Solved
 
