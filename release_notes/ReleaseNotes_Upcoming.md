@@ -61,6 +61,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6586](https://github.com/ISISComputingGroup/IBEX/issues/6586) | Minor | Make it clearer that period 0 is the current period in the spectra plots |
 | [#6831](https://github.com/ISISComputingGroup/IBEX/issues/6831) | Patch | Using built-in Java function rather than our own Converter class  |
+| [#6853](https://github.com/ISISComputingGroup/IBEX/issues/6853) | Minor | Created Squish tests for right-click menu from Beam Status |
+
 
 # genie_python
 
