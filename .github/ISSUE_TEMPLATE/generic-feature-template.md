@@ -10,7 +10,7 @@ assignees: ''
 As a: [developer/user/instrument/project requirement]
 
 ### Acceptance Criteria
-What is the acceptance criteria?
+_What is the acceptance criteria?_
 - [ ] a
 - [ ] b
 
