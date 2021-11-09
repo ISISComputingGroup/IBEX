@@ -13,8 +13,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| [#6632](https://github.com/ISISComputingGroup/IBEX/issues/6632) | Minor | Tweaked configuration on IMAT so that axes names are consistent between OPI and Synoptic view|
-| [#6785](https://github.com/ISISComputingGroup/IBEX/issues/6785) | Minor | Use delayed moves for tank collision avoidance|
+| IMAT   | [#6632](https://github.com/ISISComputingGroup/IBEX/issues/6632) | Minor | Tweaked configuration on IMAT so that axes names are consistent between OPI and Synoptic view|
+| SANS2D | [#6785](https://github.com/ISISComputingGroup/IBEX/issues/6785) | Minor | Use delayed moves for tank collision avoidance|
+| SANS2D | [#4608](https://github.com/ISISComputingGroup/IBEX/issues/4608) | Minor | Updated DAE live view. Added automatic shutter closing in case of rate overcount|
 
 # Devices
 
