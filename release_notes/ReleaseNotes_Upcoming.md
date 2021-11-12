@@ -96,6 +96,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#4688](https://github.com/ISISComputingGroup/IBEX/issues/4688) | Minor | TwinCAT IOC now takes the .tpy file name rather than full path and searches config dir |
 |[#6837](https://github.com/ISISComputingGroup/IBEX/issues/6837) | Minor | TwinCAT IOC config dir can now be overridden by using TWINCATCONFIG. Added Axes & motion setpoints load. |
 | [#6352](https://github.com/ISISComputingGroup/IBEX/issues/6352) | Minor | ReadASCII made more extendable to variable amount of columns |
+|[#6856](https://github.com/ISISComputingGroup/IBEX/issues/6856) | Minor | Set default retries for TWINCAT ioc motors to be 0 |
 
 # Support Issues Solved
 
