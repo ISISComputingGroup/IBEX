@@ -99,6 +99,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6352](https://github.com/ISISComputingGroup/IBEX/issues/6352) | Minor | ReadASCII made more extendable to variable amount of columns |
 | [#6865](https://github.com/ISISComputingGroup/IBEX/issues/6865) | Minor | Added NUM_AXES pv to all motor controllers |
 |[#6856](https://github.com/ISISComputingGroup/IBEX/issues/6856) | Minor | Set default retries for TWINCAT ioc motors to be 0 |
+|[#6894](https://github.com/ISISComputingGroup/IBEX/issues/6894) | Minor | Create python 3.8 virtual environment bash setup script and modify Experiment DB Populator deployment to run inside Python virtual environment |
 
 # Support Issues Solved
 
