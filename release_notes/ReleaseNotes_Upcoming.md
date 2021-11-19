@@ -37,6 +37,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6797](https://github.com/ISISComputingGroup/IBEX/issues/6797) | Minor | KEPCO | Added the ability to set and get current ranges. |
 | [#6027](https://github.com/ISISComputingGroup/IBEX/issues/6027) | Patch | LKSH336 | Made it clearer that the 336 IOC can be used to control the 350 model. |
 | [#6748](https://github.com/ISISComputingGroup/IBEX/issues/6748) | Patch | SANS Sample Changer | Now logs less to avoid filling up disks. |
+| [#4817](https://github.com/ISISComputingGroup/IBEX/issues/4187) | Minor | HVCAENA | Add model, number of channels, serial number and firmware release to board parameters. |
 
 
 ### Reflectometry IOC
