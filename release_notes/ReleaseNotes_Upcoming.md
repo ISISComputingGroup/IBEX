@@ -71,6 +71,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6907](https://github.com/ISISComputingGroup/IBEX/issues/6907) | Minor | Correct rolling over of logs. |
 
 
 # InstrumentScripts
