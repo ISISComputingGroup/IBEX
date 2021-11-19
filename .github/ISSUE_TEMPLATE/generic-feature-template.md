@@ -20,6 +20,6 @@ _Why it is needed?_
 _Where required files/links are_
 
 
-### How to Test
+## How to Test
 _verbose instructions for reviewer to test changes
 (**Add before making a PR**)_
