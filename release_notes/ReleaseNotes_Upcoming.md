@@ -47,8 +47,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 #  IBEX Client
 
-### Synoptics
-
 ### Configurations
 
 | Ticket | Type  | Change |
