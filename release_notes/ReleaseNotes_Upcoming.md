@@ -47,6 +47,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 #  IBEX Client
 
+### Synoptics
+
+| Ticket | Type  | Change |
+| ------ | ----  | ------------- |
+| [#4957](https://github.com/ISISComputingGroup/IBEX/issues/4957) | Minor | Allow viewing of remote synoptic's structure |
+
 ### Configurations
 
 | Ticket | Type  | Change |
