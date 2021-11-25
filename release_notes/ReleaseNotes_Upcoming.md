@@ -106,6 +106,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6755](https://github.com/ISISComputingGroup/IBEX/issues/6755) | Minor | Added NUM_AXES pv to all motor controllers |
 |[#6856](https://github.com/ISISComputingGroup/IBEX/issues/6856) | Minor | Set default retries for TWINCAT ioc motors to be 0 |
 |[#6894](https://github.com/ISISComputingGroup/IBEX/issues/6894) | Minor | Create python 3.8 virtual environment bash setup script and modify Experiment DB Populator deployment to run inside Python virtual environment |
+|[#6913](https://github.com/ISISComputingGroup/IBEX/issues/6913) | Patch | Update Tcioc from upstream - v2.2 |
 
 
 # Support Issues Solved
