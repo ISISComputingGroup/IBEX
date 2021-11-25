@@ -25,7 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6040](https://github.com/ISISComputingGroup/IBEX/issues/6040)|PEARLPC|Created IOC, tests, emulator and OPI for the PEARL pressure controller|
 |[#5952](https://github.com/ISISComputingGroup/IBEX/issues/5952)|DFKPS|Correct bug where autoonoff was always a step behind|
 |[#6889](https://github.com/ISISComputingGroup/IBEX/issues/6889)|KEPCO|Remove immediate updates because they interfere with retrieval, tighter scan loop and remove non-required scan|
-
+|[#6030](https://github.com/ISISComputingGroup/IBEX/issues/6030)|WISH: Keithley6517B|Created IOC, tests, emulator and OPI for Keithley6517B Electrometer|
 
 ### Modified devices
 
@@ -38,6 +38,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6027](https://github.com/ISISComputingGroup/IBEX/issues/6027) | Patch | LKSH336 | Made it clearer that the 336 IOC can be used to control the 350 model. |
 | [#6748](https://github.com/ISISComputingGroup/IBEX/issues/6748) | Patch | SANS Sample Changer | Now logs less to avoid filling up disks. |
 | [#6736](https://github.com/ISISComputingGroup/IBEX/issues/6736) | Patch | SANS Sample Changer | Now gives better error messages to the user. |
+| [#4817](https://github.com/ISISComputingGroup/IBEX/issues/4187) | Minor | HVCAENA | Add model, number of channels, serial number and firmware release to board parameters. |
+| [#6624](https://github.com/ISISComputingGroup/IBEX/issues/6624) | Minor | DFKPS | Expose Danfysik Baud Rate as IOC Macro. |
+
 
 
 ### Reflectometry IOC
@@ -67,11 +70,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6586](https://github.com/ISISComputingGroup/IBEX/issues/6586) | Minor | Make it clearer that period 0 is the current period in the spectra plots |
 | [#6831](https://github.com/ISISComputingGroup/IBEX/issues/6831) | Patch | Using built-in Java function rather than our own Converter class  |
+| [#4957](https://github.com/ISISComputingGroup/IBEX/issues/4957) | Minor | Allow viewing of remote synoptic's structure |
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6907](https://github.com/ISISComputingGroup/IBEX/issues/6907) | Minor | Correct rolling over of logs. |
 
 
 # InstrumentScripts
