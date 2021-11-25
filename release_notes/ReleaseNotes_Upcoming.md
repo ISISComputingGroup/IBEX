@@ -60,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6483](https://github.com/ISISComputingGroup/IBEX/issues/6483) | Minor | Added expected finish time to script generator beneath total expected time. |
 | [#6847](https://github.com/ISISComputingGroup/IBEX/issues/6847) | Minor | Add script definitions location to about dialog box |
 | [#6690](https://github.com/ISISComputingGroup/IBEX/issues/6690) | Patch | Fix the Script Generator stuck at reloading page bug |
+| [#6841](https://github.com/ISISComputingGroup/IBEX/issues/6841) | Minor | Add the ability to play, pause and stop execution of actions in the script generator. |
 
 
 ### Other
