@@ -95,6 +95,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#3243](https://github.com/ISISComputingGroup/IBEX/issues/3243) | Minor | Web Dashboard: flag an error if instrument time and webserver time are different |
 | [#858](https://github.com/ISISComputingGroup/IBEX/issues/858) | Minor | Added validation for duplicate PVs on synoptic components |
 | [#6844](https://github.com/ISISComputingGroup/IBEX/issues/6844) | Patch| Created tests for checking if script generator does not stuck at reloading after python process is killed |
+| [#6879](https://github.com/ISISComputingGroup/IBEX/issues/6879) | Minor| Created a script to convert .curve calibtration file to .txt calibration file in IBEX calibration file format |
 
 
 # Internal changes
