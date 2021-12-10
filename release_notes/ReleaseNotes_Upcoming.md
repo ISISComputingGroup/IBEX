@@ -73,6 +73,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6586](https://github.com/ISISComputingGroup/IBEX/issues/6586) | Minor | Make it clearer that period 0 is the current period in the spectra plots |
 | [#6831](https://github.com/ISISComputingGroup/IBEX/issues/6831) | Patch | Using built-in Java function rather than our own Converter class  |
 | [#4957](https://github.com/ISISComputingGroup/IBEX/issues/4957) | Minor | Allow viewing of remote synoptic's structure |
+| [#6743](https://github.com/ISISComputingGroup/IBEX/issues/6743) | Minor | Motors can now be stopped directly from the SANS Sample Changer OPI advanced tab |
 
 # genie_python
 
