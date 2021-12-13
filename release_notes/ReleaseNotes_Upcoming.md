@@ -36,6 +36,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6797](https://github.com/ISISComputingGroup/IBEX/issues/6797) | Minor | ZFCNTRL | The ZFCNTRL ioc write tolerance default has been changed from 0.0002 to 0.0012 to support a kepco running in the higher current range. |
 | [#6797](https://github.com/ISISComputingGroup/IBEX/issues/6797) | Minor | KEPCO | Added the ability to set and get current ranges. |
 | [#6027](https://github.com/ISISComputingGroup/IBEX/issues/6027) | Patch | LKSH336 | Made it clearer that the 336 IOC can be used to control the 350 model. |
+| [#6829](https://github.com/ISISComputingGroup/IBEX/issues/6829) | Patch | ORC | WISH ORC refinements + tests. |
 | [#6823](https://github.com/ISISComputingGroup/IBEX/issues/6823) | Minor | Beckhoff | Beckhoff axes now contribute to the any moving flag and are stopped by stop all. |
 | [#6748](https://github.com/ISISComputingGroup/IBEX/issues/6748) | Patch | SANS Sample Changer | Now logs less to avoid filling up disks. |
 | [#6736](https://github.com/ISISComputingGroup/IBEX/issues/6736) | Patch | SANS Sample Changer | Now gives better error messages to the user. |
