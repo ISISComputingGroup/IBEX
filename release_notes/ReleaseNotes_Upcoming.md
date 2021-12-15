@@ -99,6 +99,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#858](https://github.com/ISISComputingGroup/IBEX/issues/858) | Minor | Added validation for duplicate PVs on synoptic components |
 | [6759](https://github.com/ISISComputingGroup/IBEX/issues/6759)| Patch | Created squish tests for adding a block to a config or component from OPI menu |
 | [#6844](https://github.com/ISISComputingGroup/IBEX/issues/6844) | Patch| Created tests for checking if script generator does not stuck at reloading after python process is killed |
+| [#6879](https://github.com/ISISComputingGroup/IBEX/issues/6879) | Minor| Created a script to convert .curve calibration files to .txt calibration files in IBEX calibration file format |
 
 
 # Internal changes
