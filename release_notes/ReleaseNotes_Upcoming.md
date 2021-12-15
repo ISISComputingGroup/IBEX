@@ -101,6 +101,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6844](https://github.com/ISISComputingGroup/IBEX/issues/6844) | Patch| Created tests for checking if script generator does not stuck at reloading after python process is killed |
 | [#6879](https://github.com/ISISComputingGroup/IBEX/issues/6879) | Minor| Created a script to convert .curve calibration files to .txt calibration files in IBEX calibration file format |
 | [#6919](https://github.com/ISISComputingGroup/IBEX/issues/6919) | Minor| Check SANS2D motor setup |
+| [#6924](https://github.com/ISISComputingGroup/IBEX/issues/6924) | Minor| Axis unit setting causing unwanted position resend on startup |
 
 # Internal changes
 
