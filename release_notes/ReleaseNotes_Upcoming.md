@@ -102,6 +102,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6879](https://github.com/ISISComputingGroup/IBEX/issues/6879) | Minor| Created a script to convert .curve calibration files to .txt calibration files in IBEX calibration file format |
 | [#6919](https://github.com/ISISComputingGroup/IBEX/issues/6919) | Minor| Check SANS2D motor setup |
 | [#6924](https://github.com/ISISComputingGroup/IBEX/issues/6924) | Minor| Axis unit setting causing unwanted position resend on startup |
+| [#6881](https://github.com/ISISComputingGroup/IBEX/issues/6881) | Minor| Moving simulated motors after setting MRES fails |
 
 # Internal changes
 
