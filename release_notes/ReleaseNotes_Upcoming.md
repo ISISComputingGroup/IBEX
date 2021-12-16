@@ -27,6 +27,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#5952](https://github.com/ISISComputingGroup/IBEX/issues/5952)|DFKPS|Correct bug where autoonoff was always a step behind|
 |[#6889](https://github.com/ISISComputingGroup/IBEX/issues/6889)|KEPCO|Remove immediate updates because they interfere with retrieval, tighter scan loop and remove non-required scan|
 |[#6030](https://github.com/ISISComputingGroup/IBEX/issues/6030)|WISH: Keithley6517B|Created IOC, tests, emulator and OPI for Keithley6517B Electrometer|
+|[#6033](https://github.com/ISISComputingGroup/IBEX/issues/6033)|WISH: Jaws|Created basic OPI implementation of WISH Jaws Manager|
+
 
 ### Modified devices
 
