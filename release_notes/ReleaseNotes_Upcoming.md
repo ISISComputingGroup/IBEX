@@ -46,6 +46,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4817](https://github.com/ISISComputingGroup/IBEX/issues/4187) | Minor | HVCAENA | Add model, number of channels, serial number and firmware release to board parameters. |
 | [#6624](https://github.com/ISISComputingGroup/IBEX/issues/6624) | Minor | DFKPS | Expose Danfysik Baud Rate as IOC Macro. |
 | [#6926](https://github.com/ISISComputingGroup/IBEX/issues/6926) | Minor | HVCAEN | Allow crate model to be specified, needed to communicate with newer HV crates |
+| [#6827](https://github.com/ISISComputingGroup/IBEX/issues/6827) | Minor | KHLY2700 | Investigate and fix hang after long running time |
 | [#6871](https://github.com/ISISComputingGroup/IBEX/issues/6871) | Minor | LSICORR | Refactor LSI Correlator to take steps towards decoupling from [PCASPy](https://pcaspy.readthedocs.io/en/latest/) |
 
 
