@@ -27,6 +27,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#5952](https://github.com/ISISComputingGroup/IBEX/issues/5952)|DFKPS|Correct bug where autoonoff was always a step behind|
 |[#6889](https://github.com/ISISComputingGroup/IBEX/issues/6889)|KEPCO|Remove immediate updates because they interfere with retrieval, tighter scan loop and remove non-required scan|
 |[#6030](https://github.com/ISISComputingGroup/IBEX/issues/6030)|WISH: Keithley6517B|Created IOC, tests, emulator and OPI for Keithley6517B Electrometer|
+|[#6033](https://github.com/ISISComputingGroup/IBEX/issues/6033)|WISH: Jaws|Created basic OPI implementation of WISH Jaws Manager|
+
 
 ### Modified devices
 
@@ -45,6 +47,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6624](https://github.com/ISISComputingGroup/IBEX/issues/6624) | Minor | DFKPS | Expose Danfysik Baud Rate as IOC Macro. |
 | [#6926](https://github.com/ISISComputingGroup/IBEX/issues/6926) | Minor | HVCAEN | Allow crate model to be specified, needed to communicate with newer HV crates |
 | [#6827](https://github.com/ISISComputingGroup/IBEX/issues/6827) | Minor | KHLY2700 | Investigate and fix hang after long running time |
+| [#6871](https://github.com/ISISComputingGroup/IBEX/issues/6871) | Minor | LSICORR | Refactor LSI Correlator to take steps towards decoupling from [PCASPy](https://pcaspy.readthedocs.io/en/latest/) |
+
 
 ### Reflectometry IOC
 
@@ -100,7 +104,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [6759](https://github.com/ISISComputingGroup/IBEX/issues/6759)| Patch | Created squish tests for adding a block to a config or component from OPI menu |
 | [#6844](https://github.com/ISISComputingGroup/IBEX/issues/6844) | Patch| Created tests for checking if script generator does not stuck at reloading after python process is killed |
 | [#6879](https://github.com/ISISComputingGroup/IBEX/issues/6879) | Minor| Created a script to convert .curve calibration files to .txt calibration files in IBEX calibration file format |
-
+| [#6919](https://github.com/ISISComputingGroup/IBEX/issues/6919) | Minor| Check SANS2D motor setup |
+| [#6924](https://github.com/ISISComputingGroup/IBEX/issues/6924) | Minor| Axis unit setting causing unwanted position resend on startup |
+| [#6881](https://github.com/ISISComputingGroup/IBEX/issues/6881) | Minor| Moving simulated motors after setting MRES fails |
 
 # Internal changes
 
