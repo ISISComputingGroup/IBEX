@@ -49,7 +49,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6827](https://github.com/ISISComputingGroup/IBEX/issues/6827) | Minor | KHLY2700 | Investigate and fix hang after long running time |
 | [#6871](https://github.com/ISISComputingGroup/IBEX/issues/6871) | Minor | LSICORR | Refactor LSI Correlator to take steps towards decoupling from [PCASPy](https://pcaspy.readthedocs.io/en/latest/) |
 | [#6915](https://github.com/ISISComputingGroup/IBEX/issues/6915) | Minor | Beckhoff | Added BENABLE propagation to the table of motors, added beckhoff engineering view |
-
+| [#6865](https://github.com/ISISComputingGroup/IBEX/issues/6865) | Minor | Beckhoff | Beckhoff IOC now aliases axes to next controller if there are more than 8 |
 
 
 ### Reflectometry IOC
