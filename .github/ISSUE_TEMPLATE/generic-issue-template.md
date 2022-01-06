@@ -22,3 +22,7 @@ _How did the issue come about/known cause of issue if any? (**delete subheader i
 ## Acceptance criteria 
 - [ ] a
 - [ ] b
+
+## How to Test 
+_verbose instructions for reviewer to test changes
+(**Add before making a PR**)_
