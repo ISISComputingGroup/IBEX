@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Major | Updated ORC code to cater for WISH collimator - Note this may effect the behaviour of the LET/MERLIN collimators as they share some code. |
+| [#4669](https://github.com/ISISComputingGroup/IBEX/issues/4669) | Major | Updated Beckhoff IOC to include TC_0x prefix - this will allow us to run more than one twincat IOC if we need to. |
 
 
 # Instrument Specific Changes
