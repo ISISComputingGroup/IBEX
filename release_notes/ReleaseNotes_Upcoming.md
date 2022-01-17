@@ -53,6 +53,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6865](https://github.com/ISISComputingGroup/IBEX/issues/6865) | Minor | Beckhoff | Beckhoff IOC now aliases axes to next controller if there are more than 8 |
 | [#6874](https://github.com/ISISComputingGroup/IBEX/issues/6874) | Minor | Beckhoff | Sort out delayed ADS records updating in tcioc, such as BMOVING |
 | [#6869](https://github.com/ISISComputingGroup/IBEX/issues/6869) | Minor | Triton | Remove T0/T1 workaround previously installed to workaround incorrect triton hardware reporting. This workaround is no longer nedeed and in some cases now causes problems |
+| [#4745](https://github.com/ISISComputingGroup/IBEX/issues/4745) | Minor | Galil | Added PV to check if Galil has lost power. |
 
 ### Reflectometry IOC
 
