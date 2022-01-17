@@ -91,13 +91,14 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#6907](https://github.com/ISISComputingGroup/IBEX/issues/6907) | Minor | Correct rolling over of logs. |
+| [#5699](https://github.com/ISISComputingGroup/IBEX/issues/5699) | Minor | Converted scripts for SANS2D from OpenGenie to GeniePython |
 
 
 # InstrumentScripts
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6907](https://github.com/ISISComputingGroup/IBEX/issues/6907) | Minor | Correct rolling over of logs. |
 
 # Other
 
