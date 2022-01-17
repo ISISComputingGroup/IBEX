@@ -7,15 +7,17 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#6032](https://github.com/ISISComputingGroup/IBEX/issues/6032) | Major | Updated ORC code to cater for WISH collimator - Note this may effect the behaviour of the LET/MERLIN collimators as they share some code. |
+| [#4669](https://github.com/ISISComputingGroup/IBEX/issues/4669) | Major | Updated Beckhoff IOC to include TC_0x prefix - this will allow us to run more than one twincat IOC if we need to. |
 
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| SANS2D    |[#5588](https://github.com/ISISComputingGroup/IBEX/issues/5588)| Patch | Inhibit motion on server side for apertures and guides |
-| IMAT | [#6632](https://github.com/ISISComputingGroup/IBEX/issues/6632) | Minor | Tweaked configuration on IMAT so that axes names are consistent between OPI and Synoptic view|
+| SANS2D | [#5588](https://github.com/ISISComputingGroup/IBEX/issues/5588)| Patch | Inhibit motion on server side for apertures and guides |
+| IMAT   | [#6632](https://github.com/ISISComputingGroup/IBEX/issues/6632) | Minor | Tweaked configuration on IMAT so that axes names are consistent between OPI and Synoptic view|
 | SANS2D | [#6785](https://github.com/ISISComputingGroup/IBEX/issues/6785) | Minor | Use delayed moves for tank collision avoidance|
+| SANS2D | [#4608](https://github.com/ISISComputingGroup/IBEX/issues/4608) | Minor | Updated DAE live view. Added automatic shutter closing in case of rate overcount|
 
 # Devices
 
@@ -50,7 +52,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6871](https://github.com/ISISComputingGroup/IBEX/issues/6871) | Minor | LSICORR | Refactor LSI Correlator to take steps towards decoupling from [PCASPy](https://pcaspy.readthedocs.io/en/latest/) |
 | [#6915](https://github.com/ISISComputingGroup/IBEX/issues/6915) | Minor | Beckhoff | Added BENABLE propagation to the table of motors, added beckhoff engineering view |
 | [#6865](https://github.com/ISISComputingGroup/IBEX/issues/6865) | Minor | Beckhoff | Beckhoff IOC now aliases axes to next controller if there are more than 8 |
-
+| [#6874](https://github.com/ISISComputingGroup/IBEX/issues/6874) | Minor | Beckhoff | Sort out delayed ADS records updating in tcioc, such as BMOVING |
+| [#6869](https://github.com/ISISComputingGroup/IBEX/issues/6869) | Minor | Triton | Remove T0/T1 workaround previously installed to workaround incorrect triton hardware reporting. This workaround is no longer nedeed and in some cases now causes problems |
 
 ### Reflectometry IOC
 
@@ -126,7 +129,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#6894](https://github.com/ISISComputingGroup/IBEX/issues/6894) | Minor | Create python 3.8 virtual environment bash setup script and modify Experiment DB Populator deployment to run inside Python virtual environment |
 |[#6913](https://github.com/ISISComputingGroup/IBEX/issues/6913) | Patch | Update Tcioc from upstream - v2.2 |
 |[#6901](https://github.com/ISISComputingGroup/IBEX/issues/6901) | Patch | Fix SMDP parser for streamdevice |
-
+|[#6958](https://github.com/ISISComputingGroup/IBEX/issues/6958) | Minor | Update epics gateway |
+|[#6937](https://github.com/ISISComputingGroup/IBEX/issues/6937) | Patch | Make MAX_ARRAY_BYTES consisten in GUI |
 
 # Support Issues Solved
 
