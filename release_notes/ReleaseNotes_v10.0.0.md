@@ -154,6 +154,6 @@ what | version | where | last updated/checked
 
 Dependency | Version | last updated/checked
 ---- | ------- | --------------------
-PyDev | 8.3.0 | Modified fork of PyDev is now used. Same base version is used as before (8.3.0)
+Log4J2 | 2.17.1 | Includes critical security vulnerability fix. |
 
 ### genie_python Dependencies
