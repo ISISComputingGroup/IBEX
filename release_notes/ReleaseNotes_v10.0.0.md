@@ -1,5 +1,7 @@
 See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
 
+This file lists the changes between 9.0.0 and 10.0.0, if your instrument is on an earlier version of ibex then earlier release notes should also be read for intermediate changes etc. Due to the long shutdown it is likely that all the changes described in 8.0.0, 9.0.0 and 10.0.0 will apply, but check above link
+
 # Highlights and Breaking Changes
 
 | Ticket | Type | Description |
