@@ -24,6 +24,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6975](https://github.com/ISISComputingGroup/IBEX/issues/6975) | Minor | Add smoothing option for analogue feedback encoders  |
+
 
 ### Reflectometry IOC
 
