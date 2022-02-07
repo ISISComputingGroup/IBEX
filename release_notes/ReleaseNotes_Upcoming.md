@@ -45,6 +45,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6307](https://github.com/ISISComputingGroup/IBEX/issues/6307) | Patch | Added way of assigning a block to a group on creation |
+
 # genie_python
 
 | Ticket | Type  | Change |
