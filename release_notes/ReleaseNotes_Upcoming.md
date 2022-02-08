@@ -55,7 +55,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 # InstrumentScripts
 
 | Ticket | Type  | Change |
-| [#6694](https://github.com/ISISComputingGroup/IBEX/issues/6694) | Minor| Converted routines file script to Python without Pearl Pressure Controller support|
+| ------ | ------| ------------- |
+
 
 # Other
 
