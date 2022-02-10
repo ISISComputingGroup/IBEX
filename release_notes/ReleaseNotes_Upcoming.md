@@ -48,6 +48,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#6307](https://github.com/ISISComputingGroup/IBEX/issues/6307) | Patch | Added way of assigning a block to a group on creation |
+| [#7012](https://github.com/ISISComputingGroup/IBEX/issues/7012) | Patch | Removed unrequired functionality from WISH jaws OPI, added controls for 6th set, tidied layout |
 
 # genie_python
 
@@ -57,6 +58,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 # InstrumentScripts
 
 | Ticket | Type  | Change |
+| ------ | ------| ------------- |
 | [#6694](https://github.com/ISISComputingGroup/IBEX/issues/6694) | Minor| Converted routines file script to Python without Pearl Pressure Controller support|
 
 
