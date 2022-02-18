@@ -68,7 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-
+| [#6980](https://github.com/ISISComputingGroup/IBEX/issues/6980) | Patch| Investigated waiting dialogue warnings and listed possible solutions |
 # Internal changes
 
 | Ticket | Type  | Change |
