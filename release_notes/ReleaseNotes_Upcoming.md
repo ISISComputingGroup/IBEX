@@ -56,7 +56,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7022](https://github.com/ISISComputingGroup/IBEX/issues/7022) | Minor| Passing `prepost=False` tob egin, pause commands etc will now skip local and IOC pre/post commands|
 
+
+extend pre/post dae commands #7022
 # InstrumentScripts
 
 | Ticket | Type  | Change |
