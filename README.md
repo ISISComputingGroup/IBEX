@@ -1,7 +1,8 @@
 # IBEX
-Top level repository for IBEX stories, bugs, tasks and other issues. As well as release notes.
+Welcome to the IBEX repository, here you will find the IBEX stories, bugs, tasks and other issues. As well as release notes.
+If you are looking for information about developing for or with IBEX, please consult the [IBEX Developer's Manual](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki).  If you are looking for the IBEX user manual or related end-user documentation, please consult the [IBEX User Manual](https://github.com/ISISComputingGroup/ibex_user_manual/wiki).
 
-[Project Board](https://github.com/ISISComputingGroup/IBEX/projects/1)
+Please see the [Project Board](https://github.com/ISISComputingGroup/IBEX/projects/1) to find out what we are currently working on.
 
 # Release Notes
 
