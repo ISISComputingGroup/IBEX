@@ -29,6 +29,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6997](https://github.com/ISISComputingGroup/IBEX/issues/6997) | Minor | TC/Beckhoff | Fixed axes alias loading in the TwinCAT IOC |
 | [#7019](https://github.com/ISISComputingGroup/IBEX/issues/7019) | Minor | ORC | Fixed ORC program name - was previously invalid 
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
+| [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 
 ### Reflectometry IOC
 
