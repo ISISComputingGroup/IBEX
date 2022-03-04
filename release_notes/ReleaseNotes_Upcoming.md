@@ -53,6 +53,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6307](https://github.com/ISISComputingGroup/IBEX/issues/6307) | Patch | Added way of assigning a block to a group on creation |
 | [#7012](https://github.com/ISISComputingGroup/IBEX/issues/7012) | Patch | Removed unrequired functionality from WISH jaws OPI, added controls for 6th set, tidied layout |
 | [#1396](https://github.com/ISISComputingGroup/ibex_gui/pull/1396) | Minor  | Groups in blocks menu can now be collapsed, stack vertically and can be sorted to occupy less space in the blocks panel |
+| [#7062](https://github.com/ISISComputingGroup/IBEX/issues/7062) | Patch | Added hexed error ID, sensible default for axis num spinner, axis num indicator, etc into Beckhoff engineering view |
+
 
 # genie_python
 
