@@ -35,6 +35,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#6950](https://github.com/ISISComputingGroup/IBEX/issues/6950) | Minor | Reflectometry Server picks up when the velocity of a stationary axis has been changed at the motor level, and uses this value as the new velocity to restore after moves. |
 
 #  IBEX Client
 
