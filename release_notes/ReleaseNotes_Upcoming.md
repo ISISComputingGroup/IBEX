@@ -20,6 +20,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+|[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440)|Add support for CCD100 mk3|
 
 ### Modified devices
@@ -43,6 +44,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#7075](https://github.com/ISISComputingGroup/IBEX/issues/7075) | Minor | Remove separate plot window from Reflectometry perspective, now opens as a tab on the right.  |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -57,7 +59,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#1396](https://github.com/ISISComputingGroup/ibex_gui/pull/1396) | Minor  | Groups in blocks menu can now be collapsed, stack vertically and can be sorted to occupy less space in the blocks panel |
 | [#7062](https://github.com/ISISComputingGroup/IBEX/issues/7062) | Patch | Added hexed error ID, sensible default for axis num spinner, axis num indicator, etc into Beckhoff engineering view |
 | [#6574](https://github.com/ISISComputingGroup/IBEX/issues/6574) | Minor | Added a button to remake PV connections in the IBEX client |
-| [#5078](https://github.com/ISISComputingGroup/IBEX/issues/5078) | Minor | Make output from IBEX start/stop server scripts more concise |
+| [#3597](https://github.com/ISISComputingGroup/IBEX/issues/3597) | Patch  | Redesigned icon for Disc Chopper |
+| [#7083](https://github.com/ISISComputingGroup/IBEX/issues/7083) | Minor | Retry upload on blockserver XML to avoid occasional issues seen in cycle |
+| [#7023](https://github.com/ISISComputingGroup/IBEX/issues/7023) | Minor | Synoptic displays error dialog when PV cannot be written to |
+
 
 
 # genie_python
@@ -78,6 +83,8 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7045](https://github.com/ISISComputingGroup/IBEX/issues/7045) | Minor | Fix tolerance setting in motionsetpoints | 
+| [#5078](https://github.com/ISISComputingGroup/IBEX/issues/5078) | Minor | Make output from IBEX start/stop server scripts more concise |
 
 # Internal changes
 
