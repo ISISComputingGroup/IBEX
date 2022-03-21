@@ -20,6 +20,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+|[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440)|Add support for CCD100 mk3|
 
 ### Modified devices
@@ -59,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7062](https://github.com/ISISComputingGroup/IBEX/issues/7062) | Patch | Added hexed error ID, sensible default for axis num spinner, axis num indicator, etc into Beckhoff engineering view |
 | [#6574](https://github.com/ISISComputingGroup/IBEX/issues/6574) | Minor | Added a button to remake PV connections in the IBEX client |
 | [#3597](https://github.com/ISISComputingGroup/IBEX/issues/3597) | Patch  | Redesigned icon for Disc Chopper |
+| [#7083](https://github.com/ISISComputingGroup/IBEX/issues/7083) | Minor | Retry upload on blockserver XML to avoid occasional issues seen in cycle |
 
 
 
@@ -80,6 +82,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7045](https://github.com/ISISComputingGroup/IBEX/issues/7045) | Minor | Fix tolerance setting in motionsetpoints | 
 
 # Internal changes
 
