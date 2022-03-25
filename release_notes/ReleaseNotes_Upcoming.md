@@ -13,6 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| SANS2D | [#7047](https://github.com/ISISComputingGroup/IBEX/issues/7047) | Patch | Fix vacuum status in SANS2D front end screen |
 
 # Devices
 
