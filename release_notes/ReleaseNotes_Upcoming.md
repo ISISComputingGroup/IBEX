@@ -21,6 +21,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+|[#4371](https://github.com/ISISComputingGroup/IBEX/issues/4371)|Rotating Stirrer Rack|IOC and OPI added to control Rotating Stirrer Rack|
 |[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|Add support for CCD100 mk3|
 
