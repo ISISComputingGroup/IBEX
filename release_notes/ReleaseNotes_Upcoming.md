@@ -8,12 +8,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#7022](https://github.com/ISISComputingGroup/IBEX/issues/7022) | Minor| Passing `prepost=False` to begin, pause commands etc will now skip ioc/server pre/post commands. However client side pre/post command will now need to be modified to accept a prepost argument so they can decide what to do|
 
-
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | SANS2D | [#7047](https://github.com/ISISComputingGroup/IBEX/issues/7047) | Patch | Fix vacuum status in SANS2D front end screen |
+| WISH | [#7116](https://github.com/ISISComputingGroup/IBEX/issues/7116) | Patch | Fix issue with galil initialisation of a moving motor on IOC startup, affected oscillating collimator |
 
 # Devices
 
