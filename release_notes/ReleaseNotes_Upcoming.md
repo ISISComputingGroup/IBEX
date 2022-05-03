@@ -34,6 +34,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 
+
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
@@ -67,6 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7023](https://github.com/ISISComputingGroup/IBEX/issues/7023) | Minor | Synoptic displays error dialog when PV cannot be written to |
 | [#7013](https://github.com/ISISComputingGroup/IBEX/issues/7013) | Minor | Replaced lists of IOCs with trees of IOCs that can be collapsed to hide multipe IOCs of the same type |
 | [#7125](https://github.com/ISISComputingGroup/IBEX/issues/7125) | Minor | Remove old BKHOFF IOC (no longer used on IMAT) |
+| [#6101](https://github.com/ISISComputingGroup/IBEX/issues/6101) | Patch | TOSCA sample positioner OPI improvements |
 
 
 
