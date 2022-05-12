@@ -51,6 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7075](https://github.com/ISISComputingGroup/IBEX/issues/7075) | Minor | Remove separate plot window from Reflectometry perspective, now opens as a tab on the right.  |
 | [#7024](https://github.com/ISISComputingGroup/IBEX/issues/7024) | Minor | Made unapplied changes to Experiment Setup more obvious (larger button and added indicator on DAE front panel)  |
 | [#5238](https://github.com/ISISComputingGroup/IBEX/issues/5238) | Minor | There are now settings to enable and disable perspectives  |
+| [#7134](https://github.com/ISISComputingGroup/IBEX/issues/7134) | Minor | Reflectometry OPI was removed in favor of reflectometry perspective  |
 
 ### Script Generator
 | Ticket | Type  | Change |
