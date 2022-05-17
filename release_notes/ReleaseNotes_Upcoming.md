@@ -14,6 +14,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | --------- | ------ | ------| ------------- |
 | SANS2D | [#7047](https://github.com/ISISComputingGroup/IBEX/issues/7047) | Patch | Fix vacuum status in SANS2D front end screen |
 | WISH | [#7116](https://github.com/ISISComputingGroup/IBEX/issues/7116) | Patch | Fix issue with galil initialisation of a moving motor on IOC startup, affected oscillating collimator |
+| TOSCA | [#6101](https://github.com/ISISComputingGroup/IBEX/issues/6101) | Patch | TOSCA sample positioner OPI improvements |
 
 # Devices
 
@@ -34,6 +35,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
+
 
 
 ### Reflectometry IOC
@@ -74,6 +76,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7123](https://github.com/ISISComputingGroup/IBEX/issues/7123) | Patch | When jaws moved wide open, move to limit +-1 depending on direction to avoid move being rejected |
 | [#7125](https://github.com/ISISComputingGroup/IBEX/issues/7125) | Minor | Remove old BKHOFF IOC (no longer used on IMAT) |
 | [#7092](https://github.com/ISISComputingGroup/IBEX/issues/7092) | Minor | Remove EDNEXT IOC reference |
+
 
 
 
