@@ -30,7 +30,7 @@ This file lists the changes between 9.0.0 and 10.0.0, if your instrument is on a
 |[#6889](https://github.com/ISISComputingGroup/IBEX/issues/6889)|KEPCO|Remove immediate updates because they interfere with retrieval, tighter scan loop and remove non-required scan|
 |[#6030](https://github.com/ISISComputingGroup/IBEX/issues/6030)|WISH: Keithley6517B|Created IOC, tests, emulator and OPI for Keithley6517B Electrometer|
 |[#6033](https://github.com/ISISComputingGroup/IBEX/issues/6033)|WISH: Jaws|Created basic OPI implementation of WISH Jaws Manager|
-
+|[#6099](https://github.com/ISISComputingGroup/IBEX/issues/6099)|LET: Additional IOC for new SKF controller for Chopper 1 |
 
 ### Modified devices
 
@@ -86,6 +86,7 @@ This file lists the changes between 9.0.0 and 10.0.0, if your instrument is on a
 | [#6831](https://github.com/ISISComputingGroup/IBEX/issues/6831) | Patch | Using built-in Java function rather than our own Converter class  |
 | [#4957](https://github.com/ISISComputingGroup/IBEX/issues/4957) | Minor | Allow viewing of remote synoptic's structure |
 | [#6743](https://github.com/ISISComputingGroup/IBEX/issues/6743) | Minor | Motors can now be stopped directly from the SANS Sample Changer OPI advanced tab |
+| [#6099](https://github.com/ISISComputingGroup/IBEX/issues/6099) | Minor | Additional tab on SKF OPI for new SKF controller for LET Chopper 1 |
 
 # genie_python
 
