@@ -84,7 +84,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-
+| [#7054](https://github.com/ISISComputingGroup/IBEX/issues/7054) | Minor | Added a new silent parameter to waitfor commands that suppresses notifications |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
