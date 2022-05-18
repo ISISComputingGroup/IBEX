@@ -84,6 +84,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7054](https://github.com/ISISComputingGroup/IBEX/issues/7054) | Minor | Added "quiet" option to waitfor commands, which suppresses output to the console |
 
 
 extend pre/post dae commands #7022
