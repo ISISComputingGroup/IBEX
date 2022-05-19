@@ -77,6 +77,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7123](https://github.com/ISISComputingGroup/IBEX/issues/7123) | Patch | When jaws moved wide open, move to limit +-1 depending on direction to avoid move being rejected |
 | [#7125](https://github.com/ISISComputingGroup/IBEX/issues/7125) | Minor | Remove old BKHOFF IOC (no longer used on IMAT) |
 | [#7092](https://github.com/ISISComputingGroup/IBEX/issues/7092) | Minor | Remove EDNEXT IOC reference |
+| [#6991](https://github.com/ISISComputingGroup/IBEX/issues/6991) | Patch | Fix missing a failed client install in some circumstances |
 | [#7143](https://github.com/ISISComputingGroup/IBEX/issues/7143) | Minor | Add asynInterposeThrottleConfig() to allow rate limiting writes to a device |
 
 
