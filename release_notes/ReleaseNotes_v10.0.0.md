@@ -55,6 +55,7 @@ This file lists the changes between 9.0.0 and 10.0.0, if your instrument is on a
 | [#6874](https://github.com/ISISComputingGroup/IBEX/issues/6874) | Minor | Beckhoff | Sort out delayed ADS records updating in tcioc, such as BMOVING |
 | [#6869](https://github.com/ISISComputingGroup/IBEX/issues/6869) | Minor | Triton | Remove T0/T1 workaround previously installed to workaround incorrect triton hardware reporting. This workaround is no longer nedeed and in some cases now causes problems |
 | [#4745](https://github.com/ISISComputingGroup/IBEX/issues/4745) | Minor | Galil | Added PV to report if Galil has lost power. |
+| [#6774](https://github.com/ISISComputingGroup/IBEX/issues/6774) | Minor | Pearl Pressure Controller | Added cell and pump pressure indicators. |
 
 ### Reflectometry IOC
 
