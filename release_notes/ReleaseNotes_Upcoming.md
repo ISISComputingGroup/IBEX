@@ -26,7 +26,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|CCD100|Add support for CCD100 mk3|
 |[#7146](https://github.com/ISISComputingGroup/IBEX/issues/7146)|WEBCAM|Visualise webcams diretly in IBEX using EPICS areaDetector rather than web browser|
-
+|[#5790](https://github.com/ISISComputingGroup/IBEX/issues/5790)|Huber Sample Stack|IOC added to control Huber Sample Stack from Motors View|
 ### Modified devices
 
 | Ticket | Type | Device | Change |
