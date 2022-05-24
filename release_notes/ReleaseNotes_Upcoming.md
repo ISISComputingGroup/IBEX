@@ -58,6 +58,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6810](https://github.com/ISISComputingGroup/IBEX/issues/6810) | Minor | Prevent actions from disappearing when table header is clicked  |
 
 ### Other
 
