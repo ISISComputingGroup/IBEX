@@ -37,7 +37,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
-
+| [#7168](https://github.com/ISISComputingGroup/IBEX/issues/7168) | Patch | HE3Sorb    | Post-hardware test fixes for the ITC-powered he3 sorb insert  |
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
