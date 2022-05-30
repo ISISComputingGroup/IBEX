@@ -37,6 +37,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
+| [#6898](https://github.com/ISISComputingGroup/IBEX/issues/6898) | Minor | Danfysik | Now supports up to 35 IOCs |
 
 ### Reflectometry IOC
 
@@ -58,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6810](https://github.com/ISISComputingGroup/IBEX/issues/6810) | Minor | Prevent actions from disappearing or being reordered when table header is clicked  |
 
 ### Other
 
@@ -80,13 +82,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7143](https://github.com/ISISComputingGroup/IBEX/issues/7143) | Minor | Add asynInterposeThrottleConfig() to allow rate limiting writes to a device |
 | [#7137](https://github.com/ISISComputingGroup/IBEX/issues/7137) | Patch | Start/Stop IOCs button is now greyed out if server is down |
 | [#7118](https://github.com/ISISComputingGroup/IBEX/issues/7118) | Patch | Motionsetpoints    | Allow duplicate positions |
-
+| [#7163](https://github.com/ISISComputingGroup/IBEX/issues/7163) | Patch | Hide nicos git window, stops it popping up on failed connections |
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-
+| [#7054](https://github.com/ISISComputingGroup/IBEX/issues/7054) | Minor | Added a new silent parameter to waitfor commands that suppresses notifications |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
