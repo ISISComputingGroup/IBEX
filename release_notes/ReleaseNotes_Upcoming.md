@@ -39,7 +39,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
-| [#7161](https://github.com/ISISComputingGroup/IBEX/issues/7116) | Patch | TOSCA sample positioner | Only show positioning box in sample changer device screen if in manager mode |
+| [#7161](https://github.com/ISISComputingGroup/IBEX/issues/7161) | Patch | TOSCA sample positioner | Only show positioning box in sample changer device screen if in manager mode |
 | [#6898](https://github.com/ISISComputingGroup/IBEX/issues/6898) | Minor | Danfysik | Now supports up to 35 IOCs |
 
 ### Reflectometry IOC
