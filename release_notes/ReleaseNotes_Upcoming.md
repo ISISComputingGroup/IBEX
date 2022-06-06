@@ -41,6 +41,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
 | [#7161](https://github.com/ISISComputingGroup/IBEX/issues/7161) | Patch | TOSCA sample positioner | Only show positioning box in sample changer device screen if in manager mode |
 | [#6898](https://github.com/ISISComputingGroup/IBEX/issues/6898) | Minor | Danfysik | Now supports up to 35 IOCs |
+| [#7025](https://github.com/ISISComputingGroup/IBEX/issues/7025) | Minor | WISH/LET collimator | Fixed maths/logic issues in LET/ORC collimator records causing incorrect swept angle calculations on restart |
 
 ### Reflectometry IOC
 
