@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#7022](https://github.com/ISISComputingGroup/IBEX/issues/7022) | Minor| Passing `prepost=False` to begin, pause commands etc will now skip ioc/server pre/post commands. However client side pre/post command will now need to be modified to accept a prepost argument so they can decide what to do|
+| [#7181](https://github.com/ISISComputingGroup/IBEX/issues/7181) | Minor| There should be no longer be many brief flashes of windwos during ibex startup|
 
 # Instrument Specific Changes
 
@@ -24,6 +25,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 |[#4371](https://github.com/ISISComputingGroup/IBEX/issues/4371)|Rotating Stirrer Rack|IOC and OPI added to control Rotating Stirrer Rack|
 |[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
+|[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|Add support for CCD100 mk3|
+|[#5874](https://github.com/ISISComputingGroup/IBEX/issues/5874)|Technix PSU|IOC and OPI for Technix power supply for RIKEN|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|CCD100|Add support for CCD100 mk3|
 |[#7146](https://github.com/ISISComputingGroup/IBEX/issues/7146)|WEBCAM|Visualise webcams diretly in IBEX using EPICS areaDetector rather than web browser|
 
@@ -33,11 +36,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#6975](https://github.com/ISISComputingGroup/IBEX/issues/6975) | Minor | GALIL | Add smoothing option for noisy analogue feedback encoders  |
 | [#6997](https://github.com/ISISComputingGroup/IBEX/issues/6997) | Minor | TC/Beckhoff | Fixed axes alias loading in the TwinCAT IOC |
-| [#7019](https://github.com/ISISComputingGroup/IBEX/issues/7019) | Minor | ORC | Fixed ORC program name - was previously invalid 
+| [#7019](https://github.com/ISISComputingGroup/IBEX/issues/7019) | Minor | ORC | Fixed ORC program name - was previously invalid |
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
 | [#6774](https://github.com/ISISComputingGroup/IBEX/issues/6774) | Minor | Pearl Pressure Controller | Added cell and pump pressure indicators. |
+| [#7168](https://github.com/ISISComputingGroup/IBEX/issues/7168) | Patch | HE3Sorb    | Post-hardware test fixes for the ITC-powered he3 sorb insert  |
+| [#7161](https://github.com/ISISComputingGroup/IBEX/issues/7161) | Patch | TOSCA sample positioner | Only show positioning box in sample changer device screen if in manager mode |
+| [#6898](https://github.com/ISISComputingGroup/IBEX/issues/6898) | Minor | Danfysik | Now supports up to 35 IOCs |
+| [#7025](https://github.com/ISISComputingGroup/IBEX/issues/7025) | Minor | WISH/LET collimator | Fixed maths/logic issues in LET/ORC collimator records causing incorrect swept angle calculations on restart |
 
 ### Reflectometry IOC
 
@@ -59,6 +66,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6810](https://github.com/ISISComputingGroup/IBEX/issues/6810) | Minor | Prevent actions from disappearing or being reordered when table header is clicked  |
 
 ### Other
 
@@ -79,14 +87,17 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7092](https://github.com/ISISComputingGroup/IBEX/issues/7092) | Minor | Remove EDNEXT IOC reference |
 | [#6991](https://github.com/ISISComputingGroup/IBEX/issues/6991) | Patch | Fix missing a failed client install in some circumstances |
 | [#7143](https://github.com/ISISComputingGroup/IBEX/issues/7143) | Minor | Add asynInterposeThrottleConfig() to allow rate limiting writes to a device |
-
+| [#7137](https://github.com/ISISComputingGroup/IBEX/issues/7137) | Patch | Start/Stop IOCs button is now greyed out if server is down |
+| [#7118](https://github.com/ISISComputingGroup/IBEX/issues/7118) | Patch | Motionsetpoints    | Allow duplicate positions |
+| [#7163](https://github.com/ISISComputingGroup/IBEX/issues/7163) | Patch | Hide nicos git window, stops it popping up on failed connections |
+| [#7059](https://github.com/ISISComputingGroup/IBEX/issues/7059) | Patch | Hide graypy exceptions to avoid showing a huge exception stack to user |
 
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-
+| [#7054](https://github.com/ISISComputingGroup/IBEX/issues/7054) | Minor | Added a new silent parameter to waitfor commands that suppresses notifications |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
@@ -103,6 +114,8 @@ extend pre/post dae commands #7022
 | [#7045](https://github.com/ISISComputingGroup/IBEX/issues/7045) | Minor | Fix tolerance setting in motionsetpoints | 
 | [#5078](https://github.com/ISISComputingGroup/IBEX/issues/5078) | Minor | Make output from IBEX start/stop server scripts more concise |
 | [#7086](https://github.com/ISISComputingGroup/IBEX/issues/7086) | Minor | Improved time performance of starting IOCs | 
+| [#7179](https://github.com/ISISComputingGroup/IBEX/issues/7179) | Patch | Stop flashing console window on GUI archve reload | 
+
 
 # Internal changes
 
