@@ -29,7 +29,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#5874](https://github.com/ISISComputingGroup/IBEX/issues/5874)|Technix PSU|IOC and OPI for Technix power supply for RIKEN|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|CCD100|Add support for CCD100 mk3|
 |[#7146](https://github.com/ISISComputingGroup/IBEX/issues/7146)|WEBCAM|Visualise webcams diretly in IBEX using EPICS areaDetector rather than web browser|
-
+|[#5790](https://github.com/ISISComputingGroup/IBEX/issues/5790)|Huber Sample Stack|IOC added to control Huber Sample Stack from Motors View|
 ### Modified devices
 
 | Ticket | Type | Device | Change |
