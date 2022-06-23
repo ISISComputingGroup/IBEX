@@ -93,6 +93,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7118](https://github.com/ISISComputingGroup/IBEX/issues/7118) | Patch | Motionsetpoints    | Allow duplicate positions |
 | [#7163](https://github.com/ISISComputingGroup/IBEX/issues/7163) | Patch | Hide nicos git window, stops it popping up on failed connections |
 | [#7059](https://github.com/ISISComputingGroup/IBEX/issues/7059) | Patch | Hide graypy exceptions to avoid showing a huge exception stack to user |
+| [#7138](https://github.com/ISISComputingGroup/IBEX/issues/7138) | Patch | Fixed issue of DAE settings not being saved from a script |
 
 
 # genie_python
