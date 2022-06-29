@@ -41,6 +41,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7019](https://github.com/ISISComputingGroup/IBEX/issues/7019) | Minor | ORC | Fixed ORC program name - was previously invalid |
 | [#6989](https://github.com/ISISComputingGroup/IBEX/issues/6989) | Minor | MCLennan    | Fixed homing failing due to potential poll at wrong time. |
 | [#7026](https://github.com/ISISComputingGroup/IBEX/issues/7026) | Minor | Eurotherm    | Extend number of available channels to 10 |
+| [#5877](https://github.com/ISISComputingGroup/IBEX/issues/5877) | Minor | TPG300 | Added support for setting and reading switching functions |
 | [#7111](https://github.com/ISISComputingGroup/IBEX/issues/7111) | Patch | TekAFG    | Fix connection leak when device gets into partially working state |
 | [#6774](https://github.com/ISISComputingGroup/IBEX/issues/6774), [#6770](https://github.com/ISISComputingGroup/IBEX/issues/6770), [#6764](https://github.com/ISISComputingGroup/IBEX/issues/6764), [#7193](https://github.com/ISISComputingGroup/IBEX/issues/7193), [#7043](https://github.com/ISISComputingGroup/IBEX/issues/7043) | Minor | Pearl Pressure Controller | Added cell, pump pressure and pressure difference indicators, and pressure threshold controls. |
 | [#7168](https://github.com/ISISComputingGroup/IBEX/issues/7168) | Patch | HE3Sorb    | Post-hardware test fixes for the ITC-powered he3 sorb insert  |
