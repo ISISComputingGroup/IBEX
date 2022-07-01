@@ -122,6 +122,7 @@ extend pre/post dae commands #7022
 | [#5078](https://github.com/ISISComputingGroup/IBEX/issues/5078) | Minor | Make output from IBEX start/stop server scripts more concise |
 | [#7086](https://github.com/ISISComputingGroup/IBEX/issues/7086) | Minor | Improved time performance of starting IOCs | 
 | [#7179](https://github.com/ISISComputingGroup/IBEX/issues/7179) | Patch | Stop flashing console window on GUI archve reload | 
+| [#7177](https://github.com/ISISComputingGroup/IBEX/issues/7177) | Minor | Added an ignored IOC folder list for building IOC startups
 
 
 # Internal changes
