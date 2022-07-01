@@ -98,6 +98,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7059](https://github.com/ISISComputingGroup/IBEX/issues/7059) | Patch | Hide graypy exceptions to avoid showing a huge exception stack to user |
 | [#7138](https://github.com/ISISComputingGroup/IBEX/issues/7138) | Patch | Fixed issue of DAE settings not being saved from a script |
 | [#7034](https://github.com/ISISComputingGroup/IBEX/issues/7034) | Patch | Make deployment process for genie_python and GUI more robust against old, stale files. This solves an issue seen on some beamlines with `pylint` failing to execute. |
+| [#7177](https://github.com/ISISComputingGroup/IBEX/issues/7177) | Patch | Added the ability to install the GUI client only without stand alone python |
 
 
 # genie_python
