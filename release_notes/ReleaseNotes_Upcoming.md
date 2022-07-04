@@ -31,6 +31,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#7146](https://github.com/ISISComputingGroup/IBEX/issues/7146)|WEBCAM|Visualise webcams diretly in IBEX using EPICS areaDetector rather than web browser|
 |[#6003](https://github.com/ISISComputingGroup/IBEX/issues/6003)|FMR|Add device screen for Ferro Magnetic Resonance equipment|
 |[#5790](https://github.com/ISISComputingGroup/IBEX/issues/5790)|Huber Sample Stack|IOC added to control Huber Sample Stack from Motors View|
+|[#6850](https://github.com/ISISComputingGroup/IBEX/issues/6850)|Birmingham 17T cryomagnet|IOC created|
 
 ### Modified devices
 
