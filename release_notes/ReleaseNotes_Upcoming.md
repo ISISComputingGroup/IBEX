@@ -101,7 +101,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7138](https://github.com/ISISComputingGroup/IBEX/issues/7138) | Patch | Fixed issue of DAE settings not being saved from a script |
 | [#7034](https://github.com/ISISComputingGroup/IBEX/issues/7034) | Patch | Make deployment process for genie_python and GUI more robust against old, stale files. This solves an issue seen on some beamlines with `pylint` failing to execute. |
 | [#7178](https://github.com/ISISComputingGroup/IBEX/issues/7178) | Patch | Added the ability to install the GUI client only without stand alone python |
-
+| [#7208](https://github.com/ISISComputingGroup/IBEX/issues/7208) | Minor | Added a system test for checking the DAE runs even if INSTETC is unavailable |
 
 # genie_python
 
