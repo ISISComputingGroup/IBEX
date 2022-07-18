@@ -7,7 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#7022](https://github.com/ISISComputingGroup/IBEX/issues/7022) | Minor| Passing `prepost=False` to begin, pause commands etc will now skip ioc/server pre/post commands. However client side pre/post command will now need to be modified to accept a prepost argument so they can decide what to do|
-| [#7135](https://github.com/ISISComputingGroup/IBEX/issues/7135) | Minor| The NICOS script server daemon (`NICOSDAEMON`) is no longer started by default, and instead should be added to appropriate configurations or components if it is required - for example, on instruments using the script generator. |
+| [#7135](https://github.com/ISISComputingGroup/IBEX/issues/7135) | Major| The NICOS script server daemon (`NICOSDAEMON`) is no longer started by default, and instead should be added to appropriate configurations or components if it is required - for example, on instruments using the script generator. |
 | [#7181](https://github.com/ISISComputingGroup/IBEX/issues/7181) | Minor| There should be no longer be many brief flashes of windwos during ibex startup|
 
 # Instrument Specific Changes
@@ -67,7 +67,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#7075](https://github.com/ISISComputingGroup/IBEX/issues/7075) | Minor | Remove separate plot window from Reflectometry perspective, now opens as a tab on the right.  |
 | [#7024](https://github.com/ISISComputingGroup/IBEX/issues/7024) | Minor | Made unapplied changes to Experiment Setup more obvious (larger button and added indicator on DAE front panel)  |
-| [#5238](https://github.com/ISISComputingGroup/IBEX/issues/5238) | Minor | There are now settings to enable and disable perspectives  |
+| [#5238](https://github.com/ISISComputingGroup/IBEX/issues/5238) | Major | There are now settings to enable and disable perspectives  |
 | [#7134](https://github.com/ISISComputingGroup/IBEX/issues/7134) | Minor | Reflectometry OPI was removed in favor of reflectometry perspective  |
 | [#1357](https://github.com/ISISComputingGroup/IBEX/issues/1357) | Patch | Preview blocks from components as they are added to the configuration  |
 
@@ -91,8 +91,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7023](https://github.com/ISISComputingGroup/IBEX/issues/7023) | Minor | Synoptic displays error dialog when PV cannot be written to |
 | [#7013](https://github.com/ISISComputingGroup/IBEX/issues/7013) | Minor | Replaced lists of IOCs with trees of IOCs that can be collapsed to hide multipe IOCs of the same type |
 | [#7123](https://github.com/ISISComputingGroup/IBEX/issues/7123) | Patch | When jaws moved wide open, move to limit +-1 depending on direction to avoid move being rejected |
-| [#7125](https://github.com/ISISComputingGroup/IBEX/issues/7125) | Minor | Remove old BKHOFF IOC (no longer used on IMAT) |
-| [#7092](https://github.com/ISISComputingGroup/IBEX/issues/7092) | Minor | Remove EDNEXT IOC reference |
+| [#7125](https://github.com/ISISComputingGroup/IBEX/issues/7125) | Major | Remove old BKHOFF IOC (no longer used on IMAT) |
+| [#7092](https://github.com/ISISComputingGroup/IBEX/issues/7092) | Major | Remove EDNEXT IOC reference |
 | [#6991](https://github.com/ISISComputingGroup/IBEX/issues/6991) | Patch | Fix missing a failed client install in some circumstances |
 | [#7143](https://github.com/ISISComputingGroup/IBEX/issues/7143) | Minor | Add asynInterposeThrottleConfig() to allow rate limiting writes to a device |
 | [#7137](https://github.com/ISISComputingGroup/IBEX/issues/7137) | Patch | Start/Stop IOCs button is now greyed out if server is down |
