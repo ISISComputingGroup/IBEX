@@ -103,7 +103,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7034](https://github.com/ISISComputingGroup/IBEX/issues/7034) | Patch | Make deployment process for genie_python and GUI more robust against old, stale files. This solves an issue seen on some beamlines with `pylint` failing to execute. |
 | [#7178](https://github.com/ISISComputingGroup/IBEX/issues/7178) | Patch | Added the ability to install the GUI client only without stand alone python |
 | [#7208](https://github.com/ISISComputingGroup/IBEX/issues/7208) | Minor | Added a system test for checking the DAE runs even if INSTETC is unavailable |
-| [#7230](https://github.com/ISISComputingGroup/IBEX/issues/7230) | Major | Removed "add block to a config" (not current config) option on right-click - see https://github.com/ISISComputingGroup/IBEX/issues/7224 |
+| [#7230](https://github.com/ISISComputingGroup/IBEX/issues/7230) | Minor | Removed "add block to a config" (not current config) option on right-click - see https://github.com/ISISComputingGroup/IBEX/issues/7224 |
 
 
 # genie_python
