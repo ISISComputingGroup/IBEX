@@ -52,6 +52,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7025](https://github.com/ISISComputingGroup/IBEX/issues/7025) | Minor | WISH/LET collimator | Fixed maths/logic issues in LET/ORC collimator records causing incorrect swept angle calculations on restart |
 | [#7152](https://github.com/ISISComputingGroup/IBEX/issues/7152) | Patch | Eurotherm | Add a warning on the eurotherm OPI if no channels are defined |
 | [#7206](https://github.com/ISISComputingGroup/IBEX/issues/7206) | Minor | Mezei Flipper | Allow and enforce user-specified port as part of HOST macro |
+| [#3019](https://github.com/ISISComputingGroup/IBEX/issues/3019) | Minor | Eurotherm | Remove the RETRYCNT alarm as it was generally ignored |
 
 ### Reflectometry IOC
 
