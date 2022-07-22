@@ -72,6 +72,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5238](https://github.com/ISISComputingGroup/IBEX/issues/5238) | Major | There are now settings to enable and disable perspectives  |
 | [#7134](https://github.com/ISISComputingGroup/IBEX/issues/7134) | Minor | Reflectometry OPI was removed in favor of reflectometry perspective  |
 | [#1357](https://github.com/ISISComputingGroup/IBEX/issues/1357) | Patch | Preview blocks from components as they are added to the configuration  |
+| [#3647](https://github.com/ISISComputingGroup/IBEX/issues/3647) | Minor | Enforced a character limit of 20 for block names |
 
 ### Script Generator
 | Ticket | Type  | Change |
