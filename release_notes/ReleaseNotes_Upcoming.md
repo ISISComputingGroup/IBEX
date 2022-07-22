@@ -105,6 +105,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7178](https://github.com/ISISComputingGroup/IBEX/issues/7178) | Patch | Added the ability to install the GUI client only without stand alone python |
 | [#7208](https://github.com/ISISComputingGroup/IBEX/issues/7208) | Minor | Added a system test for checking the DAE runs even if INSTETC is unavailable |
 | [#7230](https://github.com/ISISComputingGroup/IBEX/issues/7230) | Minor | Removed "add block to a config" (not current config) option on right-click - see https://github.com/ISISComputingGroup/IBEX/issues/7224 |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
 
 
 # genie_python
@@ -129,8 +130,9 @@ extend pre/post dae commands #7022
 | [#5078](https://github.com/ISISComputingGroup/IBEX/issues/5078) | Minor | Make output from IBEX start/stop server scripts more concise |
 | [#7086](https://github.com/ISISComputingGroup/IBEX/issues/7086) | Minor | Improved time performance of starting IOCs | 
 | [#7179](https://github.com/ISISComputingGroup/IBEX/issues/7179) | Patch | Stop flashing console window on GUI archve reload | 
-| [#7177](https://github.com/ISISComputingGroup/IBEX/issues/7177) | Minor | Added an ignored IOC folder list for building IOC startups
-| [#6980](https://github.com/ISISComputingGroup/IBEX/issues/6980) | Patch| Investigated waiting dialogue warnings and listed possible solutions |
+| [#7177](https://github.com/ISISComputingGroup/IBEX/issues/7177) | Minor | Added an ignored IOC folder list for building IOC startups |
+| [#6980](https://github.com/ISISComputingGroup/IBEX/issues/6980) | Patch | Investigated waiting dialogue warnings and listed possible solutions |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added error messages for common issues when processing a motionsetpoints file |
 
 # Internal changes
 
