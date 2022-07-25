@@ -107,6 +107,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7178](https://github.com/ISISComputingGroup/IBEX/issues/7178) | Patch | Added the ability to install the GUI client only without stand alone python |
 | [#7208](https://github.com/ISISComputingGroup/IBEX/issues/7208) | Minor | Added a system test for checking the DAE runs even if INSTETC is unavailable |
 | [#7230](https://github.com/ISISComputingGroup/IBEX/issues/7230) | Minor | Removed "add block to a config" (not current config) option on right-click - see https://github.com/ISISComputingGroup/IBEX/issues/7224 |
+| [#7236](https://github.com/ISISComputingGroup/IBEX/issues/7236) | Minor | Added the ability to search IOCs when adding to configuration and in Start/Stop IOCs dialog |
 
 
 # genie_python
