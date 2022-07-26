@@ -27,7 +27,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#4371](https://github.com/ISISComputingGroup/IBEX/issues/4371)|Rotating Stirrer Rack|IOC and OPI added to control Rotating Stirrer Rack|
 |[#5154](https://github.com/ISISComputingGroup/IBEX/issues/5154)|DG645|Created IOC, tests, emulator and modular OPI|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|Add support for CCD100 mk3|
-|[#5874](https://github.com/ISISComputingGroup/IBEX/issues/5874)|Technix PSU|IOC and OPI for Technix power supply for RIKEN|
+|[#5874](https://github.com/ISISComputingGroup/IBEX/issues/5874), [#7129](https://github.com/ISISComputingGroup/IBEX/issues/7129)|Technix PSU|IOC and OPI for Technix power supply for RIKEN|
 |[#6440](https://github.com/ISISComputingGroup/IBEX/issues/6440),[#7096](https://github.com/ISISComputingGroup/IBEX/issues/7096)|CCD100|Add support for CCD100 mk3|
 |[#7146](https://github.com/ISISComputingGroup/IBEX/issues/7146)|WEBCAM|Visualise webcams diretly in IBEX using EPICS areaDetector rather than web browser|
 |[#6003](https://github.com/ISISComputingGroup/IBEX/issues/6003)|FMR|Add device screen for Ferro Magnetic Resonance equipment|
