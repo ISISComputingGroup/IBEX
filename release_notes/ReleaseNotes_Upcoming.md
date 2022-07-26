@@ -54,6 +54,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7206](https://github.com/ISISComputingGroup/IBEX/issues/7206) | Minor | Mezei Flipper | Allow and enforce user-specified port as part of HOST macro |
 | [#5554](https://github.com/ISISComputingGroup/IBEX/issues/5554) | Minor | Rotating Sample Changer | Reduced ambiguity of dropped sample messages |
 | [#3019](https://github.com/ISISComputingGroup/IBEX/issues/3019) | Minor | Eurotherm | Remove the RETRYCNT alarm as it was generally ignored |
+| [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
 
 ### Reflectometry IOC
 
