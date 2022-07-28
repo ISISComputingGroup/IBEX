@@ -6,7 +6,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-
+| [#7022](https://github.com/ISISComputingGroup/IBEX/issues/7022) | Minor| Passing `prepost=False` to begin, pause commands etc will now skip ioc/server pre/post commands. However client side pre/post command will now need to be modified to accept a prepost argument so they can decide what to do|
+| [#7135](https://github.com/ISISComputingGroup/IBEX/issues/7135) | Minor| The NICOS script server daemon (`NICOSDAEMON`) is no longer started by default, and instead should be added to appropriate configurations or components if it is required - for example, on instruments using the script generator. |
+| [#7181](https://github.com/ISISComputingGroup/IBEX/issues/7181) | Minor| There should be no longer be many brief flashes of windwos during ibex startup|
+| [#6769](https://github.com/ISISComputingGroup/IBEX/issues/6769) | Minor| Genie Python will no longer print an exception trace if you enable handleing exceptions yourself (This is not the default case).|
 
 # Instrument Specific Changes
 
