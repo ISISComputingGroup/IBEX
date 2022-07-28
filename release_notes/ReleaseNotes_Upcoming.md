@@ -54,6 +54,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7206](https://github.com/ISISComputingGroup/IBEX/issues/7206) | Minor | Mezei Flipper | Allow and enforce user-specified port as part of HOST macro |
 | [#5554](https://github.com/ISISComputingGroup/IBEX/issues/5554) | Minor | Rotating Sample Changer | Reduced ambiguity of dropped sample messages |
 | [#3019](https://github.com/ISISComputingGroup/IBEX/issues/3019) | Minor | Eurotherm | Remove the RETRYCNT alarm as it was generally ignored |
+| [#4735](https://github.com/ISISComputingGroup/IBEX/issues/4735) | Minor | Eurotherm | Added warning label for when ramp file changed from default but lookup not on  |
 
 ### Reflectometry IOC
 
