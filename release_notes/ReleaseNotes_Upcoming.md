@@ -109,7 +109,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7227](https://github.com/ISISComputingGroup/IBEX/issues/7227) | Minor | Removed duplicate external Genie Python installations during upgrades |
 | [#7230](https://github.com/ISISComputingGroup/IBEX/issues/7230) | Minor | Removed "add block to a config" (not current config) option on right-click - see https://github.com/ISISComputingGroup/IBEX/issues/7224 |
 | [#7236](https://github.com/ISISComputingGroup/IBEX/issues/7236) | Minor | Added the ability to search IOCs when adding to configuration and in Start/Stop IOCs dialog |
-
+| [#7229](https://github.com/ISISComputingGroup/IBEX/issues/7229) | Minor | Use https links in GUI help pages |
 
 # genie_python
 
@@ -134,7 +134,7 @@ extend pre/post dae commands #7022
 | [#7086](https://github.com/ISISComputingGroup/IBEX/issues/7086) | Minor | Improved time performance of starting IOCs | 
 | [#7179](https://github.com/ISISComputingGroup/IBEX/issues/7179) | Patch | Stop flashing console window on GUI archve reload | 
 | [#7177](https://github.com/ISISComputingGroup/IBEX/issues/7177) | Minor | Added an ignored IOC folder list for building IOC startups
-| [#6980](https://github.com/ISISComputingGroup/IBEX/issues/6980) | Patch| Investigated waiting dialogue warnings and listed possible solutions |
+| [#6980](https://github.com/ISISComputingGroup/IBEX/issues/6980) | Patch | Investigated waiting dialogue warnings and listed possible solutions |
 
 # Internal changes
 
