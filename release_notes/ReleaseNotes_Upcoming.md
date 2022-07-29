@@ -41,6 +41,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#3736](https://github.com/ISISComputingGroup/IBEX/issues/3736) | Minor | Added navigation to run control settings via block right click menu; Clarified run control settings in block configuration window are default.  |
 
 
 ### Script Generator
