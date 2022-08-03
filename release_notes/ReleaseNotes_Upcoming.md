@@ -30,6 +30,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
+| [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Lakeshore336 | Added support for output/loop 3 and 4 |
 
 
 ### Reflectometry IOC
@@ -55,6 +56,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
+| [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Added support for output/loop 3 and 4 in the Lakeshore336 OPI |
 
 
 # genie_python
