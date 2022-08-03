@@ -70,6 +70,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7132](https://github.com/ISISComputingGroup/IBEX/issues/7132) | Minor | Make `do_sans` and `do_trans` instrument scripts for SANS instruments more robust and add tests. |
 
 
 # Other
