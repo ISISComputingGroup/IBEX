@@ -54,6 +54,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
 
 
 # genie_python
@@ -73,6 +74,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added error messages for common issues when processing a motionsetpoints file |
 
 
 # Internal changes
