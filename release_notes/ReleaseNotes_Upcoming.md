@@ -24,12 +24,16 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
 | [#7253](https://github.com/ISISComputingGroup/IBEX/issues/7253) | Temperature Jump Apparatus | Add support for SANS Temperature Jump Apparatus RS232 |
+| [6942](https://github.com/ISISComputingGroup/IBEX/issues/6942) | Transtechnik PSU | Add support for Transtechnik PSU (for RIKEN) |
 
 
 ### Modified devices
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
+| [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. | 
+
 
 ### Reflectometry IOC
 
@@ -53,6 +57,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
 
 
 # genie_python
@@ -72,6 +77,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added error messages for common issues when processing a motionsetpoints file |
 
 
 # Internal changes
