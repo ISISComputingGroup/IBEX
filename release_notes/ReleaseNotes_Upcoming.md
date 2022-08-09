@@ -47,6 +47,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#3736](https://github.com/ISISComputingGroup/IBEX/issues/3736) | Minor | Added navigation to run control settings via block right click menu; Clarified run control settings in block configuration window are default.  |
+| [#3647](https://github.com/ISISComputingGroup/IBEX/issues/3647) | Minor | New and exisiting block names limited to 25. |
 
 
 ### Script Generator
@@ -80,6 +81,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added error messages for common issues when processing a motionsetpoints file |
+
 
 
 # Internal changes
