@@ -31,11 +31,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#5993](https://github.com/ISISComputingGroup/IBEX/issues/5993) | Minor | CRYOSMS | Added support for more complex ramp modes. |
 | [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
 | [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. |
 | [#7213](https://github.com/ISISComputingGroup/IBEX/issues/7213) | Minor | TTIPLP | Added overcurrent and overvolt trip warnings and reset functionality. |
 | [#6283](https://github.com/ISISComputingGroup/IBEX/issues/6283) | Minor | MercuryiTC | Add a % of the volt limit used on pressure and temp cards | 
-
 
 
 ### Reflectometry IOC
