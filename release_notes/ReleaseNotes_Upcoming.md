@@ -42,7 +42,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
-| [#7276](https://github.com/ISISComputingGroup/IBEX/issues/7276) | Minor | Error log is now safely truncated to 10,000 character size limit. |
+| [#7276](https://github.com/ISISComputingGroup/IBEX/issues/7276) | Minor | Various waveform PVs are now safely truncated. |
 
 #  IBEX Client
 
