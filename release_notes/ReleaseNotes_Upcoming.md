@@ -23,20 +23,27 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#7253](https://github.com/ISISComputingGroup/IBEX/issues/7253) | Temperature Jump Apparatus | Add support for SANS Temperature Jump Apparatus RS232 |
+| [6942](https://github.com/ISISComputingGroup/IBEX/issues/6942) | Transtechnik PSU | Add support for Transtechnik PSU (for RIKEN) |
 
 
 ### Modified devices
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#5993](https://github.com/ISISComputingGroup/IBEX/issues/5993) | Minor | CRYOSMS | Added support for more complex ramp modes. |
 | [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
 | [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Lakeshore336 | Added support for output/loop 3 and 4 |
+| [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. |
+| [#7213](https://github.com/ISISComputingGroup/IBEX/issues/7213) | Minor | TTIPLP | Added overcurrent and overvolt trip warnings and reset functionality. |
+| [#6283](https://github.com/ISISComputingGroup/IBEX/issues/6283) | Minor | MercuryiTC | Add a % of the volt limit used on pressure and temp cards | 
 
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#7276](https://github.com/ISISComputingGroup/IBEX/issues/7276) | Minor | Various waveform PVs are now safely truncated. |
 
 #  IBEX Client
 
@@ -44,6 +51,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#3736](https://github.com/ISISComputingGroup/IBEX/issues/3736) | Minor | Added navigation to run control settings via block right click menu; Clarified run control settings in block configuration window are default.  |
+| [#5743](https://github.com/ISISComputingGroup/IBEX/issues/5743) | Minor | Added script path macro to the Background Script IOC. |
 
 
 ### Script Generator
@@ -57,6 +66,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
 | [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Added support for output/loop 3 and 4 in the Lakeshore336 OPI |
+| [#7212](https://github.com/ISISComputingGroup/IBEX/issues/7212) | Patch | Optimise the memory usage of very large/complex OPIs which have dynamic behaviour (e.g. the reflectometry OPI). This solves issues seen on INTER and POLREF with the client crashing or slowing down due to out-of-memory conditions. |
 
 
 # genie_python
@@ -83,6 +93,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7240](https://github.com/ISISComputingGroup/IBEX/issues/7240) | Minor | Schneider PLC IOC: Refactor to make generic |
 
 # Support Issues Solved
 
