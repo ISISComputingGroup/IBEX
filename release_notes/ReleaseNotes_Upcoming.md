@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#5993](https://github.com/ISISComputingGroup/IBEX/issues/5993) | Minor | CRYOSMS | Added support for more complex ramp modes. |
 | [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
+| [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Lakeshore336 | Added support for output/loop 3 and 4 |
 | [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. |
 | [#7213](https://github.com/ISISComputingGroup/IBEX/issues/7213) | Minor | TTIPLP | Added overcurrent and overvolt trip warnings and reset functionality. |
 | [#6283](https://github.com/ISISComputingGroup/IBEX/issues/6283) | Minor | MercuryiTC | Add a % of the volt limit used on pressure and temp cards | 
@@ -64,6 +65,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
+| [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Added support for output/loop 3 and 4 in the Lakeshore336 OPI |
 | [#7212](https://github.com/ISISComputingGroup/IBEX/issues/7212) | Patch | Optimise the memory usage of very large/complex OPIs which have dynamic behaviour (e.g. the reflectometry OPI). This solves issues seen on INTER and POLREF with the client crashing or slowing down due to out-of-memory conditions. |
 
 
