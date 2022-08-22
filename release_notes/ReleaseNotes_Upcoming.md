@@ -42,6 +42,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#7276](https://github.com/ISISComputingGroup/IBEX/issues/7276) | Minor | Various waveform PVs are now safely truncated. |
 
 #  IBEX Client
 
