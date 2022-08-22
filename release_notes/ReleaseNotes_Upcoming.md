@@ -47,7 +47,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#3736](https://github.com/ISISComputingGroup/IBEX/issues/3736) | Minor | Added navigation to run control settings via block right click menu; Clarified run control settings in block configuration window are default.  |
-| [#3647](https://github.com/ISISComputingGroup/IBEX/issues/3647) | Minor | New and exisiting block names limited to 25 characters. |
+| [#3647](https://github.com/ISISComputingGroup/IBEX/issues/3647) | Minor | New and existing block names limited to 25 characters. |
 
 
 ### Script Generator
