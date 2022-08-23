@@ -68,6 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6425](https://github.com/ISISComputingGroup/IBEX/issues/6425) | Minor | Added file name and error message to Motion Setpoints OPIs |
 | [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Added support for output/loop 3 and 4 in the Lakeshore336 OPI |
 | [#7212](https://github.com/ISISComputingGroup/IBEX/issues/7212) | Patch | Optimise the memory usage of very large/complex OPIs which have dynamic behaviour (e.g. the reflectometry OPI). This solves issues seen on INTER and POLREF with the client crashing or slowing down due to out-of-memory conditions. |
+| [#7224](https://github.com/ISISComputingGroup/IBEX/issues/7224) | Patch | Fixed "add block to a config" (not current config) option on right-click. |
 
 
 # genie_python
