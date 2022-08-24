@@ -37,6 +37,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. |
 | [#7213](https://github.com/ISISComputingGroup/IBEX/issues/7213) | Minor | TTIPLP | Added overcurrent and overvolt trip warnings and reset functionality. |
 | [#6283](https://github.com/ISISComputingGroup/IBEX/issues/6283) | Minor | MercuryiTC | Add a % of the volt limit used on pressure and temp cards | 
+| [#7255](https://github.com/ISISComputingGroup/IBEX/issues/7255) | Minor | TPG300 | Fix previously added switching function and an error when setting units. |
 
 
 ### Reflectometry IOC
