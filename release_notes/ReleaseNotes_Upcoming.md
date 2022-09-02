@@ -85,6 +85,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7291](https://github.com/ISISComputingGroup/IBEX/issues/7291) | Patch | The `restart_ioc_when_pv_in_alarm` script now returns a stoppable thread. | 
 
 
 # Other
