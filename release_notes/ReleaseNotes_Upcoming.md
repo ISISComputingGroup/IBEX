@@ -11,6 +11,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7181](https://github.com/ISISComputingGroup/IBEX/issues/7181) | Minor| There should be no longer be many brief flashes of windwos during ibex startup|
 | [#6769](https://github.com/ISISComputingGroup/IBEX/issues/6769) | Minor| Genie Python will no longer print an exception trace if you enable handleing exceptions yourself (This is not the default case).|
 | [#7237](https://github.com/ISISComputingGroup/IBEX/issues/7237) | Minor| The IOC descriptions have been updated to follow a convention of Manufacturer Model/Series (optional) Device/Description. This is not a breaking change, but things will appear differently in the IOC lists in the GUI. |
+| [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
 
 # Instrument Specific Changes
 
