@@ -40,6 +40,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6283](https://github.com/ISISComputingGroup/IBEX/issues/6283) | Minor | MercuryiTC | Add a % of the volt limit used on pressure and temp cards | 
 | [#7315](https://github.com/ISISComputingGroup/IBEX/issues/7315) | Minor | DAE | Autosave run number so displayed correctly even if DAE is OFF | 
 | [#7324](https://github.com/ISISComputingGroup/IBEX/issues/7324) | Minor | TC/Beckhoff | Fix motionsetpoints loading. |
+| [#4318](https://github.com/ISISComputingGroup/IBEX/issues/4318) | Minor | JSCO4180 | Added JSCO4180_2 and JSCO4180_3 IOCs. |
 
 
 ### Reflectometry IOC
