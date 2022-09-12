@@ -76,12 +76,14 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6719](https://github.com/ISISComputingGroup/IBEX/issues/6719) | Minor | Implement a new matplotlib backend. This should significantly improve the stability of long-running and dynamically updating plots. |
 | [#7224](https://github.com/ISISComputingGroup/IBEX/issues/7224) | Patch | Fixed "add block to a config" (not current config) option on right-click. |
 | [#7133](https://github.com/ISISComputingGroup/IBEX/issues/7133) | Minor | Adding to the Log Plotter if the Log Plotter perspective is disabled will now show a warning. |
+| [#5470](https://github.com/ISISComputingGroup/IBEX/issues/5470) | Minor | Added hide title and users checkbox to experiment details view; Adjusts its wording |
 
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#5470](https://github.com/ISISComputingGroup/IBEX/issues/5470) | Minor | Added command to hide an experiment's title and users |
 
 
 extend pre/post dae commands #7022
