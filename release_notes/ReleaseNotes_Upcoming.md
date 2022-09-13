@@ -16,6 +16,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
 
 
 # Devices
