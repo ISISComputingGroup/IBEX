@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7255](https://github.com/ISISComputingGroup/IBEX/issues/7255) | Minor | TPG300 | Fix previously added switching function and an error when setting units. |
 | [#7324](https://github.com/ISISComputingGroup/IBEX/issues/7324) | Minor | TC/Beckhoff | Fix motionsetpoints loading. |
 | [#4318](https://github.com/ISISComputingGroup/IBEX/issues/4318) | Minor | JSCO4180 | Added JSCO4180_2 and JSCO4180_3 IOCs. |
+| [#7322](https://github.com/ISISComputingGroup/IBEX/issues/7322) | Minor | MecuryiTC | Updated value pattern for pressure, level and temp macros |
 
 ### Reflectometry IOC
 
