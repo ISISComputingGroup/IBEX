@@ -33,7 +33,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#5993](https://github.com/ISISComputingGroup/IBEX/issues/5993) | Minor | CRYOSMS | Added support for more complex ramp modes. |
-| [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default | 
+| [#6861](https://github.com/ISISComputingGroup/IBEX/issues/6861) | Patch | TC/Beckhoff | Get velocity from ADS rather than setting to 1 by default |
+| [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. | 
+| [#7283](https://github.com/ISISComputingGroup/IBEX/issues/7283) | Minor | TC/Beckhoff | Fix setting fields on disabled axis and use motor energised to display/control whether an axis is enabled |
 | [#7261](https://github.com/ISISComputingGroup/IBEX/issues/7261) | Minor | Lakeshore336 | Added support for output/loop 3 and 4 |
 | [#7198](https://github.com/ISISComputingGroup/IBEX/issues/7198) | Patch | TC/Beckhoff | Fix moving/done flip-flop from 1 to 0 inversely. |
 | [#7213](https://github.com/ISISComputingGroup/IBEX/issues/7213) | Minor | TTIPLP | Added overcurrent and overvolt trip warnings and reset functionality. |
@@ -42,7 +44,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7315](https://github.com/ISISComputingGroup/IBEX/issues/7315) | Minor | DAE | Autosave run number so displayed correctly even if DAE is OFF | 
 | [#7324](https://github.com/ISISComputingGroup/IBEX/issues/7324) | Minor | TC/Beckhoff | Fix motionsetpoints loading. |
 | [#4318](https://github.com/ISISComputingGroup/IBEX/issues/4318) | Minor | JSCO4180 | Added JSCO4180_2 and JSCO4180_3 IOCs. |
-
 
 ### Reflectometry IOC
 
