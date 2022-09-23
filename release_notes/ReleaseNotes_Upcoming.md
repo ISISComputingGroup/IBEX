@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
+| [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
 
 # Instrument Specific Changes
 
