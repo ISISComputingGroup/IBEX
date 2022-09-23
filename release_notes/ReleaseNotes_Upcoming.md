@@ -69,6 +69,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#5470](https://github.com/ISISComputingGroup/IBEX/issues/5470) | Minor | Added command to hide an experiment's title and users |
+| [#7373](https://github.com/ISISComputingGroup/IBEX/issues/7373) | Patch | Prevent a deadlock that could occur on Python interpreter shutdown under Python 3.10+ |
 
 
 extend pre/post dae commands #7022
