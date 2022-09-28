@@ -63,6 +63,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#4673](https://github.com/ISISComputingGroup/IBEX/issues/4673) | Minor | Added Eurotherm single temperature sensor OPI |
 | [#5470](https://github.com/ISISComputingGroup/IBEX/issues/5470) | Minor | Added hide title and users checkbox to experiment details view; Adjusts its wording |
+| [#7342](https://github.com/ISISComputingGroup/IBEX/issues/7342) | Patch | Fixed `Stop` button in Galil Engineering View OPI. |
 | [#7381](https://github.com/ISISComputingGroup/IBEX/issues/7381) | Minor | Improved detection of multiple client instances. |
 
 
@@ -79,6 +80,8 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7132](https://github.com/ISISComputingGroup/IBEX/issues/7132) | Minor | Make `do_sans` and `do_trans` instrument scripts for SANS instruments more robust and add tests. |
+| [#7132](https://github.com/ISISComputingGroup/IBEX/issues/7132) | Minor | Renamed the following functions to follow Python conventions: `FOMin` -> `frame_overload_mirror_in`, `ShortPolariserin`- > `short_polariser_in`, `LongPolariserin` -> `long_polariser_in`, `BSInOut` -> `beam_stop_in_out`, `homecoarsejaws` -> `home_coarse_jaws`, `homea1` -> `home_a1`, `homes1` -> `home_s1`, `homes2` -> `home_s2`, `movebench` -> `move_bench`, `rotatebench` -> `rotate_bench`, `J1` -> `run_off_julabo_1`, `J2` -> `run_off_julabo_2`, `printsamplepars` -> `print_sample_pars`. |
 
 
 # Other
