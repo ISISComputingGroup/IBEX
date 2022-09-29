@@ -39,6 +39,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7296](https://github.com/ISISComputingGroup/IBEX/issues/7296) | Minor | Instron | Add ability to communicate with new MiniTower stress rig via manufacturer DLL |
 | [#7352](https://github.com/ISISComputingGroup/IBEX/issues/7352) | Minor | TEKAFG3XXX | Reduce and make configurable polling rate. |
 | [#7366](https://github.com/ISISComputingGroup/IBEX/issues/7366) | Minor | DG645 | Added DG645_2 and DG645_3 IOCs. |
+| [#7376](https://github.com/ISISComputingGroup/IBEX/issues/7376) | Minor | Keylkg | Added scan rate controls. |
+
 
 ### Reflectometry IOC
 
@@ -65,6 +67,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4673](https://github.com/ISISComputingGroup/IBEX/issues/4673) | Minor | Added Eurotherm single temperature sensor OPI |
 | [#5470](https://github.com/ISISComputingGroup/IBEX/issues/5470) | Minor | Added hide title and users checkbox to experiment details view; Adjusts its wording |
 | [#7342](https://github.com/ISISComputingGroup/IBEX/issues/7342) | Patch | Fixed `Stop` button in Galil Engineering View OPI. |
+| [#7381](https://github.com/ISISComputingGroup/IBEX/issues/7381) | Minor | Improved detection of multiple client instances. |
 
 
 # genie_python
