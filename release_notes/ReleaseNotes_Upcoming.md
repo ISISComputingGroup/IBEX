@@ -71,6 +71,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7342](https://github.com/ISISComputingGroup/IBEX/issues/7342) | Patch | Fixed `Stop` button in Galil Engineering View OPI. |
 | [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor  | Home button on motor OPI is now disabled when at high limit, this is to make it clear that you cannot forward home while at the high limit. Likewise reverse home is disabled when at lower limit. |
 | [#7381](https://github.com/ISISComputingGroup/IBEX/issues/7381) | Minor | Improved detection of multiple client instances. |
+| [#7386](https://github.com/ISISComputingGroup/IBEX/issues/7386) | Patch | Fixed null value of local OPI variables causing pink border around spectra plots. |
 
 # genie_python
 
