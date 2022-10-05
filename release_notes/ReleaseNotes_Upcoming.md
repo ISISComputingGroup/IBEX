@@ -61,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
+| [#6382](https://github.com/ISISComputingGroup/IBEX/issues/6382) | Minor | Added custom estimates. |
 
 
 ### Other
