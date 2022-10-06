@@ -62,6 +62,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ---- | ----------- |
 
+| [#7416](https://github.com/ISISComputingGroup/IBEX/issues/7416) | Patch | Improve startup reliability. |
+
+
 
 ### Other
 
