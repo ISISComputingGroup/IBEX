@@ -5,6 +5,7 @@ they will be incompatible, differences in minor versions are likely compatible b
 
 | Version | Date (Created)       |IBEX Server | IBEX GUI  | Genie Python |Release Notes | 
 | ------- | ----------           | -----      | ------------  | -------- | -------- |
+| V11.1.0  | 12-9-2022 | [v11.1.0](https://github.com/ISISComputingGroup/EPICS/tree/v11.1.0) | [v11.1.0](https://github.com/ISISComputingGroup/ibex_gui/tree/v11.1.0) | [v11.1.0](https://github.com/ISISComputingGroup/genie_python/tree/v11.1.0) | [Release Notes v11.1.0](release_notes/ReleaseNotes_v11.1.0.md) |
 | V11.0.0  | 28-7-2022 | [v11.0.0](https://github.com/ISISComputingGroup/EPICS/tree/v11.0.0) | [v11.0.0](https://github.com/ISISComputingGroup/ibex_gui/tree/v11.0.0) | [v11.0.0](https://github.com/ISISComputingGroup/genie_python/tree/v11.0.0) | [Release Notes v11.0.0](release_notes/ReleaseNotes_v11.0.0.md) |
 | V10.0.0  | 18-1-2022 | [v10.0.0](https://github.com/ISISComputingGroup/EPICS/tree/v10.0.0) | [v10.0.0](https://github.com/ISISComputingGroup/ibex_gui/tree/v10.0.0) | [v10.0.0](https://github.com/ISISComputingGroup/genie_python/tree/v10.0.0) | [Release Notes v10.0.0](release_notes/ReleaseNotes_v10.0.0.md) |
 | V9.0.0  | 01-10-2021 | [v9.0.0](https://github.com/ISISComputingGroup/EPICS/tree/v9.0.0) | [v9.0.0](https://github.com/ISISComputingGroup/ibex_gui/tree/v9.0.0) | [v9.0.0](https://github.com/ISISComputingGroup/genie_python/tree/v9.0.0) | [Release Notes v9.0.0](release_notes/Release-Notes-v9.0.0.md) |
