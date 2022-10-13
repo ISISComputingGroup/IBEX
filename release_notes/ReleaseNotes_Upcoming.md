@@ -101,6 +101,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#5764](https://github.com/ISISComputingGroup/IBEX/issues/5764) | Minor | fte not checked if mode is not 2 in splitCharWaveform |
+| [#7384](https://github.com/ISISComputingGroup/IBEX/issues/7384) | Minor | Added 32bit release Jenkins pipeline. |
 
 
 
