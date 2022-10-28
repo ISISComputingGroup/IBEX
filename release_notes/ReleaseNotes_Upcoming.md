@@ -107,6 +107,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#5764](https://github.com/ISISComputingGroup/IBEX/issues/5764) | Minor | fte not checked if mode is not 2 in splitCharWaveform |
+| [#7433](https://github.com/ISISComputingGroup/IBEX/issues/7433) | Minor | IBEX server start/stop scripts now notify on failure. |
 
 
 
