@@ -41,7 +41,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7322](https://github.com/ISISComputingGroup/IBEX/issues/7322) | Minor | MecuryiTC | Updated value pattern for pressure, level and temp macros |
 | [#7296](https://github.com/ISISComputingGroup/IBEX/issues/7296) | Minor | Instron | Add ability to communicate with new MiniTower stress rig via manufacturer DLL |
 | [#7352](https://github.com/ISISComputingGroup/IBEX/issues/7352) | Minor | TEKAFG3XXX | Reduce and make configurable polling rate. |
-| [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor  | Huber motor now properly resets its setpoint after homing. |
+| [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor | Huber | Huber motor now properly resets its setpoint after homing. |
 | [#7366](https://github.com/ISISComputingGroup/IBEX/issues/7366) | Minor | DG645 | Added DG645_2 and DG645_3 IOCs. |
 | [#7376](https://github.com/ISISComputingGroup/IBEX/issues/7376) | Minor | Keylkg | Added scan rate controls. |
 | [#7397](https://github.com/ISISComputingGroup/IBEX/issues/7397) | Patch | HTS Magnet | Various minor patches. |
@@ -49,6 +49,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4240](https://github.com/ISISComputingGroup/IBEX/issues/4240) | Minor | Eurotherm | Also allow control of Eurotherms via modbus protocol. Default behaviour is unchanged and remains to use the ei-bisynch protocol. | 
 | [#7426](https://github.com/ISISComputingGroup/IBEX/issues/7426) | Minor | DG645 | Add ability to control device via ethernet. |
 | [#7400](https://github.com/ISISComputingGroup/IBEX/issues/7400) | Minor | Kepco | Added option to automatically turn ramp on before setting current/field. |
+| [#7445](https://github.com/ISISComputingGroup/IBEX/issues/7445) | Minor | Huber| Fix moving/done reporting. |
 
 
 ### Reflectometry IOC
@@ -62,6 +63,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#7442](https://github.com/ISISComputingGroup/IBEX/issues/7442) | Patch | Fix bug preventing macro defaults from being shown in configuration menus. |
 
 
 
@@ -117,6 +119,7 @@ extend pre/post dae commands #7022
 | [#7240](https://github.com/ISISComputingGroup/IBEX/issues/7240) | Minor | Schneider PLC IOC: Refactor to make generic |
 | [#7332](https://github.com/ISISComputingGroup/IBEX/issues/7332) | Patch | Motion setpoints: add units to offset setpoint |
 | [#7266](https://github.com/ISISComputingGroup/IBEX/issues/7266) | Minor | IOC Test Framework: Refactor device disconnection logic |
+| [#7431](https://github.com/ISISComputingGroup/IBEX/issues/7431) | Minor | Added config checker as part of the deploy script. |
 
 # Support Issues Solved
 
