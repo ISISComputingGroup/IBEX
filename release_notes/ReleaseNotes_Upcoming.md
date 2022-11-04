@@ -88,6 +88,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7386](https://github.com/ISISComputingGroup/IBEX/issues/7386) | Patch | Fixed null value of local OPI variables causing pink border around spectra plots. |
 | [#7418](https://github.com/ISISComputingGroup/IBEX/issues/7418) | Minor | Added IOC name in motor details page. |
 | [#7406](https://github.com/ISISComputingGroup/IBEX/issues/7406) | Patch | Hovering on a matplotlib plot will display the coordinates of the point. |
+| [#7427](https://github.com/ISISComputingGroup/IBEX/issues/7427) | Minor | Pan/zoom functionality added for matplotlib plotting. |
 
 # genie_python
 
