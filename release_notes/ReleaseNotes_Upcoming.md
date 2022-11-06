@@ -25,6 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
 | [#7318](https://github.com/ISISComputingGroup/IBEX/issues/7318) | Tektronix Oscilloscopes (3000+) | Allows collection of raw waveforms and preamble info. Additionally, a background script has been created to periodically take an screenshot of the device. |
+| [#6079](https://github.com/ISISComputingGroup/IBEX/issues/6079) | Aeroflex Signal Generator (2023A/2030) | Allows setting and reading of carrier frequency, RF level and modulation type. |
 
 
 ### Modified devices
