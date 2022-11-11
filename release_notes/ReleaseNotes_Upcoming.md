@@ -60,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7070](https://github.com/ISISComputingGroup/IBEX/issues/7070) | Minor | Redefining the positions now has to be confirmed. |
+| [#7073](https://github.com/ISISComputingGroup/IBEX/issues/7073) | Minor | Added ability to lock parameters. |
 
 #  IBEX Client
 
