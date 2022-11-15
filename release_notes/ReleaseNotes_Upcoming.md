@@ -14,6 +14,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
+| ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
+| MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
 
 
 # Devices
@@ -22,6 +24,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#7350](https://github.com/ISISComputingGroup/IBEX/issues/7350) | T-Jump System | Added support for the T-Jump System. |
+| [#7318](https://github.com/ISISComputingGroup/IBEX/issues/7318) | Tektronix Oscilloscopes (3000+) | Allows collection of raw waveforms and preamble info. Additionally, a background script has been created to periodically take an screenshot of the device. |
 
 
 ### Modified devices
@@ -39,18 +43,23 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7322](https://github.com/ISISComputingGroup/IBEX/issues/7322) | Minor | MecuryiTC | Updated value pattern for pressure, level and temp macros |
 | [#7296](https://github.com/ISISComputingGroup/IBEX/issues/7296) | Minor | Instron | Add ability to communicate with new MiniTower stress rig via manufacturer DLL |
 | [#7352](https://github.com/ISISComputingGroup/IBEX/issues/7352) | Minor | TEKAFG3XXX | Reduce and make configurable polling rate. |
-| [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor  | Huber motor now properly resets its setpoint after homing. |
+| [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor | Huber | Huber motor now properly resets its setpoint after homing. |
 | [#7366](https://github.com/ISISComputingGroup/IBEX/issues/7366) | Minor | DG645 | Added DG645_2 and DG645_3 IOCs. |
 | [#7376](https://github.com/ISISComputingGroup/IBEX/issues/7376) | Minor | Keylkg | Added scan rate controls. |
 | [#7397](https://github.com/ISISComputingGroup/IBEX/issues/7397) | Patch | HTS Magnet | Various minor patches. |
 | [#7397](https://github.com/ISISComputingGroup/IBEX/issues/6433) | Patch | Multiple | Unit setter uses NPP by default |
 | [#4240](https://github.com/ISISComputingGroup/IBEX/issues/4240) | Minor | Eurotherm | Also allow control of Eurotherms via modbus protocol. Default behaviour is unchanged and remains to use the ei-bisynch protocol. | 
+| [#7426](https://github.com/ISISComputingGroup/IBEX/issues/7426) | Minor | DG645 | Add ability to control device via ethernet. |
+| [#7400](https://github.com/ISISComputingGroup/IBEX/issues/7400) | Minor | Kepco | Added option to automatically turn ramp on before setting current/field. |
+| [#7445](https://github.com/ISISComputingGroup/IBEX/issues/7445) | Minor | Huber| Fix moving/done reporting. |
+| [#7202](https://github.com/ISISComputingGroup/IBEX/issues/7202) | Minor | ORC | Fix and tidy up ORC logic. |
 
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#7070](https://github.com/ISISComputingGroup/IBEX/issues/7070) | Minor | Redefining the positions now has to be confirmed. |
 
 #  IBEX Client
 
@@ -58,6 +67,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#7442](https://github.com/ISISComputingGroup/IBEX/issues/7442) | Patch | Fix bug preventing macro defaults from being shown in configuration menus. |
 
 
 
@@ -78,6 +88,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7277](https://github.com/ISISComputingGroup/IBEX/issues/7277) | Minor  | Home button on motor OPI is now disabled when at high limit, this is to make it clear that you cannot forward home while at the high limit. Likewise reverse home is disabled when at lower limit. |
 | [#7381](https://github.com/ISISComputingGroup/IBEX/issues/7381) | Minor | Improved detection of multiple client instances. |
 | [#7386](https://github.com/ISISComputingGroup/IBEX/issues/7386) | Patch | Fixed null value of local OPI variables causing pink border around spectra plots. |
+| [#7418](https://github.com/ISISComputingGroup/IBEX/issues/7418) | Minor | Added IOC name in motor details page. |
+| [#7406](https://github.com/ISISComputingGroup/IBEX/issues/7406) | Patch | Hovering on a matplotlib plot will display the coordinates of the point. |
+| [#7427](https://github.com/ISISComputingGroup/IBEX/issues/7427) | Minor | Pan/zoom functionality added for matplotlib plotting. |
+| [#7268](https://github.com/ISISComputingGroup/IBEX/issues/7268) | Minor | Added preference that controls if IOC run mode is displayed. |
 
 # genie_python
 
@@ -102,6 +116,7 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 | [#5764](https://github.com/ISISComputingGroup/IBEX/issues/5764) | Minor | fte not checked if mode is not 2 in splitCharWaveform |
 | [#7384](https://github.com/ISISComputingGroup/IBEX/issues/7384) | Minor | Added 32bit release Jenkins pipeline. |
+| [#7433](https://github.com/ISISComputingGroup/IBEX/issues/7433) | Minor | IBEX server start/stop scripts now notify on failure. |
 
 
 
@@ -112,6 +127,7 @@ extend pre/post dae commands #7022
 | [#7240](https://github.com/ISISComputingGroup/IBEX/issues/7240) | Minor | Schneider PLC IOC: Refactor to make generic |
 | [#7332](https://github.com/ISISComputingGroup/IBEX/issues/7332) | Patch | Motion setpoints: add units to offset setpoint |
 | [#7266](https://github.com/ISISComputingGroup/IBEX/issues/7266) | Minor | IOC Test Framework: Refactor device disconnection logic |
+| [#7431](https://github.com/ISISComputingGroup/IBEX/issues/7431) | Minor | Added config checker as part of the deploy script. |
 
 # Support Issues Solved
 
