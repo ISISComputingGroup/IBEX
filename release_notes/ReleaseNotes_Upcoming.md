@@ -68,6 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7442](https://github.com/ISISComputingGroup/IBEX/issues/7442) | Patch | Fix bug preventing macro defaults from being shown in configuration menus. |
+| [#7225](https://github.com/ISISComputingGroup/IBEX/issues/7225) | Patch | Read-only groups from components will no longer appear as an option when adding a block. |
 
 
 
