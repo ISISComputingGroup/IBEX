@@ -54,8 +54,8 @@ jobs:
           remove-labels: "in progress, ready, impeded, bucket"
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           
-      - name:  Automate labelling in Complete column
-        if: github.event.project_card.column_id == '16893636'
+      - name:  Automate labelling in Review Complete column
+        if: github.event.project_card.column_id == '19223670'
         uses: andymckay/labeler@master
         with:
           remove-labels: "in progress, ready, impeded, review, under review, bucket"
