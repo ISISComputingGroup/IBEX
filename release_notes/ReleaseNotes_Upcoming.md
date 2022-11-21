@@ -130,6 +130,7 @@ extend pre/post dae commands #7022
 | [#7332](https://github.com/ISISComputingGroup/IBEX/issues/7332) | Patch | Motion setpoints: add units to offset setpoint |
 | [#7266](https://github.com/ISISComputingGroup/IBEX/issues/7266) | Minor | IOC Test Framework: Refactor device disconnection logic |
 | [#7431](https://github.com/ISISComputingGroup/IBEX/issues/7431) | Minor | Added config checker as part of the deploy script. |
+| [#7454](https://github.com/ISISComputingGroup/IBEX/issues/7454) | Minor | The deploy script now logs output/user input to `C:\logs\deploy\`. |
 
 # Support Issues Solved
 
