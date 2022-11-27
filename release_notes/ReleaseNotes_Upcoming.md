@@ -8,6 +8,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
 | [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
+| [#7234](https://github.com/ISISComputingGroup/IBEX/issues/7234) | Major | Preserve jaws setpoints during and motor stalls and, optionally, IOC restarts. |
 
 # Instrument Specific Changes
 
@@ -57,7 +58,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7202](https://github.com/ISISComputingGroup/IBEX/issues/7202) | Minor | ORC | Fix and tidy up ORC logic. |
 | [#7477](https://github.com/ISISComputingGroup/IBEX/issues/7477) | Patch | Mclennan | Non mclennan built-in homing no longer requires changing offset mode. |
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
-
 
 ### Reflectometry IOC
 
