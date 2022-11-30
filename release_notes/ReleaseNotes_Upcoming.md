@@ -8,6 +8,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
 | [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
+| [#7234](https://github.com/ISISComputingGroup/IBEX/issues/7234) | Major | Preserve jaws setpoints during and motor stalls and, optionally, IOC restarts. |
 
 # Instrument Specific Changes
 
@@ -26,6 +27,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#7350](https://github.com/ISISComputingGroup/IBEX/issues/7350) | T-Jump System | Added support for the T-Jump System. |
 | [#7318](https://github.com/ISISComputingGroup/IBEX/issues/7318) | Tektronix Oscilloscopes (3000+) | Allows collection of raw waveforms and preamble info. Additionally, a background script has been created to periodically take an screenshot of the device. |
+| [#6079](https://github.com/ISISComputingGroup/IBEX/issues/6079) | Aeroflex Signal Generator (2023A/2030) | Allows setting and reading of carrier frequency, RF level and modulation type. |
 
 
 ### Modified devices
@@ -56,14 +58,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7202](https://github.com/ISISComputingGroup/IBEX/issues/7202) | Minor | ORC | Fix and tidy up ORC logic. |
 | [#7477](https://github.com/ISISComputingGroup/IBEX/issues/7477) | Patch | Mclennan | Non mclennan built-in homing no longer requires changing offset mode. |
 | [#7485](https://github.com/ISISComputingGroup/IBEX/issues/7485) | Minor | SANDALS jaws | Add SANDALS jaws manager. |
-
-
+| [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
+| [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7070](https://github.com/ISISComputingGroup/IBEX/issues/7070) | Minor | Redefining the positions now has to be confirmed. |
+| [#7073](https://github.com/ISISComputingGroup/IBEX/issues/7073) | Minor | Added ability to lock parameters. |
 
 #  IBEX Client
 
@@ -72,6 +75,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7442](https://github.com/ISISComputingGroup/IBEX/issues/7442) | Patch | Fix bug preventing macro defaults from being shown in configuration menus. |
+| [#7225](https://github.com/ISISComputingGroup/IBEX/issues/7225) | Patch | Read-only groups from components will no longer appear as an option when adding a block. |
+| [#7225](https://github.com/ISISComputingGroup/IBEX/issues/7225) | Minor | Separated read-only component groups from configuration groups when editing a configuration. |
 
 
 
@@ -96,6 +101,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7406](https://github.com/ISISComputingGroup/IBEX/issues/7406) | Patch | Hovering on a matplotlib plot will display the coordinates of the point. |
 | [#7427](https://github.com/ISISComputingGroup/IBEX/issues/7427) | Minor | Pan/zoom functionality added for matplotlib plotting. |
 | [#7268](https://github.com/ISISComputingGroup/IBEX/issues/7268) | Minor | Added preference that controls if IOC run mode is displayed. |
+| [#7471](https://github.com/ISISComputingGroup/IBEX/issues/7471) | Minor | Added "jog in progress" LEDs, disable jog or home button if jog in progress in other direction |
+| - | Patch | Fix AreaDetector view under client V11.1+ |
 
 # genie_python
 
