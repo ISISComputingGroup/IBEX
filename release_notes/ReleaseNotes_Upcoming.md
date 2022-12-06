@@ -18,6 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
 | MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
 | Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
+| POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
 
 
 # Devices
@@ -58,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7445](https://github.com/ISISComputingGroup/IBEX/issues/7445) | Minor | Huber| Fix moving/done reporting. |
 | [#7202](https://github.com/ISISComputingGroup/IBEX/issues/7202) | Minor | ORC | Fix and tidy up ORC logic. |
 | [#7477](https://github.com/ISISComputingGroup/IBEX/issues/7477) | Patch | Mclennan | Non mclennan built-in homing no longer requires changing offset mode. |
+| [#7485](https://github.com/ISISComputingGroup/IBEX/issues/7485) | Minor | SANDALS jaws | Add SANDALS jaws manager. |
 | [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
 
