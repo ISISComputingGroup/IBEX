@@ -8,6 +8,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
 | [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
+| [#7234](https://github.com/ISISComputingGroup/IBEX/issues/7234) | Major | Preserve jaws setpoints during and motor stalls and, optionally, IOC restarts. |
 
 # Instrument Specific Changes
 
@@ -16,6 +17,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
 | ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
 | MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
+| Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
+| POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
 
 
 # Devices
@@ -26,6 +29,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#7350](https://github.com/ISISComputingGroup/IBEX/issues/7350) | T-Jump System | Added support for the T-Jump System. |
 | [#7318](https://github.com/ISISComputingGroup/IBEX/issues/7318) | Tektronix Oscilloscopes (3000+) | Allows collection of raw waveforms and preamble info. Additionally, a background script has been created to periodically take an screenshot of the device. |
+| [#6079](https://github.com/ISISComputingGroup/IBEX/issues/6079) | Aeroflex Signal Generator (2023A/2030) | Allows setting and reading of carrier frequency, RF level and modulation type. |
 
 
 ### Modified devices
@@ -51,15 +55,21 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4240](https://github.com/ISISComputingGroup/IBEX/issues/4240) | Minor | Eurotherm | Also allow control of Eurotherms via modbus protocol. Default behaviour is unchanged and remains to use the ei-bisynch protocol. | 
 | [#7426](https://github.com/ISISComputingGroup/IBEX/issues/7426) | Minor | DG645 | Add ability to control device via ethernet. |
 | [#7400](https://github.com/ISISComputingGroup/IBEX/issues/7400) | Minor | Kepco | Added option to automatically turn ramp on before setting current/field. |
+| [#7367](https://github.com/ISISComputingGroup/IBEX/issues/7367) | Minor | DG645 | Changed the IOC and OPI to more closely match the real device. Added channel GH. |
 | [#7445](https://github.com/ISISComputingGroup/IBEX/issues/7445) | Minor | Huber| Fix moving/done reporting. |
 | [#7202](https://github.com/ISISComputingGroup/IBEX/issues/7202) | Minor | ORC | Fix and tidy up ORC logic. |
-
+| [#7477](https://github.com/ISISComputingGroup/IBEX/issues/7477) | Patch | Mclennan | Non mclennan built-in homing no longer requires changing offset mode. |
+| [#7485](https://github.com/ISISComputingGroup/IBEX/issues/7485) | Minor | SANDALS jaws | Add SANDALS jaws manager. |
+| [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
+| [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
+| [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7070](https://github.com/ISISComputingGroup/IBEX/issues/7070) | Minor | Redefining the positions now has to be confirmed. |
+| [#7073](https://github.com/ISISComputingGroup/IBEX/issues/7073) | Minor | Added ability to lock parameters. |
 
 #  IBEX Client
 
@@ -68,6 +78,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7442](https://github.com/ISISComputingGroup/IBEX/issues/7442) | Patch | Fix bug preventing macro defaults from being shown in configuration menus. |
+| [#7225](https://github.com/ISISComputingGroup/IBEX/issues/7225) | Patch | Read-only groups from components will no longer appear as an option when adding a block. |
+| [#7225](https://github.com/ISISComputingGroup/IBEX/issues/7225) | Minor | Separated read-only component groups from configuration groups when editing a configuration. |
 
 
 
@@ -93,6 +105,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7427](https://github.com/ISISComputingGroup/IBEX/issues/7427) | Minor | Pan/zoom functionality added for matplotlib plotting. |
 | [#7268](https://github.com/ISISComputingGroup/IBEX/issues/7268) | Minor | Added preference that controls if IOC run mode is displayed. |
 | [#7147](https://github.com/ISISComputingGroup/IBEX/issues/7147) | Minor | Improved `Start/stop IOCs` behaviour after an update. |
+| [#7471](https://github.com/ISISComputingGroup/IBEX/issues/7471) | Minor | Added "jog in progress" LEDs, disable jog or home button if jog in progress in other direction |
+| - | Patch | Fix AreaDetector view under client V11.1+ |
 
 # genie_python
 
@@ -129,6 +143,7 @@ extend pre/post dae commands #7022
 | [#7332](https://github.com/ISISComputingGroup/IBEX/issues/7332) | Patch | Motion setpoints: add units to offset setpoint |
 | [#7266](https://github.com/ISISComputingGroup/IBEX/issues/7266) | Minor | IOC Test Framework: Refactor device disconnection logic |
 | [#7431](https://github.com/ISISComputingGroup/IBEX/issues/7431) | Minor | Added config checker as part of the deploy script. |
+| [#7454](https://github.com/ISISComputingGroup/IBEX/issues/7454) | Minor | The deploy script now logs output/user input to `C:\logs\deploy\`. |
 
 # Support Issues Solved
 
