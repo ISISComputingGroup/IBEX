@@ -62,6 +62,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7485](https://github.com/ISISComputingGroup/IBEX/issues/7485) | Minor | SANDALS jaws | Add SANDALS jaws manager. |
 | [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
+| [#7058](https://github.com/ISISComputingGroup/IBEX/issues/7058) | Major | Superlogics | Fixed IOC and OPI. |
 
 ### Reflectometry IOC
 
