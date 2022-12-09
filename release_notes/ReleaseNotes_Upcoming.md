@@ -134,6 +134,7 @@ extend pre/post dae commands #7022
 | [#5764](https://github.com/ISISComputingGroup/IBEX/issues/5764) | Minor | fte not checked if mode is not 2 in splitCharWaveform |
 | [#7384](https://github.com/ISISComputingGroup/IBEX/issues/7384) | Minor | Added 32bit release Jenkins pipeline. |
 | [#7433](https://github.com/ISISComputingGroup/IBEX/issues/7433) | Minor | IBEX server start/stop scripts now notify on failure. |
+| [#7470](https://github.com/ISISComputingGroup/IBEX/issues/7470) | Patch | Make archivers more thread-safe. |
 
 
 
