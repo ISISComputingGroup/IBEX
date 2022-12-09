@@ -64,6 +64,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
 | [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
+| [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
 
 ### Reflectometry IOC
 
