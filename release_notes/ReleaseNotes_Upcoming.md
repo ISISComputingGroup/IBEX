@@ -109,6 +109,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7147](https://github.com/ISISComputingGroup/IBEX/issues/7147) | Minor | Improved `Start/stop IOCs` behaviour after an update. |
 | [#7471](https://github.com/ISISComputingGroup/IBEX/issues/7471) | Minor | Added "jog in progress" LEDs, disable jog or home button if jog in progress in other direction |
 | - | Patch | Fix AreaDetector view under client V11.1+ |
+| [#5873](https://github.com/ISISComputingGroup/IBEX/issues/5873) | Minor | Add a tabular summary OPI for RIKEN's PSUs |
 
 # genie_python
 
