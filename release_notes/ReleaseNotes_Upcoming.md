@@ -66,6 +66,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
 | [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
 | [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
+| [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
 
 ### Reflectometry IOC
 
