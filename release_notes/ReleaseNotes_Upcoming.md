@@ -18,6 +18,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
 | MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
 | RIKEN | [#5872](https://github.com/ISISComputingGroup/IBEX/issues/5872) | Minor | Added magnet PSU synoptic opi |
+| Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
+| POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
+| RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
 
 
 # Devices
@@ -61,6 +64,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7485](https://github.com/ISISComputingGroup/IBEX/issues/7485) | Minor | SANDALS jaws | Add SANDALS jaws manager. |
 | [#7484](https://github.com/ISISComputingGroup/IBEX/issues/7484) | Patch | Eurotherm | Fixed issue where temperature readback did not update the first time a calibration file was set. |
 | [#7479](https://github.com/ISISComputingGroup/IBEX/issues/7479) | Patch | Galil | Add a standalone galil general I/O OPI. |
+| [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
+| [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
 
 ### Reflectometry IOC
 
@@ -102,8 +107,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7406](https://github.com/ISISComputingGroup/IBEX/issues/7406) | Patch | Hovering on a matplotlib plot will display the coordinates of the point. |
 | [#7427](https://github.com/ISISComputingGroup/IBEX/issues/7427) | Minor | Pan/zoom functionality added for matplotlib plotting. |
 | [#7268](https://github.com/ISISComputingGroup/IBEX/issues/7268) | Minor | Added preference that controls if IOC run mode is displayed. |
+| [#7147](https://github.com/ISISComputingGroup/IBEX/issues/7147) | Minor | Improved `Start/stop IOCs` behaviour after an update. |
 | [#7471](https://github.com/ISISComputingGroup/IBEX/issues/7471) | Minor | Added "jog in progress" LEDs, disable jog or home button if jog in progress in other direction |
 | - | Patch | Fix AreaDetector view under client V11.1+ |
+| [#5873](https://github.com/ISISComputingGroup/IBEX/issues/5873) | Minor | Add a tabular summary OPI for RIKEN's PSUs |
 
 # genie_python
 
@@ -129,6 +136,7 @@ extend pre/post dae commands #7022
 | [#5764](https://github.com/ISISComputingGroup/IBEX/issues/5764) | Minor | fte not checked if mode is not 2 in splitCharWaveform |
 | [#7384](https://github.com/ISISComputingGroup/IBEX/issues/7384) | Minor | Added 32bit release Jenkins pipeline. |
 | [#7433](https://github.com/ISISComputingGroup/IBEX/issues/7433) | Minor | IBEX server start/stop scripts now notify on failure. |
+| [#7470](https://github.com/ISISComputingGroup/IBEX/issues/7470) | Patch | Make archivers more thread-safe. |
 
 
 
