@@ -17,6 +17,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
 | ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
 | MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
+| RIKEN | [#5872](https://github.com/ISISComputingGroup/IBEX/issues/5872) | Minor | Added magnet PSU synoptic opi |
 | Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
 | POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
 | RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
@@ -66,6 +67,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
 | [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
 | [#6100](https://github.com/ISISComputingGroup/IBEX/issues/6100) | Minor | SKFChopper | OPI can now be configured for DISC and FERMI choppers. |
+| [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
 
 ### Reflectometry IOC
 
