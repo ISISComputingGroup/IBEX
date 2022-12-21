@@ -68,6 +68,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
 | [#6100](https://github.com/ISISComputingGroup/IBEX/issues/6100) | Minor | SKFChopper | OPI can now be configured for DISC and FERMI choppers. |
 | [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
+| [#7522](https://github.com/ISISComputingGroup/IBEX/issues/7522) | Major | TC/Beckhoff | Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
+
 
 ### Reflectometry IOC
 
