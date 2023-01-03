@@ -69,9 +69,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7506](https://github.com/ISISComputingGroup/IBEX/issues/7506) | Patch | TC/Beckhoff | Use status-based limits rather than reading raw inputs. |
 | [#7394](https://github.com/ISISComputingGroup/IBEX/issues/7394) | Patch | FINS | allow connection timeout to be configurable. |
 | [#4224](https://github.com/ISISComputingGroup/IBEX/issues/4224) | Patch | IPS | Support Mercury IPS (via old-style IPS driver `IPS_01`) |
+| [#7524](https://github.com/ISISComputingGroup/IBEX/issues/7524) | Patch | FINS | improve reconection logic on timeout. |
 | [#6100](https://github.com/ISISComputingGroup/IBEX/issues/6100) | Minor | SKFChopper | OPI can now be configured for DISC and FERMI choppers. |
 | [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
-
 
 ### Reflectometry IOC
 
