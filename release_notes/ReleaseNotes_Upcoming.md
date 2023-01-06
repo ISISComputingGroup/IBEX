@@ -72,6 +72,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7524](https://github.com/ISISComputingGroup/IBEX/issues/7524) | Patch | FINS | improve reconection logic on timeout. |
 | [#6100](https://github.com/ISISComputingGroup/IBEX/issues/6100) | Minor | SKFChopper | OPI can now be configured for DISC and FERMI choppers. |
 | [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
+| [#6931](https://github.com/ISISComputingGroup/IBEX/issues/6931) | Minor | Eurothem now has output rate control capability. |
 
 ### Reflectometry IOC
 
