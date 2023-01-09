@@ -155,6 +155,7 @@ extend pre/post dae commands #7022
 | [#7266](https://github.com/ISISComputingGroup/IBEX/issues/7266) | Minor | IOC Test Framework: Refactor device disconnection logic |
 | [#7431](https://github.com/ISISComputingGroup/IBEX/issues/7431) | Minor | Added config checker as part of the deploy script. |
 | [#7454](https://github.com/ISISComputingGroup/IBEX/issues/7454) | Minor | The deploy script now logs output/user input to `C:\logs\deploy\`. |
+| [#7530](https://github.com/ISISComputingGroup/IBEX/issues/7530) | Minor | IOC Test Framework: Tests will now fail if during IOC start checking PV for existance times out. |
 
 # Support Issues Solved
 
