@@ -117,6 +117,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7471](https://github.com/ISISComputingGroup/IBEX/issues/7471) | Minor | Added "jog in progress" LEDs, disable jog or home button if jog in progress in other direction |
 | - | Patch | Fix AreaDetector view under client V11.1+ |
 | [#5873](https://github.com/ISISComputingGroup/IBEX/issues/5873) | Minor | Add a tabular summary OPI for RIKEN's PSUs |
+| [#7529](https://github.com/ISISComputingGroup/IBEX/issues/7529) | Patch | Fix DAE reporting incorrectly on server status indicator |
+
 
 # genie_python
 
