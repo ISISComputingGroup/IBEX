@@ -73,6 +73,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7490](https://github.com/ISISComputingGroup/IBEX/issues/7490) | Minor | Add service which can configure moxa allowed IPs by hostname (for moveable equipment/moxas). |
 
 # Support Issues Solved
 
