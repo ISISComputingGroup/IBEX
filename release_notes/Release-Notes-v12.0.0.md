@@ -9,7 +9,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
 | [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
 | [#7234](https://github.com/ISISComputingGroup/IBEX/issues/7234) | Major | Preserve jaws setpoints during and motor stalls and, optionally, IOC restarts. |
-| [#7522](https://github.com/ISISComputingGroup/IBEX/issues/7522)  [#7539](https://github.com/ISISComputingGroup/IBEX/issues/7539)  | Major | TC/Beckhoff | Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
+| [#7522](https://github.com/ISISComputingGroup/IBEX/issues/7522)  [#7539](https://github.com/ISISComputingGroup/IBEX/issues/7539)  | Major | TC/Beckhoff - Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
 
 # Instrument Specific Changes
 
