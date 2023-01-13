@@ -11,6 +11,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| Engin-X | [#7327](https://github.com/ISISComputingGroup/IBEX/issues/7327) | Minor | New instron stress rig controller. |
 
 
 # Devices
