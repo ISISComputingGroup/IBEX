@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#7546](https://github.com/ISISComputingGroup/IBEX/issues/7546) | Major | TC/Beckhoff | Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
 
 # Instrument Specific Changes
 
