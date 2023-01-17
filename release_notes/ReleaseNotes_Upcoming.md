@@ -27,6 +27,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 | [#7058](https://github.com/ISISComputingGroup/IBEX/issues/7058) | Major | Superlogics | Fixed IOC and OPI. |
+| [#7182](https://github.com/ISISComputingGroup/IBEX/issues/7182) | Minor | LSI Correlator | Fixed minimum time lag scaling. |
+
 
 ### Reflectometry IOC
 
