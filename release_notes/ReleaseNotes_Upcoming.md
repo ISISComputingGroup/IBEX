@@ -6,13 +6,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#7546](https://github.com/ISISComputingGroup/IBEX/issues/7546) [#7549](https://github.com/ISISComputingGroup/IBEX/issues/7549) | Major | TC/Beckhoff - Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| Engin-X | [#7327](https://github.com/ISISComputingGroup/IBEX/issues/7327) | Minor | New instron stress rig controller. |
+
 
 
 # Devices
@@ -27,8 +26,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [#7058](https://github.com/ISISComputingGroup/IBEX/issues/7058) | Major | Superlogics | Fixed IOC and OPI. |
-| [#7182](https://github.com/ISISComputingGroup/IBEX/issues/7182) | Minor | LSI Correlator | Fixed minimum time lag scaling. |
 
 
 ### Reflectometry IOC
