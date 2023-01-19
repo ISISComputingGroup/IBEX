@@ -74,6 +74,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7574](https://github.com/ISISComputingGroup/IBEX/issues/7574) | Patch | Fixed blockserver not re-applying autorestart to ISISDAE, INSTETC, BSKAFKA etc. |
 
 # Support Issues Solved
 
