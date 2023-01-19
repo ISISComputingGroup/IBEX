@@ -9,19 +9,21 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7216](https://github.com/ISISComputingGroup/IBEX/issues/7216) | Minor| Improved DAE spectra display handling to hopefully make disconnected/pink borders less common.|
 | [#6947](https://github.com/ISISComputingGroup/IBEX/issues/6947) | Major | A new software pressure control for VTI cryostats has been added for the MercuryiTC. This involves some updates to macro and PV names, which will break old configs. An upgrade script is included.
 | [#7234](https://github.com/ISISComputingGroup/IBEX/issues/7234) | Major | Preserve jaws setpoints during and motor stalls and, optionally, IOC restarts. |
-| [#7522](https://github.com/ISISComputingGroup/IBEX/issues/7522)  [#7539](https://github.com/ISISComputingGroup/IBEX/issues/7539)  | Major | TC/Beckhoff - Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
+| [#7546](https://github.com/ISISComputingGroup/IBEX/issues/7546) [#7549](https://github.com/ISISComputingGroup/IBEX/issues/7549) [#7522](https://github.com/ISISComputingGroup/IBEX/issues/7522)  [#7539](https://github.com/ISISComputingGroup/IBEX/issues/7539)  | Major | TC/Beckhoff - Switch from using TcIOC to AdsDriver for easier integration of motion code. **note: existing beckhoff installs ie SANS2D guides will need to be re-configured** |
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
+| RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
+| Engin-X | [#7327](https://github.com/ISISComputingGroup/IBEX/issues/7327) | Minor | New instron stress rig controller. |
 | ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
 | MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
 | RIKEN | [#5872](https://github.com/ISISComputingGroup/IBEX/issues/5872) | Minor | Added magnet PSU synoptic opi |
 | Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
 | POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
-| RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
+
 
 
 # Devices
@@ -72,6 +74,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7524](https://github.com/ISISComputingGroup/IBEX/issues/7524) | Patch | FINS | improve reconection logic on timeout. |
 | [#6100](https://github.com/ISISComputingGroup/IBEX/issues/6100) | Minor | SKFChopper | OPI can now be configured for DISC and FERMI choppers. |
 | [#7217](https://github.com/ISISComputingGroup/IBEX/issues/7217) | Patch | Birmingham 17T magnet | fixed communication errors and ready light behaviour identified by hardware tests. |
+| [#7058](https://github.com/ISISComputingGroup/IBEX/issues/7058) | Major | Superlogics | Fixed IOC and OPI. |
+| [#7182](https://github.com/ISISComputingGroup/IBEX/issues/7182) | Minor | LSI Correlator | Fixed minimum time lag scaling. |
 
 ### Reflectometry IOC
 
