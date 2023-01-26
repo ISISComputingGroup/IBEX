@@ -82,6 +82,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
 
 # Support Issues Solved
 
