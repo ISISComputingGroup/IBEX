@@ -35,7 +35,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-
+| [#7405](https://github.com/ISISComputingGroup/IBEX/issues/7405) | Patch | T-Jump cell | Fixed protocol file for the t-jump cell apparatus. |
 
 ### Reflectometry IOC
 
@@ -61,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7592](https://github.com/ISISComputingGroup/IBEX/issues/7592) | System | Fix Strange permissions on files created by conserver and procServ. |
+| [#7461](https://github.com/ISISComputingGroup/IBEX/issues/7461) | Minor | Zoom selection box and different cursors added for matplotlib plotting |
 
 # genie_python
 
@@ -84,6 +85,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
 
 # Support Issues Solved
 
