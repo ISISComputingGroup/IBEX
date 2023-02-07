@@ -30,6 +30,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#2460](https://github.com/ISISComputingGroup/IBEX/issues/2460) | Keithley 2000 | Generic IOC for Keithley 2000 multimeters. |
 | [#7543](https://github.com/ISISComputingGroup/IBEX/issues/7543) | Omron PLC | Added support for SANDALS gate valve PLC. |
+| [#7468](https://github.com/ISISComputingGroup/IBEX/issues/7468) | Keithley 2290 High Voltage Power Supply | Allows programmable output voltage to 10kV. |
+
 
 ### Modified devices
 
