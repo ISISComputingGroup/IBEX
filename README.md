@@ -6,7 +6,7 @@ Please see the [Project Board](https://github.com/ISISComputingGroup/IBEX/projec
 
 # Release Notes
 
-### [Latest Stable IBEX Version (11.1.0)](release_notes/ReleaseNotes_v11.1.0.md)
+### [Latest Stable IBEX Version (12.0.1)](release_notes/Release-Notes-v12.0.1.md)
 
 [Upcoming Release](release_notes/ReleaseNotes_Upcoming.md)
 
