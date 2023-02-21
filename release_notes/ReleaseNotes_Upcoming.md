@@ -68,6 +68,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7592](https://github.com/ISISComputingGroup/IBEX/issues/7592) | System | Fix Strange permissions on files created by conserver and procServ. |
 | [#7461](https://github.com/ISISComputingGroup/IBEX/issues/7461) | Minor | Zoom selection box and different cursors added for matplotlib plotting |
 | [#7542](https://github.com/ISISComputingGroup/IBEX/issues/7542) | Minor | Added current error and open engineering view button to motor details for the Galil and Beckhoff motor controllers. |
+| [#7599](https://github.com/ISISComputingGroup/IBEX/issues/7599) | Minor | Add help icons in various places linking to the relevant user manual page in browser |
 
 # genie_python
 
