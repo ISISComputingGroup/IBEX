@@ -122,11 +122,46 @@ Change Types:
 ### Server dependencies
 
 what | version | where | last updated/checked
----- | ------- | ----- | --------------------
+|---- | ------- | ----- | --------------------|
+| MySql | 8.0.32 | ibex_install_utils | 03/2023
+| Make | 4.4 | utils_win32 | 03/2023 |
+| Cygwin | 3.4.6 | ICP_Binaries | 03/2023 |
+| Nicos | 23 | ScriptServer | 03/2023 |
+|ActiveMQ|5.17.3| ISIS/ActiveMQ |03/2023|
+|Joda-time|2.12.2| IOCLogServer |03/2023|
+|Apache log4j|2.19.0| IOCLogServer |03/2023|
+|Mockito|5.11| IOCLogServer |03/2023|
+|MySql-connector J|8.0.32| IOCLogServer |03/2023|
 
 ### GUI Dependencies
 
 Dependency | Version | last updated/checked
----- | ------- | --------------------
+|---- | ------- | --------------------|
+|Gson|2.10.1|03/2023|
+|efxclipse|3.9.0|03/2023|
+|Nebula Visualsation Widgets|2.7.2|03/2023|
+|Eclipse Releases|2023|03/2023|
+|Eclipse RCP|4.26|03/2023|
+|Eclipse Link Target Component|2.7.11|03/2023|
+|Joda-time|2.12.2|03/2023|
+|MySql-connector J|8.0.32|03/2023|
+|Apache log4j|2.19.0|03/2023|
+|ActiveMQ|5.17.3|03/2023|
+|Tyrus|2.1.2|03/2023|
+|Mockito|5.11|03/2023|
+|JeroMQ|5.1.1|03/2023|
+|Java Development Kit|17.0.6_10|03/2023|
+|Orbit|R20221123021534|03/2023|
+|PyDev|10.1.3|03/2023|
+|Maven|3.9.0|03/2023|
+|Control System Studio|03/2023|03/2023|
+|Nicos|23|03/2023|
 
 ### genie_python Dependencies
+
+Dependency | Version | last updated/checked
+|---- | ------- | --------------------|
+|Python|3.11.2|03/2023|
+|ode|0.16.3|03/2023|
+|Matplotlib|3.7.1|03/2023|
+|Lewis|03/2023|03/2023|
