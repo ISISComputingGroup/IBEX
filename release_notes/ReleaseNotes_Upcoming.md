@@ -85,6 +85,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7590](https://github.com/ISISComputingGroup/IBEX/issues/7590) | Minor | ARACCESS: MySQL connection pool resource leak |
 | [#7631](https://github.com/ISISComputingGroup/IBEX/issues/7631) | Minor | Add script to allow genie python to be imported into mantid |
 | [#7640](https://github.com/ISISComputingGroup/IBEX/issues/7640) | Minor | Fix `open_plot_window` function. Now takes a list of figures to open, defaults to opening all. |
+| [#7686](https://github.com/ISISComputingGroup/IBEX/issues/7686) | Patch | Fix thread leak in use of CA library - mostly affects system tests |
 
 
 extend pre/post dae commands #7022
