@@ -53,7 +53,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
-|[#7215](https://github.com/ISISComputingGroup/IBEX/issues/7215) | Minor | Fix for wrong velocity being cached in autosave |  
+| [#7215](https://github.com/ISISComputingGroup/IBEX/issues/7215) | Minor | Fix for wrong velocity being cached in autosave |  
 
 #  IBEX Client
 
