@@ -22,6 +22,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | RIKEN | [#7556](https://github.com/ISISComputingGroup/IBEX/issues/7556) | Minor | Add support for RB2 PSU. |
 | RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
 | LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
+| RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
 
 
 # Devices
@@ -33,7 +34,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#2460](https://github.com/ISISComputingGroup/IBEX/issues/2460) | Keithley 2000 | Generic IOC for Keithley 2000 multimeters. |
 | [#7543](https://github.com/ISISComputingGroup/IBEX/issues/7543) | Omron PLC | Added support for SANDALS gate valve PLC. |
 | [#7468](https://github.com/ISISComputingGroup/IBEX/issues/7468) | Keithley 2290 High Voltage Power Supply | Allows programmable output voltage to 10kV. |
-| [#7601](https://github.com/ISISComputingGroup/IBEX/issues/7601) | Basic IOC for the Catalytic Flow Reactor |
+| [#7601](https://github.com/ISISComputingGroup/IBEX/issues/7601) | Basic IOC for the Catalytic Flow Reactor | |
+| [#6678](https://github.com/ISISComputingGroup/IBEX/issues/6678) | Razorbill RP100 Strain Cell PSU | Used on WISH |
+| [#7663](https://github.com/ISISComputingGroup/IBEX/issues/7663) | Keysight E4980AL LCR meter | Used on WISH |
 
 
 ### Modified devices
@@ -44,6 +47,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7405](https://github.com/ISISComputingGroup/IBEX/issues/7405) | Patch | T-Jump cell | Fixed protocol file for the t-jump cell apparatus. |
 | [#6891](https://github.com/ISISComputingGroup/IBEX/issues/6891) | Minor | OxInst IPS | Do not wait for heater (if on) between setpoints in non-persistent mode |
 | [#7561](https://github.com/ISISComputingGroup/IBEX/issues/7561) | Minor | Superlogics | Added support for Strain Gauge modules. |
+| [#7598](https://github.com/ISISComputingGroup/IBEX/issues/7598) | Minor | SANS Sample Changer | Changed rack and position selection to be case insensitive. |
+| [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
 
 ### Reflectometry IOC
 
@@ -56,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Fix a performance problem in the client when changing DAE settings very quickly (e.g. via a script) |
 
 
 
@@ -73,12 +79,17 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7461](https://github.com/ISISComputingGroup/IBEX/issues/7461) | Minor | Zoom selection box and different cursors added for matplotlib plotting |
 | [#7542](https://github.com/ISISComputingGroup/IBEX/issues/7542) | Minor | Added current error and open engineering view button to motor details for the Galil and Beckhoff motor controllers. |
 | [#7636](https://github.com/ISISComputingGroup/IBEX/issues/7636) | Minor | Fix deadlock that could stop spectra graphs updating |
+| [#7638](https://github.com/ISISComputingGroup/IBEX/issues/7638) | Patch | Fix spectra plots looking at INSTETC heartbeat rather than ISISDAE |
+| [#7599](https://github.com/ISISComputingGroup/IBEX/issues/7599) | Minor | Add help icons in various places linking to the relevant user manual page in browser |
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7590](https://github.com/ISISComputingGroup/IBEX/issues/7590) | Minor | ARACCESS: MySQL connection pool resource leak |
 | [#7631](https://github.com/ISISComputingGroup/IBEX/issues/7631) | Minor | Add script to allow genie python to be imported into mantid |
+| [#7640](https://github.com/ISISComputingGroup/IBEX/issues/7640) | Minor | Fix `open_plot_window` function. Now takes a list of figures to open, defaults to opening all. |
+| [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Hide non-user-facing exceptions from the matplotlib plotting code. |
 
 
 extend pre/post dae commands #7022
@@ -99,6 +110,7 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 | [#7490](https://github.com/ISISComputingGroup/IBEX/issues/7490) | Minor | Add service which can configure moxa allowed IPs by hostname (for moveable equipment/moxas). |
 | [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
+| [#7583](https://github.com/ISISComputingGroup/IBEX/issues/7583) | Patch | Dependency updates: Python 3.11, Java patch versions, MySQL patch versions. See table below for details. |
 
 # Support Issues Solved
 
@@ -117,11 +129,46 @@ Change Types:
 ### Server dependencies
 
 what | version | where | last updated/checked
----- | ------- | ----- | --------------------
+|---- | ------- | ----- | --------------------|
+| MySql | 8.0.32 | ibex_install_utils | 03/2023
+| Make | 4.4 | utils_win32 | 03/2023 |
+| Cygwin | 3.4.6 | ICP_Binaries | 03/2023 |
+| Nicos | 23 | ScriptServer | 03/2023 |
+|ActiveMQ|5.17.3| ISIS/ActiveMQ |03/2023|
+|Joda-time|2.12.2| IOCLogServer |03/2023|
+|Apache log4j|2.19.0| IOCLogServer |03/2023|
+|Mockito|5.11| IOCLogServer |03/2023|
+|MySql-connector J|8.0.32| IOCLogServer |03/2023|
 
 ### GUI Dependencies
 
 Dependency | Version | last updated/checked
----- | ------- | --------------------
+|---- | ------- | --------------------|
+|Gson|2.10.1|03/2023|
+|efxclipse|3.9.0|03/2023|
+|Nebula Visualsation Widgets|2.7.2|03/2023|
+|Eclipse Releases|2023|03/2023|
+|Eclipse RCP|4.26|03/2023|
+|Eclipse Link Target Component|2.7.11|03/2023|
+|Joda-time|2.12.2|03/2023|
+|MySql-connector J|8.0.32|03/2023|
+|Apache log4j|2.19.0|03/2023|
+|ActiveMQ|5.17.3|03/2023|
+|Tyrus|2.1.2|03/2023|
+|Mockito|5.11|03/2023|
+|JeroMQ|5.1.1|03/2023|
+|Java Development Kit|17.0.6_10|03/2023|
+|Orbit|R20221123021534|03/2023|
+|PyDev|10.1.3|03/2023|
+|Maven|3.9.0|03/2023|
+|Control System Studio|03/2023|03/2023|
+|Nicos|23|03/2023|
 
 ### genie_python Dependencies
+
+Dependency | Version | last updated/checked
+|---- | ------- | --------------------|
+|Python|3.11.2|03/2023|
+|ode|0.16.3|03/2023|
+|Matplotlib|3.7.1|03/2023|
+|Lewis|03/2023|03/2023|
