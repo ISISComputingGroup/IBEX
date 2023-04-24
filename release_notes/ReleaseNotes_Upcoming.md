@@ -49,6 +49,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7561](https://github.com/ISISComputingGroup/IBEX/issues/7561) | Minor | Superlogics | Added support for Strain Gauge modules. |
 | [#7598](https://github.com/ISISComputingGroup/IBEX/issues/7598) | Minor | SANS Sample Changer | Changed rack and position selection to be case insensitive. |
 | [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
+| [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
 
 ### Reflectometry IOC
 
