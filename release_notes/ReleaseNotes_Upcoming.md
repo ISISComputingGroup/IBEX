@@ -21,6 +21,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
 | RIKEN | [#7556](https://github.com/ISISComputingGroup/IBEX/issues/7556) | Minor | Add support for RB2 PSU. |
 | RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
+| LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
 | RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
 
 
@@ -49,6 +50,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7598](https://github.com/ISISComputingGroup/IBEX/issues/7598) | Minor | SANS Sample Changer | Changed rack and position selection to be case insensitive. |
 | [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
 | [#7606](https://github.com/ISISComputingGroup/IBEX/issues/7606) | Minor | SKF G5 Chopper | Add method of skipping the MODBUS transaction ID for old firmware versions on SKF chopper controllers which implement it incorrectly |  
+| [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
 
 ### Reflectometry IOC
 
