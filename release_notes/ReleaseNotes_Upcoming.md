@@ -94,7 +94,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7631](https://github.com/ISISComputingGroup/IBEX/issues/7631) | Minor | Add script to allow genie python to be imported into mantid |
 | [#7640](https://github.com/ISISComputingGroup/IBEX/issues/7640) | Minor | Fix `open_plot_window` function. Now takes a list of figures to open, defaults to opening all. |
 | [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Hide non-user-facing exceptions from the matplotlib plotting code. |
-
+| [#7686](https://github.com/ISISComputingGroup/IBEX/issues/7686) | Patch | Stop thread leak in CaChannel when many conections remade. |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
