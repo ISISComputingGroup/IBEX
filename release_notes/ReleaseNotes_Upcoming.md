@@ -109,6 +109,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7710](https://github.com/ISISComputingGroup/IBEX/issues/7710) | Minor | Improve behaviour of archivers under memory exhaustion and add diagnostics |
 
 # Internal changes
 
