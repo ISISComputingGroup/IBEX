@@ -72,7 +72,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 ### Script Generator
 | Ticket | Type  | Change |
-| [#6922](https://github.com/ISISComputingGroup/ibex_gui/pull/1549) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
+| [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
 
 
 ### Other
