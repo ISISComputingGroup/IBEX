@@ -53,7 +53,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
 | [#7715](https://github.com/ISISComputingGroup/IBEX/issues/7715) | Minor | Muon ZF System | Add check to Setpoint Readback from PSUs  |
 | [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Increase replytimeout for EI-BISYNCH protocol for better reliability. |
-| [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Patch | McLennan | improve logging and diagnostics |
+| [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Minor | McLennan | improve logging and diagnostics |
+| [#7821](https://github.com/ISISComputingGroup/IBEX/issues/7821) | Minor | McLennan | extra home modes and grey out parameters set as macros |
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 
 ### Reflectometry IOC
