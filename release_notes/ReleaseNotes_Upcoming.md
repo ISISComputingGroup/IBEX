@@ -51,7 +51,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
 | [#7606](https://github.com/ISISComputingGroup/IBEX/issues/7606) | Minor | SKF G5 Chopper | Add method of skipping the MODBUS transaction ID for old firmware versions on SKF chopper controllers which implement it incorrectly |  
 | [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
-| [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Made communication using EI-BISYNCH protocol more reliable. |
+| [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Increase replytimeout for EI-BISYNCH protocol for better reliability. |
+| [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Patch | McLennan | improve logging and diagnostics |
+| [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 
 ### Reflectometry IOC
 
@@ -85,6 +87,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7636](https://github.com/ISISComputingGroup/IBEX/issues/7636) | Minor | Fix deadlock that could stop spectra graphs updating |
 | [#7638](https://github.com/ISISComputingGroup/IBEX/issues/7638) | Patch | Fix spectra plots looking at INSTETC heartbeat rather than ISISDAE |
 | [#7599](https://github.com/ISISComputingGroup/IBEX/issues/7599) | Minor | Add help icons in various places linking to the relevant user manual page in browser |
+| [#4277](https://github.com/ISISComputingGroup/IBEX/issues/4277) | Minor | Add different icons for single and vertical strip apertures on LOQ |
 
 # genie_python
 
@@ -93,6 +96,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7590](https://github.com/ISISComputingGroup/IBEX/issues/7590) | Minor | ARACCESS: MySQL connection pool resource leak |
 | [#7631](https://github.com/ISISComputingGroup/IBEX/issues/7631) | Minor | Add script to allow genie python to be imported into mantid |
 | [#7640](https://github.com/ISISComputingGroup/IBEX/issues/7640) | Minor | Fix `open_plot_window` function. Now takes a list of figures to open, defaults to opening all. |
+| [#7686](https://github.com/ISISComputingGroup/IBEX/issues/7686) | Patch | Fix thread leak in use of CA library - mostly affects system tests. However also removed pyepcics in case multiple epics installations was causing an issue. Believe nothing depended on this.  |
 | [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Hide non-user-facing exceptions from the matplotlib plotting code. |
 
 
@@ -107,6 +111,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7710](https://github.com/ISISComputingGroup/IBEX/issues/7710) | Minor | Improve behaviour of archivers under memory exhaustion and add diagnostics |
 
 # Internal changes
 
