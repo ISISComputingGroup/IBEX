@@ -52,6 +52,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
 | [#7606](https://github.com/ISISComputingGroup/IBEX/issues/7606) | Minor | SKF G5 Chopper | Add method of skipping the MODBUS transaction ID for old firmware versions on SKF chopper controllers which implement it incorrectly |  
 | [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
+| [#7646](https://github.com/ISISComputingGroup/IBEX/issues/7646) | Patch | TC/Beckhoff | Revert patch and permanently fix autoparamhandler incompatibility with motion setpoints causing crashes |
 | [#7715](https://github.com/ISISComputingGroup/IBEX/issues/7715) | Minor | Muon ZF System | Add check to Setpoint Readback from PSUs  |
 | [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Increase replytimeout for EI-BISYNCH protocol for better reliability. |
 | [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Patch | McLennan | improve logging and diagnostics |
