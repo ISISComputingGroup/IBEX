@@ -57,6 +57,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Increase replytimeout for EI-BISYNCH protocol for better reliability. |
 | [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Patch | McLennan | improve logging and diagnostics |
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
+| [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
 
 
 ### Reflectometry IOC
