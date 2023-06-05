@@ -59,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 | [#7830](https://github.com/ISISComputingGroup/IBEX/issues/7830) | Minor | Keithley2700 | handle overflow in timestamp. |  
 | [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
+| [#7701](https://github.com/ISISComputingGroup/IBEX/issues/7701) | Minor | ISIS MK3 Disc Chopper | Support for v8.7 DLL |
 
 ### Reflectometry IOC
 
