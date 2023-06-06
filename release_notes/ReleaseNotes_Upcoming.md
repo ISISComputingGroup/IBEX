@@ -59,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 | [#7830](https://github.com/ISISComputingGroup/IBEX/issues/7830) | Minor | Keithley2700 | handle overflow in timestamp. |  
 | [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
+| [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Minor | Kepco | Added initial ramp rate macro. |
 
 ### Reflectometry IOC
 
