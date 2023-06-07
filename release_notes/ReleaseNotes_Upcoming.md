@@ -60,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 | [#7830](https://github.com/ISISComputingGroup/IBEX/issues/7830) | Minor | Keithley2700 | handle overflow in timestamp. |  
 | [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
+| [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Minor | Kepco | Added initial ramp rate macro. |
 
 ### Reflectometry IOC
 
@@ -127,6 +128,7 @@ extend pre/post dae commands #7022
 | [#7490](https://github.com/ISISComputingGroup/IBEX/issues/7490) | Minor | Add service which can configure moxa allowed IPs by hostname (for moveable equipment/moxas). |
 | [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
 | [#7583](https://github.com/ISISComputingGroup/IBEX/issues/7583) | Patch | Dependency updates: Python 3.11, Java patch versions, MySQL patch versions. See table below for details. |
+| [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Major | Added initial ramp rate to ReadASCII `ReadASCIIConfigure` function. |
 
 # Support Issues Solved
 
