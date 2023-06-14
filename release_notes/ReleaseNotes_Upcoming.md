@@ -129,6 +129,7 @@ extend pre/post dae commands #7022
 | [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
 | [#7583](https://github.com/ISISComputingGroup/IBEX/issues/7583) | Patch | Dependency updates: Python 3.11, Java patch versions, MySQL patch versions. See table below for details. |
 | [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Major | Added initial ramp rate to ReadASCII `ReadASCIIConfigure` function. |
+| [#7835](https://github.com/ISISComputingGroup/IBEX/issues/7835) | Minor | Device generator script can now grant permissions to teams for the newly created repository. |
 
 # Support Issues Solved
 
