@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-### Instruments
+## Instruments
 
-## TS2 
+### TS2 
 
 - SANS2D 
     - [ ] Started
@@ -45,7 +45,7 @@ assignees: ''
     - [ ] Started
     - [ ] Completed
 
-## TS1 
+### TS1 
 - ENGINX
   - [ ] Started
   - [ ] Completed
@@ -149,7 +149,7 @@ assignees: ''
   - [ ] Started
   - [ ] Completed
 
-## Pseudo instruments
+### Pseudo instruments
 - SELAB
   - [ ] Started
   - [ ] Completed
