@@ -80,7 +80,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 ### Script Generator
 | Ticket | Type  | Change |
-| [#7843](https://github.com/ISISComputingGroup/IBEX/issues/7843) | Minor | Moved several of the script generator buttons into the right-click menu. |
+| [#7843](https://github.com/ISISComputingGroup/IBEX/issues/7843) | Major | Moved several of the script generator buttons into the right-click menu. |
 
 
 ### Other
