@@ -101,6 +101,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4277](https://github.com/ISISComputingGroup/IBEX/issues/4277) | Minor | Add different icons for single and vertical strip apertures on LOQ |
 | [#7825](https://github.com/ISISComputingGroup/IBEX/issues/7825) | Minor | Updated icons for several devices to new icons or pre-existing ones |
 | [#7852](https://github.com/ISISComputingGroup/IBEX/issues/7852) | Minor | Update Beam Status screen to include two new PVs: Decoupled Moderator Beam Limit & Decoupled Moderator Charge Change Time |
+| [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
 
 # genie_python
 
