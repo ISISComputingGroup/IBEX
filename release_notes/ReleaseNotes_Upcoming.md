@@ -102,6 +102,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7825](https://github.com/ISISComputingGroup/IBEX/issues/7825) | Minor | Updated icons for several devices to new icons or pre-existing ones |
 | [#7852](https://github.com/ISISComputingGroup/IBEX/issues/7852) | Minor | Update Beam Status screen to include two new PVs: Decoupled Moderator Beam Limit & Decoupled Moderator Charge Change Time |
 | [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
+| [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
 
 # genie_python
 
