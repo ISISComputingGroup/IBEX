@@ -24,7 +24,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
 | LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
 | RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
-
+| EMU | [#7880](https://github.com/ISISComputingGroup/IBEX/issues/7880) | Minor | Improved OPIs - Aeroflex Signal Generator - Remove control for modulation type |
+| PEARL | [#6045](https://github.com/ISISComputingGroup/IBEX/issues/6045) | Minor | Added OPI for PEARL jaws |
 
 # Devices
 
@@ -60,9 +61,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
 | [#7830](https://github.com/ISISComputingGroup/IBEX/issues/7830) | Minor | Keithley2700 | handle overflow in timestamp. |  
 | [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
+| [#7701](https://github.com/ISISComputingGroup/IBEX/issues/7701) | Minor | ISIS MK3 Disc Chopper | Support for v8.7 DLL |
 | [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Minor | Kepco | Added initial ramp rate macro. |
 | [#4390](https://github.com/ISISComputingGroup/IBEX/issues/4390) | Minor | Galil | Added homing routine name field to motor details page and galil engineering view. |
 | [#7837](https://github.com/ISISComputingGroup/IBEX/issues/7837) | Minor | McLennan | Protect status update button during McLennan home/jog. |
+| [#7879](https://github.com/ISISComputingGroup/IBEX/issues/7879) | Minor | Aeroflex | Fix units of frequency to be MHz on the Aeroflex signal generator. |
+| [#7881](https://github.com/ISISComputingGroup/IBEX/issues/7881) | Minor | Aeroflex | Remove ‘Reset to Factory Settings’ button on the Aeroflex signal generator OPI |
+| [#7882](https://github.com/ISISComputingGroup/IBEX/issues/7882) | Minor | Aeroflex | Removed "Set" buttons on Aeroflex OPI; PVs now update when value is entered directly from text field. |
+| [#6628](https://github.com/ISISComputingGroup/IBEX/issues/6628) | Patch | TTIEX355P | Fix error when opening device screen without set macro. |
+
 
 ### Reflectometry IOC
 
@@ -101,6 +108,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4277](https://github.com/ISISComputingGroup/IBEX/issues/4277) | Minor | Add different icons for single and vertical strip apertures on LOQ |
 | [#7825](https://github.com/ISISComputingGroup/IBEX/issues/7825) | Minor | Updated icons for several devices to new icons or pre-existing ones |
 | [#7852](https://github.com/ISISComputingGroup/IBEX/issues/7852) | Minor | Update Beam Status screen to include two new PVs: Decoupled Moderator Beam Limit & Decoupled Moderator Charge Change Time |
+| [#7403](https://github.com/ISISComputingGroup/IBEX/issues/7403#issue-1392309733) | Minor | Make Web Links the default view when opening client |
+| [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
+| [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
 
 # genie_python
 
@@ -112,6 +122,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7686](https://github.com/ISISComputingGroup/IBEX/issues/7686) | Patch | Fix thread leak in use of CA library - mostly affects system tests. However also removed pyepcics in case multiple epics installations was causing an issue. Believe nothing depended on this.  |
 | [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Hide non-user-facing exceptions from the matplotlib plotting code. |
 | [#7867](https://github.com/ISISComputingGroup/IBEX/issues/7867) | Minor | `load_script` records the name of the script being loaded. |
+| [#7865](https://github.com/ISISComputingGroup/IBEX/issues/7865) | Minor | More detail has been added to the error message in change_tables if there is a problem with the file paths |
 
 
 extend pre/post dae commands #7022
