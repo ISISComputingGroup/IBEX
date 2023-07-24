@@ -65,6 +65,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Minor | Kepco | Added initial ramp rate macro. |
 | [#4390](https://github.com/ISISComputingGroup/IBEX/issues/4390) | Minor | Galil | Added homing routine name field to motor details page and galil engineering view. |
 | [#7837](https://github.com/ISISComputingGroup/IBEX/issues/7837) | Minor | McLennan | Protect status update button during McLennan home/jog. |
+| [#7904](https://github.com/ISISComputingGroup/IBEX/issues/7904) | Minor | TC/Beckhoff | Use home icon on table of motors page to say if a beckhoff is homed |
 | [#7899](https://github.com/ISISComputingGroup/IBEX/issues/7899) | Patch | TC/Beckhoff | Propagate jog velocity from controller to motor record as we do for normal velocity. |
 | [#7877](https://github.com/ISISComputingGroup/IBEX/issues/7877) | Minor | Aeroflex | Add Carrier ON/OFF control on the Aeroflex signal generator OPI so that RF excitation can be enabled/disabled remotely. |
 | [#7879](https://github.com/ISISComputingGroup/IBEX/issues/7879) | Minor | Aeroflex | Fix units of frequency to be MHz on the Aeroflex signal generator. |
