@@ -69,7 +69,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7881](https://github.com/ISISComputingGroup/IBEX/issues/7881) | Minor | Aeroflex | Remove ‘Reset to Factory Settings’ button on the Aeroflex signal generator OPI |
 | [#7882](https://github.com/ISISComputingGroup/IBEX/issues/7882) | Minor | Aeroflex | Removed "Set" buttons on Aeroflex OPI; PVs now update when value is entered directly from text field. |
 | [#6628](https://github.com/ISISComputingGroup/IBEX/issues/6628) | Patch | TTIEX355P | Fix error when opening device screen without set macro. |
-
+| [#7916](https://github.com/ISISComputingGroup/IBEX/issues/7916) | Minor | Keithley 2700 | Add timestamp till next oc=verflow indicator and reset button to OPI |
 
 ### Reflectometry IOC
 
