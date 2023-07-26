@@ -76,6 +76,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6628](https://github.com/ISISComputingGroup/IBEX/issues/6628) | Patch | TTIEX355P | Fix error when opening device screen without set macro. |
 | [#7916](https://github.com/ISISComputingGroup/IBEX/issues/7916) | Minor | Keithley 2700 | Add timestamp till next overflow indicator and reset button to OPI |
 | [#7929](https://github.com/ISISComputingGroup/IBEX/issues/7929) | Minor | Aeroflex | Refactoring of system tests and IOC |
+| [#7893](https://github.com/ISISComputingGroup/IBEX/issues/7893) | Minor | DG645 |  The value setpoint boxes on the DG645 OPI are now autosaved and restored on IOC restart. |
 
 
 ### Reflectometry IOC
