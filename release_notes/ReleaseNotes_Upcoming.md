@@ -118,6 +118,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7403](https://github.com/ISISComputingGroup/IBEX/issues/7403) | Minor | Make Web Links the default view when opening client |
 | [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
 | [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
+| [#7909](https://github.com/ISISComputingGroup/IBEX/issues/7909) | Minor | Re-copy scripting history after a deploy so it is not lost |
 
 # genie_python
 
