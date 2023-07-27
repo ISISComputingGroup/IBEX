@@ -118,6 +118,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7403](https://github.com/ISISComputingGroup/IBEX/issues/7403) | Minor | Make Web Links the default view when opening client |
 | [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
 | [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
+| [#7891](https://github.com/ISISComputingGroup/IBEX/issues/7891) | Minor | On the DG645 OPI disable "Set" button if the input values are incomplete or of wrong format |
 
 # genie_python
 
