@@ -136,6 +136,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7867](https://github.com/ISISComputingGroup/IBEX/issues/7867) | Minor | `load_script` records the name of the script being loaded. |
 | [#7865](https://github.com/ISISComputingGroup/IBEX/issues/7865) | Minor | More detail has been added to the error message in change_tables if there is a problem with the file paths |
 | [#7868](https://github.com/ISISComputingGroup/IBEX/issues/7868) | Minor | genie_waitfor.py file updated to provide start and stop times within the log file |
+| [#7866](https://github.com/ISISComputingGroup/IBEX/issues/7866) | Minor | Error is raised if 'pointless statement' is raised which contains a 'g.' function |
+
 
 extend pre/post dae commands #7022
 # InstrumentScripts
