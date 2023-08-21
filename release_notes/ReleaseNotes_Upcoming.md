@@ -26,10 +26,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
 | LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
 | RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
+| RIKEN | [#7628](https://github.com/ISISComputingGroup/IBEX/issues/7628) | Minor | Added OPI for separator tuning with two Technix PSUs and a TPG300 vacuum readback. |
 | EMU | [#7880](https://github.com/ISISComputingGroup/IBEX/issues/7880) | Minor | Improved OPIs - Aeroflex Signal Generator - Remove control for modulation type |
 | PEARL | [#6045](https://github.com/ISISComputingGroup/IBEX/issues/6045) | Minor | Added OPI for PEARL jaws |
 | INTER | [#7955](https://github.com/ISISComputingGroup/IBEX/issues/7955) | Minor | Added INTER tank beckhoff PVs, templated PVs for all beckhoff applications to make less prone to typos |
-
 
 # Devices
 
