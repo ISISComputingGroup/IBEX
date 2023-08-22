@@ -44,6 +44,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6678](https://github.com/ISISComputingGroup/IBEX/issues/6678) | Razorbill RP100 Strain Cell PSU | Used on WISH |
 | [#6777](https://github.com/ISISComputingGroup/IBEX/issues/6777) | Automatic Needle Valve Controller | Added extra settings on top of Eurotherm (modbus) IOC and created OPI | 
 | [#7663](https://github.com/ISISComputingGroup/IBEX/issues/7663) | Keysight E4980AL LCR meter | Used on WISH |
+| [#7458](https://github.com/ISISComputingGroup/IBEX/issues/7458) | Pfeiffer TPG500 Pressure Guage | Device IOC added onto existing TPG300 IOC. |
 | [#6044](https://github.com/ISISComputingGroup/IBEX/issues/6044) | PACE 5000 Pressure Controller | Used on PEARL |
 | [#6041](https://github.com/ISISComputingGroup/IBEX/issues/6041) | MEASM905 Pressure Transducer | Used on PEARL |
 | [#7875](https://github.com/ISISComputingGroup/IBEX/issues/7875) | Moxa ioLogik 1242 | Used for Muon RF |
