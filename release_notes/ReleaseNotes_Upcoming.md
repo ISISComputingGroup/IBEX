@@ -26,10 +26,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
 | LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
 | RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
+| RIKEN | [#7628](https://github.com/ISISComputingGroup/IBEX/issues/7628) | Minor | Added OPI for separator tuning with two Technix PSUs and a TPG300 vacuum readback. |
 | EMU | [#7880](https://github.com/ISISComputingGroup/IBEX/issues/7880) | Minor | Improved OPIs - Aeroflex Signal Generator - Remove control for modulation type |
 | PEARL | [#6045](https://github.com/ISISComputingGroup/IBEX/issues/6045) | Minor | Added OPI for PEARL jaws |
 | INTER | [#7955](https://github.com/ISISComputingGroup/IBEX/issues/7955) | Minor | Added INTER tank beckhoff PVs, templated PVs for all beckhoff applications to make less prone to typos |
-
 
 # Devices
 
@@ -42,10 +42,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7468](https://github.com/ISISComputingGroup/IBEX/issues/7468) | Keithley 2290 High Voltage Power Supply | Allows programmable output voltage to 10kV. |
 | [#7601](https://github.com/ISISComputingGroup/IBEX/issues/7601) | Basic IOC for the Catalytic Flow Reactor | |
 | [#6678](https://github.com/ISISComputingGroup/IBEX/issues/6678) | Razorbill RP100 Strain Cell PSU | Used on WISH |
+| [#6777](https://github.com/ISISComputingGroup/IBEX/issues/6777) | Automatic Needle Valve Controller | Added extra settings on top of Eurotherm (modbus) IOC and created OPI | 
 | [#7663](https://github.com/ISISComputingGroup/IBEX/issues/7663) | Keysight E4980AL LCR meter | Used on WISH |
 | [#6044](https://github.com/ISISComputingGroup/IBEX/issues/6044) | PACE 5000 Pressure Controller | Used on PEARL |
 | [#6041](https://github.com/ISISComputingGroup/IBEX/issues/6041) | MEASM905 Pressure Transducer | Used on PEARL |
 | [#7875](https://github.com/ISISComputingGroup/IBEX/issues/7875) | Moxa ioLogik 1242 | Used for Muon RF |
+| [#6042](https://github.com/ISISComputingGroup/IBEX/issues/6042) | Sorensen Hi-PT Power Supply | Used on PEARL |
 
 
 ### Modified devices
@@ -82,6 +84,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7916](https://github.com/ISISComputingGroup/IBEX/issues/7916) | Minor | Keithley 2700 | Add timestamp till next overflow indicator and reset button to OPI |
 | [#7929](https://github.com/ISISComputingGroup/IBEX/issues/7929) | Minor | Aeroflex | Refactoring of system tests and IOC |
 | [#7945](https://github.com/ISISComputingGroup/IBEX/issues/7945) | Minor | Kepco | Allowing changing of current/voltage range |
+| [#7888](https://github.com/ISISComputingGroup/IBEX/issues/7888) | Minor | DG645 | Correct function to Load and Save configurations |
 
 
 ### Reflectometry IOC
