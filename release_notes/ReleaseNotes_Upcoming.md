@@ -128,6 +128,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
 | [#7891](https://github.com/ISISComputingGroup/IBEX/issues/7891) | Minor | On the DG645 OPI disable "Set" button if the input values are incomplete or of wrong format |
 | [#7909](https://github.com/ISISComputingGroup/IBEX/issues/7909) | Minor | Re-copy scripting history after a deploy so it is not lost |
+| [#7960](https://github.com/ISISComputingGroup/IBEX/issues/7960) | Minor | Add an OPI for INTER tank beckhoff diagnostics |
 
 # genie_python
 
