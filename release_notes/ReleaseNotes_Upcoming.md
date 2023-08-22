@@ -84,7 +84,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7929](https://github.com/ISISComputingGroup/IBEX/issues/7929) | Minor | Aeroflex | Refactoring of system tests and IOC |
 | [#7945](https://github.com/ISISComputingGroup/IBEX/issues/7945) | Minor | Kepco | Allowing changing of current/voltage range |
 | [#7888](https://github.com/ISISComputingGroup/IBEX/issues/7888) | Minor | DG645 | Correct function to Load and Save configurations |
-| [#7863](https://github.com/ISISComputingGroup/IBEX/issues/7863) | Minor | Fermichopper | Changed fault colour of the LEDs to a brighter hue of red | 
 
 
 ### Reflectometry IOC
