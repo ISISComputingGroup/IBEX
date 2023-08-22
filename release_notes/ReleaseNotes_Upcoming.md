@@ -46,6 +46,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7663](https://github.com/ISISComputingGroup/IBEX/issues/7663) | Keysight E4980AL LCR meter | Used on WISH |
 | [#6044](https://github.com/ISISComputingGroup/IBEX/issues/6044) | PACE 5000 Pressure Controller | Used on PEARL |
 | [#6041](https://github.com/ISISComputingGroup/IBEX/issues/6041) | MEASM905 Pressure Transducer | Used on PEARL |
+| [#7875](https://github.com/ISISComputingGroup/IBEX/issues/7875) | Moxa ioLogik 1242 | Used for Muon RF |
 | [#6042](https://github.com/ISISComputingGroup/IBEX/issues/6042) | Sorensen Hi-PT Power Supply | Used on PEARL |
 
 
