@@ -49,6 +49,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6041](https://github.com/ISISComputingGroup/IBEX/issues/6041) | MEASM905 Pressure Transducer | Used on PEARL |
 | [#7875](https://github.com/ISISComputingGroup/IBEX/issues/7875) | Moxa ioLogik 1242 | Used for Muon RF |
 | [#6042](https://github.com/ISISComputingGroup/IBEX/issues/6042) | Sorensen Hi-PT Power Supply | Used on PEARL |
+| [#6048](https://github.com/ISISComputingGroup/IBEX/issues/6048) | PEARL Sample Alignment Motor OPI | Used on PEARL |
 
 
 ### Modified devices
