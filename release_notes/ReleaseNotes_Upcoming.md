@@ -18,7 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-
+| [#7820](https://github.com/ISISComputingGroup/IBEX/issues/7820) | Fermi Chopper Condition monitoring box | Add IOC for PRE4500/Fermi chopper condition monitoring box | 
 
 ### Modified devices
 
