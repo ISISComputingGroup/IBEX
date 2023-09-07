@@ -51,6 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#7699](https://github.com/ISISComputingGroup/IBEX/issues/7699) | Minor | Added a combined spectra plot to the DAE |
 
 # genie_python
 
