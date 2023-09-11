@@ -75,6 +75,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#7982](https://github.com/ISISComputingGroup/IBEX/issues/7982)| Minor | Modified Galil install step to be automated based upon the previous deploy's Galil decision |
 
 # Support Issues Solved
 
