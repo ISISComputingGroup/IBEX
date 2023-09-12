@@ -48,7 +48,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [#7985](https://github.com/ISISComputingGroup/IBEX/issues/7985) | patch | Fix adding a block from the beam status perspective |
+| [#7985](https://github.com/ISISComputingGroup/IBEX/issues/7985) | patch | Adding a block from the beam status perspective context menu now correctly unchecks "is local" by default. |
 
 # genie_python
 
