@@ -60,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7699](https://github.com/ISISComputingGroup/IBEX/issues/7699) | Minor | Added a combined spectra plot to the DAE |
 | [#7921](https://github.com/ISISComputingGroup/IBEX/issues/7921) | Minor | Added "Show Title and Users in Dataweb Dashboard Page" to dashboard |
 | [#7896](https://github.com/ISISComputingGroup/IBEX/issues/7896) | Minor | Show IOC - COM port mapping on Moxa Ports perspective. |
+| [#7632](https://github.com/ISISComputingGroup/IBEX/issues/7632) | Minor | Help icons added in Script Server perspective and Scripting perspective console menu bar. |
 
 # genie_python
 
