@@ -28,8 +28,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#7890](https://github.com/ISISComputingGroup/IBEX/issues/7890) | Patch | DG645 | Fix delay width readback to correctly represent the time difference between leading and trailing edge |
 | [#7889](https://github.com/ISISComputingGroup/IBEX/issues/7889) | Patch | DG645 | Plots x axes update if needed. |
+| [#7887](https://github.com/ISISComputingGroup/IBEX/issues/7887) | Minor | DG645 | Units now displayed in delay readback blocks | 
 | [#7863](https://github.com/ISISComputingGroup/IBEX/issues/7863) | Minor | Fermichopper | Changed fault colour of the LEDs to a brighter hue of red | 
 | [#7958](https://github.com/ISISComputingGroup/IBEX/issues/7958) | Patch | MK3 Chopper | Updated communications DLL to v8.7 |
+| [#7892](https://github.com/ISISComputingGroup/IBEX/issues/7892) | Minor | DG645 | Labels added to readback delays on OPI | 
+| [#8000](https://github.com/ISISComputingGroup/IBEX/issues/8000) | Minor | FINS PLC | Added support for the remote control of the SANDALS V2 Valve | 
 
 ### Reflectometry IOC
 
@@ -42,6 +45,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
 
 
 ### Script Generator
@@ -55,6 +59,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7985](https://github.com/ISISComputingGroup/IBEX/issues/7985) | patch | Adding a block from the beam status perspective context menu now correctly unchecks "is local" by default. |
 | [#7699](https://github.com/ISISComputingGroup/IBEX/issues/7699) | Minor | Added a combined spectra plot to the DAE |
 | [#7921](https://github.com/ISISComputingGroup/IBEX/issues/7921) | Minor | Added "Show Title and Users in Dataweb Dashboard Page" to dashboard |
+| [#7896](https://github.com/ISISComputingGroup/IBEX/issues/7896) | Minor | Show IOC - COM port mapping on Moxa Ports perspective. |
+| [#7632](https://github.com/ISISComputingGroup/IBEX/issues/7632) | Minor | Help icons added in Script Server perspective and Scripting perspective console menu bar. |
+| [#8021](https://github.com/ISISComputingGroup/IBEX/issues/8021) | Minor | Add ability to show COM port mapping dialog when adding/editing a configuration. |
+| [#8020](https://github.com/ISISComputingGroup/IBEX/issues/8020) | Patch | Fix error when trying to open a device screen with undefined macro |
 
 # genie_python
 
@@ -80,6 +88,7 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 | [#7961](https://github.com/ISISComputingGroup/IBEX/issues/7961) | Minor | New script for standardising colours and fonts used in OPIs |
 | [#7982](https://github.com/ISISComputingGroup/IBEX/issues/7982) | Minor | Modified Galil install step to be automated based upon the previous deploy's Galil decision |
+| [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
 
 # Support Issues Solved
 
