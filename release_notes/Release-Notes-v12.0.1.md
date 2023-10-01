@@ -77,6 +77,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7058](https://github.com/ISISComputingGroup/IBEX/issues/7058) | Major | Superlogics | Fixed IOC and OPI. |
 | [#7182](https://github.com/ISISComputingGroup/IBEX/issues/7182) | Minor | LSI Correlator | Fixed minimum time lag scaling. |
 | [#7141](https://github.com/ISISComputingGroup/IBEX/issues/7141) | Minor | NIMA Trough | Added macros & displays in the OPI for NIMA Trough speed, pressure, and area high/ low limits. |
+| [#7005](https://github.com/ISISComputingGroup/IBEX/issues/7005) | Minor | CCD100 | Created a single protocol file for mk2 and mk3 CCD100s |
 
 ### Reflectometry IOC
 
