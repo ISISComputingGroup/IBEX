@@ -13,6 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | --------- | ------ | ------| ------------- |
 | INTER | [#7979](https://github.com/ISISComputingGroup/IBEX/issues/7979) | Patch | Add arbritary fields from/to INTER tank beckhoff |
 | RIKEN | [#8002](https://github.com/ISISComputingGroup/IBEX/issues/8002) | Patch | Update trace on Muon Separator Tuning OPI even if the value doesn't change |
+| RIKEN | [#7975](https://github.com/ISISComputingGroup/IBEX/issues/7975) | Minor | Add RKNMNTR IOC to provide calibrated temperature PVs for certain magnets. |
 
 # Devices
 
