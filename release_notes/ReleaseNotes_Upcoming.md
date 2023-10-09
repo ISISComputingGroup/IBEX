@@ -56,7 +56,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
+| [#7843](https://github.com/ISISComputingGroup/IBEX/issues/7843) | Major | Moved several of the script generator buttons into the right-click menu. |
+| [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
+| [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
 | [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
+
 
 ### Other
 
