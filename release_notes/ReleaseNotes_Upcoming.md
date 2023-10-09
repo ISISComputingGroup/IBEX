@@ -6,30 +6,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#7515](https://github.com/ISISComputingGroup/IBEX/issues/7515) | Minor | Can now copy a component from one instrument to another. |
-| [#7446](https://github.com/ISISComputingGroup/IBEX/issues/7446) | Minor | Motors (all) - Updated motor driver to R7-3 | 
-| [#7943](https://github.com/ISISComputingGroup/IBEX/issues/7943) | Minor | Added Alarm table, history, latching, and ability to acknowledge | 
-| [#7720](https://github.com/ISISComputingGroup/IBEX/issues/7720) | Minor | Added perspective for viewing Moxa port mappings | 
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| OFFSPEC | [#7328](https://github.com/ISISComputingGroup/IBEX/issues/7328) | Minor | Added OPIs for the Reflectometry front panel. |
-| ENGIN-X | [#7383](https://github.com/ISISComputingGroup/IBEX/issues/7383) | Patch | Allow `ARINST` and `ARACCESS` to run under a mini-instrument setup, to allow logging to work with new instron stress rig controller. |
-| MuSR | [#6404](https://github.com/ISISComputingGroup/IBEX/issues/6404) | Minor | Add additional information and tolerance checks to a new MuSR-specific CAEN OPI. |
-| RIKEN | [#5872](https://github.com/ISISComputingGroup/IBEX/issues/5872) | Minor | Added magnet PSU synoptic opi |
-| Muons | - | Minor | Add `BOOSTER_TYPE` PV to `MUONTPAR_01` IOC. |
-| POLREF | [#7399](https://github.com/ISISComputingGroup/IBEX/issues/7399) | Minor | Add calibration file for GMW Magnet. |
-| RIKEN | [#7241](https://github.com/ISISComputingGroup/IBEX/issues/7241) | Minor | Add configuration files for main PLC. |
-| RIKEN | [#7556](https://github.com/ISISComputingGroup/IBEX/issues/7556) | Minor | Add support for RB2 PSU. |
-| RIKEN | [#5878](https://github.com/ISISComputingGroup/IBEX/issues/5878) | Minor | Added OPI to show overview of the Vacuum System. |
-| LET/MERLIN | [#7625](https://github.com/ISISComputingGroup/IBEX/issues/7625) | Minor | Added more accurate 'moving' indicator for oscillating collimator and added to the OPI. |
-| RIKEN | [#7629](https://github.com/ISISComputingGroup/IBEX/issues/7629) | Minor | Improved OPIs - tidied up and made more consistent. |
-| RIKEN | [#7628](https://github.com/ISISComputingGroup/IBEX/issues/7628) | Minor | Added OPI for separator tuning with two Technix PSUs and a TPG300 vacuum readback. |
-| EMU | [#7880](https://github.com/ISISComputingGroup/IBEX/issues/7880) | Minor | Improved OPIs - Aeroflex Signal Generator - Remove control for modulation type |
-| PEARL | [#6045](https://github.com/ISISComputingGroup/IBEX/issues/6045) | Minor | Added OPI for PEARL jaws |
-| INTER | [#7955](https://github.com/ISISComputingGroup/IBEX/issues/7955) | Minor | Added INTER tank beckhoff PVs, templated PVs for all beckhoff applications to make less prone to typos |
+| INTER | [#7979](https://github.com/ISISComputingGroup/IBEX/issues/7979) | Patch | Add arbritary fields from/to INTER tank beckhoff |
+| RIKEN | [#8002](https://github.com/ISISComputingGroup/IBEX/issues/8002) | Patch | Update trace on Muon Separator Tuning OPI even if the value doesn't change |
 
 # Devices
 
@@ -37,63 +20,29 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-| [#2460](https://github.com/ISISComputingGroup/IBEX/issues/2460) | Keithley 2000 | Generic IOC for Keithley 2000 multimeters. |
-| [#7543](https://github.com/ISISComputingGroup/IBEX/issues/7543) | Omron PLC | Added support for SANDALS gate valve PLC. |
-| [#7468](https://github.com/ISISComputingGroup/IBEX/issues/7468) | Keithley 2290 High Voltage Power Supply | Allows programmable output voltage to 10kV. |
-| [#7601](https://github.com/ISISComputingGroup/IBEX/issues/7601) | Basic IOC for the Catalytic Flow Reactor | |
-| [#6678](https://github.com/ISISComputingGroup/IBEX/issues/6678) | Razorbill RP100 Strain Cell PSU | Used on WISH |
-| [#6777](https://github.com/ISISComputingGroup/IBEX/issues/6777) | Automatic Needle Valve Controller | Added extra settings on top of Eurotherm (modbus) IOC and created OPI | 
-| [#7663](https://github.com/ISISComputingGroup/IBEX/issues/7663) | Keysight E4980AL LCR meter | Used on WISH |
-| [#7458](https://github.com/ISISComputingGroup/IBEX/issues/7458) | Pfeiffer TPG500 Pressure Guage | Device IOC added onto existing TPG300 IOC. |
-| [#6044](https://github.com/ISISComputingGroup/IBEX/issues/6044) | PACE 5000 Pressure Controller | Used on PEARL |
-| [#6041](https://github.com/ISISComputingGroup/IBEX/issues/6041) | MEASM905 Pressure Transducer | Used on PEARL |
-| [#7875](https://github.com/ISISComputingGroup/IBEX/issues/7875) | Moxa ioLogik 1242 | Used for Muon RF |
-| [#6042](https://github.com/ISISComputingGroup/IBEX/issues/6042) | Sorensen Hi-PT Power Supply | Used on PEARL |
-
+| [#6048](https://github.com/ISISComputingGroup/IBEX/issues/6048) | PEARL Sample Alignment Motor OPI | Used on PEARL |
+| [#7820](https://github.com/ISISComputingGroup/IBEX/issues/7820) | Fermi Chopper Condition monitoring box | Add IOC for PRE4500/Fermi chopper condition monitoring box | 
 
 ### Modified devices
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [#6931](https://github.com/ISISComputingGroup/IBEX/issues/6931) | Minor | Eurotherm | Now has output rate control capability. |
-| [#7405](https://github.com/ISISComputingGroup/IBEX/issues/7405) | Patch | T-Jump cell | Fixed protocol file for the t-jump cell apparatus. |
-| [#6891](https://github.com/ISISComputingGroup/IBEX/issues/6891) | Minor | OxInst IPS | Do not wait for heater (if on) between setpoints in non-persistent mode |
-| [#7561](https://github.com/ISISComputingGroup/IBEX/issues/7561) | Minor | Superlogics | Added support for Strain Gauge modules. |
-| [#7598](https://github.com/ISISComputingGroup/IBEX/issues/7598) | Minor | SANS Sample Changer | Changed rack and position selection to be case insensitive. |
-| [#7692](https://github.com/ISISComputingGroup/IBEX/issues/7692) | Minor | IPS | Fix "heater off" state calculation |
-| [#7606](https://github.com/ISISComputingGroup/IBEX/issues/7606) | Minor | SKF G5 Chopper | Add method of skipping the MODBUS transaction ID for old firmware versions on SKF chopper controllers which implement it incorrectly |  
-| [#7711](https://github.com/ISISComputingGroup/IBEX/issues/7711) | Patch | TC/Beckhoff | Archive Error ID so it can be plotted |
-| [#7646](https://github.com/ISISComputingGroup/IBEX/issues/7646) | Patch | TC/Beckhoff | Revert patch and permanently fix autoparamhandler incompatibility with motion setpoints causing crashes |
-| [#7715](https://github.com/ISISComputingGroup/IBEX/issues/7715) | Minor | Muon ZF System | Add check to Setpoint Readback from PSUs  |
-| [#7697](https://github.com/ISISComputingGroup/IBEX/issues/7697) | Minor | Eurotherm | Increase replytimeout for EI-BISYNCH protocol for better reliability. |
-| [#7727](https://github.com/ISISComputingGroup/IBEX/issues/7727) | Minor | McLennan | improve logging and diagnostics |
-| [#7821](https://github.com/ISISComputingGroup/IBEX/issues/7821) | Minor | McLennan | extra home modes and grey out parameters set as macros |
-| [#7658](https://github.com/ISISComputingGroup/IBEX/issues/7658) | Minor | SKF G5 Chopper | Added peak positions PVs. |  
-| [#7830](https://github.com/ISISComputingGroup/IBEX/issues/7830) | Minor | Keithley2700 | handle overflow in timestamp. |  
-| [#7664](https://github.com/ISISComputingGroup/IBEX/issues/7664) | Minor | Various | Reduce repeated error reporing for disconnected devices in some circumstances |
-| [#7701](https://github.com/ISISComputingGroup/IBEX/issues/7701) | Minor | ISIS MK3 Disc Chopper | Support for v8.7 DLL |
-| [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Minor | Kepco | Added initial ramp rate macro. |
-| [#4390](https://github.com/ISISComputingGroup/IBEX/issues/4390) | Minor | Galil | Added homing routine name field to motor details page and galil engineering view. |
-| [#7837](https://github.com/ISISComputingGroup/IBEX/issues/7837) | Minor | McLennan | Protect status update button during McLennan home/jog. |
-| [#7904](https://github.com/ISISComputingGroup/IBEX/issues/7904) | Minor | TC/Beckhoff | Use home icon on table of motors page to say if a beckhoff is homed |
-| [#7899](https://github.com/ISISComputingGroup/IBEX/issues/7899) | Patch | TC/Beckhoff | Propagate jog velocity from controller to motor record as we do for normal velocity. |
-| [#7877](https://github.com/ISISComputingGroup/IBEX/issues/7877) | Minor | Aeroflex | Add Carrier ON/OFF control on the Aeroflex signal generator OPI so that RF excitation can be enabled/disabled remotely. |
-| [#7879](https://github.com/ISISComputingGroup/IBEX/issues/7879) | Minor | Aeroflex | Fix units of frequency to be MHz on the Aeroflex signal generator. |
-| [#7881](https://github.com/ISISComputingGroup/IBEX/issues/7881) | Minor | Aeroflex | Remove ‘Reset to Factory Settings’ button on the Aeroflex signal generator OPI |
-| [#7882](https://github.com/ISISComputingGroup/IBEX/issues/7882) | Minor | Aeroflex | Removed "Set" buttons on Aeroflex OPI; PVs now update when value is entered directly from text field. |
-| [#6628](https://github.com/ISISComputingGroup/IBEX/issues/6628) | Patch | TTIEX355P | Fix error when opening device screen without set macro. |
-| [#7916](https://github.com/ISISComputingGroup/IBEX/issues/7916) | Minor | Keithley 2700 | Add timestamp till next overflow indicator and reset button to OPI |
-| [#7929](https://github.com/ISISComputingGroup/IBEX/issues/7929) | Minor | Aeroflex | Refactoring of system tests and IOC |
-| [#7893](https://github.com/ISISComputingGroup/IBEX/issues/7893) | Minor | DG645 |  The value setpoint boxes on the DG645 OPI are now restored on IOC restart. |
-| [#7945](https://github.com/ISISComputingGroup/IBEX/issues/7945) | Minor | Kepco | Allowing changing of current/voltage range |
-| [#7888](https://github.com/ISISComputingGroup/IBEX/issues/7888) | Minor | DG645 | Correct function to Load and Save configurations |
-
+| [#7890](https://github.com/ISISComputingGroup/IBEX/issues/7890) | Patch | DG645 | Fix delay width readback to correctly represent the time difference between leading and trailing edge |
+| [#7889](https://github.com/ISISComputingGroup/IBEX/issues/7889) | Patch | DG645 | Plots x axes update if needed. |
+| [#7887](https://github.com/ISISComputingGroup/IBEX/issues/7887) | Minor | DG645 | Units now displayed in delay readback blocks | 
+| [#7863](https://github.com/ISISComputingGroup/IBEX/issues/7863) | Minor | Fermichopper | Changed fault colour of the LEDs to a brighter hue of red | 
+| [#7966](https://github.com/ISISComputingGroup/IBEX/issues/7966) | Patch | Sorensen | Added minor fixes found during testing with device | 
+| [#7958](https://github.com/ISISComputingGroup/IBEX/issues/7958) | Patch | MK3 Chopper | Updated communications DLL to v8.7 |
+| [#7892](https://github.com/ISISComputingGroup/IBEX/issues/7892) | Minor | DG645 | Labels added to readback delays on OPI | 
+| [#8000](https://github.com/ISISComputingGroup/IBEX/issues/8000) | Minor | FINS PLC | Added support for the remote control of the SANDALS V2 Valve | 
+| [#7878](https://github.com/ISISComputingGroup/IBEX/issues/7878) | Minor | Aeroflex | Add Local and Remote control buttons for Aeroflex Signal Generator | 
+| [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8039) | Patch | Beckhoff/TwinCAT | Fix typo in velocity forwarding record name | 
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
-| [#7215](https://github.com/ISISComputingGroup/IBEX/issues/7215) | Minor | Fix for wrong velocity being cached in autosave |  
+| [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
 
 #  IBEX Client
 
@@ -101,8 +50,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Fix a performance problem in the client when changing DAE settings very quickly (e.g. via a script) |
-
+| [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
 
 
 ### Script Generator
@@ -111,43 +59,26 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7843](https://github.com/ISISComputingGroup/IBEX/issues/7843) | Major | Moved several of the script generator buttons into the right-click menu. |
 | [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
 | [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
+| [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
 
 
 ### Other
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [#5876](https://github.com/ISISComputingGroup/IBEX/issues/5876) | Minor | Add an OPI for RIKEN Kicker and Separator HV settings |
-| [#7592](https://github.com/ISISComputingGroup/IBEX/issues/7592) | System | Fix Strange permissions on files created by conserver and procServ. |
-| [#7461](https://github.com/ISISComputingGroup/IBEX/issues/7461) | Minor | Zoom selection box and different cursors added for matplotlib plotting |
-| [#7542](https://github.com/ISISComputingGroup/IBEX/issues/7542) | Minor | Added current error and open engineering view button to motor details for the Galil and Beckhoff motor controllers. |
-| [#7636](https://github.com/ISISComputingGroup/IBEX/issues/7636) | Minor | Fix deadlock that could stop spectra graphs updating |
-| [#7638](https://github.com/ISISComputingGroup/IBEX/issues/7638) | Patch | Fix spectra plots looking at INSTETC heartbeat rather than ISISDAE |
-| [#7599](https://github.com/ISISComputingGroup/IBEX/issues/7599) | Minor | Add help icons in various places linking to the relevant user manual page in browser |
-| [#4277](https://github.com/ISISComputingGroup/IBEX/issues/4277) | Minor | Add different icons for single and vertical strip apertures on LOQ |
-| [#7825](https://github.com/ISISComputingGroup/IBEX/issues/7825) | Minor | Updated icons for several devices to new icons or pre-existing ones |
-| [#7852](https://github.com/ISISComputingGroup/IBEX/issues/7852) | Minor | Update Beam Status screen to include two new PVs: Decoupled Moderator Beam Limit & Decoupled Moderator Charge Change Time |
-| [#7403](https://github.com/ISISComputingGroup/IBEX/issues/7403) | Minor | Make Web Links the default view when opening client |
-| [#7895](https://github.com/ISISComputingGroup/IBEX/issues/7895) | Minor | Add PV address to tooltip hover in display blocks. |
-| [#7815](https://github.com/ISISComputingGroup/IBEX/issues/7815) | Minor | In the table of motors perspective motors get coloured amber when they are paused and have not done moving. |
-| [#7891](https://github.com/ISISComputingGroup/IBEX/issues/7891) | Minor | On the DG645 OPI disable "Set" button if the input values are incomplete or of wrong format |
-| [#7909](https://github.com/ISISComputingGroup/IBEX/issues/7909) | Minor | Re-copy scripting history after a deploy so it is not lost |
-| [#7960](https://github.com/ISISComputingGroup/IBEX/issues/7960) | Minor | Add an OPI for INTER tank beckhoff diagnostics |
+| [#7985](https://github.com/ISISComputingGroup/IBEX/issues/7985) | patch | Adding a block from the beam status perspective context menu now correctly unchecks "is local" by default. |
+| [#7699](https://github.com/ISISComputingGroup/IBEX/issues/7699) | Minor | Added a combined spectra plot to the DAE |
+| [#7921](https://github.com/ISISComputingGroup/IBEX/issues/7921) | Minor | Added "Show Title and Users in Dataweb Dashboard Page" to dashboard |
+| [#7896](https://github.com/ISISComputingGroup/IBEX/issues/7896) | Minor | Show IOC - COM port mapping on Moxa Ports perspective. |
+| [#7632](https://github.com/ISISComputingGroup/IBEX/issues/7632) | Minor | Help icons added in Script Server perspective and Scripting perspective console menu bar. |
+| [#8021](https://github.com/ISISComputingGroup/IBEX/issues/8021) | Minor | Add ability to show COM port mapping dialog when adding/editing a configuration. |
+| [#8020](https://github.com/ISISComputingGroup/IBEX/issues/8020) | Patch | Fix error when trying to open a device screen with undefined macro |
+| [#8032](https://github.com/ISISComputingGroup/IBEX/issues/8032) | Patch | Disable Advanced tab in PEARL Pressure Controller OPI (PEARLPC) if not in manager mode. |
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#7590](https://github.com/ISISComputingGroup/IBEX/issues/7590) | Minor | ARACCESS: MySQL connection pool resource leak |
-| [#7631](https://github.com/ISISComputingGroup/IBEX/issues/7631) | Minor | Add script to allow genie python to be imported into mantid |
-| [#7640](https://github.com/ISISComputingGroup/IBEX/issues/7640) | Minor | Fix `open_plot_window` function. Now takes a list of figures to open, defaults to opening all. |
-| [#7686](https://github.com/ISISComputingGroup/IBEX/issues/7686) | Patch | Fix thread leak in use of CA library - mostly affects system tests. However also removed pyepcics in case multiple epics installations was causing an issue. Believe nothing depended on this.  |
-| [#7610](https://github.com/ISISComputingGroup/IBEX/issues/7610) | Patch | Hide non-user-facing exceptions from the matplotlib plotting code. |
-| [#7459](https://github.com/ISISComputingGroup/IBEX/issues/7459) | Minor | Get machine details function now looks up machines in INSTLIST PV to connect to right host name. |
-| [#7867](https://github.com/ISISComputingGroup/IBEX/issues/7867) | Minor | `load_script` records the name of the script being loaded. |
-| [#7865](https://github.com/ISISComputingGroup/IBEX/issues/7865) | Minor | More detail has been added to the error message in change_tables if there is a problem with the file paths |
-| [#7868](https://github.com/ISISComputingGroup/IBEX/issues/7868) | Minor | genie_waitfor.py file updated to provide start and stop times within the log file |
-| [#7866](https://github.com/ISISComputingGroup/IBEX/issues/7866) | Minor | Error is raised if 'pointless statement' is raised which contains a 'g.' function |
 
 
 extend pre/post dae commands #7022
@@ -161,17 +92,14 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#7710](https://github.com/ISISComputingGroup/IBEX/issues/7710) | Minor | Improve behaviour of archivers under memory exhaustion and add diagnostics |
 
 # Internal changes
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#7490](https://github.com/ISISComputingGroup/IBEX/issues/7490) | Minor | Add service which can configure moxa allowed IPs by hostname (for moveable equipment/moxas). |
-| [#7585](https://github.com/ISISComputingGroup/IBEX/issues/7585) | Patch | Resolve system test failure for blockserver starting/restarting IOCs. |
-| [#7583](https://github.com/ISISComputingGroup/IBEX/issues/7583) | Patch | Dependency updates: Python 3.11, Java patch versions, MySQL patch versions. See table below for details. |
-| [#7716](https://github.com/ISISComputingGroup/IBEX/issues/7716) | Major | Added initial ramp rate to ReadASCII `ReadASCIIConfigure` function. |
-| [#7835](https://github.com/ISISComputingGroup/IBEX/issues/7835) | Minor | Device generator script can now grant permissions to teams for the newly created repository. |
+| [#7961](https://github.com/ISISComputingGroup/IBEX/issues/7961) | Minor | New script for standardising colours and fonts used in OPIs |
+| [#7982](https://github.com/ISISComputingGroup/IBEX/issues/7982) | Minor | Modified Galil install step to be automated based upon the previous deploy's Galil decision |
+| [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
 
 # Support Issues Solved
 
@@ -191,45 +119,14 @@ Change Types:
 
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
-| MySql | 8.0.32 | ibex_install_utils | 03/2023
-| Make | 4.4 | utils_win32 | 03/2023 |
-| Cygwin | 3.4.6 | ICP_Binaries | 03/2023 |
-| Nicos | 23 | ScriptServer | 03/2023 |
-|ActiveMQ|5.17.3| ISIS/ActiveMQ |03/2023|
-|Joda-time|2.12.2| IOCLogServer |03/2023|
-|Apache log4j|2.19.0| IOCLogServer |03/2023|
-|Mockito|5.11| IOCLogServer |03/2023|
-|MySql-connector J|8.0.32| IOCLogServer |03/2023|
 
 ### GUI Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-|Gson|2.10.1|03/2023|
-|efxclipse|3.9.0|03/2023|
-|Nebula Visualsation Widgets|2.7.2|03/2023|
-|Eclipse Releases|2023|03/2023|
-|Eclipse RCP|4.26|03/2023|
-|Eclipse Link Target Component|2.7.11|03/2023|
-|Joda-time|2.12.2|03/2023|
-|MySql-connector J|8.0.32|03/2023|
-|Apache log4j|2.19.0|03/2023|
-|ActiveMQ|5.17.3|03/2023|
-|Tyrus|2.1.2|03/2023|
-|Mockito|5.11|03/2023|
-|JeroMQ|5.1.1|03/2023|
-|Java Development Kit|17.0.6_10|03/2023|
-|Orbit|R20221123021534|03/2023|
-|PyDev|10.1.3|03/2023|
-|Maven|3.9.0|03/2023|
-|Control System Studio|03/2023|03/2023|
-|Nicos|23|03/2023|
 
 ### genie_python Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-|Python|3.11.2|03/2023|
-|ode|0.16.3|03/2023|
-|Matplotlib|3.7.1|03/2023|
-|Lewis|03/2023|03/2023|
+
