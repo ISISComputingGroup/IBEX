@@ -13,6 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | --------- | ------ | ------| ------------- |
 | INTER | [#7979](https://github.com/ISISComputingGroup/IBEX/issues/7979) | Patch | Add arbritary fields from/to INTER tank beckhoff |
 | RIKEN | [#8002](https://github.com/ISISComputingGroup/IBEX/issues/8002) | Patch | Update trace on Muon Separator Tuning OPI even if the value doesn't change |
+| RIKEN | [#7975](https://github.com/ISISComputingGroup/IBEX/issues/7975) | Minor | Add RKNMNTR IOC to provide calibrated temperature PVs for certain magnets. |
 
 # Devices
 
@@ -77,6 +78,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8020](https://github.com/ISISComputingGroup/IBEX/issues/8020) | Patch | Fix error when trying to open a device screen with undefined macro |
 | [#8032](https://github.com/ISISComputingGroup/IBEX/issues/8032) | Patch | Disable Advanced tab in PEARL Pressure Controller OPI (PEARLPC) if not in manager mode. |
 | [#8050](https://github.com/ISISComputingGroup/IBEX/issues/8050) | Minor | Show extra diagnostic data for galil/beckhoff in manager mode on table of motors "simple" view |
+| [#8052](https://github.com/ISISComputingGroup/IBEX/issues/8052) | Patch | Show 8 axes in beckhoff engineering view and add lookup for error codes. |
 
 # genie_python
 
