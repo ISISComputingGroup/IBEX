@@ -13,6 +13,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | --------- | ------ | ------| ------------- |
 | INTER | [#7979](https://github.com/ISISComputingGroup/IBEX/issues/7979) | Patch | Add arbritary fields from/to INTER tank beckhoff |
 | RIKEN | [#8002](https://github.com/ISISComputingGroup/IBEX/issues/8002) | Patch | Update trace on Muon Separator Tuning OPI even if the value doesn't change |
+| RIKEN | [#7975](https://github.com/ISISComputingGroup/IBEX/issues/7975) | Minor | Add RKNMNTR IOC to provide calibrated temperature PVs for certain magnets. |
 
 # Devices
 
@@ -37,11 +38,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8000](https://github.com/ISISComputingGroup/IBEX/issues/8000) | Minor | FINS PLC | Added support for the remote control of the SANDALS V2 Valve | 
 | [#7878](https://github.com/ISISComputingGroup/IBEX/issues/7878) | Minor | Aeroflex | Add Local and Remote control buttons for Aeroflex Signal Generator | 
 | [#6341](https://github.com/ISISComputingGroup/IBEX/issues/6341) | Minor | Cryogenic SMS PSU | Add fully tested funtionality for magnet control |
+| [#8010](https://github.com/ISISComputingGroup/IBEX/issues/8010) | Minor | Beckhoff/TwinCAT | Forward max velocity from beckhoff to table of motors | 
+| [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8039) | Patch | Beckhoff/TwinCAT | Fix typo in velocity forwarding record name | 
+
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
+| [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
 
 #  IBEX Client
 
@@ -50,11 +55,16 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
-
+| [#8037](https://github.com/ISISComputingGroup/IBEX/issues/8037) | Minor | Add ability to home even if limit is engaged for Beckhoff/TwinCAT motor controllers | 
 
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
+| [#7843](https://github.com/ISISComputingGroup/IBEX/issues/7843) | Major | Moved several of the script generator buttons into the right-click menu. |
+| [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
+| [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
+| [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
+
 
 ### Other
 
@@ -67,6 +77,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7632](https://github.com/ISISComputingGroup/IBEX/issues/7632) | Minor | Help icons added in Script Server perspective and Scripting perspective console menu bar. |
 | [#8021](https://github.com/ISISComputingGroup/IBEX/issues/8021) | Minor | Add ability to show COM port mapping dialog when adding/editing a configuration. |
 | [#8020](https://github.com/ISISComputingGroup/IBEX/issues/8020) | Patch | Fix error when trying to open a device screen with undefined macro |
+| [#8032](https://github.com/ISISComputingGroup/IBEX/issues/8032) | Patch | Disable Advanced tab in PEARL Pressure Controller OPI (PEARLPC) if not in manager mode. |
+| [#8050](https://github.com/ISISComputingGroup/IBEX/issues/8050) | Minor | Show extra diagnostic data for galil/beckhoff in manager mode on table of motors "simple" view |
+| [#8052](https://github.com/ISISComputingGroup/IBEX/issues/8052) | Patch | Show 8 axes in beckhoff engineering view and add lookup for error codes. |
 
 # genie_python
 
