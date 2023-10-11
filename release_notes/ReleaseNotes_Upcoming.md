@@ -41,7 +41,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8010](https://github.com/ISISComputingGroup/IBEX/issues/8010) | Minor | Beckhoff/TwinCAT | Forward max velocity from beckhoff to table of motors | 
 | [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8039) | Patch | Beckhoff/TwinCAT | Fix typo in velocity forwarding record name | 
 
-
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
@@ -56,6 +55,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
 | [#8037](https://github.com/ISISComputingGroup/IBEX/issues/8037) | Minor | Add ability to home even if limit is engaged for Beckhoff/TwinCAT motor controllers | 
+| [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8011) | Patch | Changes to the Data Acquisition Electronics can only be altered on the LocalHost | 
 
 ### Script Generator
 | Ticket | Type  | Change |
