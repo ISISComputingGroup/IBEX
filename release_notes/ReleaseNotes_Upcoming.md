@@ -40,7 +40,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6341](https://github.com/ISISComputingGroup/IBEX/issues/6341) | Minor | Cryogenic SMS PSU | Add fully tested funtionality for magnet control |
 | [#8010](https://github.com/ISISComputingGroup/IBEX/issues/8010) | Minor | Beckhoff/TwinCAT | Forward max velocity from beckhoff to table of motors | 
 | [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8039) | Patch | Beckhoff/TwinCAT | Fix typo in velocity forwarding record name | 
-
+| [#8031](https://github.com/ISISComputingGroup/IBEX/issues/8031) | Minor | PEARL Pressure Controller | Lock certain PVs when DAE is not in Setup state or Manager mode is off |
 
 ### Reflectometry IOC
 
