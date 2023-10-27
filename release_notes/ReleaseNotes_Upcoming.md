@@ -106,6 +106,7 @@ extend pre/post dae commands #7022
 | [#7961](https://github.com/ISISComputingGroup/IBEX/issues/7961) | Minor | New script for standardising colours and fonts used in OPIs |
 | [#7982](https://github.com/ISISComputingGroup/IBEX/issues/7982) | Minor | Modified Galil install step to be automated based upon the previous deploy's Galil decision |
 | [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
+| [#8081](https://github.com/ISISComputingGroup/IBEX/issues/8081) | Minor | Changed RoboCopy func from just copy to move the backup dir, to stage-deleted |
 
 # Support Issues Solved
 
