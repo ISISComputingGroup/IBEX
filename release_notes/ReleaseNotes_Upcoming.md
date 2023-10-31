@@ -85,6 +85,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8071](https://github.com/ISISComputingGroup/IBEX/issues/8071) | Minor | Show full filepath of motion setpoints file in motion setpoints screen |
 | [#8061](https://github.com/ISISComputingGroup/IBEX/issues/8061) | Minor | Remove outdated Slit 4 from INTER reflectometry panel and added controls for beam block + monitor | 
 | [#7823](https://github.com/ISISComputingGroup/IBEX/issues/7823) | Patch | Allow/fix scientific notation in run control settings of blocks | 
+| [#8013](https://github.com/ISISComputingGroup/IBEX/issues/8013) | Minor | Units hidden by zeros on dashboard blocks if high precision specified |
 
 # genie_python
 
