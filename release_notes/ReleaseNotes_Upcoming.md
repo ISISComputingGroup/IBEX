@@ -91,6 +91,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
 
 
 extend pre/post dae commands #7022
