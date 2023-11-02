@@ -92,7 +92,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 # genie_python
 
 | Ticket | Type  | Change |
-| [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors | 
+| ------ | ------| ------------- |
+| [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
+| [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors |
 
 
 extend pre/post dae commands #7022
