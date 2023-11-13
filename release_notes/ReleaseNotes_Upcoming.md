@@ -67,7 +67,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
 | [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
 | [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
-| [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Minor | Added ENUM dropdown support to scripts |
+| [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Major | Added ENUM dropdown support to scripts |
 
 
 ### Other
@@ -89,6 +89,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7823](https://github.com/ISISComputingGroup/IBEX/issues/7823) | Patch | Allow/fix scientific notation in run control settings of blocks | 
 | [#8013](https://github.com/ISISComputingGroup/IBEX/issues/8013) | Minor | Units hidden by zeros on dashboard blocks if high precision specified |
 | [#8091](https://github.com/ISISComputingGroup/IBEX/issues/8091) | Minor | Make INTER tank screen more user friendly |
+| [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 
 # genie_python
 
