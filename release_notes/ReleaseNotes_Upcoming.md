@@ -138,6 +138,7 @@ Change Types:
 
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
+| MySQL | 8.0.35 | 11/2023 |
 
 ### GUI Dependencies
 
