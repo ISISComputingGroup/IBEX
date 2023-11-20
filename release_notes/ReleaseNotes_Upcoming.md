@@ -139,6 +139,7 @@ Change Types:
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
 | MySQL | 8.0.35 | ibex_install_utils | 11/2023 |
+| Make | 4.4 | utils_win32 | 11/2023 |
 
 ### GUI Dependencies
 
