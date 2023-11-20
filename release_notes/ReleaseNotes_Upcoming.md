@@ -120,6 +120,7 @@ extend pre/post dae commands #7022
 | [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
 | [#8081](https://github.com/ISISComputingGroup/IBEX/issues/8081) | Minor | Changed RoboCopy func from just copy to move the backup dir, to stage-deleted |
 | [#8001](https://github.com/ISISComputingGroup/IBEX/issues/8001) | Minor | Improves implementation/functionality of the deploy script steps: LabView recording (knows whether to ask this step or not based on the instrument), motor/block/blockserver backups (occur in parallel as one step), backup (zips files as well as transfering to stage-deleted)  |
+| [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 
 # Support Issues Solved
 
