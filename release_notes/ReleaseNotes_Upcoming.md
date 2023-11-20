@@ -90,6 +90,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7823](https://github.com/ISISComputingGroup/IBEX/issues/7823) | Patch | Allow/fix scientific notation in run control settings of blocks | 
 | [#8013](https://github.com/ISISComputingGroup/IBEX/issues/8013) | Minor | Units hidden by zeros on dashboard blocks if high precision specified |
 | [#8091](https://github.com/ISISComputingGroup/IBEX/issues/8091) | Minor | Make INTER tank screen more user friendly |
+| [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 
 # genie_python
 
