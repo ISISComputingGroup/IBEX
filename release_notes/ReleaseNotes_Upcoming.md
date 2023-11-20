@@ -67,7 +67,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
 | [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
 | [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
-| [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Major | Added ENUM dropdown support to scripts |
+| [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Minor | Added ENUM dropdown support to scripts |
+| [#7934](https://github.com/ISISComputingGroup/IBEX/issues/7934) | Patch | Visually group related buttons together and maximise vertical space for table |
 
 
 ### Other
@@ -120,6 +121,7 @@ extend pre/post dae commands #7022
 | [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
 | [#8081](https://github.com/ISISComputingGroup/IBEX/issues/8081) | Minor | Changed RoboCopy func from just copy to move the backup dir, to stage-deleted |
 | [#8001](https://github.com/ISISComputingGroup/IBEX/issues/8001) | Minor | Improves implementation/functionality of the deploy script steps: LabView recording (knows whether to ask this step or not based on the instrument), motor/block/blockserver backups (occur in parallel as one step), backup (zips files as well as transfering to stage-deleted)  |
+| [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 
 # Support Issues Solved
 
