@@ -147,6 +147,7 @@ Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
 | Gson | 2.10.1 | 11/2023 |
 | Java Development Kit | 17.0.9_9	| 11/2023 |
+| Maven | 3.9.5 | 11/2023 |
 
 ### genie_python Dependencies
 
