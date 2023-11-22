@@ -153,4 +153,4 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-
+| Python | 3.12.0 | 11/2023 |
