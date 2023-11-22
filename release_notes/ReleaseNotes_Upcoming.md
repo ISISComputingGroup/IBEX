@@ -40,7 +40,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6341](https://github.com/ISISComputingGroup/IBEX/issues/6341) | Minor | Cryogenic SMS PSU | Add fully tested funtionality for magnet control |
 | [#8010](https://github.com/ISISComputingGroup/IBEX/issues/8010) | Minor | Beckhoff/TwinCAT | Forward max velocity from beckhoff to table of motors | 
 | [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8039) | Patch | Beckhoff/TwinCAT | Fix typo in velocity forwarding record name | 
-
+| [#8031](https://github.com/ISISComputingGroup/IBEX/issues/8031) | Minor | PEARL Pressure Controller | Lock certain PVs when DAE is not in Setup state or Manager mode is off |
+| [#8078](https://github.com/ISISComputingGroup/IBEX/issues/8078) | Patch | Jaws manager | Allow adding engineering units to sample/mod gaps and centers | 
+| [#8070](https://github.com/ISISComputingGroup/IBEX/issues/8070) | Patch | PACE 5000 | Add option to vent and see vent status, enforce bar as unit | 
+| [#8111](https://github.com/ISISComputingGroup/IBEX/issues/8111) | Patch | Beckhoff/TwinCAT | Fix axis error ID archiving | 
 
 ### Reflectometry IOC
 
@@ -56,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
 | [#8037](https://github.com/ISISComputingGroup/IBEX/issues/8037) | Minor | Add ability to home even if limit is engaged for Beckhoff/TwinCAT motor controllers | 
+| [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8011) | Patch | Changes to the Data Acquisition Electronics can only be altered on the LocalHost | 
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -64,6 +68,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6922](https://github.com/ISISComputingGroup/IBEX/issues/6922) | Minor | Steps in the script generator are now read-only once they are being executed, this is to avoid confusion, as updating them once running would not update the running script. |
 | [#7932](https://github.com/ISISComputingGroup/IBEX/issues/7932) | Minor | Prevent users from accidentally modifying the existing script definitions, users can no longer update git repo from script generator. Dialoges improved to notify of dirty repo as well as if are updates available. |
 | [#6658](https://github.com/ISISComputingGroup/IBEX/issues/6658) | Minor | Imporved the readability of generated scripts via action parameter order consistency, action id comments, action section comment |
+| [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Minor | Added ENUM dropdown support to scripts |
+| [#7934](https://github.com/ISISComputingGroup/IBEX/issues/7934) | Patch | Visually group related buttons together and maximise vertical space for table |
 
 
 ### Other
@@ -81,11 +87,19 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8050](https://github.com/ISISComputingGroup/IBEX/issues/8050) | Minor | Show extra diagnostic data for galil/beckhoff in manager mode on table of motors "simple" view |
 | [#8052](https://github.com/ISISComputingGroup/IBEX/issues/8052) | Patch | Show 8 axes in beckhoff engineering view and add lookup for error codes. |
 | [#8030](https://github.com/ISISComputingGroup/IBEX/issues/8030) | Patch | PEARL alignment OPI - add tweak buttons, hide home button if not in manager mode | 
+| [#8071](https://github.com/ISISComputingGroup/IBEX/issues/8071) | Minor | Show full filepath of motion setpoints file in motion setpoints screen |
+| [#8061](https://github.com/ISISComputingGroup/IBEX/issues/8061) | Minor | Remove outdated Slit 4 from INTER reflectometry panel and added controls for beam block + monitor | 
+| [#7823](https://github.com/ISISComputingGroup/IBEX/issues/7823) | Patch | Allow/fix scientific notation in run control settings of blocks | 
+| [#8013](https://github.com/ISISComputingGroup/IBEX/issues/8013) | Minor | Units hidden by zeros on dashboard blocks if high precision specified |
+| [#8091](https://github.com/ISISComputingGroup/IBEX/issues/8091) | Minor | Make INTER tank screen more user friendly |
+| [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 
 # genie_python
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
+| [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors |
 
 
 extend pre/post dae commands #7022
@@ -107,6 +121,9 @@ extend pre/post dae commands #7022
 | [#7961](https://github.com/ISISComputingGroup/IBEX/issues/7961) | Minor | New script for standardising colours and fonts used in OPIs |
 | [#7982](https://github.com/ISISComputingGroup/IBEX/issues/7982) | Minor | Modified Galil install step to be automated based upon the previous deploy's Galil decision |
 | [#7987](https://github.com/ISISComputingGroup/IBEX/issues/7987) | Minor | Improve upgrade script to check MySQL, Java, Git versions automatically, add git status step, check backup directory space, and some other minor changes |
+| [#8081](https://github.com/ISISComputingGroup/IBEX/issues/8081) | Minor | Changed RoboCopy func from just copy to move the backup dir, to stage-deleted |
+| [#8001](https://github.com/ISISComputingGroup/IBEX/issues/8001) | Minor | Improves implementation/functionality of the deploy script steps: LabView recording (knows whether to ask this step or not based on the instrument), motor/block/blockserver backups (occur in parallel as one step), backup (zips files as well as transfering to stage-deleted)  |
+| [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 
 # Support Issues Solved
 
