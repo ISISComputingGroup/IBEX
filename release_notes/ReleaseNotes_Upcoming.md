@@ -44,6 +44,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8078](https://github.com/ISISComputingGroup/IBEX/issues/8078) | Patch | Jaws manager | Allow adding engineering units to sample/mod gaps and centers | 
 | [#8070](https://github.com/ISISComputingGroup/IBEX/issues/8070) | Patch | PACE 5000 | Add option to vent and see vent status, enforce bar as unit | 
 | [#8111](https://github.com/ISISComputingGroup/IBEX/issues/8111) | Patch | Beckhoff/TwinCAT | Fix axis error ID archiving | 
+| [#8107](https://github.com/ISISComputingGroup/IBEX/issues/8107) | Patch | DaqMX | support thermocouple channel type | 
 
 ### Reflectometry IOC
 
