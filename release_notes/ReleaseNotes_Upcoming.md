@@ -50,6 +50,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
+| [#5607](https://github.com/ISISComputingGroup/IBEX/issues/5607) | Minor | Set velocity on all axes before moving, which should help with synchronised moves | 
+
 
 #  IBEX Client
 
