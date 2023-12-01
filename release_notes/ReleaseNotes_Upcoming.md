@@ -141,6 +141,7 @@ what | version | where | last updated/checked
 | MySQL | 8.0.35 | ibex_install_utils | 11/2023 |
 | Make | 4.4 | utils_win32 | 11/2023 |
 | ActiveMQ | 5.18.3 | ISIS\ActiveMQ | 11/2023 |
+| Nicos | 23 | ScriptServer | 11/2023 |
 
 ### GUI Dependencies
 
@@ -150,6 +151,8 @@ Dependency | Version | last updated/checked
 | Java Development Kit | 17.0.9_9	| 11/2023 |
 | Maven | 3.9.5 | 11/2023 |
 | ActiveMQ | 5.18.3 | 11/2023 |
+| Nicos | 23 | 11/2023 |
+
 
 ### genie_python Dependencies
 
