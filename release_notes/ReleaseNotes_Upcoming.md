@@ -155,6 +155,7 @@ Dependency | Version | last updated/checked
 | ActiveMQ | 5.18.3 | 11/2023 |
 | Nicos | 23 | 11/2023 |
 | MySql-connector J | 8.0.33 | 12/2023 |
+| commons-codec | 1.16.0 | 12/2023 |
 
 ### genie_python Dependencies
 
