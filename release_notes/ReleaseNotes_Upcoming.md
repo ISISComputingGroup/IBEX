@@ -156,6 +156,10 @@ Dependency | Version | last updated/checked
 | Nicos | 23 | 11/2023 |
 | MySql-connector J | 8.0.33 | 12/2023 |
 | commons-codec | 1.16.0 | 12/2023 |
+| Jakarta Activation API | 2.1.2 | 12/2023 |
+| Jakarta Mail API | 2.1.1 | 12/2023 |
+| Jakarta XML Binding API | 4.0.1 | 12/2023 |
+| JavaX Activation | 1.1.1 | 12/2023 |
 
 ### genie_python Dependencies
 
