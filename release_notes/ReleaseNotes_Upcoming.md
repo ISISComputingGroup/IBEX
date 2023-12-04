@@ -142,6 +142,7 @@ what | version | where | last updated/checked
 | Make | 4.4 | utils_win32 | 11/2023 |
 | ActiveMQ | 5.18.3 | ISIS\ActiveMQ | 11/2023 |
 | Nicos | 23 | ScriptServer | 11/2023 |
+| Cygwin | 3.4.9 | ICP_Binaries |	12/2023 |
 
 ### GUI Dependencies
 
