@@ -160,6 +160,14 @@ Dependency | Version | last updated/checked
 | Jakarta Mail API | 2.1.1 | 12/2023 |
 | Jakarta XML Binding API | 4.0.1 | 12/2023 |
 | JavaX Activation | 1.1.1 | 12/2023 |
+| py4j | 0.10.9.7 | 12/2023 |
+| log4j | 2.22.0 | 12/2023 |
+| JAXB Runtime | 4.0.4 | 12/2023 |
+| Tyrus | 2.1.4 | 12/2023 |
+| JacORB OMG API | 3.9 | 12/2023 |
+| Mockito Core | 5.7.0 | 12/2023 |
+| Mockito Inline | 5.2.0 | 12/2023 |
+| JeroMQ | 0.5.4 | 12/2023 |
 
 ### genie_python Dependencies
 
