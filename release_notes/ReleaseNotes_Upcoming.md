@@ -143,6 +143,7 @@ what | version | where | last updated/checked
 | ActiveMQ | 5.18.3 | ISIS\ActiveMQ | 11/2023 |
 | Nicos | 23 | ScriptServer | 11/2023 |
 | Cygwin | 3.4.9 | ICP_Binaries |	12/2023 |
+| MySql-connector J | 8.0.33 | IOCLogServer | 12/2023 |
 
 ### GUI Dependencies
 
@@ -153,7 +154,7 @@ Dependency | Version | last updated/checked
 | Maven | 3.9.5 | 11/2023 |
 | ActiveMQ | 5.18.3 | 11/2023 |
 | Nicos | 23 | 11/2023 |
-
+| MySql-connector J | 8.0.33 | 12/2023 |
 
 ### genie_python Dependencies
 
