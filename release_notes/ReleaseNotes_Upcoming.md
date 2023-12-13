@@ -61,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6047](https://github.com/ISISComputingGroup/IBEX/issues/6047) | Minor | Added the configuration files needed to support the alignment motor | 
 | [#8037](https://github.com/ISISComputingGroup/IBEX/issues/8037) | Minor | Add ability to home even if limit is engaged for Beckhoff/TwinCAT motor controllers | 
 | [#8039](https://github.com/ISISComputingGroup/IBEX/issues/8011) | Patch | Changes to the Data Acquisition Electronics can only be altered on the LocalHost | 
+| [#8109](https://github.com/ISISComputingGroup/IBEX/issues/8109) | Minor | Added logic to extract SNMP MIB data from Python and show it on the Moxa Ports GUI | 
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -103,6 +104,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
 | [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors |
+| [#8109](https://github.com/ISISComputingGroup/IBEX/issues/8109) | Minor | Added logic to extract SNMP MIB data and add it to the Moxa data |
 
 
 extend pre/post dae commands #7022
