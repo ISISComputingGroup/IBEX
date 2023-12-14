@@ -160,6 +160,7 @@ Dependency | Version | last updated/checked
 | Jakarta Mail API | 2.1.1 | 12/2023 |
 | Jakarta XML Binding API | 4.0.1 | 12/2023 |
 | JavaX Activation | 1.1.1 | 12/2023 |
+| joda time | 2.12.5 | 12/2023 |
 | py4j | 0.10.9.7 | 12/2023 |
 | log4j | 2.22.0 | 12/2023 |
 | JAXB Runtime | 4.0.4 | 12/2023 |
