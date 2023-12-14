@@ -110,6 +110,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+|[#7910](https://github.com/ISISComputingGroup/IBEX/issues/7910)| Minor | Added automatic version control to Instrument scripts |
 
 
 # Other
