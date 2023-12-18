@@ -129,6 +129,7 @@ extend pre/post dae commands #7022
 | [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 | [#8057](https://github.com/ISISComputingGroup/IBEX/issues/8057) | Minor | Deploy script swaps instrument's EPICS repo to release branch at the end | 
 | [#7911](https://github.com/ISISComputingGroup/IBEX/issues/7911) | Minor | Created a Jenkins pipeline that checks for branches diverging from master on instruments that use the InstrumentScripts repository |
+| [#8123](https://github.com/ISISComputingGroup/IBEX/issues/8123) | Minor | Added to all applicable Jenkins jobs "Console (parsed) output"s to make easier locating of errors/important lines |
 
 # Support Issues Solved
 
