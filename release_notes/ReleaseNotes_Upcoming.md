@@ -51,6 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
+| [#8141](https://github.com/ISISComputingGroup/IBEX/issues/8141) | Minor | Added a shorthand way of specifying out of beam positions on an IOCDriver | 
 
 #  IBEX Client
 
