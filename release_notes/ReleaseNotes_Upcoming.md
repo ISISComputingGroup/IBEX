@@ -97,6 +97,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8091](https://github.com/ISISComputingGroup/IBEX/issues/8091) | Minor | Make INTER tank screen more user friendly |
 | [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 | [#8062](https://github.com/ISISComputingGroup/IBEX/issues/8062) | Minor | Added a duplicate of the "Stop all motors" button on the banner |
+| [#5879](https://github.com/ISISComputingGroup/IBEX/issues/5879) | Minor | Added ARGUS trans and long magnet status OPI | 
 | [#7944](https://github.com/ISISComputingGroup/IBEX/issues/7944) | Minor | Fix value updating on the DAE screen for spectra monitor setting if changed from elsewhere |
 | [#8155](https://github.com/ISISComputingGroup/IBEX/issues/8155) | Minor | Fix ability to add blocks to a config if there are no unprotected configs/server is down |
 
