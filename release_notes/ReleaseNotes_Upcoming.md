@@ -23,6 +23,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#6048](https://github.com/ISISComputingGroup/IBEX/issues/6048) | PEARL Sample Alignment Motor OPI | Used on PEARL |
 | [#7820](https://github.com/ISISComputingGroup/IBEX/issues/7820) | Fermi Chopper Condition monitoring box | Add IOC for PRE4500/Fermi chopper condition monitoring box | 
+| [#6136](https://github.com/ISISComputingGroup/IBEX/issues/6136)| Cryomagnetics LM500 Level Monitor | Used on ARGUS |
 
 ### Modified devices
 
@@ -50,6 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
+| [#8141](https://github.com/ISISComputingGroup/IBEX/issues/8141) | Minor | Added a shorthand way of specifying out of beam positions on an IOCDriver | 
 
 #  IBEX Client
 
@@ -96,6 +98,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 | [#8062](https://github.com/ISISComputingGroup/IBEX/issues/8062) | Minor | Added a duplicate of the "Stop all motors" button on the banner |
 | [#5879](https://github.com/ISISComputingGroup/IBEX/issues/5879) | Minor | Added ARGUS trans and long magnet status OPI | 
+| [#7944](https://github.com/ISISComputingGroup/IBEX/issues/7944) | Minor | Fix value updating on the DAE screen for spectra monitor setting if changed from elsewhere |
+| [#8155](https://github.com/ISISComputingGroup/IBEX/issues/8155) | Minor | Fix ability to add blocks to a config if there are no unprotected configs/server is down |
 
 # genie_python
 
@@ -128,6 +132,7 @@ extend pre/post dae commands #7022
 | [#8001](https://github.com/ISISComputingGroup/IBEX/issues/8001) | Minor | Improves implementation/functionality of the deploy script steps: LabView recording (knows whether to ask this step or not based on the instrument), motor/block/blockserver backups (occur in parallel as one step), backup (zips files as well as transfering to stage-deleted)  |
 | [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 | [#8057](https://github.com/ISISComputingGroup/IBEX/issues/8057) | Minor | Deploy script swaps instrument's EPICS repo to release branch at the end | 
+| [#7911](https://github.com/ISISComputingGroup/IBEX/issues/7911) | Minor | Created a Jenkins pipeline that checks for branches diverging from master on instruments that use the InstrumentScripts repository |
 
 # Support Issues Solved
 
