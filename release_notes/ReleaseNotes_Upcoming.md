@@ -46,6 +46,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8070](https://github.com/ISISComputingGroup/IBEX/issues/8070) | Patch | PACE 5000 | Add option to vent and see vent status, enforce bar as unit | 
 | [#8111](https://github.com/ISISComputingGroup/IBEX/issues/8111) | Patch | Beckhoff/TwinCAT | Fix axis error ID archiving | 
 | [#8152](https://github.com/ISISComputingGroup/IBEX/issues/8152) | Minor | Motors(all) | Move IN_POSITION record to motorstatus.db - this was already loaded by GALIL, LINMOT, MCLEN but not TC | 
+| [#8195](https://github.com/ISISComputingGroup/IBEX/issues/8195) | Minor | Beckhoff/TwinCAT | Automatically get axis number from controller before IOC startup | 
+
 
 ### Reflectometry IOC
 
