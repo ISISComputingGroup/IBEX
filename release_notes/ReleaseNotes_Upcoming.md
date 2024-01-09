@@ -77,7 +77,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Minor | Added ENUM dropdown support to scripts |
 | [#7934](https://github.com/ISISComputingGroup/IBEX/issues/7934) | Patch | Visually group related buttons together and maximise vertical space for table |
 | [#5496](https://github.com/ISISComputingGroup/IBEX/issues/5496) | Minor | Add option to transfer compatible action parameters when changing script definition. |
-| [6899](https://github.com/ISISComputingGroup/IBEX/issues/6899) | Minor | Dynamic scripting run button is disabled and an error message is shown to the user if the actions table contains invalid actions. |
+| [#6899](https://github.com/ISISComputingGroup/IBEX/issues/6899) | Minor | Dynamic scripting run button is disabled and an error message is shown to the user if the actions table contains invalid actions. |
+| [#6900](https://github.com/ISISComputingGroup/IBEX/issues/6900) | Minor | Radio buttons were added to allow user to pause or skip on invalid actions whilst running |
 
 ### Other
 
