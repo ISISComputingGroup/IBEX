@@ -106,6 +106,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7944](https://github.com/ISISComputingGroup/IBEX/issues/7944) | Minor | Fix value updating on the DAE screen for spectra monitor setting if changed from elsewhere |
 | [#7995](https://github.com/ISISComputingGroup/IBEX/issues/7995) | Minor | Disable adding beam status PV to configs if the server is down or there are no writable configurations |
 | [#8155](https://github.com/ISISComputingGroup/IBEX/issues/8155) | Minor | Fix ability to add blocks to a config if there are no unprotected configs/server is down |
+| [#8067](https://github.com/ISISComputingGroup/IBEX/issues/8067) | Minor | 'Apply Changes' button no longer highlighted when switching instruments |
 
 # genie_python
 
