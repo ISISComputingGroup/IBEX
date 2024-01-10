@@ -47,7 +47,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8111](https://github.com/ISISComputingGroup/IBEX/issues/8111) | Patch | Beckhoff/TwinCAT | Fix axis error ID archiving | 
 | [#8107](https://github.com/ISISComputingGroup/IBEX/issues/8107) | Patch | DaqMX | support thermocouple channel type | 
 | [#8152](https://github.com/ISISComputingGroup/IBEX/issues/8152) | Minor | Motors(all) | Move IN_POSITION record to motorstatus.db - this was already loaded by GALIL, LINMOT, MCLEN but not TC | 
-| [#8195](https://github.com/ISISComputingGroup/IBEX/issues/8195) | Minor | Beckhoff/TwinCAT | Automatically get axis number from controller before IOC startup | 
+| [#8159](https://github.com/ISISComputingGroup/IBEX/issues/8159) | Minor | Beckhoff/TwinCAT | Automatically get axis number from controller before IOC startup | 
 
 
 ### Reflectometry IOC
