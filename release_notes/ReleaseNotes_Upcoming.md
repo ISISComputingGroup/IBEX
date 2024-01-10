@@ -114,6 +114,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
 | [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors |
+| [#7898](https://github.com/ISISComputingGroup/IBEX/issues/7898) | Minor | re-enable python scripting console autocomplete - see ticket and https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Pydev-autocomplete-issue for more info |
 
 
 extend pre/post dae commands #7022
