@@ -24,6 +24,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6048](https://github.com/ISISComputingGroup/IBEX/issues/6048) | PEARL Sample Alignment Motor OPI | Used on PEARL |
 | [#7820](https://github.com/ISISComputingGroup/IBEX/issues/7820) | Fermi Chopper Condition monitoring box | Add IOC for PRE4500/Fermi chopper condition monitoring box | 
 | [#6136](https://github.com/ISISComputingGroup/IBEX/issues/6136)| Cryomagnetics LM500 Level Monitor | Used on ARGUS |
+| [#8105](https://github.com/ISISComputingGroup/IBEX/issues/8105)| PEARL camera #2 | Used on PEARL |
 
 ### Modified devices
 
@@ -34,7 +35,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7887](https://github.com/ISISComputingGroup/IBEX/issues/7887) | Minor | DG645 | Units now displayed in delay readback blocks | 
 | [#7863](https://github.com/ISISComputingGroup/IBEX/issues/7863) | Minor | Fermichopper | Changed fault colour of the LEDs to a brighter hue of red | 
 | [#7966](https://github.com/ISISComputingGroup/IBEX/issues/7966) | Patch | Sorensen | Added minor fixes found during testing with device | 
-| [#7958](https://github.com/ISISComputingGroup/IBEX/issues/7958) | Patch | MK3 Chopper | Updated communications DLL to v8.7 |
+| [#7958](https://github.com/ISISComputingGroup/IBEX/issues/7958) | Major | MK3 Chopper | Updated communications DLL to v8.7 |
 | [#7892](https://github.com/ISISComputingGroup/IBEX/issues/7892) | Minor | DG645 | Labels added to readback delays on OPI | 
 | [#8000](https://github.com/ISISComputingGroup/IBEX/issues/8000) | Minor | FINS PLC | Added support for the remote control of the SANDALS V2 Valve | 
 | [#7878](https://github.com/ISISComputingGroup/IBEX/issues/7878) | Minor | Aeroflex | Add Local and Remote control buttons for Aeroflex Signal Generator | 
@@ -45,12 +46,19 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8078](https://github.com/ISISComputingGroup/IBEX/issues/8078) | Patch | Jaws manager | Allow adding engineering units to sample/mod gaps and centers | 
 | [#8070](https://github.com/ISISComputingGroup/IBEX/issues/8070) | Patch | PACE 5000 | Add option to vent and see vent status, enforce bar as unit | 
 | [#8111](https://github.com/ISISComputingGroup/IBEX/issues/8111) | Patch | Beckhoff/TwinCAT | Fix axis error ID archiving | 
+| [#8107](https://github.com/ISISComputingGroup/IBEX/issues/8107) | Patch | DaqMX | support thermocouple channel type | 
+| [#8152](https://github.com/ISISComputingGroup/IBEX/issues/8152) | Minor | Motors(all) | Move IN_POSITION record to motorstatus.db - this was already loaded by GALIL, LINMOT, MCLEN but not TC | 
+| [#8159](https://github.com/ISISComputingGroup/IBEX/issues/8159) | Minor | Beckhoff/TwinCAT | Automatically get axis number from controller before IOC startup | 
+| [#8182](https://github.com/ISISComputingGroup/IBEX/issues/8182) | Minor | Sorensen PSU | Fix power check issue with real furnace and add delay for steps in STOP command to avoid overloading controller | 
+
 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
 | ------ | --- | ------------- |
 | [#7649](https://github.com/ISISComputingGroup/IBEX/issues/7649) | Minor | Added a new type of read-only parameter which is used to propagate the beam intersect of a component to given motor axes | 
+| [#5607](https://github.com/ISISComputingGroup/IBEX/issues/5607) | Minor | Set velocity on all axes before moving, which should help with synchronised moves | 
+| [#8141](https://github.com/ISISComputingGroup/IBEX/issues/8141) | Minor | Added a shorthand way of specifying out of beam positions on an IOCDriver | 
 
 #  IBEX Client
 
@@ -72,7 +80,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#5124](https://github.com/ISISComputingGroup/IBEX/issues/5124) | Minor | Added ENUM dropdown support to scripts |
 | [#7934](https://github.com/ISISComputingGroup/IBEX/issues/7934) | Patch | Visually group related buttons together and maximise vertical space for table |
 | [#5496](https://github.com/ISISComputingGroup/IBEX/issues/5496) | Minor | Add option to transfer compatible action parameters when changing script definition. |
-| [6899](https://github.com/ISISComputingGroup/IBEX/issues/6899) | Minor | Dynamic scripting run button is disabled and an error message is shown to the user if the actions table contains invalid actions. |
+| [#6899](https://github.com/ISISComputingGroup/IBEX/issues/6899) | Minor | Dynamic scripting run button is disabled and an error message is shown to the user if the actions table contains invalid actions. |
+| [#6900](https://github.com/ISISComputingGroup/IBEX/issues/6900) | Minor | Radio buttons were added to allow user to pause or skip on invalid actions whilst running |
 
 ### Other
 
@@ -97,6 +106,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8069](https://github.com/ISISComputingGroup/IBEX/issues/8069) | Minor | Appied the script generator dropdown fix to the general widget for ENUM dropdowns |
 | [#8062](https://github.com/ISISComputingGroup/IBEX/issues/8062) | Minor | Added a duplicate of the "Stop all motors" button on the banner |
 | [#8109](https://github.com/ISISComputingGroup/IBEX/issues/8109) | Minor | Show Moxa port connecion status in moxa view|
+| [#5879](https://github.com/ISISComputingGroup/IBEX/issues/5879) | Minor | Added ARGUS trans and long magnet status OPI | 
+| [#7944](https://github.com/ISISComputingGroup/IBEX/issues/7944) | Minor | Fix value updating on the DAE screen for spectra monitor setting if changed from elsewhere |
+| [#7995](https://github.com/ISISComputingGroup/IBEX/issues/7995) | Minor | Disable adding beam status PV to configs if the server is down or there are no writable configurations |
+| [#8155](https://github.com/ISISComputingGroup/IBEX/issues/8155) | Minor | Fix ability to add blocks to a config if there are no unprotected configs/server is down |
+| [#8067](https://github.com/ISISComputingGroup/IBEX/issues/8067) | Minor | 'Apply Changes' button no longer highlighted when switching instruments |
 
 # genie_python
 
@@ -104,6 +118,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#8047](https://github.com/ISISComputingGroup/IBEX/issues/8047) | Minor | Scripts containing tab will be raised as an error |
 | [#8033](https://github.com/ISISComputingGroup/IBEX/issues/8033) | Minor | load_script handles inst dir script linting errors |
+| [#7898](https://github.com/ISISComputingGroup/IBEX/issues/7898) | Minor | re-enable python scripting console autocomplete - see ticket and https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Pydev-autocomplete-issue for more info |
 
 
 extend pre/post dae commands #7022
@@ -111,6 +126,7 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+|[#7910](https://github.com/ISISComputingGroup/IBEX/issues/7910)| Minor | Added automatic version control to Instrument scripts |
 
 
 # Other
@@ -130,6 +146,7 @@ extend pre/post dae commands #7022
 | [#8034](https://github.com/ISISComputingGroup/IBEX/issues/8034) | Minor | EPICS_repo_checks scripts converted to Python to allow improved error message output to Teams via Jenkins |
 | [#8057](https://github.com/ISISComputingGroup/IBEX/issues/8057) | Minor | Deploy script swaps instrument's EPICS repo to release branch at the end | 
 | [#8109](https://github.com/ISISComputingGroup/IBEX/issues/8109) | Minor | Added logic to extract SNMP MIB data and add it to the Moxa data |
+| [#7911](https://github.com/ISISComputingGroup/IBEX/issues/7911) | Minor | Created a Jenkins pipeline that checks for branches diverging from master on instruments that use the InstrumentScripts repository |
 
 # Support Issues Solved
 
