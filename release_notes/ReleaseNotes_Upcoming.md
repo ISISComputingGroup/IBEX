@@ -48,6 +48,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8107](https://github.com/ISISComputingGroup/IBEX/issues/8107) | Patch | DaqMX | support thermocouple channel type | 
 | [#8152](https://github.com/ISISComputingGroup/IBEX/issues/8152) | Minor | Motors(all) | Move IN_POSITION record to motorstatus.db - this was already loaded by GALIL, LINMOT, MCLEN but not TC | 
 | [#8159](https://github.com/ISISComputingGroup/IBEX/issues/8159) | Minor | Beckhoff/TwinCAT | Automatically get axis number from controller before IOC startup | 
+| [#8182](https://github.com/ISISComputingGroup/IBEX/issues/8182) | Minor | Sorensen PSU | Fix power check issue with real furnace and add delay for steps in STOP command to avoid overloading controller | 
 
 
 ### Reflectometry IOC
