@@ -162,6 +162,15 @@ Change Types:
 
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
+| MySql | 8.0.32 | ibex_install_utils | 03/2023
+| Make | 4.4 | utils_win32 | 03/2023 |
+| Cygwin | 3.4.6 | ICP_Binaries | 03/2023 |
+| Nicos | 23 | ScriptServer | 03/2023 |
+|ActiveMQ|5.17.3| ISIS/ActiveMQ |03/2023|
+|Joda-time|2.12.2| IOCLogServer |03/2023|
+|Apache log4j|2.19.0| IOCLogServer |03/2023|
+|Mockito|5.11| IOCLogServer |03/2023|
+|MySql-connector J|8.0.32| IOCLogServer |03/2023|
 
 ### GUI Dependencies
 
