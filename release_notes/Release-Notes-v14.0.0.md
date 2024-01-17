@@ -172,3 +172,7 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+|Python|3.11.2|03/2023|
+|ode|0.16.3|03/2023|
+|Matplotlib|3.7.1|03/2023|
+|Lewis|03/2023|03/2023|
