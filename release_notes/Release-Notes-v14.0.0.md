@@ -143,6 +143,7 @@ extend pre/post dae commands #7022
 | [#8057](https://github.com/ISISComputingGroup/IBEX/issues/8057) | Minor | Deploy script swaps instrument's EPICS repo to release branch at the end | 
 | [#8109](https://github.com/ISISComputingGroup/IBEX/issues/8109) | Minor | Added logic to extract SNMP MIB data and add it to the Moxa data |
 | [#7911](https://github.com/ISISComputingGroup/IBEX/issues/7911) | Minor | Created a Jenkins pipeline that checks for branches diverging from master on instruments that use the InstrumentScripts repository |
+| [#8186](https://github.com/ISISComputingGroup/IBEX/issues/8186) | Minor | Passed through and dealt with shutil ignore list for dirs not wanting to be backed up via deploy script|
 
 # Support Issues Solved
 
