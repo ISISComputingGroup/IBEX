@@ -2,6 +2,7 @@
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| #7898	 | Minor |re-enable python scripting console autocomplete - see ticket and https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Pydev-autocomplete-issue for more info |
 
 # Instrument Specific Changes
 
