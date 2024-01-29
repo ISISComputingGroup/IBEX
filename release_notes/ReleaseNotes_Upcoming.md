@@ -25,7 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-
+| [#8206](https://github.com/ISISComputingGroup/IBEX/issues/8206) | Minor | IPS | Re-added changes from WISH | 
 
 
 ### Reflectometry IOC
