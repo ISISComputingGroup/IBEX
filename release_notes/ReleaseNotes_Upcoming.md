@@ -36,6 +36,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#4631](https://github.com/ISISComputingGroup/IBEX/issues/4631) | Minor | Prevent tracked moves that will clash against soft limits for motors - warn in error log |
 | [#8063](https://github.com/ISISComputingGroup/IBEX/issues/8063) | minor | Add a way to apply an engineering correction to a directparameter (ie. INTER's DET_BENCH_ANGLE) |
 | [#8218](https://github.com/ISISComputingGroup/IBEX/issues/8218) | minor | GALIL: allow COM in GALILADDR macro |
+| [#8225](https://github.com/ISISComputingGroup/IBEX/issues/8225) | minor | Revert #5607 as it was not as robust and gave very little real world gains - we are now performing move_all the previous way (set velo and move for each axis in turn) |
 
 #  IBEX Client
 
