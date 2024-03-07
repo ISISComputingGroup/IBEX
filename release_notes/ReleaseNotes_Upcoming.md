@@ -19,7 +19,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-
+| [#6049](https://github.com/ISISComputingGroup/IBEX/issues/6049) | PEARL Thermometry Device | Support for 16 channel cDAQ thermocouple device used on PEARL |
 
 ### Modified devices
 
