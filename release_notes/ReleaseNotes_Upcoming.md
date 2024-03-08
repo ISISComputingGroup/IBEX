@@ -18,7 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Newly supported devices
 
 | Ticket | Device | Notes|
-| ------ | ------ | -----|
+| [7951](https://github.com/ISISComputingGroup/IBEX/issues/7951) | Stanford PS300 | Support for all Stanford PS300 Series powersupplies|
 
 
 ### Modified devices
