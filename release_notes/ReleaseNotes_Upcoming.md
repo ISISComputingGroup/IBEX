@@ -61,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8185](https://github.com/ISISComputingGroup/IBEX/issues/8185) | Patch | Retain Moxa view display state after refresh |
+| [#5880](https://github.com/ISISComputingGroup/IBEX/issues/5880) | Minor | Added OPI for CHRONUS Magnet Status |
 
 
 # genie_python
