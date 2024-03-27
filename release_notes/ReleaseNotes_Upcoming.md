@@ -62,6 +62,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8185](https://github.com/ISISComputingGroup/IBEX/issues/8185) | Patch | Retain Moxa view display state after refresh |
+| [#5880](https://github.com/ISISComputingGroup/IBEX/issues/5880) | Minor | Added OPI for CHRONUS Magnet Status |
 | [#8106](https://github.com/ISISComputingGroup/IBEX/issues/8106)| Minor | Created a button builder class to better manage creation of buttons in perspectives | 
 | [#7813](https://github.com/ISISComputingGroup/IBEX/issues/7813) | Minor | Standardized some common macros like PORT and BAUD |
 
