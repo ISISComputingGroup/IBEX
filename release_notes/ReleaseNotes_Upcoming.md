@@ -150,7 +150,7 @@ Dependency | Version | last updated/checked
 | Nebula | 3.0.0 | 12/2023 |
 | CS-Studio | 12/2023 | 12/2023 |
 | Pydev | 11.0.3 | 12/2023 |
-| Eclipse | 2023-03 | 12/2023 |
+| Eclipse | 2024-03 | 04/2024 |
 | Eclipse Updates| 4.26 | 12/2023 |
 
 ### genie_python Dependencies
