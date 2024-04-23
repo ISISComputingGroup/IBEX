@@ -69,6 +69,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7813](https://github.com/ISISComputingGroup/IBEX/issues/7813) | Minor | Standardized some common macros like PORT and BAUD |
 | [#8281](https://github.com/ISISComputingGroup/IBEX/issues/8281) | Minor | Warn user  on client close about processes that may still be running |
 | [#8299](https://github.com/ISISComputingGroup/IBEX/issues/8299) | Minor | Add option to add a PV name to the clipboard |
+| [#8285](https://github.com/ISISComputingGroup/IBEX/issues/8285) | Minor | Show warning on adanced motor view if the user can change a MCLENNAN motor's settings but they won't persists. |
+
 
 # genie_python
 
