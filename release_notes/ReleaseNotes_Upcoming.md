@@ -34,6 +34,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6854](https://github.com/ISISComputingGroup/IBEX/issues/6854) | major | Beckhoff/TwinCAT | Remove old CRISP course jaw tcioc motor record code |
 | [#8175](https://github.com/ISISComputingGroup/IBEX/issues/8175) | minor | needlevalve | Add macro to govern wriet mode toggle. |
 | [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | minor | Keithley 2400 | Add input fields for compliance voltage and current. |
+| [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
 
 ### Reflectometry IOC
 
@@ -68,6 +69,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8106](https://github.com/ISISComputingGroup/IBEX/issues/8106)| Minor | Created a button builder class to better manage creation of buttons in perspectives | 
 | [#7813](https://github.com/ISISComputingGroup/IBEX/issues/7813) | Minor | Standardized some common macros like PORT and BAUD |
 | [#8281](https://github.com/ISISComputingGroup/IBEX/issues/8281) | Minor | Warn user  on client close about processes that may still be running |
+| [#8299](https://github.com/ISISComputingGroup/IBEX/issues/8299) | Minor | Add option to add a PV name to the clipboard |
+| [#8285](https://github.com/ISISComputingGroup/IBEX/issues/8285) | Minor | Show warning on adanced motor view if the user can change a MCLENNAN motor's settings but they won't persists. |
 
 
 # genie_python
@@ -150,7 +153,7 @@ Dependency | Version | last updated/checked
 | Nebula | 3.0.0 | 12/2023 |
 | CS-Studio | 12/2023 | 12/2023 |
 | Pydev | 11.0.3 | 12/2023 |
-| Eclipse | 2023-03 | 12/2023 |
+| Eclipse | 2024-03 | 04/2024 |
 | Eclipse Updates| 4.26 | 12/2023 |
 
 ### genie_python Dependencies
