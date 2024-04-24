@@ -19,6 +19,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [7951](https://github.com/ISISComputingGroup/IBEX/issues/7951) | Stanford PS300 | Support for all Stanford PS300 Series powersupplies|
 | [#8210](https://github.com/ISISComputingGroup/IBEX/issues/8210) | LINDY ISWITCH | IOC for LINDY ISwitch device|
 
 
