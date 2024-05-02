@@ -36,7 +36,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8175](https://github.com/ISISComputingGroup/IBEX/issues/8175) | minor | needlevalve | Add macro to govern wriet mode toggle. |
 | [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | minor | Keithley 2400 | Add input fields for compliance voltage and current. |
 | [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
-
+| [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
