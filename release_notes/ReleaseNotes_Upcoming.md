@@ -93,7 +93,8 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140)| Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
+| [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140) | Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
+| [#8298](https://github.com/ISISComputingGroup/IBEX/issues/8298) | Minor | Add PVA to every IOC |
 
 
 # Internal changes
