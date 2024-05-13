@@ -21,7 +21,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [7951](https://github.com/ISISComputingGroup/IBEX/issues/7951) | Stanford PS300 | Support for all Stanford PS300 Series powersupplies|
 | [#8210](https://github.com/ISISComputingGroup/IBEX/issues/8210) | LINDY ISWITCH | IOC for LINDY ISwitch device|
-
+| [#8264](https://github.com/ISISComputingGroup/IBEX/issues/8264) | ISIS Remote Labview Services| Support for talking remotley to Labview VI's using the remote Services. |
+| [#6211](https://github.com/ISISComputingGroup/IBEX/issues/6211) | Tektronix DMM4040/4050 Multimeters | OPIs and IOC fixes for Tektronix DMM4040/4050 Multimeters |
 
 ### Modified devices
 
@@ -38,6 +39,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
 | [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
 | [#7778](https://github.com/ISISComputingGroup/IBEX/issues/7778)| minor | Muon zerofield, Kepco | performance improvements to fix MUSR zerofiel issues | 
+| [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
+| [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
+
+
 ### Reflectometry IOC
 
 | Ticket | Type | Change |
@@ -79,6 +84,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8148](https://github.com/ISISComputingGroup/IBEX/issues/8148) | Minor | Update pylint package to 3.1.0 |
 
 
 
@@ -94,7 +100,8 @@ extend pre/post dae commands #7022
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140)| Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
+| [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140) | Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
+| [#8298](https://github.com/ISISComputingGroup/IBEX/issues/8298) | Minor | Add PVA to every IOC |
 
 
 # Internal changes
@@ -102,6 +109,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [8056](https://github.com/ISISComputingGroup/IBEX/issues/8056) | Minor | Created a new Jenkins pipeline to check for uncomitted and commits not pushed on inst EPICS repos |
+| [#8289](https://github.com/ISISComputingGroup/IBEX/issues/8289)| Minor | Added ability to close command-line emulators within the test framework. |
 
 
 # Support Issues Solved
