@@ -103,6 +103,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [8056](https://github.com/ISISComputingGroup/IBEX/issues/8056) | Minor | Created a new Jenkins pipeline to check for uncomitted and commits not pushed on inst EPICS repos |
+| [#8289](https://github.com/ISISComputingGroup/IBEX/issues/8289)| Minor | Added ability to close command-line emulators within the test framework. |
 
 
 # Support Issues Solved
