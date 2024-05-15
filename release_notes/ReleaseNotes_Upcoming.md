@@ -40,7 +40,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
 | [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
 | [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
-
+| [#8137](https://github.com/ISISComputingGroup/IBEX/issues/8137) | major | ALDN1000 | The IOC now supports daisy chained devices which means the same IOC can control multiple devices on the same COM port. The PVs now carry extra information which is the number of the pump (1-4). Their IDs can be changed in the IOC config but PVs will always reference then from 1-4. |
 
 ### Reflectometry IOC
 
