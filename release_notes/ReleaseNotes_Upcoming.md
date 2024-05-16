@@ -84,6 +84,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8148](https://github.com/ISISComputingGroup/IBEX/issues/8148) | Minor | Update pylint package to 3.1.0 |
+| [#8351](https://github.com/ISISComputingGroup/IBEX/issues/8351) | Minor | Add the packages needed for the scans library |
 
 
 
