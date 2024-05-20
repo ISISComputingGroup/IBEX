@@ -62,6 +62,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7642](https://github.com/ISISComputingGroup/IBEX/issues/7642) | Major | Added the abillity to set blocks on config change. |
+| [#8346](https://github.com/ISISComputingGroup/IBEX/issues/8346) | Minor | The table of IOCs and table of Blocks displayed when viewing/editing a config now displays which component an IOC or Block is added by. |
 
 ### Script Generator
 | Ticket | Type  | Change |
