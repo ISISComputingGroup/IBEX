@@ -43,6 +43,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7778](https://github.com/ISISComputingGroup/IBEX/issues/7778)| minor | Muon zerofield, Kepco | performance improvements to fix MUSR zerofiel issues | 
 | [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
 | [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
+| [#8310](https://github.com/ISISComputingGroup/IBEX/issues/8310)| minor | Eurotherm | Fix issue where disconnected/missing Eurotherm causes other Eurotherms to fail to be read |
 
 
 ### Reflectometry IOC
