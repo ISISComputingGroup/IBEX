@@ -92,8 +92,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8148](https://github.com/ISISComputingGroup/IBEX/issues/8148) | Minor | Update pylint package to 3.1.0 |
 | [#8351](https://github.com/ISISComputingGroup/IBEX/issues/8351) | Minor | Add the packages needed for the scans library |
 | [#8358](https://github.com/ISISComputingGroup/IBEX/issues/8358) | Minor | Add p4p for use with pva |
-
-
+| [#8382](https://github.com/ISISComputingGroup/IBEX/issues/8382) | Minor | Fix error message running genie_python.bat caused by ipython update  |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
