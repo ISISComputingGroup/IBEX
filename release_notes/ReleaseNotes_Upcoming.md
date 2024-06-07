@@ -25,6 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8264](https://github.com/ISISComputingGroup/IBEX/issues/8264) | ISIS Remote Labview Services| Support for talking remotley to Labview VI's using the remote Services. |
 | [#6211](https://github.com/ISISComputingGroup/IBEX/issues/6211) | Tektronix DMM4040/4050 Multimeters | OPIs and IOC fixes for Tektronix DMM4040/4050 Multimeters |
 | [#8345](https://github.com/ISISComputingGroup/IBEX/issues/8345) | PEARL BFSPGR16SC2 Camera | Support for new pearl camera with smaller ccd |
+| [#6214](https://github.com/ISISComputingGroup/IBEX/issues/6214) | Stanford SR400 Photon Counter | Add device to support CHIPIR migration |
 
 ### Modified devices
 
