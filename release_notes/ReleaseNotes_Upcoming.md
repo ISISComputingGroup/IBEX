@@ -123,6 +123,8 @@ extend pre/post dae commands #7022
 | [#8289](https://github.com/ISISComputingGroup/IBEX/issues/8289)| Minor | Added ability to close command-line emulators within the test framework. |
 | [#8362](https://github.com/ISISComputingGroup/IBEX/issues/8362)| Patch | Conserver Log: start a new logfile each day |
 | [#8366](https://github.com/ISISComputingGroup/IBEX/issues/8366)| Major | Create new IBEX device generator python package. |
+| [#8389](https://github.com/ISISComputingGroup/IBEX/issues/8389)| Minor | Make restore motor positions script easier to use by making most options optional besides time, also prompt to reset power check for galil |
+
 
 
 # Support Issues Solved
