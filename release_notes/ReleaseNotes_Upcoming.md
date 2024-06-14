@@ -126,7 +126,6 @@ extend pre/post dae commands #7022
 | [#8389](https://github.com/ISISComputingGroup/IBEX/issues/8389)| Minor | Make restore motor positions script easier to use by making most options optional besides time, also prompt to reset power check for galil |
 
 
-
 # Support Issues Solved
 
 | Ticket | Type  | Change |
