@@ -27,6 +27,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8345](https://github.com/ISISComputingGroup/IBEX/issues/8345) | PEARL BFSPGR16SC2 Camera | Support for new pearl camera with smaller ccd |
 | [#6218](https://github.com/ISISComputingGroup/IBEX/issues/6218) | CHIPIR collimator | Support for CHIPIR collimator and jaws |
 | [#6029](https://github.com/ISISComputingGroup/IBEX/issues/6029) | WISH SR850 Lock-In Amplifier | Support for Stanford RS SR850 Lock-In Amplifier |
+| [#8265](https://github.com/ISISComputingGroup/IBEX/issues/8265) | SXD Tensile stress rig | Add ibex support |
+
 
 
 ### Modified devices
