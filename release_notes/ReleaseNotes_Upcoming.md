@@ -19,10 +19,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#6049](https://github.com/ISISComputingGroup/IBEX/issues/6049) | PEARL Thermometry Device | Support for 16 channel cDAQ thermocouple device used on PEARL |
 | [7951](https://github.com/ISISComputingGroup/IBEX/issues/7951) | Stanford PS300 | Support for all Stanford PS300 Series powersupplies|
 | [#8210](https://github.com/ISISComputingGroup/IBEX/issues/8210) | LINDY ISWITCH | IOC for LINDY ISwitch device|
 | [#8264](https://github.com/ISISComputingGroup/IBEX/issues/8264) | ISIS Remote Labview Services| Support for talking remotley to Labview VI's using the remote Services. |
 | [#6211](https://github.com/ISISComputingGroup/IBEX/issues/6211) | Tektronix DMM4040/4050 Multimeters | OPIs and IOC fixes for Tektronix DMM4040/4050 Multimeters |
+| [#8345](https://github.com/ISISComputingGroup/IBEX/issues/8345) | PEARL BFSPGR16SC2 Camera | Support for new pearl camera with smaller ccd |
+| [#6218](https://github.com/ISISComputingGroup/IBEX/issues/6218) | CHIPIR collimator | Support for CHIPIR collimator and jaws |
+| [#6029](https://github.com/ISISComputingGroup/IBEX/issues/6029) | WISH SR850 Lock-In Amplifier | Support for Stanford RS SR850 Lock-In Amplifier |
+
 
 ### Modified devices
 
@@ -38,9 +43,15 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | minor | Keithley 2400 | Add input fields for compliance voltage and current. |
 | [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
 | [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
+| [#7778](https://github.com/ISISComputingGroup/IBEX/issues/7778)| minor | Muon zerofield, Kepco | performance improvements to fix MUSR zerofiel issues | 
 | [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
 | [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
+
 | [#8137](https://github.com/ISISComputingGroup/IBEX/issues/8137) | major | ALDN1000 | The IOC now supports daisy chained devices which means the same IOC can control multiple devices on the same COM port. The PVs now carry extra information which is the number of the pump (1-4). Their IDs can be changed in the IOC config but PVs will always reference then from 1-4. |
+| [#8353](https://github.com/ISISComputingGroup/IBEX/issues/8353) | major | Tektronix DMM4040/4050 Multimeters | Remove now-obselete (as of #6211) LVDCOM support modules for Tektronix DMM4040/4050 Multimeters |
+| [#8357](https://github.com/ISISComputingGroup/IBEX/issues/8357)| minor | Allow configurable number of crates + cards per IOC |
+| [#8341](https://github.com/ISISComputingGroup/IBEX/issues/8341)| minor | Allow setting the alarm severity of underrange pressure channels via IOC macro |
+
 
 ### Reflectometry IOC
 
@@ -60,6 +71,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#7642](https://github.com/ISISComputingGroup/IBEX/issues/7642) | Major | Added the abillity to set blocks on config change. |
+| [#8346](https://github.com/ISISComputingGroup/IBEX/issues/8346) | Minor | The table of IOCs and table of Blocks displayed when viewing/editing a config now displays which component an IOC or Block is added by. |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -84,6 +96,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8148](https://github.com/ISISComputingGroup/IBEX/issues/8148) | Minor | Update pylint package to 3.1.0 |
+| [#8351](https://github.com/ISISComputingGroup/IBEX/issues/8351) | Minor | Add the packages needed for the scans library |
+| [#8358](https://github.com/ISISComputingGroup/IBEX/issues/8358) | Minor | Add p4p for use with pva |
 
 
 
@@ -101,6 +115,7 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 | [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140) | Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
 | [#8298](https://github.com/ISISComputingGroup/IBEX/issues/8298) | Minor | Add PVA to every IOC |
+| [#8371](https://github.com/ISISComputingGroup/IBEX/issues/8371) | Minor | gateway: refactor startup to try and avoid possible race condition |
 
 
 # Internal changes
@@ -109,6 +124,8 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 | [8056](https://github.com/ISISComputingGroup/IBEX/issues/8056) | Minor | Created a new Jenkins pipeline to check for uncomitted and commits not pushed on inst EPICS repos |
 | [#8289](https://github.com/ISISComputingGroup/IBEX/issues/8289)| Minor | Added ability to close command-line emulators within the test framework. |
+| [#8362](https://github.com/ISISComputingGroup/IBEX/issues/8362)| Patch | Conserver Log: start a new logfile each day |
+| [#8366](https://github.com/ISISComputingGroup/IBEX/issues/8366)| Major | Create new IBEX device generator python package. |
 
 
 # Support Issues Solved
