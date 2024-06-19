@@ -100,6 +100,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8351](https://github.com/ISISComputingGroup/IBEX/issues/8351) | Minor | Add the packages needed for the scans library |
 | [#8358](https://github.com/ISISComputingGroup/IBEX/issues/8358) | Minor | Add p4p for use with pva |
 | [#8382](https://github.com/ISISComputingGroup/IBEX/issues/8382) | Minor | Fix error message running genie_python.bat caused by ipython update  |
+| [#8372](https://github.com/ISISComputingGroup/IBEX/issues/8372) | Patch | Reduce memory use for long-running scripts using matplotlib's interactive mode (`pyplot.ion()`). In particular, this addresses a memory leak in Muon background plots. |
 
 extend pre/post dae commands #7022
 # InstrumentScripts
