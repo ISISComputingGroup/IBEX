@@ -53,6 +53,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8357](https://github.com/ISISComputingGroup/IBEX/issues/8357)| minor | Allow configurable number of crates + cards per IOC |
 | [#8341](https://github.com/ISISComputingGroup/IBEX/issues/8341)| minor | Allow setting the alarm severity of underrange pressure channels via IOC macro |
 | [#8379](https://github.com/ISISComputingGroup/IBEX/issues/8379)| minor | Allow automatic scanning of nputs, add second IOC |
+| [#7618](https://github.com/ISISComputingGroup/IBEX/issues/7618)| minor | Beckhoff/TwinCAT | Fix issue with TC creating huge log files on disconnect | 
+
 
 
 ### Reflectometry IOC
