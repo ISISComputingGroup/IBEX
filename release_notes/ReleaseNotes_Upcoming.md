@@ -121,7 +121,7 @@ extend pre/post dae commands #7022
 | [#8140](https://github.com/ISISComputingGroup/IBEX/issues/8140) | Minor | Fixed runcontrol causing DAE stuck WAITING after adding a block with "suspend if invalid" enabled | 
 | [#8298](https://github.com/ISISComputingGroup/IBEX/issues/8298) | Minor | Add PVAccess to every IOC |
 | [#8371](https://github.com/ISISComputingGroup/IBEX/issues/8371) | Minor | gateway: refactor startup to try and avoid possible race condition |
-| [#8309](https://github.com/ISISComputingGroup/IBEX/issues/8309) | Minor | gateway: add PVAccess instrument & site gateways |
+| [#8309](https://github.com/ISISComputingGroup/IBEX/issues/8309) | Minor | gateway: add PVAccess instrument external gateway |
 
 
 # Internal changes
