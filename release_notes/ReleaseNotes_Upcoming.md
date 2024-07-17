@@ -29,6 +29,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6218](https://github.com/ISISComputingGroup/IBEX/issues/6218) | CHIPIR collimator | Support for CHIPIR collimator and jaws |
 | [#6029](https://github.com/ISISComputingGroup/IBEX/issues/6029) | WISH SR850 Lock-In Amplifier | Support for Stanford RS SR850 Lock-In Amplifier |
 | [#6210](https://github.com/ISISComputingGroup/IBEX/issues/6210) | Hameg HM8123 | Support for Hameg HM8123 programmable counter |
+| [#8130](https://github.com/ISISComputingGroup/IBEX/issues/8130) | ISIS Environment Monitor | Support for new ISIS Environment Monitor device |
 
 
 ### Modified devices
