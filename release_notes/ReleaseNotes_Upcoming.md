@@ -120,6 +120,11 @@ extend pre/post dae commands #7022
 | ------ | ------| ------------- |
 
 
+# Bluesky
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [#8439](https://github.com/ISISComputingGroup/IBEX/issues/8439) | Minor | Initial repository structure & minimal set of functionality |
 
 # Other
 
