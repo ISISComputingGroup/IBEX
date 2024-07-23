@@ -149,6 +149,7 @@ extend pre/post dae commands #7022
 | [#8362](https://github.com/ISISComputingGroup/IBEX/issues/8362)| Patch | Conserver Log: start a new logfile each day |
 | [#8366](https://github.com/ISISComputingGroup/IBEX/issues/8366)| Major | Create new IBEX device generator python package. |
 | [#8389](https://github.com/ISISComputingGroup/IBEX/issues/8389)| Minor | Make restore motor positions script easier to use by making most options optional besides time, also prompt to reset power check for galil |
+| [#8402](https://github.com/ISISComputingGroup/IBEX/issues/8402) | Minor | Make new Jenkins pipeline to check config/common directory changes on insts |
 
 
 # Support Issues Solved
