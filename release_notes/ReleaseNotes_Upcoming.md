@@ -6,7 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8411) | Minor | Adds pyright to genie script checker - May cause some scripts to stop working |
+| [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8411) | Minor | `g.load_script` will now apply argument type-checking, via `pyright`, by default. This means that some errors which would previously have been runtime errors will now be caught during the `g.load_script` call. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting) for more details. |
 
 # Instrument Specific Changes
 
