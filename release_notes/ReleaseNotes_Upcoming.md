@@ -58,6 +58,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7618](https://github.com/ISISComputingGroup/IBEX/issues/7618)| minor | Beckhoff/TwinCAT | Fix issue with TC creating huge log files on disconnect | 
 | [#8342](https://github.com/ISISComputingGroup/IBEX/issues/8342)| minor | Danfysik PSU | Added Current PV to alarm tree | 
 | [#7319](https://github.com/ISISComputingGroup/IBEX/issues/7319)| minor | Beckhoff/TwinCAT | Fix issue with TC overwriting autosave values if beckhoff cannot be reached on startup | 
+| [#8461](https://github.com/ISISComputingGroup/IBEX/issues/8461)| major | Stanford Research SR400/PS350 | Remove old LVDCOM (labview) IOCs for the SR400 photon counter and PS350 power supplies | 
+
 
 
 
