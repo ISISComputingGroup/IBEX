@@ -130,6 +130,7 @@ extend pre/post dae commands #7022
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8439](https://github.com/ISISComputingGroup/IBEX/issues/8439) | Minor | Initial repository structure & minimal set of functionality |
+| [#1](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/1) | Minor | Create CI for Bluesky repositroy |
 | [ibex_bluesky_core#2](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/2) | Minor | Define & export a bluesky run engine configured for IBEX |
 
 # Other
