@@ -13,6 +13,7 @@ assignees: ''
 
 <sub>Fill in the blanks. _Example: "As a user, I would like to reset my password so that I can regain access to my account if I forget my password."_</sub>
 
+[comment]: <> (FILL IN BELOW)
 ~~~
 > As a [developer/user/instrument/project requirement], I would like to [feature or functionality] so that [reason/benefit].
 ~~~
@@ -20,6 +21,7 @@ assignees: ''
 ## Explanation
 <sub>Aim to describe the ticket as if you're explaining it to someone who is new to this technology/subject area.</sub>
 
+[comment]: <> (FILL IN BELOW)
 ~~~
 > ...
 ~~~
@@ -34,7 +36,8 @@ assignees: ''
 - _Provide any images that would be relevant to the ticket_
 
 <sub>_If not applicable, write "Not applicable"_</sub>
-    
+
+[comment]: <> (FILL IN BELOW)
 ~~~
 > ...
 ~~~
@@ -47,6 +50,7 @@ assignees: ''
 - _Use bullet points for clarity_
 - _Ensure each criterion is unique, testable and verifiable_
 
+[comment]: <> (FILL IN BELOW)
 ~~~
 > ...
 ~~~
@@ -59,6 +63,7 @@ assignees: ''
 
 <sub>_If not applicable, write "Not applicable"_</sub>
 
+[comment]: <> (FILL IN BELOW)
 ~~~
 > ...
 ~~~
