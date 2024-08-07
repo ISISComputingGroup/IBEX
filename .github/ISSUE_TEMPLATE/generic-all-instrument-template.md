@@ -7,172 +7,211 @@ assignees: ''
 
 ---
 
-## Instruments
+# All-Instrument Task
 
-### TS2 
+<sub>Try to describe the problem as if you're explaining it to someone who is new to this technology/subject area.</sub>
 
-- SANS2D 
+[comment]: <> (FILL IN BELOW)
+~~~
+> ...
+~~~
+
+## Instructions
+
+<sub>Provide discrete step-by-step instructions as to how to implement the change / complete the task for each instrument.</sub>
+
+[comment]: <> (FILL IN BELOW)
+~~~
+> ...
+~~~
+
+## Exceptions
+
+<sub>If there are any exceptions to the method described above, then provide for each instrument that is different: the instrument **name**, **why** they are different and the **adjustments** that should be made to the method to accomodate this.</sub>
+
+[comment]: <> (FILL IN BELOW)
+~~~
+> ...
+~~~
+
+# Instrument Checklist
+
+[TS2](#TS2) | [TS1](#TS1) | [Pseudo Instruments](#pseudo-instruments)
+
+## TS2 
+
+- ### SANS2D 
     - [ ] Started
     - [ ] Completed
-- WISH 
+- ### WISH 
     - [ ] Started
     - [ ] Completed
-- WISH_SETUP
+- ### WISH_SETUP
     - [ ] Started
     - [ ] Completed
-- IMAT
+- ### IMAT
     - [ ] Started
     - [ ] Completed
-- INTER
+- ### INTER
     - [ ] Started
     - [ ] Completed
-- LARMOR
+- ### LARMOR
     - [ ] Started
     - [ ] Completed
-- LET
+- ### LET
     - [ ] Started
     - [ ] Completed
-- NIMROD
+- ### NIMROD
     - [ ] Started
     - [ ] Completed
-- POLREF
+- ### POLREF
     - [ ] Started
     - [ ] Completed
-- ZOOM
+- ### ZOOM
     - [ ] Started
     - [ ] Completed
-- CHIPIR
+- ### CHIPIR
+    - [ ] Started
+    - [ ] Completed
+- ### OFFSPEC
     - [ ] Started
     - [ ] Completed
 
-### TS1 
-- ENGINX
+## TS1 
+- ### ENGINX
   - [ ] Started
   - [ ] Completed
-- CRISP
+- ### CRISP
   - [ ] Started
   - [ ] Completed
-- SURF
+- ### SURF
   - [ ] Started
   - [ ] Completed
-- LOQ
+- ### LOQ
   - [ ] Started
   - [ ] Completed
-- GEM
+- ### GEM
   - [ ] Started
   - [ ] Completed
-- HRPD
+- ### HRPD
   - [ ] Started
   - [ ] Completed
-- INES
+- ### INES
   - [ ] Started
   - [ ] Completed
-- PEARL 
+- ### PEARL 
   - [ ] Started
   - [ ] Completed
-- POLARIS
+- ### POLARIS
   - [ ] Started
   - [ ] Completed
-- SXD 
+- ### SXD 
   - [ ] Started
   - [ ] Completed
-- EMMA
+- ### EMMA
   - [ ] Started
   - [ ] Completed
-- ARGUS 
+- ### ARGUS 
   - [ ] Started
   - [ ] Completed
-- CHRONUS 
+- ### CHRONUS 
   - [ ] Started
   - [ ] Completed
-- EMU 
+- ### EMU 
   - [ ] Started
   - [ ] Completed
-- HIFI 
+- ### HIFI 
   - [ ] Started
   - [ ] Completed
-- MUSR 
+- ### MUSR 
   - [ ] Started
   - [ ] Completed
-- MUONFE
+- ### MUONFE
   - [ ] Started
   - [ ] Completed
-- RIKENFE
+- ### RIKENFE
   - [ ] Started
   - [ ] Completed
-- OSIRIS
+- ### OSIRIS
   - [ ] Started
   - [ ] Completed
-- IRIS
+- ### IRIS
   - [ ] Started
   - [ ] Completed
-- TOSCA
+- ### TOSCA
   - [ ] Started
   - [ ] Completed
-- VESUVIO 
+- ### VESUVIO 
   - [ ] Started
   - [ ] Completed
-- ALF
+- ### ALF
   - [ ] Started
   - [ ] Completed
-- MAPS
+- ### MAPS
   - [ ] Started
   - [ ] Completed
-- MARI
+- ### MARI
   - [ ] Started
   - [ ] Completed
-- MERLIN
+- ### MERLIN
   - [ ] Started
   - [ ] Completed
-- SANDALS
+- ### SANDALS
   - [ ] Started
   - [ ] Completed
-- ENGINX_SETUP
+- ### ENGINX_SETUP
   - [ ] Started
   - [ ] Completed
-- ENGINX-STRESS1
+- ### ENGINX-STRESS1
   - [ ] Started
   - [ ] Completed
-- HRPD_SETUP
+- ### HRPD_SETUP
   - [ ] Started
   - [ ] Completed
-- PEARL_SETUP
+- ### PEARL_SETUP
   - [ ] Started
   - [ ] Completed
-- HIFI_CRYOMAG
+- ### HIFI_CRYOMAG
   - [ ] Started
   - [ ] Completed
-- IRIS_SETUP
+- ### IRIS_SETUP
   - [ ] Started
   - [ ] Completed
-- SMUONFE
-  - [ ] Started
-  - [ ] Completed
-
-### Pseudo instruments
-- SELAB
-  - [ ] Started
-  - [ ] Completed
-- SOFTMAT
-  - [ ] Started
-  - [ ] Completed
-- SCIDEMO
-  - [ ] Started
-  - [ ] Completed
-- DCLAB
-  - [ ] Started
-  - [ ] Completed
-- MOTION
-  - [ ] Started
-  - [ ] Completed
-- IBEXGUITEST
-  - [ ] Started
-  - [ ] Completed
-- DETECT1
-  - [ ] Started
-  - [ ] Completed
-- DETECT2
+- ### SMUONFE
   - [ ] Started
   - [ ] Completed
 
+## Pseudo Instruments
+- ### SELAB
+  - [ ] Started
+  - [ ] Completed
+- ### SOFTMAT
+  - [ ] Started
+  - [ ] Completed
+- ### SCIDEMO
+  - [ ] Started
+  - [ ] Completed
+- ### DCLAB
+  - [ ] Started
+  - [ ] Completed
+- ### MOTION
+  - [ ] Started
+  - [ ] Completed
+- ### IBEXGUITEST
+  - [ ] Started
+  - [ ] Completed
+- ### DETECT1
+  - [ ] Started
+  - [ ] Completed
+- ### DETECT2
+  - [ ] Started
+  - [ ] Completed
+- ### CRYOLAB-R80
+  - [ ] Started
+  - [ ] Completed
+- ### DETMON
+  - [ ] Started
+  - [ ] Completed
 
+
+[Back to Top](#instrument-checklist)
