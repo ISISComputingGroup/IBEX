@@ -7,19 +7,60 @@ assignees: ''
 
 ---
 
-As a: [developer/user/instrument/project requirement]
+# Feature Description
 
-### Acceptance Criteria
-_What is the acceptance criteria?_
-- [ ] a
-- [ ] b
+**Aim to not delete parts of the template.**
 
-### Extra Information
-_Why it is needed?_
+<sub>Fill in the blanks. _Example: "As a user, I would like to reset my password so that I can regain access to my account if I forget my password."_</sub>
 
-_Where required files/links are_
+~~~
+> As a [developer/user/instrument/project requirement], I would like to [feature or functionality] so that [reason/benefit].
+~~~
 
+## Explanation
+<sub>Aim to describe the ticket as if you're explaining it to someone who is new to this technology/subject area.</sub>
 
-## How to Test
-_verbose instructions for reviewer to test changes
-(**Add before making a PR**)_
+~~~
+> ...
+~~~
+
+### Additional Information
+
+<sub>What else do I need to know before starting?</sub>
+
+- _Where required files/links are_
+- _Describe any potential difficulties with this ticket_
+- _Provide links to tickets that must be completed before starting_
+- _Provide any images that would be relevant to the ticket_
+
+<sub>_If not applicable, write "Not applicable"_</sub>
+    
+~~~
+> ...
+~~~
+
+<sub>See our [Git Workflow](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#development-work).</sub>
+
+# Acceptance Criteria
+<sub>What is the acceptance criteria of this ticket? What should the reviewer expect to be complete?</sub>
+- _Define specific conditions that must be met for the feature to be considered complete_
+- _Use bullet points for clarity_
+- _Ensure each criterion is unique, testable and verifiable_
+
+~~~
+> ...
+~~~
+
+# How to Review
+<sub>Before making a PR... </sub>
+- _Provide verbose instructions for the reviewer to test your changes_
+- _Describe how you have implemented testing for this feature_
+- _Provide screenshots of the feature to help the reviewer if relevant_
+
+<sub>_If not applicable, write "Not applicable"_</sub>
+
+~~~
+> ...
+~~~
+
+<sub>**To the reviewer: Make sure to [update submodules](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#reviewing-work-for-the-submodules-of-epics)!** </sub>
