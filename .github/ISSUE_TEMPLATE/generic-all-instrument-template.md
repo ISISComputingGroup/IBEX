@@ -9,6 +9,8 @@ assignees: ''
 
 # All-Instrument Task
 
+**Aim to not delete parts of the template.**
+
 <sub>Try to describe the problem as if you're explaining it to someone who is new to this technology/subject area.</sub>
 
 [comment]: <> (FILL IN BELOW)
