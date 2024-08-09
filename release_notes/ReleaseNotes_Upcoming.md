@@ -52,9 +52,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
 | [#8137](https://github.com/ISISComputingGroup/IBEX/issues/8137) | major | ALDN1000 | The IOC now supports daisy chained devices which means the same IOC can control multiple devices on the same COM port. The PVs now carry extra information which is the number of the pump (1-4). Their IDs can be changed in the IOC config but PVs will always reference then from 1-4. |
 | [#8353](https://github.com/ISISComputingGroup/IBEX/issues/8353) | major | Tektronix DMM4040/4050 Multimeters | Remove now-obselete (as of #6211) LVDCOM support modules for Tektronix DMM4040/4050 Multimeters |
-| [#8357](https://github.com/ISISComputingGroup/IBEX/issues/8357)| minor | Allow configurable number of crates + cards per IOC |
-| [#8341](https://github.com/ISISComputingGroup/IBEX/issues/8341)| minor | Allow setting the alarm severity of underrange pressure channels via IOC macro |
-| [#8379](https://github.com/ISISComputingGroup/IBEX/issues/8379)| minor | Allow automatic scanning of nputs, add second IOC |
+| [#8357](https://github.com/ISISComputingGroup/IBEX/issues/8357)| minor | CAENV895 | Allow configurable number of crates + cards per IOC |
+| [#8341](https://github.com/ISISComputingGroup/IBEX/issues/8341)| minor | TPG300 | Allow setting the alarm severity of underrange pressure channels via IOC macro |
+| [#8379](https://github.com/ISISComputingGroup/IBEX/issues/8379)| minor | ZFMAGFLD | Allow automatic scanning of inputs, add second IOC |
 | [#7618](https://github.com/ISISComputingGroup/IBEX/issues/7618)| minor | Beckhoff/TwinCAT | Fix issue with TC creating huge log files on disconnect | 
 | [#8342](https://github.com/ISISComputingGroup/IBEX/issues/8342)| minor | Danfysik PSU | Added Current PV to alarm tree | 
 | [#7319](https://github.com/ISISComputingGroup/IBEX/issues/7319)| minor | Beckhoff/TwinCAT | Fix issue with TC overwriting autosave values if beckhoff cannot be reached on startup | 
