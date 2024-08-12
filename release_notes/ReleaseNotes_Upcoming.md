@@ -134,6 +134,7 @@ extend pre/post dae commands #7022
 | [#1](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/1) | Minor | Create CI for Bluesky repositroy |
 | [ibex_bluesky_core#2](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/2) | Minor | Define & export a bluesky run engine configured for IBEX |
 | [ibex_bluesky_core#6](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/6) | Minor | Add a callback which logs all prodcued documents from BlueSky |
+| [ibex_bluesky_core#10](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/10) | Minor | Add block read & write functionality - this allows using an arbitrary block as either a "motor" or "detector" in a scan. |
 
 # Other
 
