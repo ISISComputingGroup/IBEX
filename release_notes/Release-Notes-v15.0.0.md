@@ -2,17 +2,6 @@ Changes in IBEX release v15.0.0
 
 See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
 
-# Highlights and Breaking Changes
-
-| Ticket | Type | Description |
-| ------ | ---- | ----------- |
-
-# Instrument Specific Changes
-
-| Instrument| Ticket | Type  | Change |
-| --------- | ------ | ------| ------------- |
-
-
 # Devices
 
 ### Newly supported devices
@@ -87,10 +76,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#7642](https://github.com/ISISComputingGroup/IBEX/issues/7642) | Major | Added the abillity to set blocks on config change. |
 | [#8346](https://github.com/ISISComputingGroup/IBEX/issues/8346) | Minor | The table of IOCs and table of Blocks displayed when viewing/editing a config now displays which component an IOC or Block is added by. |
 
-### Script Generator
-| Ticket | Type  | Change |
-| ------ | ----- | ------ |
-
 
 ### Other
 
@@ -120,11 +105,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#8411](https://github.com/ISISComputingGroup/IBEX/issues/8411) | Minor | Adds support for redefining motor positions via CLI |
 
 extend pre/post dae commands #7022
-# InstrumentScripts
-
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
-
 
 # Bluesky
 
@@ -157,12 +137,6 @@ extend pre/post dae commands #7022
 | [#8366](https://github.com/ISISComputingGroup/IBEX/issues/8366)| Major | Create new IBEX device generator python package. |
 | [#8389](https://github.com/ISISComputingGroup/IBEX/issues/8389)| Minor | Make restore motor positions script easier to use by making most options optional besides time, also prompt to reset power check for galil |
 | [#8378](https://github.com/ISISComputingGroup/IBEX/issues/8378)| Minor | Enforce Compliance with our python standards |
-
-
-# Support Issues Solved
-
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
 
 
 Change Types: 
