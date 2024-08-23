@@ -14,27 +14,21 @@ assignees: ''
 <sub>Try to describe the problem as if you're explaining it to someone who is new to this technology/subject area.</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 ## Instructions
 
 <sub>Provide discrete step-by-step instructions as to how to implement the change / complete the task for each instrument.</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 ## Exceptions
 
 <sub>If there are any exceptions to the method described above, then provide for each instrument that is different: the instrument **name**, **why** they are different and the **adjustments** that should be made to the method to accomodate this.</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 # Instrument Checklist
 

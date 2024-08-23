@@ -15,7 +15,7 @@ assignees: ''
 
 [comment]: <> (FILL IN BELOW)
 ~~~
-> As a [role], I am experiencing [problem/issue] which is causing [impact/effect].
+As a [role], I am experiencing [problem/issue] which is causing [impact/effect].
 ~~~
 
 ### How & Where?
@@ -25,18 +25,14 @@ assignees: ''
 <sub>_If not applicable, write "Not applicable"_</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 ### Reproducible (Yes/No)?
 
 <sub>If yes, describe step-by-step how to reproduce the issue.</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 ### Additional Information
 
@@ -50,9 +46,7 @@ assignees: ''
 <sub>_If not applicable, write "Not applicable"_</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 <sub>See our [Git Workflow](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#development-work).</sub>
 
@@ -63,9 +57,7 @@ assignees: ''
 - _Ensure each criterion is unique, testable and verifiable_
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 # How to Review
 <sub>Before making a PR... </sub>
@@ -76,8 +68,6 @@ assignees: ''
 <sub>_If not applicable, write "Not applicable"_</sub>
 
 [comment]: <> (FILL IN BELOW)
-~~~
 > ...
-~~~
 
 <sub>**To the reviewer: Make sure to [update submodules](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#reviewing-work-for-the-submodules-of-epics)!** </sub>
