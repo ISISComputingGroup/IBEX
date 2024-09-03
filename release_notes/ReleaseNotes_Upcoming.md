@@ -70,6 +70,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [ibex_bluesky_core#10](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/10) | Minor | Add block read & write functionality - this allows using an arbitrary block as either a "motor" or "detector" in a scan. |
 | [bluesky#8](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/8) | Minor | Expose & document bluesky's plotting functionality. |
 
 # Other
