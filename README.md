@@ -8,7 +8,7 @@ The [old project board](https://github.com/ISISComputingGroup/IBEX/projects/1) w
 
 # Release Notes
 
-### [Latest Stable IBEX Version (14.0.0)](release_notes/Release-Notes-v14.0.0.md)
+### [Latest Stable IBEX Version (15.0.0)](release_notes/Release-Notes-v15.0.0.md)
 
 [Upcoming Release](release_notes/ReleaseNotes_Upcoming.md)
 
