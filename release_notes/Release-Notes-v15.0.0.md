@@ -138,6 +138,8 @@ extend pre/post dae commands #7022
 | [#8389](https://github.com/ISISComputingGroup/IBEX/issues/8389)| Minor | Make restore motor positions script easier to use by making most options optional besides time, also prompt to reset power check for galil |
 | [#8378](https://github.com/ISISComputingGroup/IBEX/issues/8378)| Minor | Enforce Compliance with our python standards |
 
+# Known issue - date in wrong format in dashboard
+There is an issue with the date in the dashboard of the IBEX client in which it is displayed in mm/dd/yy format rather than dd/mm/yy. The [fix for this](https://github.com/ISISComputingGroup/EPICS-devIocStats/pull/4) will be in the next release, but if you would like it deployed to your instrument please let us know. 
 
 Change Types: 
 
