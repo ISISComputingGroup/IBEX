@@ -8,6 +8,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Minor | `g.load_script` will now apply argument type-checking, via `pyright`, by default. This means that some errors which would previously have been runtime errors will now be caught during the `g.load_script` call. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting) for more details. Also adds type hinting to public genie-python API functions.|
 
+
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
@@ -22,7 +23,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-| 
+| [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Motion controllers | The settings for motor controllers (Galil, Beckhoff, Mclennan, Linmot, SMC100, SM300) have been moved from `c:\instrument\settings\config\<instrument>\configurations\<motor_type>` to `c:\instrument\apps\epics\support\motorExtensions\master\settings\<instrument>\<motor_type>`. This does not affect settings for `motionSetpoints`, which remain in the configurations directory. Settings have been migrated. |
 
 
 ### Modified devices
