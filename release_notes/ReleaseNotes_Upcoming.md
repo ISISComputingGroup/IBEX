@@ -78,6 +78,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8438](https://github.com/ISISComputingGroup/IBEX/issues/8438) | minor | Containerised Archiver Appliance and associated new container EPICS gateway |
 
 
 # Internal changes
