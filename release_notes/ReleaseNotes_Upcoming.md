@@ -22,7 +22,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-| 
+| [#8502](https://github.com/ISISComputingGroup/IBEX/issues/8502) | Danfysik model 8500 | Use `WA` command rather than `DA 0` as per equipment safety note from Danfysik. |
 
 
 ### Modified devices
