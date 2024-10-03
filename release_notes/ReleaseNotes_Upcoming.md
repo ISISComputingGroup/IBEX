@@ -8,6 +8,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Minor | `g.load_script` will now apply argument type-checking, via `pyright`, by default. This means that some errors which would previously have been runtime errors will now be caught during the `g.load_script` call. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting) for more details. Also adds type hinting to public genie-python API functions.|
 
+
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
@@ -29,6 +30,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#8427](https://github.com/ISISComputingGroup/IBEX/issues/8427) | Minor | Motion controllers | The settings for motor controllers (Galil, Beckhoff, Mclennan, Linmot, SMC100, SM300) have been moved from `c:\instrument\settings\config\<instrument>\configurations\<motor_type>` to `c:\instrument\apps\epics\support\motorExtensions\master\settings\<instrument>\<motor_type>`. This does not affect settings for `motionSetpoints`, which remain in the configurations directory. Settings have been migrated. |
 | [Ticket8504](https://github.com/ISISComputingGroup/IBEX/issues/8504) | Motors | Minor | Fix home button showing as disconnected for aliased axes ie. sample changer axes | 
 | [Ticket8516](https://github.com/ISISComputingGroup/IBEX/issues/8516) | Lindy IPower Switch | Minor | Add 4 more LNDYISW IOCs | 
 | https://github.com/ISISComputingGroup/EPICS-Tektronix_AFG3XXX/pull/4 | Tektronix AFG3XXX | Minor | Add ramp symmetry functionality | 
