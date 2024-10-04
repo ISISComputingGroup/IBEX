@@ -66,7 +66,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#8453](https://github.com/ISISComputingGroup/IBEX/issues/8453) | Patch | Build and execute all python-epics wrappers against `epicscorelibs`-provided libraries. No user-facing change. |
 | [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
-
+| [#8359](https://github.com/ISISComputingGroup/IBEX/issues/8359)| Minor | Added wrapper for P4P to allow use of pv access as well as channel access in genie python. |
 
 # InstrumentScripts
 
