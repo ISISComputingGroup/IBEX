@@ -68,6 +68,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8453](https://github.com/ISISComputingGroup/IBEX/issues/8453) | Patch | Build and execute all python-epics wrappers against `epicscorelibs`-provided libraries. No user-facing change. |
 | [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
 | [ibex_bluesky_core#15](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/15) | Minor | Make `ibex_bluesky_core` available as a dependency, and add automated & manual system tests for bluesky. |
+| [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mdoe spectrum data. |
+
 
 
 # InstrumentScripts
