@@ -58,6 +58,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| #8438  | minor | Added Archiver Appliance container implementation and corresponding container gateway in start_gateways.bat |
 
 
 # genie_python
