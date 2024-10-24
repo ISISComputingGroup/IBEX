@@ -85,6 +85,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [ibex_bluesky_core#10](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/10) | Minor | Add block read & write functionality - this allows using an arbitrary block as either a "motor" or "detector" in a scan. |
 | [bluesky#8](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/8) | Minor | Expose & document bluesky's plotting functionality. |
+| [bluesky#21](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/21) | Minor | Generate & publish uncertainties from DAE Counts data |
 | [ibex_bluesky_core#19](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/19) | Major | Introduces fitting for scans in a user friendly way with dynamic guessing functions & new fitting models. |
 
 # Other
