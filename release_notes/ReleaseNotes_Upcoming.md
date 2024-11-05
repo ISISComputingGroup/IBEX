@@ -60,7 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----  | ------------- |
 | #8438  | minor | Added Archiver Appliance container implementation and corresponding container gateway in start_gateways.bat |
 | #8480  | minor | Added check for repository permissions in repository checks |
-
+| [#8181](https://github.com/ISISComputingGroup/IBEX/issues/8181) | Minor | Added purge functioanlity (buttons, LEDs, etc) to PEARLPC OPI |
 
 # genie_python
 
