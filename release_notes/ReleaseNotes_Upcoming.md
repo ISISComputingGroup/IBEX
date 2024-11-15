@@ -27,6 +27,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6085](https://github.com/ISISComputingGroup/IBEX/issues/6085) | Thorlabs FW102C | Six position filter wheel controller |
 
 
+### Removed devices
+
+| Ticket | Device | Notes|
+| ------ | ------ | -----|
+| [inst_servers#400](https://github.com/ISISComputingGroup/EPICS-inst_servers/pull/400) | Collision Avoidance Monitor | Remove the collision avoidance monitor. |
+
+
 ### Modified devices
 
 | Ticket | Type | Device | Change |
