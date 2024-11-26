@@ -123,47 +123,47 @@ Change Types:
 
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
-| MySQL | 8.0.35 | ibex_install_utils | 11/2023 |
+| MySQL | 8.4.2 | ibex_install_utils | 10/2024 |
 | Make | 4.4 | utils_win32 | 11/2023 |
 | ActiveMQ | 5.18.3 | ISIS\ActiveMQ | 12/2023 |
 | Nicos | 23 | ScriptServer | 11/2023 |
 | Cygwin | 3.4.9 | ICP_Binaries |	12/2023 |
-| MySql-connector J | 8.0.33 | IOCLogServer | 12/2023 |
+| MySql-connector J | 8.4.0 | IOCLogServer | 10/2024 |
 
 ### GUI Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-| Gson | 2.10.1 | 11/2023 |
-| MySql-connector J | 8.0.33 | 12/2023 |
-| commons-codec | 1.16.0 | 12/2023 |
+| Gson | 2.11 | 10/2024 |
+| Guava | 33.3.1 | 10/2024 |
+| MySql-connector J | 8.4.0 | 10/2024 |
+| commons-codec | 1.17.1 | 10/2024 |
 | Maven | 3.9.5 | 11/2023 |
-| ActiveMQ (different to server version) | 5.17.6 | 12/2023 |
+| ActiveMQ (different to server version) | 5.18.6 | 10/2024 |
 | Nicos | 23 | 11/2023 |
-| Jakarta Activation API | 2.1.2 | 12/2023 |
-| Jakarta Mail API | 2.1.1 | 12/2023 |
-| Jakarta XML Binding API | 4.0.1 | 12/2023 |
-| JavaX Activation | 1.1.1 | 12/2023 |
-| joda time | 2.12.5 | 12/2023 |
-| py4j | 0.10.9.7 | 12/2023 |
-| log4j | 2.22.0 | 12/2023 |
-| JAXB Runtime | 4.0.4 | 12/2023 |
-| Tyrus | 2.1.4 | 12/2023 |
-| JacORB OMG API | 3.9 | 12/2023 |
-| Mockito Core | 5.7.0 | 12/2023 |
-| Mockito Inline | 5.2.0 | 12/2023 |
-| JeroMQ | 0.5.4 | 12/2023 |
-| Nebula | 3.0.0 | 12/2023 |
+| Jakarta Activation API | 2.1.2 | 10/2024 |
+| Jakarta Mail API | 2.1.3 | 10/2024 |
+| Jakarta XML Binding API | 4.0.1 | 10/2024 |
+| JavaX Activation | 1.1.1 | 10/2024 |
+| joda time | 2.13 | 10/2024 |
+| py4j | 0.10.9.7 | 10/2024 |
+| log4j | 2.24 | 10/2024 |
+| JAXB | 3.0.2 | 10/2024 |
+| Tyrus | 2.2.0 | 10/2024 |
+| JacORB OMG API | 3.9 | 10/2024 |
+| Mockito Core | 5.14.0 | 10/2024 |
+| JeroMQ | 0.6.0 | 10/2024 |
+| Nebula | 3.0.0 | 10/2024 |
 | CS-Studio | 12/2023 | 12/2023 |
 | Pydev | 11.0.3 | 12/2023 |
-| Eclipse | 2024-03 | 04/2024 |
-| Eclipse Updates| 4.26 | 12/2023 |
+| Eclipse | 2024-09 | 04/2024 |
+| Eclipse Updates| 4.33 | 10/2024 |
 
 ### genie_python Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-| Python | 3.11.6 | 11/2023 |
-| ode |	0.16.4 | 11/2023 |
-| Lewis | 11/2023 | 11/2023 |
-| matplotlib | 3.8.2 | 12/2023 |
+| Python | 3.11.9 | 10/2024 |
+| ode |	0.16.4 | 10/2024 |
+| Lewis | git | 10/2024 |
+| matplotlib | 3.9.2 | 10/2024 |
