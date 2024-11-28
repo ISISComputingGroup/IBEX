@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Minor | `g.load_script` will now apply argument type-checking, via `pyright`, by default. This means that some errors which would previously have been runtime errors will now be caught during the `g.load_script` call. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting) for more details. Also adds type hinting to public genie-python API functions.|
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The `genie_python` library has been split out into a [pip-installable package](https://pypi.org/project/genie-python/). There are no direct user-facing changes to `genie_python` as a result of this change, but it is now possible to depend on `genie_python` in downstream libraries and to install the `genie_python` library into environments other than IBEX via `pip`. |
 
 
 # Instrument Specific Changes
@@ -25,7 +26,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#8502](https://github.com/ISISComputingGroup/IBEX/issues/8502) | Danfysik model 8500 | Use `WA` command rather than `DA 0` as per equipment safety note from Danfysik. |
 | [#6085](https://github.com/ISISComputingGroup/IBEX/issues/6085) | Thorlabs FW102C | Six position filter wheel controller |
-| [#8400](https://github.com/ISISComputingGroup/IBEX/issues/8400) | Group3 Hall probe |
+| [#8400](https://github.com/ISISComputingGroup/IBEX/issues/8400) | Group3 Hall probe | Hall probe used by zero-field system on HIFI |
 
 
 ### Removed devices
@@ -39,6 +40,19 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#8160](https://github.com/ISISComputingGroup/IBEX/issues/8160) | minor | Beckhoff/TwinCAT | Allow 2 instances of the TC IOC, for portable beckhoffs |
+| [#8104](https://github.com/ISISComputingGroup/IBEX/issues/8104) | minor | PACE5000 | Various PACE5000 snags - set units to bar, slew mode to lin, display source pressure, fix vent status |
+| [#8218](https://github.com/ISISComputingGroup/IBEX/issues/8218) | minor | GALIL |  allow COM in GALILADDR macro |
+| [#7677](https://github.com/ISISComputingGroup/IBEX/issues/7677) | minor | Tektronix AFG3XXX | Channel 1 and 2 are configurable in IOC macros, by default both are enabled just like so far. |
+| [#8248](https://github.com/ISISComputingGroup/IBEX/issues/8248) | minor | Lakeshore 340 | Lakeshore no longer sets excitiation threshold with potentially invalid values on startup. |
+| [#6854](https://github.com/ISISComputingGroup/IBEX/issues/6854) | major | Beckhoff/TwinCAT | Remove old CRISP course jaw tcioc motor record code |
+| [#8175](https://github.com/ISISComputingGroup/IBEX/issues/8175) | minor | needlevalve | Add macro to govern wriet mode toggle. |
+| [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | minor | Keithley 2400 | Add input fields for compliance voltage and current. |
+| [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
+| [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
+| [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
+| [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
+| [#8310](https://github.com/ISISComputingGroup/IBEX/issues/8310)| minor | Eurotherm | Fix issue where disconnected/missing Eurotherm causes other Eurotherms to fail to be read |
 | [#8427](https://github.com/ISISComputingGroup/IBEX/issues/8427) | Minor | Motion controllers | The settings for motor controllers (Galil, Beckhoff, Mclennan, Linmot, SMC100, SM300) have been moved from `c:\instrument\settings\config\<instrument>\configurations\<motor_type>` to `c:\instrument\apps\epics\support\motorExtensions\master\settings\<instrument>\<motor_type>`. This does not affect settings for `motionSetpoints`, which remain in the configurations directory. Settings have been migrated. |
 | [Ticket8504](https://github.com/ISISComputingGroup/IBEX/issues/8504) | Motors | Minor | Fix home button showing as disconnected for aliased axes ie. sample changer axes | 
 | [Ticket8516](https://github.com/ISISComputingGroup/IBEX/issues/8516) | Lindy IPower Switch | Minor | Add 4 more LNDYISW IOCs | 
@@ -71,16 +85,24 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | #8480  | minor | Added check for repository permissions in repository checks |
 | [#8181](https://github.com/ISISComputingGroup/IBEX/issues/8181) | Minor | Added purge functioanlity (buttons, LEDs, etc) to PEARLPC OPI |
 
-# genie_python
+# Python
+
+### `genie_python`
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
+| [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mode spectrum data. |
+| [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The back-end mechanism for sending sms/email/slack alerts via `g.send_sms` and `g.send_email` was updated to share a mechanism with other IBEX alerting mechanisms. These functions will no longer work on machines outside the ISIS network, or on IBEX installations which have not been configured to send alerts (all instrument machines have been configured to send alerts). |
+
+### Other python libraries
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8453](https://github.com/ISISComputingGroup/IBEX/issues/8453) | Patch | Build and execute all python-epics wrappers against `epicscorelibs`-provided libraries. No user-facing change. |
-| [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
 | [ibex_bluesky_core#15](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/15) | Minor | Make `ibex_bluesky_core` available as a dependency, and add automated & manual system tests for bluesky. |
-| [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mode spectrum data. |
-| [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
-
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Patch | Python bindings to the Open Dynamics Engine (`pyode`) were removed. A deprecated version of `pyreadline` bindings were removed. |
 
 
 # InstrumentScripts
