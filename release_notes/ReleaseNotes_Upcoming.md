@@ -96,29 +96,23 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
 | [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The back-end mechanism for sending sms/email/slack alerts via `g.send_sms` and `g.send_email` was updated to share a mechanism with other IBEX alerting mechanisms. These functions will no longer work on machines outside the ISIS network, or on IBEX installations which have not been configured to send alerts (all instrument machines have been configured to send alerts). |
 
+### Bluesky
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+| [ibex_bluesky_core#15](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/15) | Minor | Make `ibex_bluesky_core` available as a dependency, and add automated & manual system tests for bluesky. |
+| [ibex_bluesky_core#10](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/10) | Minor | Add block read & write functionality - this allows using an arbitrary block as either a "motor" or "detector" in a scan. |
+| [ibex_bluesky_core#8](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/8) | Minor | Expose & document bluesky's plotting functionality. |
+| [ibex_bluesky_core#21](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/21) | Minor | Generate & publish uncertainties from DAE Counts data |
+| [ibex_bluesky_core#19](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/19) | Major | Introduces fitting for scans in a user friendly way with dynamic guessing functions & new fitting models. |
+
 ### Other python libraries
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8453](https://github.com/ISISComputingGroup/IBEX/issues/8453) | Patch | Build and execute all python-epics wrappers against `epicscorelibs`-provided libraries. No user-facing change. |
-| [ibex_bluesky_core#15](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/15) | Minor | Make `ibex_bluesky_core` available as a dependency, and add automated & manual system tests for bluesky. |
 | [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Patch | Python bindings to the Open Dynamics Engine (`pyode`) were removed. A deprecated version of `pyreadline` bindings were removed. |
 
-
-# InstrumentScripts
-
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
-
-
-# Bluesky
-
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
-| [ibex_bluesky_core#10](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/10) | Minor | Add block read & write functionality - this allows using an arbitrary block as either a "motor" or "detector" in a scan. |
-| [bluesky#8](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/8) | Minor | Expose & document bluesky's plotting functionality. |
-| [bluesky#21](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/21) | Minor | Generate & publish uncertainties from DAE Counts data |
-| [ibex_bluesky_core#19](https://github.com/ISISComputingGroup/ibex_bluesky_core/issues/19) | Major | Introduces fitting for scans in a user friendly way with dynamic guessing functions & new fitting models. |
 
 # Other
 
