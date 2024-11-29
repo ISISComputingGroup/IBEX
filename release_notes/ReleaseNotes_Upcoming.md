@@ -181,6 +181,5 @@ Dependency | Version | last updated/checked
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
 | Python | 3.11.9 | 10/2024 |
-| ode |	0.16.4 | 10/2024 |
 | Lewis | git | 10/2024 |
 | matplotlib | 3.9.2 | 10/2024 |
