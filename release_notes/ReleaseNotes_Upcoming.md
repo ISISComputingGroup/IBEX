@@ -93,6 +93,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
+| [#8359](https://github.com/ISISComputingGroup/IBEX/issues/8359)| Minor | Added wrapper for P4P to allow use of pv access as well as channel access in genie python. |
 | [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mode spectrum data. |
 | [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
 | [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The back-end mechanism for sending sms/email/slack alerts via `g.send_sms` and `g.send_email` was updated to share a mechanism with other IBEX alerting mechanisms. These functions will no longer work on machines outside the ISIS network, or on IBEX installations which have not been configured to send alerts (all instrument machines have been configured to send alerts). |
