@@ -127,6 +127,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8437](https://github.com/orgs/ISISComputingGroup/projects/20/views/8?pane=issue&itemId=72604908) | Patch | Create a network independant Python venv |
+| [#8593](https://github.com/ISISComputingGroup/IBEX/issues/8593)) | Patch | Stop log file output getting garbled if ioc restarted via console command |
 
 
 Change Types: 
