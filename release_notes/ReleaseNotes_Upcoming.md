@@ -18,6 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | CHIPIR | [Ticket6217](https://github.com/ISISComputingGroup/IBEX/issues/6217#issue-805738735) | Minor | Added OPI support for CHIPIR Filter Set |
 | CHIPIR | [Ticket6216](https://github.com/ISISComputingGroup/IBEX/issues/6216) | Minor | Added device screen for CHIPIR XYZ table |
 | Muons | [Ticket6232](https://github.com/ISISComputingGroup/IBEX/issues/6232) | Minor | Added muon tpar file text editor/viewer |
+| HiFi | [Ticket6086](https://github.com/ISISComputingGroup/IBEX/issues/6086) | Minor | Added an OPI for the Hifi Magnet powersupplies |
 
 # Devices
 
@@ -60,6 +61,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [Ticket8516](https://github.com/ISISComputingGroup/IBEX/issues/8516) | Lindy IPower Switch | Minor | Add 4 more LNDYISW IOCs | 
 | https://github.com/ISISComputingGroup/EPICS-Tektronix_AFG3XXX/pull/4 | Tektronix AFG3XXX | Minor | Add ramp symmetry functionality | 
 | [Ticket8551](https://github.com/ISISComputingGroup/IBEX/issues/8551) | Galil | Minor | (new galil driver) set homing to be allowed in both directions by default | 
+| [Ticket8524](https://github.com/ISISComputingGroup/IBEX/issues/8524) | Galil | Minor | (new galil driver) notify users of disconnection at startup and during running | 
 
 ### Reflectometry IOC
 
