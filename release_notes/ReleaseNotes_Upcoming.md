@@ -20,6 +20,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | CHIPIR | [Ticket6216](https://github.com/ISISComputingGroup/IBEX/issues/6216) | Minor | Added device screen for CHIPIR XYZ table |
 | Muons | [Ticket6232](https://github.com/ISISComputingGroup/IBEX/issues/6232) | Minor | Added muon tpar file text editor/viewer |
 | HiFi | [Ticket6086](https://github.com/ISISComputingGroup/IBEX/issues/6086) | Minor | Added an OPI for the Hifi Magnet powersupplies |
+| HiFi | [Ticket8332](https://github.com/ISISComputingGroup/IBEX/issues/8332) | Minor | Added an OPI for the Hifi Litron Laser Front Panel VI |
 | HiFi | [Ticket6090](https://github.com/ISISComputingGroup/IBEX/issues/6090) | Minor | Added an OPI for Hifi Litron Laser Timing Control & extended DG645 IOC | 
 | HiFI | [Ticket8403](https://github.com/ISISComputingGroup/IBEX/issues/8403) | Patch | Increase minimum precision that the cryosms driver can send to the power supply. |
 # Devices
