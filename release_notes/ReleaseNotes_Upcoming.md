@@ -21,7 +21,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Muons | [Ticket6232](https://github.com/ISISComputingGroup/IBEX/issues/6232) | Minor | Added muon tpar file text editor/viewer |
 | HiFi | [Ticket6086](https://github.com/ISISComputingGroup/IBEX/issues/6086) | Minor | Added an OPI for the Hifi Magnet powersupplies |
 | HiFi | [Ticket6090](https://github.com/ISISComputingGroup/IBEX/issues/6090) | Minor | Added an OPI for Hifi Litron Laser Timing Control & extended DG645 IOC | 
-
+| HiFI | [Ticket8403](https://github.com/ISISComputingGroup/IBEX/issues/8403) | Patch | Increase minimum precision that the cryosms driver can send to the power supply. |
 # Devices
 
 ### Newly supported devices
@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8400](https://github.com/ISISComputingGroup/IBEX/issues/8400) | Group3 Hall probe | Hall probe used by zero-field system on HIFI |
 | [#8331](https://github.com/ISISComputingGroup/IBEX/issues/8331) | New Focus Intelligent Picometer | Motor used to control Litron Laser Power on HIFI. |
 | [#8413](https://github.com/ISISComputingGroup/IBEX/issues/8413) | Anton-Paar L-DENS 3300 Density sensor | Density meter used by reflectometry instruments. | 
+| [#8403](https://github.com/ISISComputingGroup/IBEX/issues/8403) | HIFI Zero-field system | Zero-field system used on HIFI. | 
 
 
 ### Removed devices
