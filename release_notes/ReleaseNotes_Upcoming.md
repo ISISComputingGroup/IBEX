@@ -162,7 +162,7 @@ Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
 | Gson | 2.11 | 10/2024 |
 | Guava | 33.3.1 | 10/2024 |
-| MySql-connector J | 8.4.0 | 10/2024 |
+| MySql-connector J | 9.1.0 | 01/2025 |
 | commons-codec | 1.17.1 | 10/2024 |
 | Maven | 3.9.5 | 11/2023 |
 | ActiveMQ (different to server version) | 5.18.6 | 10/2024 |
