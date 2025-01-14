@@ -32,6 +32,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#6085](https://github.com/ISISComputingGroup/IBEX/issues/6085) | Thorlabs FW102C | Six position filter wheel controller |
 | [#8400](https://github.com/ISISComputingGroup/IBEX/issues/8400) | Group3 Hall probe | Hall probe used by zero-field system on HIFI |
 | [#8331](https://github.com/ISISComputingGroup/IBEX/issues/8331) | New Focus Intelligent Picometer | Motor used to control Litron Laser Power on HIFI. |
+| [#8413](https://github.com/ISISComputingGroup/IBEX/issues/8413) | Anton-Paar L-DENS 3300 Density sensor | Density meter used by reflectometry instruments. | 
 
 
 ### Removed devices
