@@ -3,7 +3,7 @@
 Release versions follow the convention `major.minor.patch`. In general if the client/server differ by a major version 
 they will be incompatible, differences in minor versions are likely compatible but not guaranteed.
 
-| Version | Date (Created)       |IBEX Server | IBEX GUI  | Genie Python |Release Notes | 
+| Version | Date (Created)       |IBEX Server | IBEX GUI  | Genie Python Distribution |Release Notes | 
 | ------- | ----------           | -----      | ------------  | -------- | -------- |
 | V25.2.0 (switched to calver)  | 14-01-2025 | [v25.02.0](https://github.com/ISISComputingGroup/EPICS/tree/Release_25.02.0) | [v25.02.0](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_25.02.0) | [v25.02.0](https://github.com/ISISComputingGroup/uktena/tree/Release_25.02.0) | [Release Notes v25.2.0](https://github.com/ISISComputingGroup/IBEX/blob/master/release_notes/Release-Notes-v25.2.0.md)
 | V15.0.0  | 13-08-2024 | [v15.0.0](https://github.com/ISISComputingGroup/EPICS/tree/Release_15.0.0) | [v15.0.0](https://github.com/ISISComputingGroup/ibex_gui/tree/Release_15.0.0) | [v15.0.0](https://github.com/ISISComputingGroup/genie_python/tree/Release_15.0.0) | [Release Notes v15.0.0](https://github.com/ISISComputingGroup/IBEX/blob/master/release_notes/Release-Notes-v15.0.0.md)
