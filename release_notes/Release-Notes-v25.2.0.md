@@ -277,7 +277,7 @@ mock==5.1.0
 mpltoolbox==24.5.1
 msgpack==1.1.0
 msgpack-numpy==0.4.8
-mysql-connector-python==9.1.0
+mysql-connector-python==8.4.0
 networkx==3.4.2
 nicos-pyctl==1.3
 nodeenv==1.9.1
