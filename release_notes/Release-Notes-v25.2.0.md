@@ -1,6 +1,6 @@
 # Release numbering
 
-The release numbering for IBEX has changed to a calendar-version scheme. This is the first release in that new scheme, release `25.2`, corresponding to Feburary 2025. The last release on the old scheme was release `15.0.0`, released August 2024.
+The release numbering for IBEX has changed to a calendar-version scheme. This is the first release in that new scheme, release series `25.2.x`, corresponding to Feburary 2025. The last release on the old scheme was release `15.0.0`, released August 2024.
 
 See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
 
