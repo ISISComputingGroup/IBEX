@@ -1,6 +1,6 @@
 # Release numbering
 
-The release numbering for IBEX has changed to a calendar-version scheme. This is the first release in that new scheme, release `25.02.0`, corresponding to Feb 2025. The last release on the old scheme was release `15.0.0`, released August 2024.
+The release numbering for IBEX has changed to a calendar-version scheme. This is the first release in that new scheme, release `25.2`, corresponding to Feburary 2025. The last release on the old scheme was release `15.0.0`, released August 2024.
 
 See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
 
@@ -8,10 +8,10 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Minor | `g.load_script` will now apply argument type-checking, via `pyright`, by default. This means that some errors which would previously have been runtime errors will now be caught during the `g.load_script` call. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting) for more details. Also adds type hinting to public genie-python API functions.|
-| [#8588](https://github.com/ISISComputingGroup/IBEX/issues/8588) | Minor | Previously ibex created many `procServ` processes in the background that managed start/stop and logging of each IOC, including ones fro IOCs that were never used. These are now created on demand which shoudld reduce the overall ibex memory footprint |
-| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The `genie_python` library has been split out into a [pip-installable package](https://pypi.org/project/genie-python/). There are no direct user-facing changes to `genie_python` as a result of this change, but it is now possible to depend on `genie_python` in downstream libraries and to install the `genie_python` library into environments other than IBEX via `pip`. |
+| [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Major | `g.load_script` will now apply argument type-checking, via [`pyright`](https://github.com/microsoft/pyright?tab=readme-ov-file#static-type-checker-for-python), by default. This means that some errors which would previously have caused runtime exceptions will now be caught during `g.load_script`. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting#new-pyright) for more details. Also adds type hinting to public genie-python API functions.<br /><br />**In some cases this may mean that scripts which previously loaded are now rejected by `load_script`.** We would strongly encourage instruments to check key scripts early and to contact experiment controls for assistance if needed.<br /><br />Script checking can be entirely disabled by passing `check_script=False` to `load_script` if needed, but we would encourage instruments to instead fix the errors reported by the type-checker and to ask for assistance if needed. |
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The `genie_python` library has been split out into a [pip-installable package](https://pypi.org/project/genie-python/).<br /><br />There are no direct user-facing changes to `genie_python`'s API as a result of this change, but it is now possible to depend on `genie_python` in downstream libraries and to install the `genie_python` library into environments other than IBEX via `pip`. |
 | [#6510](https://github.com/ISISComputingGroup/IBEX/issues/6510) | Minor | Remove `genie_mantid` script in favour of `pip install`ing the above `genie` package. |
+| [#8588](https://github.com/ISISComputingGroup/IBEX/issues/8588) | Minor | Previously ibex created many `procServ` processes in the background that managed start/stop and logging of each IOC, including ones fro IOCs that were never used. These are now created on demand which shoudld reduce the overall ibex memory footprint |
 
 
 # Instrument Specific Changes
@@ -31,7 +31,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-| [#8502](https://github.com/ISISComputingGroup/IBEX/issues/8502) | Danfysik model 8500 | Use `WA` command rather than `DA 0` as per equipment safety note from Danfysik. |
 | [#6085](https://github.com/ISISComputingGroup/IBEX/issues/6085) | Thorlabs FW102C | Six position filter wheel controller |
 | [#8400](https://github.com/ISISComputingGroup/IBEX/issues/8400) | Group3 Hall probe | Hall probe used by zero-field system on HIFI |
 | [#8331](https://github.com/ISISComputingGroup/IBEX/issues/8331) | New Focus Intelligent Picometer | Motor used to control Litron Laser Power on HIFI. |
@@ -50,51 +49,27 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [#8160](https://github.com/ISISComputingGroup/IBEX/issues/8160) | minor | Beckhoff/TwinCAT | Allow 2 instances of the TC IOC, for portable beckhoffs |
-| [#8104](https://github.com/ISISComputingGroup/IBEX/issues/8104) | minor | PACE5000 | Various PACE5000 snags - set units to bar, slew mode to lin, display source pressure, fix vent status |
-| [#8218](https://github.com/ISISComputingGroup/IBEX/issues/8218) | minor | GALIL |  allow COM in GALILADDR macro |
-| [#7677](https://github.com/ISISComputingGroup/IBEX/issues/7677) | minor | Tektronix AFG3XXX | Channel 1 and 2 are configurable in IOC macros, by default both are enabled just like so far. |
-| [#8248](https://github.com/ISISComputingGroup/IBEX/issues/8248) | minor | Lakeshore 340 | Lakeshore no longer sets excitiation threshold with potentially invalid values on startup. |
-| [#6854](https://github.com/ISISComputingGroup/IBEX/issues/6854) | major | Beckhoff/TwinCAT | Remove old CRISP course jaw tcioc motor record code |
-| [#8175](https://github.com/ISISComputingGroup/IBEX/issues/8175) | minor | needlevalve | Add macro to govern wriet mode toggle. |
-| [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | minor | Keithley 2400 | Add input fields for compliance voltage and current. |
-| [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
-| [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| minor | HVCAEN | Fix issue with write records not getting created | 
-| [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
-| [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
-| [#8310](https://github.com/ISISComputingGroup/IBEX/issues/8310)| minor | Eurotherm | Fix issue where disconnected/missing Eurotherm causes other Eurotherms to fail to be read |
-| [#8427](https://github.com/ISISComputingGroup/IBEX/issues/8427) | Minor | Motion controllers | The settings for motor controllers (Galil, Beckhoff, Mclennan, Linmot, SMC100, SM300) have been moved from `c:\instrument\settings\config\<instrument>\configurations\<motor_type>` to `c:\instrument\apps\epics\support\motorExtensions\master\settings\<instrument>\<motor_type>`. This does not affect settings for `motionSetpoints`, which remain in the configurations directory. Settings have been migrated. |
-| [Ticket8504](https://github.com/ISISComputingGroup/IBEX/issues/8504) | Motors | Minor | Fix home button showing as disconnected for aliased axes ie. sample changer axes | 
-| [Ticket8516](https://github.com/ISISComputingGroup/IBEX/issues/8516) | Lindy IPower Switch | Minor | Add 4 more LNDYISW IOCs | 
-| https://github.com/ISISComputingGroup/EPICS-Tektronix_AFG3XXX/pull/4 | Tektronix AFG3XXX | Minor | Add ramp symmetry functionality | 
-| [Ticket8551](https://github.com/ISISComputingGroup/IBEX/issues/8551) | Galil | Minor | (new galil driver) set homing to be allowed in both directions by default | 
-| [Ticket8524](https://github.com/ISISComputingGroup/IBEX/issues/8524) | Galil | Minor | (new galil driver) notify users of disconnection at startup and during running | 
-
-### Reflectometry IOC
-
-| Ticket | Type | Change |
-| ------ | --- | ------------- |
-
-
-#  IBEX Client
-
-### Configurations
-
-| Ticket | Type  | Change |
-| ------ | ----  | ------------- |
-
-### Script Generator
-| Ticket | Type  | Change |
-| ------ | ----- | ------ |
-
-
-### Other
-
-| Ticket | Type  | Change |
-| ------ | ----  | ------------- |
-| #8438  | minor | Added Archiver Appliance container implementation and corresponding container gateway in start_gateways.bat |
-| #8480  | minor | Added check for repository permissions in repository checks |
-| [#8181](https://github.com/ISISComputingGroup/IBEX/issues/8181) | Minor | Added purge functioanlity (buttons, LEDs, etc) to PEARLPC OPI |
+| [#8502](https://github.com/ISISComputingGroup/IBEX/issues/8502) | Minor | Danfysik model 8500 | Use `WA` command rather than `DA 0` as per equipment safety note from Danfysik. |
+| [#8160](https://github.com/ISISComputingGroup/IBEX/issues/8160) | Minor | Beckhoff/TwinCAT | Allow 2 instances of the TC IOC, for portable beckhoffs |
+| [#8104](https://github.com/ISISComputingGroup/IBEX/issues/8104) | Minor | PACE5000 | Various PACE5000 snags - set units to bar, slew mode to lin, display source pressure, fix vent status |
+| [#8218](https://github.com/ISISComputingGroup/IBEX/issues/8218) | Minor | GALIL |  allow COM in GALILADDR macro |
+| [#7677](https://github.com/ISISComputingGroup/IBEX/issues/7677) | Minor | Tektronix AFG3XXX | Channel 1 and 2 are configurable in IOC macros, by default both are enabled just like so far. |
+| [#8248](https://github.com/ISISComputingGroup/IBEX/issues/8248) | Minor | Lakeshore 340 | Lakeshore no longer sets excitiation threshold with potentially invalid values on startup. |
+| [#6854](https://github.com/ISISComputingGroup/IBEX/issues/6854) | Minor | Beckhoff/TwinCAT | Remove old CRISP coarse jaw tcioc motor record code |
+| [#8175](https://github.com/ISISComputingGroup/IBEX/issues/8175) | Minor | needlevalve | Add macro to govern wriet mode toggle. |
+| [#8262](https://github.com/ISISComputingGroup/IBEX/issues/8262) | Minor | Keithley 2400 | Add input fields for compliance voltage and current. |
+| [#8284](https://github.com/ISISComputingGroup/IBEX/issues/8284)| Minor | McLennan | Add macro to set access group of JVEL, HLM, LLM to allow setting of those fields without restart of IOC |
+| [#8322](https://github.com/ISISComputingGroup/IBEX/issues/8322)| Minor | HVCAEN | Fix issue with write records not getting created | 
+| [#8253](https://github.com/ISISComputingGroup/IBEX/issues/8253)| Minor | McLennan | Make paramters last a powercycle. Parameters are now saved on homing of device |
+| [#8335](https://github.com/ISISComputingGroup/IBEX/issues/8335)| Minor | Beckhoff/TwinCAT | Fix issue with table of motors advanced view with energised icon not working | 
+| [#8310](https://github.com/ISISComputingGroup/IBEX/issues/8310)| Minor | Eurotherm | Fix issue where disconnected/missing Eurotherm causes other Eurotherms to fail to be read |
+| [#8427](https://github.com/ISISComputingGroup/IBEX/issues/8427) | Minor | Motion controllers | The settings for motor controllers (Galil, Beckhoff, Mclennan, Linmot, SMC100, SM300) have been moved from <br /> `c:\instrument\settings\config\<instrument>\configurations` <br /> to <br /> `c:\instrument\apps\epics\support\motorExtensions\master\settings\<instrument>`. <br /> This does not affect settings for `motionSetpoints`, which remain in the configurations directory. Settings have been migrated. |
+| [Ticket8504](https://github.com/ISISComputingGroup/IBEX/issues/8504) | Minor | Motors | Fix home button showing as disconnected for aliased axes ie. sample changer axes | 
+| [Ticket8516](https://github.com/ISISComputingGroup/IBEX/issues/8516) | Minor | Lindy IPower Switch | Add 4 more LNDYISW IOCs | 
+| [Tektronix#4](https://github.com/ISISComputingGroup/EPICS-Tektronix_AFG3XXX/pull/4) | Minor | Tektronix AFG3XXX | Add ramp symmetry functionality | 
+| [Ticket8551](https://github.com/ISISComputingGroup/IBEX/issues/8551) | Minor | Galil | (new galil driver) set homing to be allowed in both directions by default | 
+| [Ticket8524](https://github.com/ISISComputingGroup/IBEX/issues/8524) | Minor | Galil | (new galil driver) notify users of disconnection at startup and during running | 
+| [#8181](https://github.com/ISISComputingGroup/IBEX/issues/8181) | Minor | PearlPC | Added purge functioanlity (buttons, LEDs, etc) to PEARLPC OPI |
 
 # Python
 
@@ -102,7 +77,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
+| [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | Minor | Added optional parameter to wait_for_runstate() to be in agreement with genie_simulate_impl.wait_for_runstate() on the number of positional parameters |
 | [#8359](https://github.com/ISISComputingGroup/IBEX/issues/8359)| Minor | Added wrapper for P4P to allow use of pv access as well as channel access in genie python. |
 | [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mode spectrum data. |
 | [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
@@ -123,22 +98,17 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [#8453](https://github.com/ISISComputingGroup/IBEX/issues/8453) | Patch | Build and execute all python-epics wrappers against `epicscorelibs`-provided libraries. No user-facing change. |
-| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Patch | Python bindings to the Open Dynamics Engine (`pyode`) were removed. A deprecated version of `pyreadline` bindings were removed. |
-
-
-# Other
-
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
-| [#8438](https://github.com/ISISComputingGroup/IBEX/issues/8438) | minor | Containerised Archiver Appliance and associated new EPICS gateway for local containers |
-
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Patch | Python bindings to the Open Dynamics Engine (`pyode`) were removed.  |
+| [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Patch | A deprecated version of `pyreadline` bindings were removed. |
 
 # Internal changes
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8438](https://github.com/ISISComputingGroup/IBEX/issues/8438) | Minor | Containerised Archiver Appliance and associated new EPICS gateway for local containers |
+| [#8480](https://github.com/ISISComputingGroup/IBEX/issues/8430) | Minor | Added check for repository permissions in repository checks |
 | [#8437](https://github.com/orgs/ISISComputingGroup/projects/20/views/8?pane=issue&itemId=72604908) | Patch | Create a network independant Python venv |
-| [#8593](https://github.com/ISISComputingGroup/IBEX/issues/8593)) | Patch | Stop log file output getting garbled if ioc restarted via console command |
+| [#8593](https://github.com/ISISComputingGroup/IBEX/issues/8593) | Patch | Stop log file output getting garbled if ioc restarted via console command |
 
 
 Change Types: 
@@ -239,7 +209,7 @@ flexparser==0.4
 fonttools==4.55.3
 funcsigs==1.0.2
 future==1.0.0
-genie_python==25.2.0
+genie_python==25.2.1
 gitdb==4.0.12
 gitdb2==4.0.2
 GitPython==3.1.44
@@ -265,7 +235,7 @@ jsonschema-specifications==2024.10.1
 kafka-python==2.0.2
 kiwisolver==1.4.8
 ldap3==2.9.1
-lewis @ git+https://github.com/ISISComputingGroup/lewis@293127dc92bdac90891df101da349c2229fd7e2f
+lewis==1.3.4
 lmfit==1.3.2
 lxml==5.3.0
 lz4==4.3.3
@@ -304,7 +274,7 @@ protobuf==5.29.3
 psutil==6.1.1
 pure_eval==0.2.3
 pvxslibs==1.3.2a2
-py4j==0.10.9.8
+py4j==0.10.9.9
 pyasn1==0.6.0
 pycparser==2.22
 pydantic==2.10.5
@@ -316,7 +286,7 @@ PyHamcrest==2.1.0
 pylint==3.3.3
 PyOpenGL==3.1.7
 pyparsing==3.2.1
-pyright==1.1.391
+pyright==1.1.392.post0
 pyserial==3.5
 pysmi-lextudio==1.4.3
 pysnmp-lextudio==5.0.34
@@ -327,7 +297,7 @@ pytz==2024.2
 pywin32==308
 PyYAML==6.0.2
 pyzmq==26.2.0
-referencing==0.35.1
+referencing==0.36.1
 reportlab==4.2.5
 requests==2.32.3
 rpds-py==0.22.3
@@ -335,7 +305,7 @@ rsa==4.9
 rst2pdf==0.103.1
 ruamel.yaml==0.18.10
 ruamel.yaml.clib==0.2.12
-ruff==0.9.1
+ruff==0.9.2
 scandir==1.10.0
 scanf==1.5.2
 scipp==24.11.2
