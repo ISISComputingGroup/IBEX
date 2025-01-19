@@ -10,8 +10,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ---- | ----------- |
 | [#8415](https://github.com/ISISComputingGroup/IBEX/issues/8415) | Major | `g.load_script` will now apply argument type-checking, via [`pyright`](https://github.com/microsoft/pyright?tab=readme-ov-file#static-type-checker-for-python), by default. This means that some errors which would previously have caused runtime exceptions will now be caught during `g.load_script`. See [Error Checking Troubleshooting](https://github.com/ISISComputingGroup/ibex_user_manual/wiki/Error-Checking-Troubleshooting#new-pyright) for more details. Also adds type hinting to public genie-python API functions.<br /><br />**In some cases this may mean that scripts which previously loaded are now rejected by `load_script`.** We would strongly encourage instruments to check key scripts early and to contact experiment controls for assistance if needed.<br /><br />Script checking can be entirely disabled by passing `check_script=False` to `load_script` if needed, but we would encourage instruments to instead fix any errors reported by the type-checker and to ask for assistance if needed. |
 | [#8381](https://github.com/ISISComputingGroup/IBEX/issues/8381) | Minor | The `genie_python` library has been split out into a [pip-installable package](https://pypi.org/project/genie-python/).<br /><br />There are no direct user-facing changes to `genie_python`'s API as a result of this change, but it is now possible to depend on `genie_python` in downstream libraries and to install the `genie_python` library into environments other than IBEX via `pip`. |
-| [#6510](https://github.com/ISISComputingGroup/IBEX/issues/6510) | Minor | Remove `genie_mantid` script in favour of `pip install`ing the above `genie` package. |
-| [#8588](https://github.com/ISISComputingGroup/IBEX/issues/8588) | Minor | Previously ibex created many `procServ` processes in the background that managed start/stop and logging of each IOC, including ones fro IOCs that were never used. These are now created on demand which shoudld reduce the overall ibex memory footprint |
+| [#6510](https://github.com/ISISComputingGroup/IBEX/issues/6510) | Minor | Remove `genie_mantid` script in favour of `pip install`ing the above `genie_python` package. |
+| [#8588](https://github.com/ISISComputingGroup/IBEX/issues/8588) | Minor | Previously ibex created many `procServ` processes in the background that managed start/stop and logging of each IOC, including ones from IOCs that were never used. These are now created on demand which should reduce the overall ibex memory footprint. |
 
 
 # Instrument Specific Changes
@@ -25,6 +25,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | HiFi | [Ticket8332](https://github.com/ISISComputingGroup/IBEX/issues/8332) | Minor | Added an OPI for the Hifi Litron Laser Front Panel VI |
 | HiFi | [Ticket6090](https://github.com/ISISComputingGroup/IBEX/issues/6090) | Minor | Added an OPI for Hifi Litron Laser Timing Control & extended DG645 IOC | 
 | HiFI | [Ticket8403](https://github.com/ISISComputingGroup/IBEX/issues/8403) | Patch | Increase minimum precision that the cryosms driver can send to the power supply. |
+
 # Devices
 
 ### Newly supported devices
@@ -77,7 +78,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
-| [genie python#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | Minor | Added optional parameter to `wait_for_runstate()` to be in agreement with `genie_simulate_impl.wait_for_runstate()` on the number of positional parameters |
+| [#8501](https://github.com/ISISComputingGroup/IBEX/issues/8501) | Minor | Added optional parameter to `wait_for_runstate()` to be in agreement with `genie_simulate_impl.wait_for_runstate()` on the number of positional parameters |
 | [#8359](https://github.com/ISISComputingGroup/IBEX/issues/8359)| Minor | Added wrapper for P4P to allow use of pv access as well as channel access in genie python. |
 | [#8409](https://github.com/ISISComputingGroup/IBEX/issues/8409) | Minor | Add commands to quickly read and sum event mode spectrum data. |
 | [#8579](https://github.com/ISISComputingGroup/IBEX/issues/8579) | Patch | Hide messages of the form `CAERROR: ...` which could show up in console. |
