@@ -82,6 +82,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8628](https://github.com/ISISComputingGroup/ibex/issues/8628) | Patch | Ensure experiment database populator can be installed on modern python versions |
+| [#8631](https://github.com/ISISComputingGroup/IBEX/issues/8631) | Patch | Update experiment database populator auth scheme to REST rather than SOAP |
 
 
 Change Types: 
