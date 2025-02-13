@@ -31,6 +31,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | patch | TC/Beckhoff | Make poll rate configurable |
 
 ### Reflectometry IOC
 
