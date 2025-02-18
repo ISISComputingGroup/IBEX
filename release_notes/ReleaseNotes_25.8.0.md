@@ -31,7 +31,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | patch | TC/Beckhoff | Make poll rate configurable |
+| [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | Patch | TC/Beckhoff | Make poll rate configurable |
+| [#8660](https://github.com/ISISComputingGroup/IBEX/issues/8660) | Patch | HV Caen | Increase number of available channels to 16 cards x 24 channels. |
 
 ### Reflectometry IOC
 
