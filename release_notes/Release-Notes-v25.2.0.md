@@ -130,6 +130,7 @@ what | version | where | last updated/checked
 | Nicos | 23 | ScriptServer | 11/2023 |
 | Cygwin | 3.4.9 | ICP_Binaries |	12/2023 |
 | MySql-connector J | 8.4.0 | IOCLogServer | 10/2024 |
+| Visual C++ runtime library | 14.42.34438 | 02/2025 |
 
 ### GUI Dependencies
 
