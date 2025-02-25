@@ -57,6 +57,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8505](https://github.com/ISISComputingGroup/IBEX/issues/8505) | Minor | Jaws: enforce minimum and maximum gap values |
+| [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1775) | Minor | Add muon and EPB1 beam current to beam status view |
+
 
 # Python
 
