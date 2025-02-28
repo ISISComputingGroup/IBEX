@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | Patch | TC/Beckhoff | Make poll rate configurable |
 | [#8660](https://github.com/ISISComputingGroup/IBEX/issues/8660) | Patch | HV Caen | Increase number of available channels to 16 cards x 24 channels. |
+| [#8666](https://github.com/ISISComputingGroup/IBEX/issues/8666) | Major | DDS STRESS RIG | Replaced internal logic with Statemachine to properly reflect state of VI |
 
 ### Reflectometry IOC
 
