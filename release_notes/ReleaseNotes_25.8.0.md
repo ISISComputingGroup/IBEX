@@ -12,6 +12,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| CHIPIR | [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1785) | Minor | Put filters on CHIPIR collimator screen |
 
 # Devices
 
