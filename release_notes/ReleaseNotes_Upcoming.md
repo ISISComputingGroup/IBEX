@@ -8,6 +8,8 @@
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | HIFI | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | Inhibit taking reading within two seconds of field measurement range change |
+| CHIPIR | [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1785) | Minor | Put filters on CHIPIR collimator screen |
+
 
 # Devices
 
