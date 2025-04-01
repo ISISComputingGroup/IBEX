@@ -1,0 +1,16 @@
+name: Project Board Checks
+on:
+  schedule:
+    - cron: "0 8-20/2 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: run check
+        run: |
+          output=$(curl -s --location --fail https://dataweb2.isis.rl.ac.uk/projectboardchecks)
+          echo $output | jq -r '.details[]'
+          echo $output | jq -er '.details | length == 0'
+        shell: bash
