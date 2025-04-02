@@ -15,6 +15,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | CHIPIR | [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1785) | Minor | Put filters on CHIPIR collimator screen |
 | INTER | [#8675](https://github.com/isiscomputinggroup/ibex/issues/8675) | Patch | Gracefully stop galil motors when safety system is tripped. |
 | HIFI | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | Inhibit taking reading within two seconds of field measurement range change |
+| INTER | [#7814](https://github.com/isiscomputinggroup/ibex/issues/7814) | Patch | Add Inclinometer variable for INTER Beckhoff. |
 
 
 # Devices
