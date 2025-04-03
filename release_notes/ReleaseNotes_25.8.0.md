@@ -78,6 +78,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [4338](https://github.com/ISISComputingGroup/IBEX/issues/4338) | Minor | Improve performance of `cget` function |
 
 ### Bluesky
 
