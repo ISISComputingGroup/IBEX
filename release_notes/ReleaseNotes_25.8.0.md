@@ -89,6 +89,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [8597](https://github.com/ISISComputingGroup/IBEX/issues/8597) | Minor | Numpy version 2 will now be used. Some APIs are not backwards-compatible between numpy 1.x and 2.x. See [numpy 2 release notes](https://numpy.org/devdocs/release/2.0.0-notes.html) for further details. |
+| [8597](https://github.com/ISISComputingGroup/IBEX/issues/8597) | Minor | Python version 3.12 will now be used. |
 
 
 # Other
@@ -156,6 +158,5 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-| Python | 3.11.9 | 10/2024 |
-| Lewis | git | 10/2024 |
-| matplotlib | 3.9.2 | 10/2024 |
+| Python | 3.12.9 | 4/2025 |
+| matplotlib | 3.10.1 | 10/2024 |
