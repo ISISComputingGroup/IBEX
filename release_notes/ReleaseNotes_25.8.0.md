@@ -129,30 +129,30 @@ what | version | where | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-| Gson | 2.11 | 10/2024 |
-| Guava | 33.3.1 | 10/2024 |
+| Gson | 2.12.1 | 04/2025 |
+| Guava | 33.4.0 | 04/2025 |
 | MySql-connector J | 9.1.0 | 01/2025 |
-| commons-codec | 1.17.1 | 10/2024 |
+| commons-codec | 1.18.0 | 04/2025 |
 | Maven | 3.9.5 | 11/2023 |
-| ActiveMQ (different to server version) | 5.18.6 | 10/2024 |
+| ActiveMQ (different to server version) | 5.19.0 | 04/2025 |
 | Nicos | 23 | 11/2023 |
 | Jakarta Activation API | 2.1.2 | 10/2024 |
 | Jakarta Mail API | 2.1.3 | 10/2024 |
 | Jakarta XML Binding API | 4.0.1 | 10/2024 |
 | JavaX Activation | 1.1.1 | 10/2024 |
-| joda time | 2.13 | 10/2024 |
-| py4j | 0.10.9.7 | 10/2024 |
-| log4j | 2.24 | 10/2024 |
+| joda time | 2.13.1 | 04/2025 |
+| py4j | 0.10.9.9 | 04/2025 |
+| log4j | 2.24.3 | 04/2025 |
 | JAXB | 3.0.2 | 10/2024 |
 | Tyrus | 2.2.0 | 10/2024 |
 | JacORB OMG API | 3.9 | 10/2024 |
-| Mockito Core | 5.14.0 | 10/2024 |
+| Mockito Core | 5.16.1 | 04/2025 |
 | JeroMQ | 0.6.0 | 10/2024 |
 | Nebula | 3.0.0 | 10/2024 |
-| CS-Studio | 12/2023 | 12/2023 |
+| CS-Studio | 04/2025 | 04/2025 |
 | Pydev | 11.0.3 | 12/2023 |
-| Eclipse | 2024-09 | 04/2024 |
-| Eclipse Updates| 4.33 | 10/2024 |
+| Eclipse | 2024-12 | 04/2025 |
+| Eclipse Updates| 4.34 | 04/2025 |
 
 ### genie_python Dependencies
 
