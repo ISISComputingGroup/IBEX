@@ -38,10 +38,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | Patch | TC/Beckhoff | Make poll rate configurable |
 | [#8660](https://github.com/ISISComputingGroup/IBEX/issues/8660) | Patch | HV Caen | Increase number of available channels to 16 cards x 24 channels. |
-| [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8682) | Patch | ISISDAE IOC | Add string-formatted run duration and period run duration PVs. |
+| [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8682) | Patch | ISISDAE | Add string-formatted run duration and period run duration PVs. |
 | [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8692) | Patch | DG645 | Limit OPI (user interface) graph update to 1Hz, to avoid excessive CPU usage. |
 | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | G3HALLPROBE | Inhibit taking reading within two seconds of field measurement range change |
 | [#8706](https://github.com/ISISComputingGroup/IBEX/issues/8706) | Patch | TPG300 | archive relay status PVs |
+| [#8720](https://github.com/ISISComputingGroup/IBEX/issues/8720) | Patch | ISISDAE | Improve begin/end speeds by optimising archiver restarts |
 
 
 ### Reflectometry IOC
