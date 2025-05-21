@@ -59,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#8725](https://github.com/ISISComputingGroup/IBEX/issues/8725) | Minor | Added warning to dashboard if DAE is using test clock. |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -82,6 +83,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 | [4338](https://github.com/ISISComputingGroup/IBEX/issues/4338) | Minor | Improve performance of `cget` function |
+| [#8725](https://github.com/ISISComputingGroup/IBEX/issues/8725) | Minor | Added warning to to begin() if DAE is using test clock. |
 
 ### Bluesky
 
