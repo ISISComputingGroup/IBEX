@@ -7,6 +7,7 @@
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| SXD | [Ticket6056](https://github.com/ISISComputingGroup/IBEX/issues/6056) | Minor | Added support for SXD Attocube |
 | HIFI | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | Inhibit taking reading within two seconds of field measurement range change |
 
 # Devices
