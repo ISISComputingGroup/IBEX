@@ -38,7 +38,7 @@ As a [developer/user/instrument/project requirement], I would like to [feature o
 [comment]: <> (FILL IN BELOW)
 > ...
 
-<sub>See our [Git Workflow](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#development-work).</sub>
+<sub>See our [Git Workflow](https://isiscomputinggroup.github.io/ibex_developers_manual/processes/git_and_github/Git-workflow.html).</sub>
 
 # Acceptance Criteria
 <sub>What is the acceptance criteria of this ticket? What should the reviewer expect to be complete?</sub>
@@ -60,4 +60,4 @@ As a [developer/user/instrument/project requirement], I would like to [feature o
 [comment]: <> (FILL IN BELOW)
 > ...
 
-<sub>**To the reviewer: Make sure to [update submodules](https://github.com/ISISComputingGroup/ibex_developers_manual/wiki/Git-workflow#reviewing-work-for-the-submodules-of-epics)!** </sub>
+<sub>**To the reviewer: Make sure to [update submodules](https://isiscomputinggroup.github.io/ibex_developers_manual/processes/git_and_github/Git-workflow.html)!** </sub>
