@@ -39,6 +39,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | Patch | TC/Beckhoff | Make poll rate configurable |
 | [#8660](https://github.com/ISISComputingGroup/IBEX/issues/8660) | Patch | HV Caen | Increase number of available channels to 16 cards x 24 channels. |
+| [#8666](https://github.com/ISISComputingGroup/IBEX/issues/8666) | Major | DDS STRESS RIG | Replaced internal logic with Statemachine to properly reflect state of VI |
 | [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8682) | Patch | ISISDAE | Add string-formatted run duration and period run duration PVs. |
 | [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8692) | Patch | DG645 | Limit OPI (user interface) graph update to 1Hz, to avoid excessive CPU usage. |
 | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | G3HALLPROBE | Inhibit taking reading within two seconds of field measurement range change |
