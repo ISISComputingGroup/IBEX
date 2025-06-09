@@ -46,6 +46,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8706](https://github.com/ISISComputingGroup/IBEX/issues/8706) | Patch | TPG300 | archive relay status PVs |
 | [#8720](https://github.com/ISISComputingGroup/IBEX/issues/8720) | Patch | ISISDAE | Improve begin/end speeds by optimising archiver restarts |
 | [#8687](https://github.com/ISISComputingGroup/IBEX/issues/8687) | Minor | LITRON | Added a stale indicator to allow detection of VI disconnection from hardware. |
+| [#8701](https://github.com/ISISComputingGroup/IBEX/issues/8701) | Minor | GALIL | Updated NEW Galil driver to latest upstream |
 
 
 
