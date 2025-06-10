@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [8739](https://github.com/isiscomputinggroup/ibex/issues/8739) | Patch | The user manual has been moved to [a new location](https://isiscomputinggroup.github.io/ibex_user_manual/) with more user-friendly structured navigation. |
 
 
 # Instrument Specific Changes
