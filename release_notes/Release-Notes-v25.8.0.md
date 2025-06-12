@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [8739](https://github.com/isiscomputinggroup/ibex/issues/8739) | Patch | The user manual has been moved to [a new location](https://isiscomputinggroup.github.io/ibex_user_manual/) with more user-friendly structured navigation. |
 
 
 # Instrument Specific Changes
@@ -16,6 +17,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | INTER | [#8675](https://github.com/isiscomputinggroup/ibex/issues/8675) | Patch | Gracefully stop galil motors when safety system is tripped. |
 | HIFI | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | Inhibit taking reading within two seconds of field measurement range change |
 | INTER | [#7814](https://github.com/isiscomputinggroup/ibex/issues/7814) | Patch | Add Inclinometer variable for INTER Beckhoff. |
+| MAPS | [#8586](https://github.com/isiscomputinggroup/ibex/issues/8586) | Minor | Add OPC UA IOC for MAPS Vacuum System upgrade. |
+| SXD | [#6056](https://github.com/ISISComputingGroup/IBEX/issues/6056) | Minor | Added support for SXD Attocube |
 
 
 # Devices
@@ -24,6 +27,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#8586](https://github.com/isiscomputinggroup/ibex/issues/8586) | OPC UA Server | Add OPC UA general IOC, and for MAPS Vacuum System upgrade. |
 
 
 ### Removed devices
@@ -38,12 +42,14 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [#8673](https://github.com/ISISComputingGroup/IBEX/issues/8673) | Patch | TC/Beckhoff | Make poll rate configurable |
 | [#8660](https://github.com/ISISComputingGroup/IBEX/issues/8660) | Patch | HV Caen | Increase number of available channels to 16 cards x 24 channels. |
+| [#8666](https://github.com/ISISComputingGroup/IBEX/issues/8666) | Major | DDS STRESS RIG | Replaced internal logic with Statemachine to properly reflect state of VI |
 | [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8682) | Patch | ISISDAE | Add string-formatted run duration and period run duration PVs. |
 | [#8682](https://github.com/ISISComputingGroup/IBEX/issues/8692) | Patch | DG645 | Limit OPI (user interface) graph update to 1Hz, to avoid excessive CPU usage. |
 | [#8704](https://github.com/ISISComputingGroup/IBEX/issues/8704) | Minor | G3HALLPROBE | Inhibit taking reading within two seconds of field measurement range change |
 | [#8706](https://github.com/ISISComputingGroup/IBEX/issues/8706) | Patch | TPG300 | archive relay status PVs |
 | [#8720](https://github.com/ISISComputingGroup/IBEX/issues/8720) | Patch | ISISDAE | Improve begin/end speeds by optimising archiver restarts |
 | [#8687](https://github.com/ISISComputingGroup/IBEX/issues/8687) | Minor | LITRON | Added a stale indicator to allow detection of VI disconnection from hardware. |
+| [#8701](https://github.com/ISISComputingGroup/IBEX/issues/8701) | Minor | GALIL | Updated NEW Galil driver to latest upstream |
 
 
 
@@ -73,7 +79,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8505](https://github.com/ISISComputingGroup/IBEX/issues/8505) | Minor | Jaws: enforce minimum and maximum gap values |
 | [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1775) | Minor | Add muon and EPB1 beam current to beam status view |
 | [#8578](https://github.com/ISISComputingGroup/IBEX/issues/8578) | Minor | Add defaults for font size and autolayout in a scripting console |
-
+| [#8699](https://github.com/ISISComputingGroup/IBEX/issues/8699) | Minor | Show current high/low limits for Alarm in tool-tip popup |
 
 
 # Python
