@@ -116,7 +116,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#8628](https://github.com/ISISComputingGroup/ibex/issues/8628) | Patch | Ensure experiment database populator can be installed on modern python versions |
 | [#8631](https://github.com/ISISComputingGroup/IBEX/issues/8631) | Patch | Update experiment database populator auth scheme to REST rather than SOAP |
-
+| [#8751](https://github.com/ISISComputingGroup/IBEX/issues/8751) | Minor | Update EPICS base to version 7.0.9 |
 
 Change Types: 
 
