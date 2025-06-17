@@ -50,6 +50,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8720](https://github.com/ISISComputingGroup/IBEX/issues/8720) | Patch | ISISDAE | Improve begin/end speeds by optimising archiver restarts |
 | [#8687](https://github.com/ISISComputingGroup/IBEX/issues/8687) | Minor | LITRON | Added a stale indicator to allow detection of VI disconnection from hardware. |
 | [#8701](https://github.com/ISISComputingGroup/IBEX/issues/8701) | Minor | GALIL | Updated NEW Galil driver to latest upstream |
+| [#5220](https://github.com/ISISComputingGroup/IBEX/issues/5220) | Patch | GALIL | Galil settings across all instruments have been updated to resync motor position to encoder readback when they differ by more than one encoder pulse. This prevents motor & encoder positions from getting out of sync with each other, for example due to mechanical stalling or safety systems disabling motion. |
 
 
 
