@@ -159,6 +159,28 @@ what | version | where | last updated/checked
 | Nicos | 23 | ScriptServer | 11/2023 |
 | Cygwin | 3.4.9 | ICP_Binaries |	12/2023 |
 | MySql-connector J | 8.0.33 | IOCLogServer | 12/2023 |
+| Epics-calc | R3-6-1 | IBEX-Server | 04/2024 |
+| Epics-devIOCStats | 3.2.0 | IBEX-Server | 04/2024 |
+| Epics-Autosave | R5-11 | IBEX-Server | 04/2024 |
+| Epics-Asyn | 44-2 | IBEX-Server | 04/2024 |
+| Epics-busy | r1.7.5 | IBEX-Server | 04/2024 |
+| Epics-ipac | 2.16 | IBEX-Server | 04/2024 |
+| Epics-lua | R3-1 | IBEX-Server | 04/2024 |
+| Epics-mca | R7-10 | IBEX-Server | 04/2024 |
+| Epics-modbus | R3-3 | IBEX-Server | 04/2024 |
+| Epics-motor | R7-3-1 | IBEX-Server | 04/2024 |
+| Epics-optics | R2-14 | IBEX-Server | 04/2024 |
+| Epics-sscan | R2-11-6 | IBEX-Server | 04/2024 |
+| Epics-std | R3-6-4 | IBEX-Server | 04/2024 |
+| Epics-base | 7.0.8 | IBEX-Server | 04/2024 |
+| Epics-pvxs | 1.3.1 | IBEX-Server | 04/2024 |
+| Epics-StreamDevice | 2.8.25 | IBEX-Server | 04/2024 |
+| Epics-AreaDetector | 3.13 | IBEX-Server | 04/2024 |
+| Epics-gtest | - | IBEX-Server | 04/2024 |
+
+
+
+
 
 ### GUI Dependencies
 
