@@ -37,6 +37,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8331](https://github.com/ISISComputingGroup/IBEX/issues/8331) | New Focus Intelligent Picometer | Motor used to control Litron Laser Power on HIFI. |
 | [#8413](https://github.com/ISISComputingGroup/IBEX/issues/8413) | Anton-Paar L-DENS 3300 Density sensor | Density meter used by reflectometry instruments. | 
 | [#8403](https://github.com/ISISComputingGroup/IBEX/issues/8403) | HIFI Zero-field system | Zero-field system used on HIFI. | 
+| [#8691](https://github.com/ISISComputingGroup/IBEX/issues/8691) | Ambrell EasyHeat Induction Furnace PSU | Intended for ENGIN-X. | 
 
 
 ### Removed devices
