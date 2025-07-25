@@ -50,6 +50,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8720](https://github.com/ISISComputingGroup/IBEX/issues/8720) | Patch | ISISDAE | Improve begin/end speeds by optimising archiver restarts |
 | [#8687](https://github.com/ISISComputingGroup/IBEX/issues/8687) | Minor | LITRON | Added a stale indicator to allow detection of VI disconnection from hardware. |
 | [#8701](https://github.com/ISISComputingGroup/IBEX/issues/8701) | Minor | GALIL | Updated NEW Galil driver to latest upstream |
+| [#8736](https://github.com/ISISComputingGroup/IBEX/issues/8736) | Minor | LNDYISW | Fixed race condition that caused back to back sets to outlets to overwrite eachother. |
 
 
 
