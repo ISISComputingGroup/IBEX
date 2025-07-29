@@ -19,6 +19,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | INTER | [#7814](https://github.com/isiscomputinggroup/ibex/issues/7814) | Patch | Add Inclinometer variable for INTER Beckhoff. |
 | MAPS | [#8586](https://github.com/isiscomputinggroup/ibex/issues/8586) | Minor | Add OPC UA IOC for MAPS Vacuum System upgrade. |
 | SXD | [#6056](https://github.com/ISISComputingGroup/IBEX/issues/6056) | Minor | Added support for SXD Attocube |
+| PEARL | [#8349](https://github.com/ISISComputingGroup/IBEX/issues/8349) | Patch | Add option for permanently-centred crosshair on Pearl camera |
 
 
 # Devices
