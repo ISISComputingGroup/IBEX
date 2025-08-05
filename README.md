@@ -8,9 +8,9 @@ The [old project board](https://github.com/ISISComputingGroup/IBEX/projects/1) w
 
 # Release Notes
 
-### [Latest Stable IBEX Version (25.2.0)](release_notes/Release-Notes-v25.2.0.md)
+### [Latest Stable IBEX Version (25.8.0)](release_notes/Release-Notes-v25.8.0.md)
 
-[Upcoming Release](release_notes/ReleaseNotes_25.8.0.md)
+[Upcoming Release](release_notes/Release-Notes-26.2.0.md)
 
 [Previous Releases](docs/all-releases.md)
 

@@ -67,7 +67,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8725](https://github.com/ISISComputingGroup/IBEX/issues/8725) | Minor | Added warning to dashboard if DAE is using test clock. |
-| [#8731](https://github.com/ISISComputingGroup/IBEX/issues/8731) | Major | Added new GUI dialog to configure Alerts. |
 
 ### Script Generator
 | Ticket | Type  | Change |
