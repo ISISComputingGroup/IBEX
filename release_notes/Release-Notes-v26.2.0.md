@@ -18,6 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [#8691](https://github.com/ISISComputingGroup/IBEX/issues/8691) | Ambrell EasyHeat Induction Furnace PSU | Intended for ENGIN-X. | 
 
 ### Removed devices
 
@@ -110,3 +111,4 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
