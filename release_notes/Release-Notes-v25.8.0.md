@@ -1,5 +1,3 @@
-Changes merged into master but not in an official release yet.
-
 See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
 
 # Highlights and Breaking Changes
