@@ -80,7 +80,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8505](https://github.com/ISISComputingGroup/IBEX/issues/8505) | Minor | Jaws: enforce minimum and maximum gap values |
 | [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1775) | Minor | Add muon and EPB1 beam current to beam status view |
 | [#8578](https://github.com/ISISComputingGroup/IBEX/issues/8578) | Minor | Add defaults for font size and autolayout in a scripting console |
-| [#8699](https://github.com/ISISComputingGroup/IBEX/issues/8699) | Minor | Show current high/low limits for Alarm in tool-tip popup |
 | [#8254](https://github.com/ISISComputingGroup/IBEX/issues/8254) | Minor | Update EPICS standard modules to later upstream versions  |
 
 
