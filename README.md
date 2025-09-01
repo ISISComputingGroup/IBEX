@@ -16,7 +16,7 @@ The [old project board](https://github.com/ISISComputingGroup/IBEX/projects/1) w
 
 <a name="tocVision"></a>
 # Project Vision
-The objective of the IBEX/ICP project is to create a new control system for the neutron & muon instruments at ISIS.  The new control system will employ a modern, layered and distributed architecture, enabling the development of loosely-coupled client and server applications.  Device control and business logic will reside in the server applications.  The new control system, called IBEX, will be based on EPICS and related technologies.  In due course, IBEX will replace SECI, the current instrument control system used at ISIS.<br>
+The objective of the IBEX/ICP project is to create a new control system for the neutron & muon instruments at ISIS.  The new control system will employ a modern, layered and distributed architecture, enabling the development of loosely-coupled client and server applications.  Device control and business logic will reside in the server applications.  The new control system, called IBEX, will be based on EPICS and related technologies. IBEX has replaced SECI, the previous instrument control system used at ISIS.<br>
 
 ### [Short description of IBEX (for including in papers)](docs/short-description-of-ibex.md)
 
