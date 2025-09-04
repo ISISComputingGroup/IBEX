@@ -45,6 +45,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8731](https://github.com/ISISComputingGroup/IBEX/issues/8731) | Major | Added new GUI dialog to configure Alerts. |
+| [#8820](https://github.com/ISISComputingGroup/IBEX/issues/8820) | Minor | Added a 'Home' button to the 'Motors' tab within the Motion Set Point (Few) device screen |
 
 ### Script Generator
 | Ticket | Type  | Change |
@@ -112,4 +113,5 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
 
