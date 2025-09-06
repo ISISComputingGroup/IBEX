@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#8822](https://github.com/ISISComputingGroup/IBEX/issues/8822) | Major | Remove various SECI compatibility tools - `SECI2IBEX` IOC, SECI web dashboard, startup scripts etc. |
 
 # Instrument Specific Changes
 
