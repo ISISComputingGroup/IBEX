@@ -32,6 +32,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 |[#8614](https://github.com/ISISComputingGroup/IBEX/issues/8614) | Minor | Oxford Instruments - Mercury IPS| Added support for SCPI mode to use the full capabilities of the new Mercury IPS magnet supplies|
+|[#8766](https://github.com/ISISComputingGroup/IBEX/issues/8766) | Minor | DELFTDCMAG IOC| Echo Coil RBV and SP now agree on units (Amps)|
 
 
 ### Reflectometry IOC
