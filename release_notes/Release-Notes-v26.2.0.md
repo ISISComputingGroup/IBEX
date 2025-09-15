@@ -67,12 +67,12 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#24](https://github.com/ISISComputingGroup/genie/issues/24) | Patch | Allow `g.begin()` when DBSVR is down |
 
 
 ### Bluesky
 
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
+See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 ### Other python libraries
 
