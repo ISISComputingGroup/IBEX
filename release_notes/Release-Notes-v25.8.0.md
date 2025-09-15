@@ -90,7 +90,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [4338](https://github.com/ISISComputingGroup/IBEX/issues/4338) | Minor | Improve performance of `cget` function |
 | [8671](https://github.com/ISISComputingGroup/IBEX/issues/8671) | Minor | Make error message from corrupt cache more verbose |
 | [#8725](https://github.com/ISISComputingGroup/IBEX/issues/8725) | Minor | Added warning to to begin() if DAE is using test clock. |
-| [#8724](https://github.com/ISISComputingGroup/IBEX/issues/8724) | Minor | Added `change_autosave` command to change autosave frequency. |
 
 ### Bluesky
 
