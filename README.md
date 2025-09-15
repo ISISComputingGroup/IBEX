@@ -2,9 +2,7 @@
 Welcome to the IBEX repository, here you will find the IBEX stories, bugs, tasks and other issues. As well as release notes.
 If you are looking for information about developing for or with IBEX, please consult the [IBEX Developer's Manual](https://isiscomputinggroup.github.io/ibex_developers_manual/).  If you are looking for the IBEX user manual or related end-user documentation, please consult the [IBEX User Manual](https://isiscomputinggroup.github.io/ibex_user_manual/).
 
-Please see the [Project Board](https://github.com/orgs/ISISComputingGroup/projects/27/views/8) to find out what we are currently working on.
-
-The [old project board](https://github.com/ISISComputingGroup/IBEX/projects/1) will be unusable from 23/08/2024.
+Please see the [Project Board](https://github.com/orgs/ISISComputingGroup/projects/28/views/8) to find out what we are currently working on.
 
 # Release Notes
 
