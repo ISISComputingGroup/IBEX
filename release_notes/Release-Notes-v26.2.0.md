@@ -12,6 +12,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| PEARL | [#8349](https://github.com/ISISComputingGroup/IBEX/issues/8349) | Patch | Add option for permanently-centred crosshair on Pearl camera |
 
 # Devices
 
@@ -116,6 +117,7 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
 
 
 
