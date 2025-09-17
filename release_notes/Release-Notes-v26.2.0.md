@@ -94,6 +94,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+|[8445](https://github.com/ISISComputingGroup/IBEX/issues/8445) | Minor | Change how we set macro default values on ioc's so that it uses the same source of truth as the gui |
 
 Change Types: 
 
@@ -118,3 +119,4 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
