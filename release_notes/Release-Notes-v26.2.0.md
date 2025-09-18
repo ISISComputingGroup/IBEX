@@ -53,6 +53,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
+| [#8826](https://github.com/ISISComputingGroup/IBEX/issues/8826) | Minor | Reorganised script generator buttons. |
 
 
 ### Other
@@ -118,3 +119,4 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
