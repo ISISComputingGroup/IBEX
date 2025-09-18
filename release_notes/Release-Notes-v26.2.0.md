@@ -12,6 +12,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| PEARL | [#8349](https://github.com/ISISComputingGroup/IBEX/issues/8349) | Patch | Add option for permanently-centred crosshair on Pearl camera |
 
 # Devices
 
@@ -32,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
 |[#8614](https://github.com/ISISComputingGroup/IBEX/issues/8614) | Minor | Oxford Instruments - Mercury IPS| Added support for SCPI mode to use the full capabilities of the new Mercury IPS magnet supplies|
+|[#8680](https://github.com/ISISComputingGroup/IBEX/issues/8680) | Minor | HVCAEN | Number of summary channels is now configurable by macro. |
 
 
 ### Reflectometry IOC
@@ -68,12 +70,13 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#24](https://github.com/ISISComputingGroup/genie/issues/24) | Patch | Allow `g.begin()` when DBSVR is down |
+| [#8724](https://github.com/ISISComputingGroup/IBEX/issues/8724) | Minor | Added `change_autosave` command to change autosave frequency. |
 
 
 ### Bluesky
 
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
+See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 ### Other python libraries
 
@@ -86,6 +89,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+|[5081](https://github.com/ISISComputingGroup/IBEX/issues/5081) | Minor | Functions that allow scientists to save known "good" states of their TPAR file directory and reload them at will. |
 
 # Internal changes
 
@@ -115,5 +119,3 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-
-
