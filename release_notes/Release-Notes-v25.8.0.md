@@ -69,7 +69,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
-| [#8697](https://github.com/ISISComputingGroup/IBEX/issues/8697) | Patch | Fix an issue where the enablement of the "Run" button in the script generator gets out of sync with NICOS. |
 
 
 ### Other
