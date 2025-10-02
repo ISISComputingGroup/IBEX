@@ -12,5 +12,5 @@ jobs:
         run: |
           output=$(curl -s --location --fail https://dataweb2.isis.rl.ac.uk/projectboardchecks)
           echo $output | jq -r '.details[]'
-          echo $output | jq -er '.details | length == 0'
+          echo $output | jq -er '.error_num == 0'
         shell: bash
