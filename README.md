@@ -8,7 +8,7 @@ Please see the [Project Board](https://github.com/orgs/ISISComputingGroup/projec
 
 ### [Latest Stable IBEX Version (25.8.0)](release_notes/Release-Notes-v25.8.0.md)
 
-[Upcoming Release](release_notes/Release-Notes-26.2.0.md)
+[Upcoming Release](release_notes/Release-Notes-v26.2.0.md)
 
 [Previous Releases](docs/all-releases.md)
 
