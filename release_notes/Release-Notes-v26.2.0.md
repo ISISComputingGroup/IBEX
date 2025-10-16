@@ -32,7 +32,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+
 |[#8614](https://github.com/ISISComputingGroup/IBEX/issues/8614) | Minor | Oxford Instruments - Mercury IPS| Added support for SCPI mode to use the full capabilities of the new Mercury IPS magnet supplies|
+|[#8766](https://github.com/ISISComputingGroup/IBEX/issues/8766) | Minor | DELFTDCMAG IOC| Echo Coil RBV and SP now agree on units (Amps)|
 |[#8680](https://github.com/ISISComputingGroup/IBEX/issues/8680) | Minor | HVCAEN | Number of summary channels is now configurable by macro. |
 
 
@@ -54,6 +56,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
+| [#8826](https://github.com/ISISComputingGroup/IBEX/issues/8826) | Minor | Reorganised script generator buttons. |
+| [#8697](https://github.com/ISISComputingGroup/IBEX/issues/8697) | Patch | Fix an issue where the enablement of the "Run" button in the script generator gets out of sync with NICOS. |
 
 
 ### Other
@@ -61,6 +65,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
 | [#8699](https://github.com/ISISComputingGroup/IBEX/issues/8699) | Minor | Show current high/low limits for Alarm in tool-tip popup |
+| [#8473](https://github.com/ISISComputingGroup/IBEX/issues/8473) | Minor | Made more obvious that jog is in progress on motor opi |
 
 
 
@@ -72,6 +77,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------| ------------- |
 | [#24](https://github.com/ISISComputingGroup/genie/issues/24) | Patch | Allow `g.begin()` when DBSVR is down |
 | [#8724](https://github.com/ISISComputingGroup/IBEX/issues/8724) | Minor | Added `change_autosave` command to change autosave frequency. |
+| [#8849](https://github.com/ISISComputingGroup/IBEX/issues/8849) | Minor | Fixed types on `g.change()` causing scripts calling it to fail type checking. |
 
 
 ### Bluesky
@@ -119,3 +125,5 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
+
