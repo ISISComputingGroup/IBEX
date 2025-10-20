@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#8822](https://github.com/ISISComputingGroup/IBEX/issues/8822) | Major | Remove various SECI compatibility tools - `SECI2IBEX` IOC, SECI web dashboard, startup scripts etc. |
+| [#7914](https://github.com/ISISComputingGroup/IBEX/issues/7914) | Minor | Add deploy script step to pull and merge master branch of instrument scripts into local |
 
 # Instrument Specific Changes
 
@@ -125,5 +126,7 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
+
 
 
