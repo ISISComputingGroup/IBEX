@@ -37,6 +37,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 |[#8614](https://github.com/ISISComputingGroup/IBEX/issues/8614) | Minor | Oxford Instruments - Mercury IPS| Added support for SCPI mode to use the full capabilities of the new Mercury IPS magnet supplies|
 |[#8766](https://github.com/ISISComputingGroup/IBEX/issues/8766) | Minor | DELFTDCMAG IOC| Echo Coil RBV and SP now agree on units (Amps)|
 |[#8680](https://github.com/ISISComputingGroup/IBEX/issues/8680) | Minor | HVCAEN | Number of summary channels is now configurable by macro. |
+|[#8875](https://github.com/ISISComputingGroup/IBEX/issues/8875) | Minor | TC/Beckhoff | Remove problematic velocity monitors which sometimes causes the velocity to be set to 0 |
+
 
 
 ### Reflectometry IOC
@@ -126,6 +128,7 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
 
 
 
