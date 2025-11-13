@@ -161,9 +161,6 @@ assignees: ''
 - ### NDXMUX
   - [ ] Started
   - [ ] Completed
-- ### NDXMEIS
-  - [ ] Started
-  - [ ] Completed
 - ### NDXENGINX_SETUP
   - [ ] Started
   - [ ] Completed
