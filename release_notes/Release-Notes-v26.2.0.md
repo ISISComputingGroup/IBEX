@@ -37,6 +37,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8766](https://github.com/ISISComputingGroup/IBEX/issues/8766) | Minor | DELFTDCMAG IOC| Echo Coil RBV and SP now agree on units (Amps) |
 | [#8680](https://github.com/ISISComputingGroup/IBEX/issues/8680) | Minor | HVCAEN | Number of summary channels is now configurable by macro. |
 | [#8871](https://github.com/ISISComputingGroup/IBEX/issues/8871) | Minor | FZJ Fermi Choppers | Disable start button on OPIs when vacuum interlock is bad |
+| [#8875](https://github.com/ISISComputingGroup/IBEX/issues/8875) | Minor | TC/Beckhoff | Remove problematic velocity monitors which sometimes causes the velocity to be set to 0 |
+
 
 
 ### Reflectometry IOC
