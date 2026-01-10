@@ -22,6 +22,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
 | [#8691](https://github.com/ISISComputingGroup/IBEX/issues/8691) | Ambrell EasyHeat Induction Furnace PSU | Intended for ENGIN-X. | 
+| [#8899](https://github.com/ISISComputingGroup/IBEX/issues/8899) | Knauer Valve Unifier VU4.1 | Support device, using KNRK6 IOC, which has new configuration options to allow communicating in IP mode. | 
 
 ### Removed devices
 
@@ -129,6 +130,7 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+
 
 
 
