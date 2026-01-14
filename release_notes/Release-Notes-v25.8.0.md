@@ -93,8 +93,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 ### Bluesky
 
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
+See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases for bluesky release notes.
 
 ### Other python libraries
 

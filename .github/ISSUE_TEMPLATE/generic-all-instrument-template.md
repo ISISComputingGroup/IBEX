@@ -36,176 +36,185 @@ assignees: ''
 
 ## TS2 
 
-- ### SANS2D 
+- ### NDXSANS2D 
     - [ ] Started
     - [ ] Completed
-- ### WISH 
+- ### NDXWISH 
     - [ ] Started
     - [ ] Completed
-- ### WISH_SETUP
+- ### NDXWISH_SETUP
     - [ ] Started
     - [ ] Completed
-- ### IMAT
+- ### NDXIMAT
     - [ ] Started
     - [ ] Completed
-- ### INTER
+- ### NDXINTER
     - [ ] Started
     - [ ] Completed
-- ### LARMOR
+- ### NDXLARMOR
     - [ ] Started
     - [ ] Completed
-- ### LET
+- ### NDXLET
     - [ ] Started
     - [ ] Completed
-- ### NIMROD
+- ### NDXNIMROD
     - [ ] Started
     - [ ] Completed
-- ### POLREF
+- ### NDXPOLREF
     - [ ] Started
     - [ ] Completed
-- ### ZOOM
+- ### NDXZOOM
     - [ ] Started
     - [ ] Completed
-- ### CHIPIR
+- ### NDXCHIPIR
     - [ ] Started
     - [ ] Completed
-- ### OFFSPEC
+- ### NDXOFFSPEC
     - [ ] Started
     - [ ] Completed
 
 ## TS1 
-- ### ENGINX
+- ### NDXENGINX
   - [ ] Started
   - [ ] Completed
-- ### CRISP
+- ### NDXCRISP
   - [ ] Started
   - [ ] Completed
-- ### SURF
+- ### NDXSURF
   - [ ] Started
   - [ ] Completed
-- ### LOQ
+- ### NDXLOQ
   - [ ] Started
   - [ ] Completed
-- ### GEM
+- ### NDXGEM
   - [ ] Started
   - [ ] Completed
-- ### HRPD
+- ### NDXHRPD
   - [ ] Started
   - [ ] Completed
-- ### INES
+- ### NDXINES
   - [ ] Started
   - [ ] Completed
-- ### PEARL 
+- ### NDXPEARL 
   - [ ] Started
   - [ ] Completed
-- ### POLARIS
+- ### NDXPOLARIS
   - [ ] Started
   - [ ] Completed
-- ### SXD 
+- ### NDXSXD 
   - [ ] Started
   - [ ] Completed
-- ### EMMA
+- ### NDXEMMA-A
   - [ ] Started
   - [ ] Completed
-- ### ARGUS 
+- ### NDXEMMA-B
   - [ ] Started
   - [ ] Completed
-- ### CHRONUS 
+- ### NDXARGUS 
   - [ ] Started
   - [ ] Completed
-- ### EMU 
+- ### NDXCHRONUS 
   - [ ] Started
   - [ ] Completed
-- ### HIFI 
+- ### NDXEMU 
   - [ ] Started
   - [ ] Completed
-- ### MUSR 
+- ### NDXHIFI 
   - [ ] Started
   - [ ] Completed
-- ### MUONFE
+- ### NDXMUSR 
   - [ ] Started
   - [ ] Completed
-- ### RIKENFE
+- ### NDXMUONFE
   - [ ] Started
   - [ ] Completed
-- ### OSIRIS
+- ### NDXRIKENFE
   - [ ] Started
   - [ ] Completed
-- ### IRIS
+- ### NDXOSIRIS
   - [ ] Started
   - [ ] Completed
-- ### TOSCA
+- ### NDXIRIS
   - [ ] Started
   - [ ] Completed
-- ### VESUVIO 
+- ### NDXTOSCA
   - [ ] Started
   - [ ] Completed
-- ### ALF
+- ### NDXVESUVIO 
   - [ ] Started
   - [ ] Completed
-- ### MAPS
+- ### NDXALF
   - [ ] Started
   - [ ] Completed
-- ### MARI
+- ### NDXMAPS
   - [ ] Started
   - [ ] Completed
-- ### MERLIN
+- ### NDXMARI
   - [ ] Started
   - [ ] Completed
-- ### SANDALS
+- ### NDXMERLIN
   - [ ] Started
   - [ ] Completed
-- ### ENGINX_SETUP
+- ### NDXSANDALS
+  - [ ] Started
+  - [ ] Completed
+- ### NDXMUX
+  - [ ] Started
+  - [ ] Completed
+- ### NDXENGINX_SETUP
   - [ ] Started
   - [ ] Completed
 - ### ENGINX-STRESS1
   - [ ] Started
   - [ ] Completed
-- ### HRPD_SETUP
+- ### NDXHRPD_SETUP
   - [ ] Started
   - [ ] Completed
-- ### PEARL_SETUP
+- ### NDXPEARL_SETUP
   - [ ] Started
   - [ ] Completed
-- ### HIFI_CRYOMAG
+- ### NDXHIFI-CRYOMAG
   - [ ] Started
   - [ ] Completed
-- ### IRIS_SETUP
-  - [ ] Started
-  - [ ] Completed
-- ### SMUONFE
+- ### NDXIRIS_SETUP
   - [ ] Started
   - [ ] Completed
 
 ## Pseudo Instruments
-- ### SELAB
+- ### NDXSELAB
   - [ ] Started
   - [ ] Completed
-- ### SOFTMAT
+- ### NDXSELAB2
   - [ ] Started
   - [ ] Completed
-- ### SCIDEMO
+- ### NDXSOFTMAT
   - [ ] Started
   - [ ] Completed
-- ### DCLAB
+- ### NDXSCIDEMO
   - [ ] Started
   - [ ] Completed
-- ### MOTION
+- ### NDXDCLAB
   - [ ] Started
   - [ ] Completed
-- ### IBEXGUITEST
+- ### NDXMOTION
   - [ ] Started
   - [ ] Completed
-- ### DETECT1
+- ### NDXIBEXGUITEST
   - [ ] Started
   - [ ] Completed
-- ### DETECT2
+- ### NDXDETECT1
   - [ ] Started
   - [ ] Completed
-- ### CRYOLAB-R80
+- ### NDXDETECT2
   - [ ] Started
   - [ ] Completed
-- ### DETMON
+- ### NDXDETECT3
+  - [ ] Started
+  - [ ] Completed
+- ### NDXCRYOLAB_R80
+  - [ ] Started
+  - [ ] Completed
+- ### NDADETMON
   - [ ] Started
   - [ ] Completed
 
