@@ -106,6 +106,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| [#8681](https://github.com/ISISComputingGroup/IBEX/issues/8681) | Major | Move JDK install location to \instrument\apps\JDK\ |
 
 Change Types: 
 
@@ -130,10 +131,3 @@ Dependency | Version | last updated/checked
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
-
-
-
-
-
-
-
