@@ -62,9 +62,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 ### `genie_python`
 
-| Ticket | Type  | Change |
-| ------ | ------| ------------- |
-
+See https://github.com/ISISComputingGroup/genie/releases
 
 ### Bluesky
 
@@ -106,7 +104,7 @@ what | version | where | last updated/checked
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
 
-### genie_python Dependencies
+### `uktena` Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
