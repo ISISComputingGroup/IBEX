@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [TwinCat #4](https://github.com/ISISComputingGroup/EPICS-TwincatMotor/pull/4) | Patch | TC/Beckhoff | Send reset just before any moves to clear errors if possible |
 | [GUI #1840](https://github.com/ISISComputingGroup/ibex_gui/pull/1840) | Patch | Motors | Show a warning if motor has been left in SET mode |
 | [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) | Minor | Nanodac | Add OPI, fix IOC |
+| [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Added additional Eurotherm attributes.|
 
 
 
@@ -52,7 +53,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 ### Script Generator
 | Ticket | Type  | Change |
 | ------ | ----- | ------ |
-| [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Added additional Eurotherm attributes.|
+
 
 
 ### Other
