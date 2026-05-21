@@ -34,6 +34,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [GUI #1840](https://github.com/ISISComputingGroup/ibex_gui/pull/1840) | Patch | Motors | Show a warning if motor has been left in SET mode |
 | [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) | Minor | Nanodac | Add OPI, fix IOC |
 | [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Added additional Eurotherm attributes.|
+| [8955](https://github.com/ISISComputingGroup/IBEX/issues/8955) | Patch | Mercury ITC | Allow Ethernet comms in addition to existing serial comms |
 
 
 
