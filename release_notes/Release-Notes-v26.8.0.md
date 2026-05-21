@@ -55,7 +55,6 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ----- | ------ |
 
 
-
 ### Other
 
 | Ticket | Type  | Change |
