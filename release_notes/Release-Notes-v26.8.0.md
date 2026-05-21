@@ -32,7 +32,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [8798](https://github.com/ISISComputingGroup/IBEX/issues/8798) | Major | Coherent OBIS Laser Remote | Support multiple lasers on a single IOC & add support for switching lasers on/off and setting output power. Previous PV names have changed, e.g. `CHTOBISR_01:some_pv` will now be `CHTOBISR_01:1:some_pv` (where `1` is the laser number). |
 | [TwinCat #4](https://github.com/ISISComputingGroup/EPICS-TwincatMotor/pull/4) | Patch | TC/Beckhoff | Send reset just before any moves to clear errors if possible |
 | [GUI #1840](https://github.com/ISISComputingGroup/ibex_gui/pull/1840) | Patch | Motors | Show a warning if motor has been left in SET mode |
-| [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) | Minor | Nanodac | Add OPI, fix IOC |
+| [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) & [8959](https://github.com/isisComputingGroup/ibex/issues/8959) | Minor | Nanodac | Add OPI, fix IOC, add control of "advanced loop". |
 | [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Added additional Eurotherm attributes.|
 | [8955](https://github.com/ISISComputingGroup/IBEX/issues/8955) | Patch | Mercury ITC | Allow Ethernet comms in addition to existing serial comms |
 
