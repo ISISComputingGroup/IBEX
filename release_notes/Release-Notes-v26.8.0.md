@@ -60,6 +60,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [PR](https://github.com/ISISComputingGroup/ibex_gui/pull/1846) | Patch | Display Moxas in a predictable order in the Moxa perspective |
 
 
 
