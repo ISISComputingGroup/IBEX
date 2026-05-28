@@ -91,6 +91,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
 |[8445](https://github.com/ISISComputingGroup/IBEX/issues/8445) | Minor | Change how we set macro default values on ioc's so that it uses the same source of truth as the gui, this will not affect existing configurations |
+|[8885](https://github.com/isisComputingGroup/ibex/issues/8885) | Patch | Dependency version updates. No user-facing behaviour changes expected. |
 |[8947](https://github.com/ISISComputingGroup/IBEX/issues/8947) | Minor | Update EPICS SNMP driver and net-snmp support library to latest upstream (1.1.0.6 and 5.9.5.2) |
 
 Change Types: 
@@ -101,18 +102,35 @@ Change Types:
 
 # Dependencies
 
-### Server dependencies
-
 what | version | where | last updated/checked
 |---- | ------- | ----- | --------------------|
-
+| MySQL | 8.4.9 | ibex_install_utils | 05/2026 |
+| ActiveMQ | 5.19.6 | ISIS\ActiveMQ | 05/2026 |
+| MySql-connector J | 8.4.0 | IOCLogServer | 05/2026 |
 
 ### GUI Dependencies
 
 Dependency | Version | last updated/checked
 |---- | ------- | --------------------|
+| Gson | 2.14.0 | 05/2026 |
+| Guava | 33.6.0 | 05/2026 |
+| MySql-connector J | 8.4.0 | 05/2026 |
+| commons-codec | 1.22.0 | 05/2026 |
+| Maven | 3.9.15 | 05/2026 |
+| ActiveMQ (different to server version) | 5.19.0 | 05/2026 |
+| Jakarta Mail API | 2.2.0 | 05/2026 |
+| joda time | 2.14.2 | 05/2026 |
+| py4j | 0.10.9.9 | 05/2026 |
+| log4j | 2.26.0 | 05/2026 |
+| JAXB | 4.0.6 | 05/2026 |
+| Tyrus | 2.2.2 | 05/2026 |
+| JacORB OMG API | 3.9 | 05/2026 |
+| Mockito Core | 5.23.0 | 05/2026 |
+| JeroMQ | 0.6.0 | 05/2026 |
+| Eclipse | 2026-03 | 05/2026 |
 
-### `uktena` Dependencies
+### Uktena dependencies
 
-Dependency | Version | last updated/checked
-|---- | ------- | --------------------|
+```
+python -m pip freeze (on the release build when release is created)
+```
