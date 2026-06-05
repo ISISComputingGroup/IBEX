@@ -35,6 +35,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) & [8959](https://github.com/isisComputingGroup/ibex/issues/8959) | Minor | Nanodac | Add OPI, fix IOC, add control of "advanced loop". |
 | [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Added additional Eurotherm attributes.|
 | [8955](https://github.com/ISISComputingGroup/IBEX/issues/8955) | Patch | Mercury ITC | Allow Ethernet comms in addition to existing serial comms |
+| [6839](https://github.com/ISISComputingGroup/IBEX/issues/6839)  | Minor | TC/Beckhoff | Implement setting auto-energise to controller |
 
 
 
