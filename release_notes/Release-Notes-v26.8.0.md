@@ -18,6 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+|[8782](https://github.com/ISISComputingGroup/IBEX/issues/8782) | Lakeshore 625 | Superconducting magnet power supply |
 
 ### Removed devices
 
