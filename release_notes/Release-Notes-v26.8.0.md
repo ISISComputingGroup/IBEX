@@ -18,6 +18,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [5885](https://github.com/ISISComputingGroup/IBEX/issues/5885) | QuantumNorthwest NeutronIQ | Added support. |
 
 ### Removed devices
 
