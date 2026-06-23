@@ -38,6 +38,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Eurotherm | Added additional Eurotherm attributes.|
 | [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) & [8959](https://github.com/isisComputingGroup/ibex/issues/8959) | Minor | Nanodac | Add OPI, fix IOC, add control of "advanced loop". |
 | [8955](https://github.com/ISISComputingGroup/IBEX/issues/8955) | Patch | Mercury ITC | Allow Ethernet comms in addition to existing serial comms |
+| [8971](https://github.com/ISISComputingGroup/IBEX/issues/8971) | Patch | Knauer K-6 | Increase number of available IOCs from 2 to 4 |
 | [8969](https://github.com/ISISComputingGroup/IBEX/issues/8969) | Minor | Keithley 6517B | Add set/read "zero check" and current autorange modes |
 | [8464](https://github.com/ISISComputingGroup/IBEX/issues/8464) | Minor | TC/Beckhoff | Allow sending a frozen offset to beckhoffs in order to set position |
 | [6839](https://github.com/ISISComputingGroup/IBEX/issues/6839)  | Minor | TC/Beckhoff | Implement setting auto-energise to controller |
