@@ -6,6 +6,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
+| [#8780](https://github.com/ISISComputingGroup/IBEX/issues/8780) | Medium | Added block level alarm config |
 
 # Instrument Specific Changes
 
@@ -56,6 +57,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Medium | Added block level alarm config in Add/Edit Block screen |
 
 ### Script Generator
 | Ticket | Type  | Change |
