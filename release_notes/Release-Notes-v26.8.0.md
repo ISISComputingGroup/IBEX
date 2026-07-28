@@ -57,7 +57,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [#3396](https://github.com/ISISComputingGroup/IBEX/issues/3396) | Medium | Added a tab to show globals settings in the edit/view configuration screen |
 | [#8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Medium | Added block level alarm config in Add/Edit Block screen |
+
 
 ### Script Generator
 | Ticket | Type  | Change |
