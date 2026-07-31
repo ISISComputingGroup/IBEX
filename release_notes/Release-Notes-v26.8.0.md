@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#8780](https://github.com/ISISComputingGroup/IBEX/issues/8780) | Medium | Added block level alarm config |
+| [#8995](https://github.com/ISISComputingGroup/IBEX/issues/8995) | Major  | Remove ISIS MK2 chopper IOC    |
 
 # Instrument Specific Changes
 
