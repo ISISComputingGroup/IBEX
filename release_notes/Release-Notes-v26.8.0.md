@@ -7,6 +7,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
 | [#8780](https://github.com/ISISComputingGroup/IBEX/issues/8780) | Medium | Added block level alarm config |
+| [#8990](https://github.com/ISISComputingGroup/IBEX/issues/8990) | Major/breaking | Reworked the built-in Muon TPAR editor to use `current.tpar` as the user-editable copy of the "master" TPAR files so they can't be overwritten. |
 
 # Instrument Specific Changes
 
