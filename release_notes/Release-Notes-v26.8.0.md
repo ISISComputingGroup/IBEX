@@ -22,6 +22,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | ------ | -----|
 | [#8919](https://github.com/ISISComputingGroup/IBEX/issues/8919) | Moxa ioLogik E1213 | Added Support for new device|
 | [5885](https://github.com/ISISComputingGroup/IBEX/issues/5885) | QuantumNorthwest NeutronIQ | Added support. |
+| [#8934](https://github.com/ISISComputingGroup/IBEX/issues/8934) | Sefram DAS240 | Added support. |
 
 
 ### Removed devices
