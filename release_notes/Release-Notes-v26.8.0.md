@@ -45,6 +45,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [8464](https://github.com/ISISComputingGroup/IBEX/issues/8464) | Minor | TC/Beckhoff | Allow sending a frozen offset to beckhoffs in order to set position |
 | [6839](https://github.com/ISISComputingGroup/IBEX/issues/6839)  | Minor | TC/Beckhoff | Implement setting auto-energise to controller |
 | [8957](https://github.com/ISISComputingGroup/IBEX/issues/8957) | Mezei Flipper | Add explicit reconnection to device and increase reconnection timeout to improve comms stability. |
+| [8992](https://github.com/ISISComputingGroup/IBEX/issues/8992)  | Minor | OPCUA | Supports certificate based authentication to PLC |
 
 
 ### Reflectometry IOC
