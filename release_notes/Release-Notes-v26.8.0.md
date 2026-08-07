@@ -6,13 +6,14 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Description |
 | ------ | ---- | ----------- |
-| [#8780](https://github.com/ISISComputingGroup/IBEX/issues/8780) | Medium | Added block level alarm config |
-| [#8995](https://github.com/ISISComputingGroup/IBEX/issues/8995) | Major  | Remove ISIS MK2 chopper IOC    |
+| [8780](https://github.com/ISISComputingGroup/IBEX/issues/8780) | Medium | Added block level alarm config |
+| [8995](https://github.com/ISISComputingGroup/IBEX/issues/8995) | Major  | Remove ISIS MK2 chopper IOC    |
 
 # Instrument Specific Changes
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| MERLIN | [8726](https://github.com/ISISComputingGroup/IBEX/issues/8726) | MAJOR| Added Support for Vacuum PLC via OPCUA |
 
 # Devices
 
@@ -20,8 +21,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
-| [#8919](https://github.com/ISISComputingGroup/IBEX/issues/8919) | Moxa ioLogik E1213 | Added Support for new device|
+| [8919](https://github.com/ISISComputingGroup/IBEX/issues/8919) | Moxa ioLogik E1213 | Added Support for new device|
 | [5885](https://github.com/ISISComputingGroup/IBEX/issues/5885) | QuantumNorthwest NeutronIQ | Added support. |
+| [#8934](https://github.com/ISISComputingGroup/IBEX/issues/8934) | Sefram DAS240 | Added support. |
 
 
 ### Removed devices
@@ -34,10 +36,11 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [8979](https://github.com/ISISComputingGroup/IBEX/issues/8995) | Minor  | Update 'new' Galil driver from v3 to v4. |
 | [8798](https://github.com/ISISComputingGroup/IBEX/issues/8798) | Major | Coherent OBIS Laser Remote | Support multiple lasers on a single IOC & add support for switching lasers on/off and setting output power. Previous PV names have changed, e.g. `CHTOBISR_01:some_pv` will now be `CHTOBISR_01:1:some_pv` (where `1` is the laser number). |
 | [TwinCat #4](https://github.com/ISISComputingGroup/EPICS-TwincatMotor/pull/4) | Patch | TC/Beckhoff | Send reset just before any moves to clear errors if possible |
 | [GUI #1840](https://github.com/ISISComputingGroup/ibex_gui/pull/1840) | Patch | Motors | Show a warning if motor has been left in SET mode |
-| [#8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Eurotherm | Added additional Eurotherm attributes.|
+| [8688](https://github.com/ISISComputingGroup/IBEX/issues/8688) | Minor | Eurotherm | Added additional Eurotherm attributes.|
 | [2196](https://github.com/ISISComputingGroup/IBEX/issues/2196) & [8959](https://github.com/isisComputingGroup/ibex/issues/8959) | Minor | Nanodac | Add OPI, fix IOC, add control of "advanced loop". |
 | [8955](https://github.com/ISISComputingGroup/IBEX/issues/8955) | Patch | Mercury ITC | Allow Ethernet comms in addition to existing serial comms |
 | [8971](https://github.com/ISISComputingGroup/IBEX/issues/8971) | Patch | Knauer K-6 | Increase number of available IOCs from 2 to 4 |
@@ -45,7 +48,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [8464](https://github.com/ISISComputingGroup/IBEX/issues/8464) | Minor | TC/Beckhoff | Allow sending a frozen offset to beckhoffs in order to set position |
 | [6839](https://github.com/ISISComputingGroup/IBEX/issues/6839)  | Minor | TC/Beckhoff | Implement setting auto-energise to controller |
 | [8901](https://github.com/ISISComputingGroup/IBEX/issues/8901)  | Minor | OPCUA | Support reading MUONFE vacuum values from PLC  |
-
+| [8957](https://github.com/ISISComputingGroup/IBEX/issues/8957) | Mezei Flipper | Add explicit reconnection to device and increase reconnection timeout to improve comms stability. |
+| [8992](https://github.com/ISISComputingGroup/IBEX/issues/8992)  | Minor | OPCUA | Supports certificate based authentication to PLC |
+| [8470](https://github.com/ISISComputingGroup/IBEX/issues/8470)  | Minor | PS300 | Support GPIB control of Stanford PS300 series power supplies |
 
 
 ### Reflectometry IOC
@@ -60,8 +65,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [#3396](https://github.com/ISISComputingGroup/IBEX/issues/3396) | Medium | Added a tab to show globals settings in the edit/view configuration screen |
-| [#8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Medium | Added block level alarm config in Add/Edit Block screen |
+| [3396](https://github.com/ISISComputingGroup/IBEX/issues/3396) | Medium | Added a tab to show globals settings in the edit/view configuration screen |
+| [8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Medium | Added block level alarm config in Add/Edit Block screen |
 
 
 ### Script Generator
