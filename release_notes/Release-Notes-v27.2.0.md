@@ -1,0 +1,125 @@
+See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-information--hotfixes) for which version of IBEX your instrument is on, including any hotfixes.
+
+# Highlights and Breaking Changes
+
+| Ticket | Type | Description |
+| ------ | ---- | ----------- |
+
+# Instrument Specific Changes
+
+| Instrument| Ticket | Type  | Change |
+| --------- | ------ | ------| ------------- |
+
+# Devices
+
+### Newly supported devices
+
+| Ticket | Device | Notes|
+| ------ | ------ | -----|
+
+
+### Removed devices
+
+| Ticket | Device | Notes|
+| ------ | ------ | -----|
+
+
+### Modified devices
+
+| Ticket | Type | Device | Change |
+| ------ | --- |------| ------------- |
+
+
+### Reflectometry IOC
+
+| Ticket | Type | Change |
+| ------ | --- | ------------- |
+
+
+#  IBEX Client
+
+### Configurations
+
+| Ticket | Type  | Change |
+| ------ | ----  | ------------- |
+
+
+### Script Generator
+| Ticket | Type  | Change |
+| ------ | ----- | ------ |
+
+
+### Other
+
+| Ticket | Type  | Change |
+| ------ | ----  | ------------- |
+
+
+
+# Python
+
+### `genie_python`
+
+See https://github.com/ISISComputingGroup/genie/releases
+
+### Bluesky
+
+See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
+
+### Other python libraries
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+
+
+
+# Other
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+
+# Internal changes
+
+| Ticket | Type  | Change |
+| ------ | ------| ------------- |
+
+Change Types: 
+
+* Major - Backward compatible breaking change
+* Minor - Change in API/functionality
+* Patch - Bug fix no change in functionality
+
+# Dependencies
+
+what | version | where | last updated/checked
+|---- | ------- | ----- | --------------------|
+| MySQL | 8.4.9 | ibex_install_utils | 05/2026 |
+| ActiveMQ | 5.19.6 | ISIS\ActiveMQ | 05/2026 |
+| MySql-connector J | 8.4.0 | IOCLogServer | 05/2026 |
+
+### GUI Dependencies
+
+Dependency | Version | last updated/checked
+|---- | ------- | --------------------|
+| Gson | 2.14.0 | 05/2026 |
+| Guava | 33.6.0 | 05/2026 |
+| MySql-connector J | 8.4.0 | 05/2026 |
+| commons-codec | 1.22.0 | 05/2026 |
+| Maven | 3.9.15 | 05/2026 |
+| ActiveMQ (different to server version) | 5.19.0 | 05/2026 |
+| Jakarta Mail API | 2.2.0 | 05/2026 |
+| joda time | 2.14.2 | 05/2026 |
+| py4j | 0.10.9.9 | 05/2026 |
+| log4j | 2.26.0 | 05/2026 |
+| JAXB | 4.0.6 | 05/2026 |
+| Tyrus | 2.2.2 | 05/2026 |
+| JacORB OMG API | 3.9 | 05/2026 |
+| Mockito Core | 5.23.0 | 05/2026 |
+| JeroMQ | 0.6.0 | 05/2026 |
+| Eclipse | 2026-03 | 05/2026 |
+
+### Uktena dependencies
+
+```
+python -m pip freeze (on the release build when release is created)
+```
