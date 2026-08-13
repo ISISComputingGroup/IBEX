@@ -112,6 +112,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 |[8445](https://github.com/ISISComputingGroup/IBEX/issues/8445) | Minor | Change how we set macro default values on ioc's so that it uses the same source of truth as the gui, this will not affect existing configurations |
 |[8885](https://github.com/isisComputingGroup/ibex/issues/8885) | Patch | Dependency version updates. No user-facing behaviour changes expected. |
 |[8947](https://github.com/ISISComputingGroup/IBEX/issues/8947) | Minor | Update EPICS SNMP driver and net-snmp support library to latest upstream (1.1.0.6 and 5.9.5.2) |
+|[8989](https://github.com/isisComputingGroup/ibex/issues/8989) | Patch | Update dependencies for old galil driver. |
 
 Change Types: 
 
