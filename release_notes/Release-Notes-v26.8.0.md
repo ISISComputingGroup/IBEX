@@ -53,7 +53,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [8957](https://github.com/ISISComputingGroup/IBEX/issues/8957) | Mezei Flipper | Add explicit reconnection to device and increase reconnection timeout to improve comms stability. |
 | [8992](https://github.com/ISISComputingGroup/IBEX/issues/8992)  | Minor | OPCUA | Supports certificate based authentication to PLC |
 | [8470](https://github.com/ISISComputingGroup/IBEX/issues/8470)  | Minor | PS300 | Support GPIB control of Stanford PS300 series power supplies |
-
+| [8222](https://github.com/ISISComputingGroup/IBEX/issues/8222)  | Minor | Tekronics OSC | Add option to use MEASURE functionality |
 
 ### Reflectometry IOC
 
