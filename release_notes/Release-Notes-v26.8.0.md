@@ -15,6 +15,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | MERLIN | [8726](https://github.com/ISISComputingGroup/IBEX/issues/8726) | MAJOR| Added Support for Vacuum PLC via OPCUA |
+| MAPS | [9008](https://github.com/ISISComputingGroup/IBEX/issues/9008) | MINOR | Change to use new Vacuum interface deployed to MERLIN |
 
 # Devices
 
