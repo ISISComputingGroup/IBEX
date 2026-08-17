@@ -39,7 +39,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
-| [8979](https://github.com/ISISComputingGroup/IBEX/issues/8995) | Minor  | Update 'new' Galil driver from v3 to v4. |
+| [8979](https://github.com/ISISComputingGroup/IBEX/issues/8979) | Minor  | Galil | Update 'new' Galil driver from v3 to v4. |
 | [8798](https://github.com/ISISComputingGroup/IBEX/issues/8798) | Major | Coherent OBIS Laser Remote | Support multiple lasers on a single IOC & add support for switching lasers on/off and setting output power. Previous PV names have changed, e.g. `CHTOBISR_01:some_pv` will now be `CHTOBISR_01:1:some_pv` (where `1` is the laser number). |
 | [TwinCat #4](https://github.com/ISISComputingGroup/EPICS-TwincatMotor/pull/4) | Patch | TC/Beckhoff | Send reset just before any moves to clear errors if possible |
 | [GUI #1840](https://github.com/ISISComputingGroup/ibex_gui/pull/1840) | Patch | Motors | Show a warning if motor has been left in SET mode |
@@ -51,7 +51,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | [8464](https://github.com/ISISComputingGroup/IBEX/issues/8464) | Minor | TC/Beckhoff | Allow sending a frozen offset to beckhoffs in order to set position |
 | [6839](https://github.com/ISISComputingGroup/IBEX/issues/6839)  | Minor | TC/Beckhoff | Implement setting auto-energise to controller |
 | [8901](https://github.com/ISISComputingGroup/IBEX/issues/8901)  | Minor | OPCUA | Support reading MUONFE vacuum values from PLC  |
-| [8957](https://github.com/ISISComputingGroup/IBEX/issues/8957) | Mezei Flipper | Add explicit reconnection to device and increase reconnection timeout to improve comms stability. |
+| [8957](https://github.com/ISISComputingGroup/IBEX/issues/8957) | Patch | Mezei Flipper | Add explicit reconnection to device and increase reconnection timeout to improve comms stability. |
 | [8992](https://github.com/ISISComputingGroup/IBEX/issues/8992)  | Minor | OPCUA | Supports certificate based authentication to PLC |
 | [8470](https://github.com/ISISComputingGroup/IBEX/issues/8470)  | Minor | PS300 | Support GPIB control of Stanford PS300 series power supplies |
 | [8222](https://github.com/ISISComputingGroup/IBEX/issues/8222)  | Minor | Tekronics OSC | Add option to use MEASURE functionality |
@@ -62,8 +62,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
-| [3396](https://github.com/ISISComputingGroup/IBEX/issues/3396) | Medium | Added a tab to show globals settings in the edit/view configuration screen |
-| [8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Medium | Added block level alarm config in Add/Edit Block screen |
+| [3396](https://github.com/ISISComputingGroup/IBEX/issues/3396) | Minor | Added a tab to show globals settings in the edit/view configuration screen |
+| [8764](https://github.com/ISISComputingGroup/IBEX/issues/8764) | Minor | Added block level alarm config in Add/Edit Block screen |
 
 ### Other
 
@@ -92,7 +92,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 Change Types: 
 
-* Major - Backward compatible breaking change
+* Major - Backward incompatible breaking change
 * Minor - Change in API/functionality
 * Patch - Bug fix no change in functionality
 
