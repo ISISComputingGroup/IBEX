@@ -16,6 +16,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [IBEX#8935](https://github.com/ISISComputingGroup/IBEX/issues/8935) | Anton-Paar iSorb HP | Add minimal control and readback |
 
 
 ### Removed devices
