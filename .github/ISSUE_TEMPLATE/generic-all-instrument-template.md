@@ -214,9 +214,6 @@ assignees: ''
 - ### NDXCRYOLAB_R80
   - [ ] Started
   - [ ] Completed
-- ### NDADETMON
-  - [ ] Started
-  - [ ] Completed
 
 
 [Back to Top](#instrument-checklist)
