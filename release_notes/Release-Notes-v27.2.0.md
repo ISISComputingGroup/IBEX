@@ -28,6 +28,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+|     [#8747](https://github.com/ISISComputingGroup/IBEX/issues/8747)   |   Patch  |  Eurotherm  |  Fix bug when parsing limits on calibration files which contain a header section              |
 
 
 ### Reflectometry IOC
