@@ -9,6 +9,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
+| GEM | [9031](https://github.com/ISISComputingGroup/IBEX/issues/9031) | MAJOR| Added Support for Vacuum PLC via OPCUA |
 
 # Devices
 
