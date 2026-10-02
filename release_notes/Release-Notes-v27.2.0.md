@@ -30,6 +30,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [IBEX#8988](https://github.com/ISISComputingGroup/IBEX/issues/8988) | Quantum Northwest | Add temperature graphs on OPI |
 
 
 ### Reflectometry IOC
