@@ -30,6 +30,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [IBEX#9038](https://github.com/ISISComputingGroup/IBEX/issues/9038) | Patch | Galil | Patches for 4-axis Galil 4000 model |
 
 
 ### Reflectometry IOC
