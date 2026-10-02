@@ -84,6 +84,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| 8565 | Patch | Remove use of MASTER_RELEASE from all IOCs |
 
 Change Types: 
 
