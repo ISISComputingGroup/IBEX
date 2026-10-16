@@ -1,7 +1,7 @@
 ---
 name: Generic Issue Template
 about: Should be used for all issues and tickets
-title: '[Instrument or device name, e.g. WISH]: [Brief description of issue]'
+title: "[Instrument or device name, e.g. WISH]: [Brief description of issue]"
 labels: ''
 assignees: ''
 

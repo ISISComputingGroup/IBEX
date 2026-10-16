@@ -1,8 +1,8 @@
 ---
 name: Generic Feature Template
 about: Should be used for all new features and shared notes
-title: '[Instrument or device name, e.g. WISH]: [Brief description of request]'
-labels: ''
+title: "[Instrument or device name, e.g. WISH]: [Brief description of request]"
+labels: no_release_notes
 assignees: ''
 
 ---
