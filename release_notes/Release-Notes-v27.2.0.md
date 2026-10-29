@@ -9,7 +9,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
-| EMU/HIFI/MUSR | [#8830](https://github.com/ISISComputingGroup/IBEX/issues/8830) | Major| Added IOC to handle Active Beam Compensation for south side muon instruments  |
+| EMU/HIFI/MUSR | [#8830](https://github.com/ISISComputingGroup/IBEX/issues/8830) | Major| Added IOC to handle Active Beam Compensation for south side muon instruments. Blocks to control steering magnets should be replaced with the beam correction PVs to account for this.  |
 
 # Devices
 
