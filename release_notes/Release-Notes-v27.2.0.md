@@ -33,6 +33,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | ------ | --- |------| ------------- |
 | [IBEX#9038](https://github.com/ISISComputingGroup/IBEX/issues/9038) | Patch | Galil | Patches for 4-axis Galil 4000 model |
 | [IBEX#8988](https://github.com/ISISComputingGroup/IBEX/issues/8988) | Quantum Northwest | Add temperature graphs on OPI |
+| [IBEX#9046](https://github.com/ISISComputingGroup/IBEX/issues/9046) | PRE4500 | Make generic |
 
 
 ### Reflectometry IOC
