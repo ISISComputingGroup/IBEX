@@ -10,6 +10,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 | Instrument| Ticket | Type  | Change |
 | --------- | ------ | ------| ------------- |
 | EMU/HIFI/MUSR | [#8830](https://github.com/ISISComputingGroup/IBEX/issues/8830) | Major| Added IOC to handle Active Beam Compensation for south side muon instruments. Blocks to control steering magnets should be replaced with the beam correction PVs to account for this.  |
+| GEM | [9031](https://github.com/ISISComputingGroup/IBEX/issues/9031) | MAJOR| Added Support for Vacuum PLC via OPCUA |
 
 # Devices
 
@@ -17,6 +18,8 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Device | Notes|
 | ------ | ------ | -----|
+| [IBEX#8935](https://github.com/ISISComputingGroup/IBEX/issues/8935) | Anton-Paar iSorb HP | Add minimal control and readback |
+| [IBEX#8782](https://github.com/ISISComputingGroup/IBEX/issues/8782) | Lakeshore 625 | Add support |
 
 
 ### Removed devices
@@ -29,6 +32,9 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type | Device | Change |
 | ------ | --- |------| ------------- |
+| [IBEX#9038](https://github.com/ISISComputingGroup/IBEX/issues/9038) | Patch | Galil | Patches for 4-axis Galil 4000 model |
+| [IBEX#8988](https://github.com/ISISComputingGroup/IBEX/issues/8988) | Quantum Northwest | Add temperature graphs on OPI |
+| [IBEX#9046](https://github.com/ISISComputingGroup/IBEX/issues/9046) | PRE4500 | Make generic |
 
 
 ### Reflectometry IOC
@@ -83,6 +89,7 @@ See https://github.com/ISISComputingGroup/ibex_bluesky_core/releases
 
 | Ticket | Type  | Change |
 | ------ | ------| ------------- |
+| 8565 | Patch | Remove use of MASTER_RELEASE from all IOCs |
 
 Change Types: 
 

@@ -1,8 +1,8 @@
 ---
 name: Release issue template
-about: Should be used for when a release ticket is to be created. 
-title: 'Create release X.x.y'
-labels: 'no_release_notes'
+about: Should be used for when a release ticket is to be created.
+title: Create release X.x.y
+labels: no_release_notes
 assignees: ''
 
 ---

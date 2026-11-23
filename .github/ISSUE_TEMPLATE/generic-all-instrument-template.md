@@ -1,8 +1,9 @@
 ---
 name: Generic all-instrument task Template
-about: Should be used for when a task is to be completed on all instruments - this provides a ticklist for each one. 
+about: Should be used for when a task is to be completed on all instruments - this
+  provides a ticklist for each one.
 title: 'All instruments: <task name>'
-labels: 'no_release_notes'
+labels: no_release_notes
 assignees: ''
 
 ---
@@ -212,6 +213,9 @@ assignees: ''
   - [ ] Started
   - [ ] Completed
 - ### NDXCRYOLAB_R80
+  - [ ] Started
+  - [ ] Completed
+- ### NDXDETECT2
   - [ ] Started
   - [ ] Completed
 
