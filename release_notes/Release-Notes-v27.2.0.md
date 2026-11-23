@@ -59,6 +59,7 @@ See [here](https://github.com/ISISComputingGroup/IBEX/wiki#instrument-informatio
 
 | Ticket | Type  | Change |
 | ------ | ----  | ------------- |
+| [IBEX#9043](https://github.com/ISISComputingGroup/IBEX/issues/9043) | Minor | Add restart buttons to server processes under server details. |
 
 
 
